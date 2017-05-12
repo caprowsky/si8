@@ -24,3 +24,5 @@ if (file_exists($local_settings)) {
   include $local_settings;
 }
 $settings['install_profile'] = 'standard';
+
+ini_set('memory_limit', '2048M');
