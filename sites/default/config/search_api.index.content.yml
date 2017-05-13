@@ -1,0 +1,32 @@
+uuid: 2bc4a050-5fdc-41cf-9b55-1c72fbf4da1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.solr
+  module:
+    - search_api
+    - node
+id: content
+name: content
+description: 'Indice di ricerca dei contenuti'
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:node':
+    languages:
+      default: true
+      selected: {  }
+    bundles:
+      default: true
+      selected: {  }
+processor_settings:
+  rendered_item: {  }
+  add_url: {  }
+  aggregated_field: {  }
+tracker_settings:
+  default: {  }
+options:
+  index_directly: true
+  cron_limit: 50
+server: solr
