@@ -1,0 +1,25 @@
+uuid: f1fe4448-9f5c-437b-a171-d6324f00dd35
+langcode: en
+status: true
+dependencies: {  }
+id: capo_redattore
+label: 'Capo redattore'
+weight: 4
+is_admin: null
+permissions:
+  - 'create news content'
+  - 'delete any news content'
+  - 'delete news revisions'
+  - 'delete own news content'
+  - 'edit any news content'
+  - 'edit own news content'
+  - 'revert news revisions'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view news revisions'
+  - 'view own unpublished content'

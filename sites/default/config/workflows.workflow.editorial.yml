@@ -2,6 +2,8 @@ uuid: 8464450d-e9dd-47f7-b275-e0645c6cdbfe
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.news
   module:
     - content_moderation
 _core:
@@ -63,4 +65,6 @@ type_settings:
     published:
       published: true
       default_revision: true
-  entity_types: {  }
+  entity_types:
+    node:
+      - news
