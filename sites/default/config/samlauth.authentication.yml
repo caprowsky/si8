@@ -1,0 +1,24 @@
+security_authn_requests_sign: 1
+security_messages_sign: 1
+strict: 1
+_core:
+  default_config_hash: xZrT8_AI7UriK8S3VCF6txGozXhDJ4aClCbEaA3-3KE
+drupal_saml_login: 1
+sp_entity_id: ''
+sp_name_id_format: ''
+sp_x509_certificate: "-----BEGIN CERTIFICATE-----\r\nMIIDjDCCAvWgAwIBAgIBATANBgkqhkiG9w0BAQQFADCBgjELMAkGA1UEBhMCREUx\r\nDDAKBgNVBAgTA05SVzESMBAGA1UEBxMJU3RlaW5mdXJ0MRcwFQYDVQQKEw5TcGVu\r\nbmViZXJnLmNvbTEUMBIGA1UEAxMLUm9vdENBIDIwMDMxIjAgBgkqhkiG9w0BCQEW\r\nE3JhbGZAc3Blbm5lYmVyZy5uZXQwHhcNMDMwNDMwMDYwODU2WhcNMDQwNDI5MDYw\r\nODU2WjCBgjELMAkGA1UEBhMCREUxDDAKBgNVBAgTA05SVzESMBAGA1UEBxMJU3Rl\r\naW5mdXJ0MRcwFQYDVQQKEw5TcGVubmViZXJnLmNvbTEUMBIGA1UEAxMLVlBOLUdh\r\ndGV3YXkxIjAgBgkqhkiG9w0BCQEWE3JhbGZAc3Blbm5lYmVyZy5uZXQwgZ8wDQYJ\r\nKoZIhvcNAQEBBQADgY0AMIGJAoGBAMU7nDY6GWyp8rrp0u2EMzZIB7KjLVmSsIZM\r\ngSzqXO3zuusXTrM6zLdbXcqzBO37WTzFJT7z/7AiEPvecgruQkua0yfTtvvpiBDI\r\nR7cmT3FA5HXEwO5rh7hvyV5mz7vnrXJouG39j0wfOqINQyUGuZLnIGyGFaDrf/cL\r\nmpldFIibAgMBAAGjggEOMIIBCjAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1P\r\ncGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUy1wZm+aKiv4O\r\nxP1e3/e/PagYfAgwga8GA1UdIwSBpzCBpIAUAbvGM771ml6wDF29Qel4bFStZo6h\r\ngYikgYUwgYIxCzAJBgNVBAYTAkRFMQwwCgYDVQQIEwNOUlcxEjAQBgNVBAcTCVN0\r\nZWluZnVydDEXMBUGA1UEChMOU3Blbm5lYmVyZy5jb20xFDASBgNVBAMTC1Jvb3RD\r\nQSAyMDAzMSIwIAYJKoZIhvcNAQkBFhNyYWxmQHNwZW5uZWJlcmcubmV0ggEAMA0G\r\nCSqGSIb3DQEBBAUAA4GBAG+JK5Wv8Y1Nt9/obfeS+0iMxBpDaGWXAYemhLWhOL1i\r\ndHDbnngZ2QyvGK0Td1Z9Pxlh2rp0MI7FUA7j6/+VzY3WfsMOq1s0lLwWD+/c3kC7\r\nfbqiuF35dOcoWHWgZtKNhbo4gggQM+++KckxnWOp9+CZ6qfttrUzGxxKpAVAbkB7\r\n-----END CERTIFICATE-----"
+sp_private_key: ''
+sp_cert_folder: ''
+idp_entity_id: regione.sardegna.it
+idp_single_sign_on_service: 'https://idm.staging.regione.sardegna.it/ras-lp/AssertionConsumerServiceProxy'
+idp_single_log_out_service: 'http://idm.staging.regione.sardegna.it/ras-lp/SingleLogoutService'
+idp_change_password_service: ''
+idp_x509_certificate: ''
+unique_id_attribute: codiceFiscale
+map_users: 0
+create_users: 0
+sync_name: 0
+sync_mail: 0
+user_name_attribute: cn
+user_mail_attribute: email
+security_request_authn_context: 0
