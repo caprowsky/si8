@@ -22,3 +22,4 @@ sync_mail: 0
 user_name_attribute: cn
 user_mail_attribute: email
 security_request_authn_context: 0
+langcode: it
