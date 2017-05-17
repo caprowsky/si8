@@ -9,7 +9,7 @@ dependencies:
 id: switchuser
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -7
 provider: null
 plugin: devel_switch_user
 settings:
