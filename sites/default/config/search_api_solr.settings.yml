@@ -4,3 +4,4 @@ cron_action: spellcheck
 site_hash: aguus8
 _core:
   default_config_hash: pBaH11SiBiDulMHrEUo_lI1kk4-8FpdEfuoHTXskMu0
+langcode: it
