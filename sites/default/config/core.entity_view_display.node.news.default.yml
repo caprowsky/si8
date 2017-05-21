@@ -85,7 +85,42 @@ third_party_settings:
         builder: ipe
         pattern: panelizer
       panels_test:
-        blocks: {  }
+        blocks:
+          cf880e74-e98b-4cfc-a1e8-310990a57c38:
+            id: 'entity_field:node:title'
+            label: Title
+            provider: ctools_block
+            label_display: visible
+            formatter:
+              label: above
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+            region: content
+            weight: 0
+            uuid: cf880e74-e98b-4cfc-a1e8-310990a57c38
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+          20fe1ad4-17ca-4afa-a477-75ba409ee664:
+            id: 'entity_field:node:nid'
+            label: ID
+            provider: ctools_block
+            label_display: visible
+            formatter:
+              label: above
+              type: number_integer
+              settings:
+                thousand_separator: ''
+                prefix_suffix: true
+              third_party_settings: {  }
+              weight: 0
+            region: content
+            weight: 0
+            uuid: 20fe1ad4-17ca-4afa-a477-75ba409ee664
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
         id: panels_variant
         uuid: 6e7a7d8b-62c6-4411-aa27-a0b2e0f9c368
         label: Panels_test
@@ -94,7 +129,7 @@ third_party_settings:
         layout_settings: {  }
         page_title: ''
         storage_type: panelizer_default
-        storage_id: node__news__default__panels_test
+        storage_id: 'node:news:default:panels_test'
         pattern: panelizer
         builder: ipe
         static_context: {  }

@@ -7,6 +7,9 @@ label: Redattore
 weight: 3
 is_admin: null
 permissions:
+  - 'access panels in-place editing'
+  - 'administer panelizer node news content'
+  - 'administer panelizer node news revert'
   - 'create news content'
   - 'delete own news content'
   - 'edit any news content'
