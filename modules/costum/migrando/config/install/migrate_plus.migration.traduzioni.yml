@@ -1,0 +1,93 @@
+id: traduzioni
+label: ilDeposito traduzioni migration
+migration_group: ilDeposito
+
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: modules/custom/migrando/files/download_traduzioni.json
+  item_selector: items
+  fields:
+    -
+      name: nid
+      selector: nid
+    -
+      name: title
+      selector: titolo
+    -
+      name: uuid
+      selector: uuid
+    -
+      name: uid
+      selector: uid
+    -
+      name: created
+      selector: created
+    -
+      name: changed
+      selector: changed
+    -
+      name: status
+      selector: stato
+    -
+      name: info
+      selector: informazioni
+    -
+      name: canto_riferimento
+      selector: canto_riferimento
+    -
+      name: language
+      selector: lingua
+    -
+      name: testo
+      selector: testo
+
+  ids:
+    nid:
+      type: string
+
+process:
+#  nid: nid
+  uuid: uuid
+  created: created
+  changed: changed
+  status: status
+  uid:
+    plugin: migration
+    migration: utenti
+    source: uid
+  type:
+    plugin: default_value
+    default_value: traduzione
+  title:
+    plugin: encode
+    source: title
+  field_canto_testo:
+    plugin: encode
+    source: testo
+  'field_testo/value': info/value
+  'field_testo/format':
+    plugin: default_value
+    default_value: basic_html
+  field_canto_originale:
+    plugin: migration
+    migration: canti
+    source: canto_riferimento/target_id
+  field_lingua:
+    plugin: iterator
+    source: language
+    process:
+      target_id:
+         plugin: migration
+         migration: termini
+         source: target_id
+
+destination:
+  plugin: entity:node
+  bundle: traduzione
+
+dependencies:
+  enforced:
+    module:
+      - migrando
