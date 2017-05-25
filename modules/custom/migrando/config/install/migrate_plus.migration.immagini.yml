@@ -1,0 +1,78 @@
+id: immagini
+label: ilDeposito immagini migration
+migration_group: ilDeposito
+
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: modules/custom/migrando/files/download_immagini.json
+  item_selector: items
+  fields:
+    -
+      name: fid
+      selector: id
+    -
+      name: created
+      selector: created
+    -
+      name: filename
+      selector: filename
+    -
+      name: uuid
+      selector: uuid
+    -
+      name: filepath
+      selector: directory
+    -
+      name: url
+      selector: url
+    -
+      name: links
+      selector: links
+    -
+      name: alt_text
+      selector: alt_text
+
+  ids:
+    fid:
+      type: string
+
+process:
+#  fid: fid
+  created: created
+  uid:
+    plugin: default_value
+    default_value: 1
+  filename: filename
+  uuid: uuid
+  status:
+    plugin: default_value
+    default_value: 1
+  created: created
+  type:
+    plugin: default_value
+    default_value: image
+  alt: alt_text
+  field_links:
+    plugin: iterator
+    source: links
+    process:
+      uri: url
+      title: title
+      options: attributes
+  uri:
+    plugin: file_copy
+    source:
+      - url
+      - filepath
+
+destination:
+  plugin: entity:file
+  bundle: image
+
+dependencies:
+  enforced:
+    module:
+      - migrando
+
