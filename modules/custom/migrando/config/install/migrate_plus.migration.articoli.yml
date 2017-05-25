@@ -1,0 +1,95 @@
+id: articoli
+label: ilDeposito articoli migration
+migration_group: ilDeposito
+
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: modules/custom/migrando/files/download_articoli.json
+  item_selector: items
+  fields:
+    -
+      name: nid
+      selector: nid
+    -
+      name: title
+      selector: titolo
+    -
+      name: uuid
+      selector: uuid
+    -
+      name: uid
+      selector: uid
+    -
+      name: created
+      selector: created
+    -
+      name: changed
+      selector: changed
+    -
+      name: status
+      selector: stato
+    -
+      name: testo
+      selector: testo
+    -
+      name: immagini
+      selector: immagini
+    -
+      name: tags
+      selector: tags
+    -
+
+  ids:
+    nid:
+      type: string
+
+process:
+#  nid: nid
+  uuid: uuid
+  created: created
+  changed: changed
+  status: status
+#  uid: uid
+  uid:
+    plugin: migration
+    migration: utenti
+    source: uid
+  type:
+    plugin: default_value
+    default_value: articolo
+  title:
+    plugin: encode
+    source: title
+  'field_testo/value': testo/value
+  'field_testo/format':
+    plugin: default_value
+    default_value: basic_html
+  field_tags:
+    plugin: iterator
+    source: tags
+    process:
+      target_id:
+        plugin: migration
+        migration: termini
+        source: target_id
+  field_immagine:
+    plugin: iterator
+    source: immagini
+    process:
+      target_id:
+        plugin: migration
+        migration: immagini
+        source: fid
+      alt: filename
+
+destination:
+  plugin: entity:node
+  bundle: articolo
+
+dependencies:
+  enforced:
+    module:
+      - migrando
+
