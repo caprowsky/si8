@@ -1,0 +1,9 @@
+uuid: c64bb5f8-bd47-44b6-90f3-18e255184a50
+langcode: en
+status: true
+dependencies: {  }
+id: test_blocco
+label: 'test blocco'
+logic: and
+conditions: {  }
+allow_other_conditions: true
