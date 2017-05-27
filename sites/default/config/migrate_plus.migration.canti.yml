@@ -1,0 +1,181 @@
+uuid: 84ef5493-4667-448d-a8b9-e0f2230e1f79
+langcode: it
+status: true
+dependencies:
+  enforced:
+    module:
+      - migrando
+_core:
+  default_config_hash: viunC57DuY3I6GM0HR1u-Yrz1VzZX876PlVSXxySSzU
+id: canti
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: ilDeposito
+label: 'ilDeposito canti migration'
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: modules/custom/migrando/files/download_canti.json
+  item_selector: items
+  fields:
+    -
+      name: nid
+      selector: nid
+    -
+      name: title
+      selector: titolo
+    -
+      name: uuid
+      selector: uuid
+    -
+      name: uid
+      selector: uid
+    -
+      name: created
+      selector: created
+    -
+      name: changed
+      selector: changed
+    -
+      name: status
+      selector: stato
+    -
+      name: links
+      selector: links
+    -
+      name: accordi
+      selector: accordi
+    -
+      name: anno
+      selector: anno
+    -
+      name: autori_musica
+      selector: autori_musica
+    -
+      name: autori_testo
+      selector: autori_testo
+    -
+      name: capoverso
+      selector: capoverso
+    -
+      name: fonte
+      selector: fonte
+    -
+      name: informazioni
+      selector: informazioni
+    -
+      name: lingua
+      selector: lingua
+    -
+      name: audio
+      selector: audio
+    -
+      name: sezione
+      selector: sezione
+    -
+      name: tags
+      selector: tags
+    -
+      name: testo
+      selector: testo
+    -
+      name: titolo_alternativo
+      selector: titolo_alternativo
+  ids:
+    nid:
+      type: string
+process:
+  uuid: uuid
+  created: created
+  changed: changed
+  status: status
+  uid:
+    plugin: migration
+    migration: utenti
+    source: uid
+  type:
+    plugin: default_value
+    default_value: canto
+  title:
+    plugin: encode
+    source: title
+  field_canto_testo:
+    plugin: encode
+    source: testo
+  field_testo/value: informazioni/value
+  field_testo/format:
+    plugin: default_value
+    default_value: basic_html
+  field_links:
+    plugin: iterator
+    source: links
+    process:
+      uri: url
+      title: title
+      options: attributes
+  field_links_audio_video:
+    plugin: iterator
+    source: audio
+    process:
+      uri: display_url
+      title: title
+      options: attributes
+  field_canto_accordi:
+    plugin: encode
+    source: accordi
+  field_capoverso/value: capoverso/value
+  field_altri_titoli/value: titolo_alternativo/value
+  field_fonte/value: fonte/value
+  field_fonte/format:
+    plugin: default_value
+    default_value: basic_html
+  field_lingua:
+    plugin: iterator
+    source: lingua
+    process:
+      target_id:
+        plugin: migration
+        migration: termini
+        source: target_id
+  field_tags:
+    plugin: iterator
+    source: tags
+    process:
+      target_id:
+        plugin: migration
+        migration: termini
+        source: target_id
+  field_autori_testo:
+    plugin: iterator
+    source: autori_testo
+    process:
+      target_id:
+        plugin: migration
+        migration: autori
+        source: target_id
+  field_autori_musica:
+    plugin: iterator
+    source: autori_musica
+    process:
+      target_id:
+        plugin: migration
+        migration: autori
+        source: target_id
+  field_periodo:
+    plugin: iterator
+    source: sezione
+    process:
+      target_id:
+        plugin: migration
+        migration: sezioni_percorsi
+        source: target_id
+  field_anno/value:
+    plugin: date_substr
+    source: anno/value
+destination:
+  plugin: 'entity:node'
+  bundle: canto
+migration_dependencies: null
