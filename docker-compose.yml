@@ -26,7 +26,7 @@ services:
       # PHP_XDEBUG_REMOTE_HOST: "10.254.254.254"  # You will also need to 'sudo ifconfig lo0 alias 10.254.254.254'
     volumes:
       - ./:/var/www/html
-      - /home/ale/.ssh_docker:/home/www-data/.ssh
+      - ~/.ssh_docker:/home/www-data/.ssh
 #      - d4d-unison-sync:/var/www/html:rw # Replace volume to this to use docker-sync for macOS users
 
   nginx:
