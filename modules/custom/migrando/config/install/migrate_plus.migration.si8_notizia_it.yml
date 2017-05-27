@@ -51,7 +51,9 @@ process:
   created: created
   changed: changed
   status: status
-  language: language
+  language:
+    plugin: default_value
+    default_value: it
 #  uid: uid
   uid:
     plugin: migration
