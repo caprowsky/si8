@@ -3,6 +3,7 @@ langcode: it
 status: true
 dependencies:
   module:
+    - block_visibility_groups
     - system
   theme:
     - bartik
@@ -16,10 +17,15 @@ provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Site branding'
+  label: 'Nome del sito'
   provider: system
   label_display: '0'
   use_site_logo: true
   use_site_name: true
   use_site_slogan: true
-visibility: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

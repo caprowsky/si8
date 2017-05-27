@@ -3,6 +3,8 @@ module:
   automated_cron: 0
   block: 0
   block_content: 0
+  block_visibility_groups: 0
+  block_visibility_groups_admin: 0
   breakpoint: 0
   ckeditor: 0
   config: 0
@@ -29,7 +31,13 @@ module:
   layout_discovery: 0
   link: 0
   locale: 0
+  menu_block: 0
   menu_ui: 0
+  migrando: 0
+  migrate: 0
+  migrate_drupal: 0
+  migrate_plus: 0
+  migrate_tools: 0
   node: 0
   options: 0
   page_cache: 0
