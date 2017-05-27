@@ -10,9 +10,9 @@ echo "}" >> modules/custom/migrando/files/si8_utenti.json
 #
 
 # Notizie in italiano
-wget http://localhost:8888/it/api/si7_notizia_it.json -O modules/custom/migrando/files/si8_notizia_it.json
-sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_it.json
-echo "}" >> modules/custom/migrando/files/si8_notizia_it.json
+#wget http://localhost:8888/it/api/si7_notizia_it.json -O modules/custom/migrando/files/si8_notizia_it.json
+#sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_it.json
+#echo "}" >> modules/custom/migrando/files/si8_notizia_it.json
 
 
 # Notizie in inglese
