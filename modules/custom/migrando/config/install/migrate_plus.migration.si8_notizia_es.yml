@@ -1,10 +1,10 @@
-id: notizia_en
+id: notizia_es
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: modules/custom/migrando/files/si8_notizia_en.json
+  urls: modules/custom/migrando/files/si8_notizia_es.json
   item_selector: items
   translations: true
   fields:
