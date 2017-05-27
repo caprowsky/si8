@@ -1,0 +1,101 @@
+id: notizia_en
+
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: modules/custom/migrando/files/si8_notizia_en.json
+  item_selector: items
+  translations: true
+  fields:
+    -
+      name: nid
+      selector: nid
+    -
+      name: title
+      selector: title
+    -
+      name: uuid
+      selector: uuid
+    -
+      name: uid
+      selector: uid
+    -
+      name: created
+      selector: created
+    -
+      name: changed
+      selector: changed
+    -
+      name: status
+      selector: pubblicato
+    -
+      name: body
+      selector: body
+    -
+      name: language
+      selector: lingua
+    -
+      name: risorse_collegate
+      selector: risorse_collegate
+    -
+      name: documenti_allegati
+      selector: documenti_allegati
+
+  ids:
+    nid:
+      type: string
+
+process:
+#  nid: nid
+
+  nid:
+    plugin: migration
+    migration: si8_notizia_it
+    source: nid
+  uuid: uuid
+  created: created
+  changed: changed
+  status: status
+  language: language
+#  uid: uid
+  uid:
+    plugin: migration
+    migration: si8_utenti
+    source: uid
+  type:
+    plugin: default_value
+    default_value: news
+  title:
+    plugin: encode
+    source: title
+  'body/value': body/value
+  'body/format':
+    plugin: default_value
+    default_value: basic_html
+#  field_tags:
+#    plugin: iterator
+#    source: tags
+#    process:
+#      target_id:
+#        plugin: migration
+#        migration: termini
+#        source: target_id
+#  field_immagine:
+#    plugin: iterator
+#    source: immagini
+#    process:
+#      target_id:
+#        plugin: migration
+#        migration: immagini
+#        source: fid
+#      alt: filename
+
+destination:
+  plugin: entity:node
+    translations: true
+
+dependencies:
+  enforced:
+    module:
+      - migrando
