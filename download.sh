@@ -38,3 +38,15 @@ echo "}" >> modules/custom/migrando/files/si8_pagina_it_en_es_tnid1.json
 wget http://localhost:8888/it/api/si7_pagina_it_en_es_tnid0.json -O modules/custom/migrando/files/si8_pagina_it_en_es_tnid0.json
 sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_pagina_it_en_es_tnid0.json
 echo "}" >> modules/custom/migrando/files/si8_pagina_it_en_es_tnid0.json
+
+#
+#       FILES
+#
+
+wget http://localhost:8888/it/api/si7_files_img.json -O modules/custom/migrando/files/si8_files_img.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_files_img.json
+echo "}" >> modules/custom/migrando/files/si8_files_img.json
+
+wget http://localhost:8888/it/api/si7_files_no_img.json -O modules/custom/migrando/files/si8_files_no_img.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_files_no_img.json
+echo "}" >> modules/custom/migrando/files/si8_files_no_img.json
