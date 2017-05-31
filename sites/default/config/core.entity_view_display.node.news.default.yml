@@ -3,14 +3,23 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.news.body
     - node.type.news
   module:
+    - text
     - user
 id: node.news.default
 targetEntityType: node
 bundle: news
 mode: default
 content:
+  body:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   content_moderation_control:
     weight: -20
     region: content

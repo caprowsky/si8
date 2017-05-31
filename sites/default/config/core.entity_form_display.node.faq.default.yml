@@ -1,68 +1,67 @@
-uuid: dbefe3fd-4fc9-4a70-8f17-c60bc179569c
-langcode: en
+uuid: c8752435-e93b-4a7b-9704-7dcf0493a49c
+langcode: it
 status: true
 dependencies:
   config:
-    - field.field.node.news.body
-    - node.type.news
+    - node.type.faq
   module:
     - content_moderation
     - path
-    - text
-id: node.news.default
+id: node.faq.default
 targetEntityType: node
-bundle: news
+bundle: faq
 mode: default
 content:
-  body:
-    weight: 26
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea_with_summary
-    region: content
   created:
     type: datetime_timestamp
-    weight: 3
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 1
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 30
     region: content
     settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
-      placeholder: 'Inserisci il titolo della notizia'
+      placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 4
+    weight: 10
     region: content
-    settings: {  }
-    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     region: content
     third_party_settings: {  }
-hidden:
-  promote: true
-  sticky: true
+hidden: {  }

@@ -1,0 +1,17 @@
+uuid: 5f43ef5f-e04f-4392-b7fd-7c27fda699f4
+langcode: it
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Pagina
+type: page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
