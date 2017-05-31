@@ -60,3 +60,4 @@ Thumbs.db
 .idea
 sites/default/settings.local.php
 modules/custom/migrando/files/si8_utenti.json
+themes/si8/node_modules/
