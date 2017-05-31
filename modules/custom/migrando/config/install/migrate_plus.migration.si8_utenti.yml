@@ -1,4 +1,4 @@
-id: utenti
+id: si8_utenti
 label: si8 utenti migration
 migration_group: si8
 
@@ -46,6 +46,9 @@ process:
   created: created
   access: access
   login: login
+  roles:
+    plugin: default_value
+    default_value: redattore
 
 destination:
   plugin: 'entity:user'
