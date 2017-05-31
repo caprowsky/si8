@@ -59,3 +59,4 @@ Thumbs.db
 /nbproject
 .idea
 sites/default/settings.local.php
+modules/custom/migrando/files/si8_utenti.json
