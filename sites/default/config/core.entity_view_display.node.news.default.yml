@@ -3,148 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.news.body
-    - field.field.node.news.panelizer
     - node.type.news
   module:
-    - panelizer
-    - text
     - user
-third_party_settings:
-  panelizer:
-    enable: true
-    custom: true
-    allow: true
-    default: default
-    displays:
-      default:
-        blocks:
-          a6c2bc8e-45d7-496e-be7e-a71a8f792461:
-            id: 'entity_field:node:uid'
-            label: 'Creato da'
-            provider: ctools_block
-            label_display: '0'
-            formatter:
-              label: hidden
-              type: author
-              settings: {  }
-              third_party_settings: {  }
-              weight: 0
-              region: content
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
-            region: content
-            weight: 0
-            uuid: a6c2bc8e-45d7-496e-be7e-a71a8f792461
-          e8c65c4f-2ae4-4450-b18f-ca13d33144fa:
-            id: 'entity_field:node:created'
-            label: 'Modificato il'
-            provider: ctools_block
-            label_display: '0'
-            formatter:
-              label: hidden
-              type: timestamp
-              settings:
-                date_format: medium
-                custom_date_format: ''
-                timezone: ''
-              third_party_settings: {  }
-              weight: 0
-              region: content
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
-            region: content
-            weight: 0
-            uuid: e8c65c4f-2ae4-4450-b18f-ca13d33144fa
-          7028327a-3174-4df2-a023-f983e7c2e0e5:
-            id: 'entity_field:node:body'
-            label: Body
-            provider: ctools_block
-            label_display: '0'
-            formatter:
-              label: hidden
-              type: text_default
-              settings: {  }
-              third_party_settings: {  }
-              weight: 0
-              region: content
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
-            region: content
-            weight: 101
-            uuid: 7028327a-3174-4df2-a023-f983e7c2e0e5
-        id: panels_variant
-        label: Predefinito
-        uuid: 2223b0e7-d7fc-4408-a3a8-f2b5de1bd001
-        weight: 0
-        layout: layout_onecol
-        layout_settings: {  }
-        page_title: '[node:title]'
-        storage_type: ''
-        storage_id: ''
-        builder: ipe
-        pattern: panelizer
-      panels_test:
-        blocks:
-          cf880e74-e98b-4cfc-a1e8-310990a57c38:
-            id: 'entity_field:node:title'
-            label: Title
-            provider: ctools_block
-            label_display: visible
-            formatter:
-              label: above
-              type: string
-              settings:
-                link_to_entity: false
-              third_party_settings: {  }
-              weight: 0
-            region: content
-            weight: 0
-            uuid: cf880e74-e98b-4cfc-a1e8-310990a57c38
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
-          20fe1ad4-17ca-4afa-a477-75ba409ee664:
-            id: 'entity_field:node:nid'
-            label: ID
-            provider: ctools_block
-            label_display: visible
-            formatter:
-              label: above
-              type: number_integer
-              settings:
-                thousand_separator: ''
-                prefix_suffix: true
-              third_party_settings: {  }
-              weight: 0
-            region: content
-            weight: 0
-            uuid: 20fe1ad4-17ca-4afa-a477-75ba409ee664
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
-        id: panels_variant
-        uuid: 6e7a7d8b-62c6-4411-aa27-a0b2e0f9c368
-        label: Panels_test
-        weight: 0
-        layout: layout_onecol
-        layout_settings: {  }
-        page_title: ''
-        storage_type: panelizer_default
-        storage_id: 'node:news:default:panels_test'
-        pattern: panelizer
-        builder: ipe
-        static_context: {  }
 id: node.news.default
 targetEntityType: node
 bundle: news
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   content_moderation_control:
     weight: -20
     region: content
@@ -157,4 +23,3 @@ content:
     third_party_settings: {  }
 hidden:
   langcode: true
-  panelizer: true

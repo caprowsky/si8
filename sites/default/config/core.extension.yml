@@ -3,8 +3,6 @@ module:
   automated_cron: 0
   block: 0
   block_content: 0
-  block_visibility_groups: 0
-  block_visibility_groups_admin: 0
   breakpoint: 0
   ckeditor: 0
   config: 0
@@ -12,7 +10,6 @@ module:
   content_moderation: 0
   contextual: 0
   ctools: 0
-  ctools_block: 0
   datetime: 0
   dblog: 0
   diff: 0
@@ -25,7 +22,6 @@ module:
   help: 0
   image: 0
   language: 0
-  layout_discovery: 0
   link: 0
   locale: 0
   menu_block: 0
@@ -33,10 +29,6 @@ module:
   node: 0
   options: 0
   page_cache: 0
-  panelizer: 0
-  panelizer_quickedit: 0
-  panels: 0
-  panels_ipe: 0
   path: 0
   quickedit: 0
   rdf: 0
