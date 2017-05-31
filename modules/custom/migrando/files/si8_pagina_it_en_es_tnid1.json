@@ -1,2 +1,4401 @@
-{"items":
-[{"lingua":"en","percorso":"/it/benvenuto-su-sardegna-impresa","created":"1346407718","changed":"1418373713","pubblicato":"1","uid":"1","tnid":"52","risorse_collegate":[],"tipo":"page","title":"Benvenuto su Sardegna Impresa","nid":"52"},{"lingua":"en","percorso":"/it/approfondimenti","created":"1346775520","changed":"1476863086","pubblicato":"1","uid":"1","tnid":"113","risorse_collegate":[],"tipo":"page","title":"Approfondimenti","nid":"113"},{"lingua":"en","percorso":"/it/servizi","created":"1346776185","changed":"1409651633","pubblicato":"1","uid":"1","tnid":"139","risorse_collegate":[],"tipo":"page","title":"Servizi","nid":"139"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali","created":"1379344514","changed":"1487785822","pubblicato":"1","uid":"88","tnid":"1302","risorse_collegate":[{"nid":"5267","access":true},{"nid":"5176","access":true},{"nid":"5072","access":true}],"tipo":"page","title":"Tasse e regimi fiscali","nid":"1302"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette","created":"1379509377","changed":"1487860757","pubblicato":"1","uid":"88","tnid":"1304","risorse_collegate":[],"tipo":"page","title":"Le imposte dirette e indirette","nid":"1304"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette","created":"1379580627","changed":"1406619452","pubblicato":"1","uid":"88","tnid":"1305","risorse_collegate":[{"nid":"1306","access":true},{"nid":"1307","access":true},{"nid":"1308","access":true}],"tipo":"page","title":"Le imposte dirette","nid":"1305"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette/irpef","created":"1379582734","changed":"1379943020","pubblicato":"1","uid":"88","tnid":"1306","risorse_collegate":[],"tipo":"page","title":"IRPEF","nid":"1306"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette/ires","created":"1379585484","changed":"1478422467","pubblicato":"1","uid":"88","tnid":"1307","risorse_collegate":[],"tipo":"page","title":"IRES","nid":"1307"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette/irap","created":"1379586606","changed":"1426666497","pubblicato":"1","uid":"88","tnid":"1308","risorse_collegate":[{"nid":"4016","access":true}],"tipo":"page","title":"IRAP","nid":"1308"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette","created":"1379587487","changed":"1409564739","pubblicato":"1","uid":"88","tnid":"1309","risorse_collegate":[{"nid":"1310","access":true},{"nid":"1311","access":true},{"nid":"1312","access":true},{"nid":"2819","access":true}],"tipo":"page","title":"Le imposte indirette","nid":"1309"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette/iva","created":"1379588516","changed":"1477934497","pubblicato":"1","uid":"88","tnid":"1310","risorse_collegate":[{"nid":"2822","access":true},{"nid":"2824","access":true},{"nid":"3836","access":true},{"nid":"4132","access":true}],"tipo":"page","title":"IVA","nid":"1310"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette/le","created":"1379589070","changed":"1398325725","pubblicato":"1","uid":"88","tnid":"1311","risorse_collegate":[],"tipo":"page","title":"Le imposte di registro ipotecaria e catastale","nid":"1311"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette/limposta","created":"1379589682","changed":"1380892889","pubblicato":"1","uid":"88","tnid":"1312","risorse_collegate":[],"tipo":"page","title":"L&#039;imposta di bollo","nid":"1312"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/scegli-il-regime-fiscale-della-tua-impresa","created":"1379593796","changed":"1406557116","pubblicato":"1","uid":"88","tnid":"1313","risorse_collegate":[{"nid":"1314","access":true},{"nid":"1322","access":true},{"nid":"1328","access":true},{"nid":"1335","access":true},{"nid":"1346","access":true}],"tipo":"page","title":"Scegli il regime fiscale della tua impresa","nid":"1313"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/ditta-individuale","created":"1379594407","changed":"1495963880","pubblicato":"1","uid":"88","tnid":"1314","risorse_collegate":[],"tipo":"page","title":"Ditta individuale","nid":"1314"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-5","created":"1379595339","changed":"1379595450","pubblicato":"1","uid":"88","tnid":"1315","risorse_collegate":[],"tipo":"page","title":"Ditta individuale - descrizione","nid":"1315"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-4","created":"1379595795","changed":"1379595813","pubblicato":"1","uid":"88","tnid":"1316","risorse_collegate":[],"tipo":"page","title":"Ditta individuale - perch\u00e9 sceglierla","nid":"1316"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-3","created":"1379596342","changed":"1380893074","pubblicato":"1","uid":"88","tnid":"1317","risorse_collegate":[],"tipo":"page","title":"Ditta individuale - gestione in contabilit\u00e0 semplificata","nid":"1317"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-2","created":"1379596691","changed":"1380893122","pubblicato":"1","uid":"88","tnid":"1318","risorse_collegate":[],"tipo":"page","title":"Ditta individuale - gestione in contabilit\u00e0 ordinaria","nid":"1318"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-1","created":"1379596951","changed":"1429175017","pubblicato":"1","uid":"88","tnid":"1319","risorse_collegate":[{"nid":"4092","access":true}],"tipo":"page","title":"Ditta individuale - regime dei minimi","nid":"1319"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-0","created":"1379597647","changed":"1429175064","pubblicato":"1","uid":"88","tnid":"1320","risorse_collegate":[{"nid":"4092","access":true}],"tipo":"page","title":"Ditta individuale - regime delle nuove iniziative produttive","nid":"1320"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta","created":"1379598304","changed":"1429175155","pubblicato":"1","uid":"88","tnid":"1321","risorse_collegate":[{"nid":"4092","access":true}],"tipo":"page","title":"Ditta individuale - regime forfetario  ","nid":"1321"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-semplice","created":"1379598740","changed":"1406559470","pubblicato":"1","uid":"88","tnid":"1322","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 semplice ","nid":"1322"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0-2","created":"1379599735","changed":"1379599895","pubblicato":"1","uid":"88","tnid":"1323","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 semplice - descrizione","nid":"1323"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0-1","created":"1379600331","changed":"1379600344","pubblicato":"1","uid":"88","tnid":"1324","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 semplice - perch\u00e9 sceglierla","nid":"1324"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0-0","created":"1379601087","changed":"1380893336","pubblicato":"1","uid":"88","tnid":"1325","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 semplice - gestione in contabilit\u00e0 semplificata","nid":"1325"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0","created":"1379601668","changed":"1379601685","pubblicato":"1","uid":"88","tnid":"1326","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 semplice - gestione in contabilit\u00e0 ordinaria","nid":"1326"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-di-persone","created":"1379605729","changed":"1406560473","pubblicato":"1","uid":"88","tnid":"1328","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di persone","nid":"1328"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-di-persone-descrizione","created":"1379606158","changed":"1379607423","pubblicato":"1","uid":"88","tnid":"1329","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di persone - descrizione","nid":"1329"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0--1","created":"1379607148","changed":"1379607161","pubblicato":"1","uid":"88","tnid":"1330","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di persone - perch\u00e9 sceglierla","nid":"1330"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0-0","created":"1379608019","changed":"1379608044","pubblicato":"1","uid":"88","tnid":"1331","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 in nome collettivo","nid":"1331"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0","created":"1379608239","changed":"1379608261","pubblicato":"1","uid":"88","tnid":"1332","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 in accomandita semplice","nid":"1332"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0--0","created":"1379608501","changed":"1380893481","pubblicato":"1","uid":"88","tnid":"1333","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di persone - regime in contabilit\u00e0 semplificata","nid":"1333"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0-di","created":"1379608804","changed":"1380893533","pubblicato":"1","uid":"88","tnid":"1334","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di persone - regime in contabilit\u00e0 ordinaria","nid":"1334"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-di-capitali","created":"1379608983","changed":"1409927627","pubblicato":"1","uid":"88","tnid":"1335","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di capitali","nid":"1335"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-3","created":"1379609626","changed":"1379609648","pubblicato":"1","uid":"88","tnid":"1336","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di capitali - descrizione","nid":"1336"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-2","created":"1379610157","changed":"1379610294","pubblicato":"1","uid":"88","tnid":"1338","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 a responsabilit\u00e0 limitata","nid":"1338"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/la-0","created":"1379610751","changed":"1485162043","pubblicato":"1","uid":"88","tnid":"1339","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 a responsabilit\u00e0 limitata a capitale ridotto","nid":"1339"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/la","created":"1379610968","changed":"1379611154","pubblicato":"1","uid":"88","tnid":"1340","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 a responsabilit\u00e0 limitata semplificata","nid":"1340"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-1","created":"1379611576","changed":"1379611590","pubblicato":"1","uid":"88","tnid":"1341","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 per azioni","nid":"1341"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-0","created":"1379665146","changed":"1379665164","pubblicato":"1","uid":"88","tnid":"1344","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 in accomandita per azioni","nid":"1344"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0","created":"1379665537","changed":"1380893818","pubblicato":"1","uid":"88","tnid":"1345","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di capitali - regime in contabilit\u00e0 ordinaria ","nid":"1345"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/cooperativa-e-consorzio","created":"1379665893","changed":"1406562025","pubblicato":"1","uid":"88","tnid":"1346","risorse_collegate":[],"tipo":"page","title":"Cooperativa e consorzio","nid":"1346"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio-1","created":"1379666520","changed":"1379666844","pubblicato":"1","uid":"88","tnid":"1347","risorse_collegate":[],"tipo":"page","title":"Cooperativa e consorzio - descrizione","nid":"1347"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio-0","created":"1379667476","changed":"1379667527","pubblicato":"1","uid":"88","tnid":"1348","risorse_collegate":[],"tipo":"page","title":"Cooperativa e consorzio - perch\u00e9 sceglierla","nid":"1348"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa","created":"1379667873","changed":"1380894250","pubblicato":"1","uid":"88","tnid":"1349","risorse_collegate":[],"tipo":"page","title":"La cooperativa","nid":"1349"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio/il","created":"1379670556","changed":"1379670572","pubblicato":"1","uid":"88","tnid":"1350","risorse_collegate":[],"tipo":"page","title":"Il consorzio e la societ\u00e0 consortile","nid":"1350"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio","created":"1379671085","changed":"1380894374","pubblicato":"1","uid":"88","tnid":"1351","risorse_collegate":[],"tipo":"page","title":"Cooperativa e consorzio - gestione in contabilit\u00e0 ordinaria","nid":"1351"},{"lingua":"en","percorso":"/it/approfondimenti/la-sicurezza-sul-lavoro","created":"1379671559","changed":"1487859822","pubblicato":"1","uid":"169","tnid":"1352","risorse_collegate":[{"nid":"5265","access":true}],"tipo":"page","title":"La sicurezza sul lavoro","nid":"1352"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/calcolo-della-base-imponibile","created":"1379674069","changed":"1487860798","pubblicato":"1","uid":"88","tnid":"1353","risorse_collegate":[{"nid":"1354","access":true},{"nid":"1355","access":true},{"nid":"1356","access":true}],"tipo":"page","title":"Calcolo della base imponibile","nid":"1353"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/il-calcolo-della-base-imponibile/principi-generali","created":"1379674369","changed":"1379674386","pubblicato":"1","uid":"88","tnid":"1354","risorse_collegate":[],"tipo":"page","title":"Principi generali","nid":"1354"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/il-calcolo-della-base-imponibile/principi-generali/cosa-%C3%A8-la","created":"1379675319","changed":"1379675332","pubblicato":"1","uid":"88","tnid":"1355","risorse_collegate":[],"tipo":"page","title":"Cosa \u00e8 la base imponibile","nid":"1355"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/il-calcolo-della-base-imponibile/principi-generali/scopri","created":"1379675999","changed":"1379676038","pubblicato":"1","uid":"88","tnid":"1356","risorse_collegate":[],"tipo":"page","title":"Scopri come si calcola la base imponibile","nid":"1356"},{"lingua":"en","percorso":"/it/approfondimenti/gestione-delle-risorse-umane","created":"1380749615","changed":"1487860692","pubblicato":"1","uid":"88","tnid":"1587","risorse_collegate":[{"nid":"5164","access":true}],"tipo":"page","title":"Gestione delle risorse umane","nid":"1587"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato","created":"1384271630","changed":"1432220796","pubblicato":"1","uid":"88","tnid":"1773","risorse_collegate":[{"nid":"1774","access":true},{"nid":"1776","access":true},{"nid":"1777","access":true}],"tipo":"page","title":"Il mercato","nid":"1773"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/il-contesto-macroeconomico","created":"1384274005","changed":"1447751682","pubblicato":"1","uid":"88","tnid":"1774","risorse_collegate":[],"tipo":"page","title":"Il contesto macroeconomico","nid":"1774"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna","created":"1384275820","changed":"1436177146","pubblicato":"1","uid":"88","tnid":"1775","risorse_collegate":[],"tipo":"page","title":"Investire in Sardegna","nid":"1775"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/la-popolazione","created":"1384276236","changed":"1447751764","pubblicato":"1","uid":"88","tnid":"1776","risorse_collegate":[],"tipo":"page","title":"La popolazione","nid":"1776"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/il-tessuto-produttivo","created":"1384276464","changed":"1447751841","pubblicato":"1","uid":"88","tnid":"1777","risorse_collegate":[],"tipo":"page","title":"Il tessuto produttivo","nid":"1777"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/i-distretti-industriali-e-sistemi","created":"1384276707","changed":"1386605492","pubblicato":"1","uid":"88","tnid":"1779","risorse_collegate":[],"tipo":"page","title":"I distretti industriali e sistemi produttivi locali","nid":"1779"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/turismo","created":"1384276787","changed":"1432221650","pubblicato":"1","uid":"88","tnid":"1780","risorse_collegate":[{"nid":"2892","access":true},{"nid":"3513","access":true},{"nid":"3502","access":true},{"nid":"3459","access":true},{"nid":"3448","access":true},{"nid":"3434","access":true},{"nid":"3429","access":true},{"nid":"3358","access":true},{"nid":"3170","access":true},{"nid":"3148","access":true},{"nid":"3140","access":true},{"nid":"2892","access":true}],"tipo":"page","title":"Turismo","nid":"1780"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/artigianato","created":"1384276926","changed":"1422262776","pubblicato":"1","uid":"88","tnid":"1781","risorse_collegate":[{"nid":"3645","access":true}],"tipo":"page","title":"Artigianato","nid":"1781"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/agroindustria","created":"1384277045","changed":"1421919787","pubblicato":"1","uid":"88","tnid":"1782","risorse_collegate":[{"nid":"3082","access":true},{"nid":"3747","access":true}],"tipo":"page","title":"Agroindustria","nid":"1782"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/industria-tradizionale","created":"1384277155","changed":"1432221883","pubblicato":"1","uid":"88","tnid":"1783","risorse_collegate":[],"tipo":"page","title":"Industria tradizionale","nid":"1783"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/servizi","created":"1384277226","changed":"1432221805","pubblicato":"1","uid":"88","tnid":"1784","risorse_collegate":[],"tipo":"page","title":"Servizi","nid":"1784"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione","created":"1384296041","changed":"1409151935","pubblicato":"1","uid":"88","tnid":"1785","risorse_collegate":[{"nid":"1786","access":true},{"nid":"1789","access":true},{"nid":"1790","access":true},{"nid":"1791","access":true},{"nid":"1792","access":true}],"tipo":"page","title":"I fattori di produzione","nid":"1785"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/lavoro-e-istruzione","created":"1384296516","changed":"1432222803","pubblicato":"1","uid":"88","tnid":"1786","risorse_collegate":[{"nid":"1787","access":true},{"nid":"1788","access":true}],"tipo":"page","title":"Lavoro e Istruzione","nid":"1786"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/lavoro-e-istruzione/forza-lavoro-e-occupazione","created":"1384297006","changed":"1384297029","pubblicato":"1","uid":"88","tnid":"1787","risorse_collegate":[],"tipo":"page","title":"Forza lavoro e occupazione","nid":"1787"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/lavoro-e-istruzione/capitale-umano","created":"1384297179","changed":"1384297194","pubblicato":"1","uid":"88","tnid":"1788","risorse_collegate":[],"tipo":"page","title":"Capitale umano","nid":"1788"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-clima","created":"1384297508","changed":"1432223042","pubblicato":"1","uid":"88","tnid":"1789","risorse_collegate":[],"tipo":"page","title":"Il clima","nid":"1789"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/le-risorse-naturali","created":"1384297812","changed":"1384297866","pubblicato":"1","uid":"88","tnid":"1790","risorse_collegate":[],"tipo":"page","title":"Le risorse naturali","nid":"1790"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/le-risorse-culturali","created":"1384298024","changed":"1432221940","pubblicato":"1","uid":"88","tnid":"1791","risorse_collegate":[],"tipo":"page","title":"Le risorse culturali","nid":"1791"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture","created":"1384298146","changed":"1406554082","pubblicato":"1","uid":"88","tnid":"1792","risorse_collegate":[{"nid":"1793","access":true},{"nid":"1797","access":true},{"nid":"1798","access":true},{"nid":"1799","access":true},{"nid":"1800","access":true},{"nid":"1801","access":true}],"tipo":"page","title":"Il sistema delle infrastrutture","nid":"1792"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-trasporto","created":"1384298594","changed":"1406554519","pubblicato":"1","uid":"88","tnid":"1793","risorse_collegate":[{"nid":"1794","access":true},{"nid":"1795","access":true},{"nid":"1796","access":true}],"tipo":"page","title":"Reti di trasporto","nid":"1793"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-traspor-0","created":"1384298938","changed":"1410182331","pubblicato":"1","uid":"88","tnid":"1794","risorse_collegate":[],"tipo":"page","title":"Ferrovie e strade","nid":"1794"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-traspor-1","created":"1384299615","changed":"1386608580","pubblicato":"1","uid":"88","tnid":"1795","risorse_collegate":[],"tipo":"page","title":"Porti","nid":"1795"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-traspor-2","created":"1384299924","changed":"1384337171","pubblicato":"1","uid":"88","tnid":"1796","risorse_collegate":[],"tipo":"page","title":"Aeroporti","nid":"1796"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/la-mobilit%C3%A0-e-la","created":"1384337420","changed":"1384337466","pubblicato":"1","uid":"88","tnid":"1797","risorse_collegate":[],"tipo":"page","title":"La mobilit\u00e0 e la circolazione di merci e persone","nid":"1797"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-idriche","created":"1384337538","changed":"1384337548","pubblicato":"1","uid":"88","tnid":"1798","risorse_collegate":[],"tipo":"page","title":"Reti idriche","nid":"1798"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-energetiche","created":"1384337621","changed":"1384337635","pubblicato":"1","uid":"88","tnid":"1799","risorse_collegate":[],"tipo":"page","title":"Reti energetiche","nid":"1799"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-telematiche","created":"1384337698","changed":"1384337707","pubblicato":"1","uid":"88","tnid":"1800","risorse_collegate":[],"tipo":"page","title":"Reti telematiche","nid":"1800"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/infrastrutture","created":"1384337840","changed":"1386608889","pubblicato":"1","uid":"88","tnid":"1801","risorse_collegate":[],"tipo":"page","title":"Infrastrutture sociali","nid":"1801"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/dove-localizzarsi","created":"1384339696","changed":"1438162932","pubblicato":"1","uid":"88","tnid":"1802","risorse_collegate":[{"nid":"1803","access":true},{"nid":"1804","access":true},{"nid":"1805","access":true}],"tipo":"page","title":"Dove localizzarsi","nid":"1802"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/dove-localizzarsi/i-consorzi-industriali","created":"1384340292","changed":"1484670593","pubblicato":"1","uid":"88","tnid":"1803","risorse_collegate":[],"tipo":"page","title":"I consorzi industriali","nid":"1803"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/dove-localizzarsi/gli-incubatori-di-impresa","created":"1384340427","changed":"1481047202","pubblicato":"1","uid":"88","tnid":"1804","risorse_collegate":[],"tipo":"page","title":"Gli incubatori di impresa","nid":"1804"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/dove-localizzarsi/i-centri-di-ricerca-crs4","created":"1384340536","changed":"1384340640","pubblicato":"1","uid":"88","tnid":"1805","risorse_collegate":[],"tipo":"page","title":"I centri di ricerca (CRS4)","nid":"1805"},{"lingua":"en","percorso":"/it/servizi/investire-sardegna/vocazioni-produttive","created":"1386684919","changed":"1409152435","pubblicato":"1","uid":"88","tnid":"1874","risorse_collegate":[{"nid":"1779","access":true},{"nid":"1780","access":true},{"nid":"1781","access":true},{"nid":"1782","access":true},{"nid":"1783","access":true},{"nid":"1784","access":true}],"tipo":"page","title":"Vocazioni produttive","nid":"1874"},{"lingua":"en","percorso":"/it/node/2792","created":"1408962036","changed":"1418141880","pubblicato":"1","uid":"88","tnid":"1302","risorse_collegate":[],"tipo":"page","title":"Introduction to Italian taxes and tax schemes","nid":"2792"},{"lingua":"en","percorso":"/it/node/2818","created":"1409559793","changed":"1410957204","pubblicato":"1","uid":"88","tnid":"1304","risorse_collegate":[],"tipo":"page","title":"The italian direct and indirect taxes","nid":"2818"},{"lingua":"en","percorso":"/it/node/2832","created":"1409666267","changed":"1418141884","pubblicato":"1","uid":"88","tnid":"1305","risorse_collegate":[{"nid":"2838","access":true},{"nid":"2839","access":true},{"nid":"2840","access":true}],"tipo":"page","title":"The italian direct taxes","nid":"2832"},{"lingua":"en","percorso":"/it/node/2838","created":"1409730311","changed":"1418142463","pubblicato":"1","uid":"88","tnid":"1306","risorse_collegate":[],"tipo":"page","title":"IRPEF: what it is and how it is calculated","nid":"2838"},{"lingua":"en","percorso":"/it/node/2839","created":"1409731631","changed":"1418143960","pubblicato":"1","uid":"88","tnid":"1307","risorse_collegate":[],"tipo":"page","title":"The IRES tax: what it is and how it is calculated","nid":"2839"},{"lingua":"en","percorso":"/it/node/2840","created":"1409731820","changed":"1418144058","pubblicato":"1","uid":"88","tnid":"1308","risorse_collegate":[],"tipo":"page","title":"The IRAP tax: what it is and how it is calculated","nid":"2840"},{"lingua":"en","percorso":"/it/node/2841","created":"1409733048","changed":"1418145128","pubblicato":"1","uid":"88","tnid":"1309","risorse_collegate":[{"nid":"2842","access":true},{"nid":"2855","access":true},{"nid":"2856","access":true}],"tipo":"page","title":"The indirect taxes","nid":"2841"},{"lingua":"en","percorso":"/it/node/2842","created":"1409735691","changed":"1478033441","pubblicato":"1","uid":"88","tnid":"1310","risorse_collegate":[],"tipo":"page","title":"The VAT: what it is and how it is calculated","nid":"2842"},{"lingua":"en","percorso":"/it/node/2855","created":"1409837823","changed":"1418145284","pubblicato":"1","uid":"88","tnid":"1311","risorse_collegate":[],"tipo":"page","title":"The registration, mortgage and land registry taxes: what they are and how to calculate them","nid":"2855"},{"lingua":"en","percorso":"/it/node/2856","created":"1409839152","changed":"1418145505","pubblicato":"1","uid":"88","tnid":"1312","risorse_collegate":[],"tipo":"page","title":"The italian stamp duty: what it is and how it is calculated","nid":"2856"},{"lingua":"en","percorso":"/it/node/2857","created":"1409839703","changed":"1418199864","pubblicato":"1","uid":"88","tnid":"1313","risorse_collegate":[{"nid":"2859","access":true},{"nid":"2867","access":true},{"nid":"2872","access":true},{"nid":"2881","access":true}],"tipo":"page","title":"Choose your company tax scheme","nid":"2857"},{"lingua":"en","percorso":"/it/node/2859","created":"1409841531","changed":"1418200177","pubblicato":"1","uid":"88","tnid":"1314","risorse_collegate":[{"nid":"2860","access":true},{"nid":"2861","access":true},{"nid":"2862","access":true},{"nid":"2863","access":true},{"nid":"2864","access":true},{"nid":"2865","access":true},{"nid":"2866","access":true}],"tipo":"page","title":"One-man business or individual concern or sole proprietorship","nid":"2859"},{"lingua":"en","percorso":"/it/node/2860","created":"1409841769","changed":"1418200631","pubblicato":"1","uid":"88","tnid":"1315","risorse_collegate":[],"tipo":"page","title":"Description of a sole proprietorship","nid":"2860"},{"lingua":"en","percorso":"/it/node/2861","created":"1409843929","changed":"1418201340","pubblicato":"1","uid":"88","tnid":"1316","risorse_collegate":[],"tipo":"page","title":"Sole proprietorship - why choose it","nid":"2861"},{"lingua":"en","percorso":"/it/node/2862","created":"1409844928","changed":"1418201929","pubblicato":"1","uid":"88","tnid":"1317","risorse_collegate":[],"tipo":"page","title":"Sole proprietorship - the simplified accounting scheme","nid":"2862"},{"lingua":"en","percorso":"/it/node/2863","created":"1409845165","changed":"1418203665","pubblicato":"1","uid":"88","tnid":"1318","risorse_collegate":[],"tipo":"page","title":"The accounting scheme: the ordinary accounting scheme management","nid":"2863"},{"lingua":"en","percorso":"/it/node/2864","created":"1409845163","changed":"1418204495","pubblicato":"1","uid":"88","tnid":"1319","risorse_collegate":[],"tipo":"page","title":"The minimum taxpayer scheme","nid":"2864"},{"lingua":"en","percorso":"/it/node/2865","created":"1409845367","changed":"1418204303","pubblicato":"1","uid":"88","tnid":"1320","risorse_collegate":[],"tipo":"page","title":"The new production initiative scheme","nid":"2865"},{"lingua":"en","percorso":"/it/node/2866","created":"1409847179","changed":"1418204501","pubblicato":"1","uid":"88","tnid":"1321","risorse_collegate":[],"tipo":"page","title":"Farm entrepreneur and the flat-rate scheme","nid":"2866"},{"lingua":"en","percorso":"/it/node/2867","created":"1409903485","changed":"1418204804","pubblicato":"1","uid":"88","tnid":"1322","risorse_collegate":[{"nid":"2868","access":true},{"nid":"2869","access":true},{"nid":"2870","access":true},{"nid":"2871","access":true}],"tipo":"page","title":"The simple partnership","nid":"2867"},{"lingua":"en","percorso":"/it/node/2868","created":"1409903520","changed":"1418204987","pubblicato":"1","uid":"88","tnid":"1323","risorse_collegate":[],"tipo":"page","title":"Description of a simple partnership","nid":"2868"},{"lingua":"en","percorso":"/it/node/2869","created":"1409905594","changed":"1418205089","pubblicato":"1","uid":"88","tnid":"1324","risorse_collegate":[],"tipo":"page","title":"Simple partnership - why choose it","nid":"2869"},{"lingua":"en","percorso":"/it/node/2870","created":"1409910257","changed":"1418226888","pubblicato":"1","uid":"88","tnid":"1325","risorse_collegate":[],"tipo":"page","title":"The accounting system: the simplified accounting scheme","nid":"2870"},{"lingua":"en","percorso":"/it/node/2871","created":"1409910485","changed":"1418212622","pubblicato":"1","uid":"88","tnid":"1326","risorse_collegate":[],"tipo":"page","title":"The accounting system: the ordinary accounting scheme ","nid":"2871"},{"lingua":"en","percorso":"/it/node/2872","created":"1409911452","changed":"1418221667","pubblicato":"1","uid":"88","tnid":"1328","risorse_collegate":[{"nid":"2875","access":true},{"nid":"2876","access":true},{"nid":"2877","access":true},{"nid":"2878","access":true},{"nid":"2870","access":true},{"nid":"2880","access":true}],"tipo":"page","title":"Partnerships","nid":"2872"},{"lingua":"en","percorso":"/it/node/2875","created":"1409922813","changed":"1418214060","pubblicato":"1","uid":"88","tnid":"1329","risorse_collegate":[],"tipo":"page","title":"Description of a partnership","nid":"2875"},{"lingua":"en","percorso":"/it/node/2876","created":"1409922967","changed":"1418213972","pubblicato":"1","uid":"88","tnid":"1330","risorse_collegate":[],"tipo":"page","title":"Why choose to set up a partnership: advantages and disadvantages","nid":"2876"},{"lingua":"en","percorso":"/it/node/2877","created":"1409923483","changed":"1418221345","pubblicato":"1","uid":"88","tnid":"1331","risorse_collegate":[],"tipo":"page","title":"The general partnership","nid":"2877"},{"lingua":"en","percorso":"/it/node/2878","created":"1409923825","changed":"1418221870","pubblicato":"1","uid":"88","tnid":"1332","risorse_collegate":[],"tipo":"page","title":"The limited Partnership","nid":"2878"},{"lingua":"en","percorso":"/it/node/2879","created":"1409924260","changed":"1409924280","pubblicato":"1","uid":"88","tnid":"1333","risorse_collegate":[],"tipo":"page","title":"The accounting system: the simplified accounting scheme management","nid":"2879"},{"lingua":"en","percorso":"/it/node/2880","created":"1409924485","changed":"1418228743","pubblicato":"1","uid":"88","tnid":"1334","risorse_collegate":[],"tipo":"page","title":"The accounting system: the ordinary accounting scheme ","nid":"2880"},{"lingua":"en","percorso":"/it/node/2881","created":"1409924721","changed":"1418228988","pubblicato":"1","uid":"88","tnid":"1335","risorse_collegate":[{"nid":"2883","access":true},{"nid":"2884","access":true},{"nid":"2887","access":true},{"nid":"2888","access":true},{"nid":"2889","access":true},{"nid":"2890","access":true},{"nid":"2891","access":true}],"tipo":"page","title":"Joint-stock companies","nid":"2881"},{"lingua":"en","percorso":"/it/node/2882","created":"1409925063","changed":"1409925115","pubblicato":"1","uid":"88","tnid":"1336","risorse_collegate":[],"tipo":"page","title":"Description of a joint-stock company","nid":"2882"},{"lingua":"en","percorso":"/it/node/2883","created":"1409925348","changed":"1418229746","pubblicato":"1","uid":"88","tnid":"2885","risorse_collegate":[],"tipo":"page","title":"Why choose a joint-stock company: advantages and disadvantages","nid":"2883"},{"lingua":"en","percorso":"/it/node/2884","created":"1409926504","changed":"1418229637","pubblicato":"1","uid":"88","tnid":"1338","risorse_collegate":[],"tipo":"page","title":"The limited liability company","nid":"2884"},{"lingua":"en","percorso":"/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-4","created":"1409927044","changed":"1409927057","pubblicato":"1","uid":"88","tnid":"2885","risorse_collegate":[],"tipo":"page","title":"Societ\u00e0 di capitali - perch\u00e9 sceglierla","nid":"2885"},{"lingua":"en","percorso":"/it/node/2887","created":"1409927810","changed":"1418230431","pubblicato":"1","uid":"88","tnid":"1339","risorse_collegate":[],"tipo":"page","title":"The low-capital limited liability company","nid":"2887"},{"lingua":"en","percorso":"/it/node/2888","created":"1409928082","changed":"1418288855","pubblicato":"1","uid":"88","tnid":"1340","risorse_collegate":[],"tipo":"page","title":"The simplified limited liability company","nid":"2888"},{"lingua":"en","percorso":"/it/node/2889","created":"1409928916","changed":"1418289061","pubblicato":"1","uid":"88","tnid":"1341","risorse_collegate":[],"tipo":"page","title":"The joint-stock company","nid":"2889"},{"lingua":"en","percorso":"/it/node/2890","created":"1409929273","changed":"1418289858","pubblicato":"1","uid":"88","tnid":"1344","risorse_collegate":[],"tipo":"page","title":"The limited partnership with share capital","nid":"2890"},{"lingua":"en","percorso":"/it/node/2891","created":"1409929507","changed":"1418290346","pubblicato":"1","uid":"88","tnid":"1345","risorse_collegate":[],"tipo":"page","title":"The accounting system: the ordinary accounting scheme ","nid":"2891"},{"lingua":"en","percorso":"/it/node/2895","created":"1410165382","changed":"1487602924","pubblicato":"1","uid":"88","tnid":"1775","risorse_collegate":[],"tipo":"page","title":"Invest in Sardinia","nid":"2895"},{"lingua":"en","percorso":"/it/node/2896","created":"1410166278","changed":"1418312170","pubblicato":"1","uid":"88","tnid":"1774","risorse_collegate":[],"tipo":"page","title":"The macroeconomic context","nid":"2896"},{"lingua":"en","percorso":"/it/node/2897","created":"1410166582","changed":"1418312344","pubblicato":"1","uid":"88","tnid":"1776","risorse_collegate":[],"tipo":"page","title":"The population","nid":"2897"},{"lingua":"en","percorso":"/it/node/2898","created":"1410167192","changed":"1418312665","pubblicato":"1","uid":"88","tnid":"1777","risorse_collegate":[],"tipo":"page","title":"The productive fabric","nid":"2898"},{"lingua":"en","percorso":"/it/node/2899","created":"1410167393","changed":"1418312823","pubblicato":"1","uid":"88","tnid":"1785","risorse_collegate":[],"tipo":"page","title":"The production factors","nid":"2899"},{"lingua":"en","percorso":"/it/node/2900","created":"1410169436","changed":"1418315583","pubblicato":"1","uid":"88","tnid":"1786","risorse_collegate":[{"nid":"3583","access":true},{"nid":"3584","access":true}],"tipo":"page","title":"Jobs and Education","nid":"2900"},{"lingua":"en","percorso":"/it/node/2901","created":"1410169871","changed":"1410861078","pubblicato":"1","uid":"88","tnid":"1789","risorse_collegate":[],"tipo":"page","title":"The climate","nid":"2901"},{"lingua":"en","percorso":"/it/node/2903","created":"1410172056","changed":"1410861170","pubblicato":"1","uid":"88","tnid":"1790","risorse_collegate":[],"tipo":"page","title":"Natural resources","nid":"2903"},{"lingua":"en","percorso":"/it/node/2904","created":"1410174033","changed":"1410861308","pubblicato":"1","uid":"88","tnid":"1791","risorse_collegate":[],"tipo":"page","title":"The cultural resources","nid":"2904"},{"lingua":"en","percorso":"/it/node/2905","created":"1410174478","changed":"1410861389","pubblicato":"1","uid":"88","tnid":"1792","risorse_collegate":[{"nid":"2906","access":true},{"nid":"2910","access":true},{"nid":"2966","access":true},{"nid":"2967","access":true},{"nid":"2968","access":true},{"nid":"2969","access":true}],"tipo":"page","title":"The infrastructure system","nid":"2905"},{"lingua":"en","percorso":"/it/node/2906","created":"1410181612","changed":"1410186761","pubblicato":"1","uid":"88","tnid":"1793","risorse_collegate":[{"nid":"2907","access":true},{"nid":"2908","access":true},{"nid":"2909","access":true}],"tipo":"page","title":"Transport networks","nid":"2906"},{"lingua":"en","percorso":"/it/node/2907","created":"1410182574","changed":"1410182585","pubblicato":"1","uid":"88","tnid":"1794","risorse_collegate":[],"tipo":"page","title":"Railways and roads","nid":"2907"},{"lingua":"en","percorso":"/it/node/2908","created":"1410185351","changed":"1410185362","pubblicato":"1","uid":"88","tnid":"1795","risorse_collegate":[],"tipo":"page","title":"Ports","nid":"2908"},{"lingua":"en","percorso":"/it/node/2909","created":"1410186304","changed":"1410186265","pubblicato":"1","uid":"88","tnid":"1796","risorse_collegate":[],"tipo":"page","title":"Airports","nid":"2909"},{"lingua":"en","percorso":"/it/node/2910","created":"1410189629","changed":"1410189641","pubblicato":"1","uid":"88","tnid":"1797","risorse_collegate":[],"tipo":"page","title":"The mobility and circulation of goods and people","nid":"2910"},{"lingua":"en","percorso":"/it/node/2966","created":"1410273389","changed":"1410273415","pubblicato":"1","uid":"88","tnid":"1798","risorse_collegate":[],"tipo":"page","title":"Water distribution network","nid":"2966"},{"lingua":"en","percorso":"/it/node/2967","created":"1410273756","changed":"1410273768","pubblicato":"1","uid":"88","tnid":"1799","risorse_collegate":[],"tipo":"page","title":"Energy Networks","nid":"2967"},{"lingua":"en","percorso":"/it/node/2968","created":"1410274257","changed":"1410274268","pubblicato":"1","uid":"88","tnid":"1800","risorse_collegate":[],"tipo":"page","title":"ICT networks","nid":"2968"},{"lingua":"en","percorso":"/it/node/2969","created":"1410274325","changed":"1410274351","pubblicato":"1","uid":"88","tnid":"1801","risorse_collegate":[],"tipo":"page","title":"Social infrastructures","nid":"2969"},{"lingua":"en","percorso":"/it/node/2970","created":"1410275201","changed":"1418315707","pubblicato":"1","uid":"88","tnid":"1874","risorse_collegate":[{"nid":"2971","access":true},{"nid":"2972","access":true},{"nid":"2973","access":true},{"nid":"2974","access":true},{"nid":"2976","access":true},{"nid":"2977","access":true}],"tipo":"page","title":"Productive vocation","nid":"2970"},{"lingua":"en","percorso":"/it/node/2971","created":"1410275267","changed":"1418316342","pubblicato":"1","uid":"88","tnid":"1779","risorse_collegate":[],"tipo":"page","title":"The industrial districts and the local production systems","nid":"2971"},{"lingua":"en","percorso":"/it/node/2972","created":"1410276119","changed":"1418316416","pubblicato":"1","uid":"88","tnid":"1780","risorse_collegate":[],"tipo":"page","title":"Tourism","nid":"2972"},{"lingua":"en","percorso":"/it/node/2973","created":"1410276551","changed":"1418316479","pubblicato":"1","uid":"88","tnid":"1781","risorse_collegate":[],"tipo":"page","title":"Craftsmanship","nid":"2973"},{"lingua":"en","percorso":"/it/node/2974","created":"1410277178","changed":"1418316546","pubblicato":"1","uid":"88","tnid":"1782","risorse_collegate":[],"tipo":"page","title":"Agribusiness","nid":"2974"},{"lingua":"en","percorso":"/it/node/2976","created":"1410354631","changed":"1418316619","pubblicato":"1","uid":"88","tnid":"1783","risorse_collegate":[],"tipo":"page","title":"Traditional industry","nid":"2976"},{"lingua":"en","percorso":"/it/node/2977","created":"1410357593","changed":"1418316697","pubblicato":"1","uid":"88","tnid":"1784","risorse_collegate":[],"tipo":"page","title":"Services","nid":"2977"},{"lingua":"en","percorso":"/it/node/2979","created":"1410358296","changed":"1418376159","pubblicato":"1","uid":"88","tnid":"1802","risorse_collegate":[{"nid":"2980","access":true},{"nid":"2981","access":true},{"nid":"2985","access":true}],"tipo":"page","title":"Sardinia: the right place to start up a company","nid":"2979"},{"lingua":"en","percorso":"/it/node/2980","created":"1410359070","changed":"1411466323","pubblicato":"1","uid":"88","tnid":"1803","risorse_collegate":[],"tipo":"page","title":"A network of industrial hubs","nid":"2980"},{"lingua":"en","percorso":"/it/node/2981","created":"1410359610","changed":"1410862658","pubblicato":"1","uid":"88","tnid":"1805","risorse_collegate":[],"tipo":"page","title":"Research centres and international development","nid":"2981"},{"lingua":"en","percorso":"/it/node/2985","created":"1410364763","changed":"1410862447","pubblicato":"1","uid":"88","tnid":"1804","risorse_collegate":[],"tipo":"page","title":"Incubators","nid":"2985"},{"lingua":"en","percorso":"/it/node/2986","created":"1410426634","changed":"1418317353","pubblicato":"1","uid":"88","tnid":"1773","risorse_collegate":[],"tipo":"page","title":"The market","nid":"2986"},{"lingua":"en","percorso":"/it/suap/semplificazione","created":"1410775617","changed":"1440652233","pubblicato":"1","uid":"88","tnid":"3004","risorse_collegate":[{"nid":"4384","access":true},{"nid":"4281","access":true},{"nid":"3110","access":true}],"tipo":"page","title":"Semplificazione","nid":"3004"},{"lingua":"en","percorso":"/it/node/3008","created":"1410787488","changed":"1418290836","pubblicato":"1","uid":"88","tnid":"1346","risorse_collegate":[{"nid":"3010","access":true},{"nid":"3012","access":true},{"nid":"3013","access":true},{"nid":"3016","access":true},{"nid":"3018","access":true}],"tipo":"page","title":"The cooperative and the consortium","nid":"3008"},{"lingua":"en","percorso":"/it/node/3010","created":"1410787857","changed":"1418290966","pubblicato":"1","uid":"88","tnid":"1347","risorse_collegate":[],"tipo":"page","title":"Description of cooperatives and consortia","nid":"3010"},{"lingua":"en","percorso":"/it/node/3012","created":"1410788390","changed":"1418290932","pubblicato":"1","uid":"88","tnid":"1348","risorse_collegate":[],"tipo":"page","title":"Why choose a cooperative or a consortium: advantages and disadvantages","nid":"3012"},{"lingua":"en","percorso":"/it/node/3013","created":"1410788947","changed":"1418291540","pubblicato":"1","uid":"88","tnid":"1349","risorse_collegate":[],"tipo":"page","title":"The cooperative","nid":"3013"},{"lingua":"en","percorso":"/it/node/3016","created":"1410791238","changed":"1418291941","pubblicato":"1","uid":"88","tnid":"1350","risorse_collegate":[],"tipo":"page","title":"The consortium and the consortium company","nid":"3016"},{"lingua":"en","percorso":"/it/node/3018","created":"1410791163","changed":"1418292122","pubblicato":"1","uid":"88","tnid":"1351","risorse_collegate":[],"tipo":"page","title":"The accounting system: the ordinary accounting scheme management","nid":"3018"},{"lingua":"en","percorso":"/it/node/3019","created":"1410792174","changed":"1418296929","pubblicato":"1","uid":"88","tnid":"1353","risorse_collegate":[{"nid":"3021","access":true},{"nid":"3022","access":true},{"nid":"3023","access":true}],"tipo":"page","title":"The calculation of the tax base","nid":"3019"},{"lingua":"en","percorso":"/it/node/3021","created":"1410792183","changed":"1418297247","pubblicato":"1","uid":"88","tnid":"1354","risorse_collegate":[],"tipo":"page","title":"The Calculation Of The Tax Base - the general principles","nid":"3021"},{"lingua":"en","percorso":"/it/node/3022","created":"1410792673","changed":"1418298380","pubblicato":"1","uid":"88","tnid":"1355","risorse_collegate":[],"tipo":"page","title":"What is it the tax base","nid":"3022"},{"lingua":"en","percorso":"/it/node/3023","created":"1410793023","changed":"1418298494","pubblicato":"1","uid":"88","tnid":"1356","risorse_collegate":[],"tipo":"page","title":"How it is calculated","nid":"3023"},{"lingua":"en","percorso":"/it/node/3027","created":"1410796637","changed":"1414490381","pubblicato":"1","uid":"88","tnid":"52","risorse_collegate":[],"tipo":"page","title":"Welcome to Sardegna Impresa","nid":"3027"},{"lingua":"en","percorso":"/it/node/3029","created":"1410854613","changed":"1431414576","pubblicato":"1","uid":"88","tnid":"139","risorse_collegate":[],"tipo":"page","title":"Services","nid":"3029"},{"lingua":"en","percorso":"/it/node/3871","created":"1423585639","changed":"1423585231","pubblicato":"1","uid":"88","tnid":"3004","risorse_collegate":[{"nid":"3110","access":true}],"tipo":"page","title":"Simplification","nid":"3871"},{"lingua":"en","percorso":"/it/node/4419","created":"1441709740","changed":"1442995076","pubblicato":"1","uid":"88","tnid":"2058","risorse_collegate":[],"tipo":"page","title":"\u00bfQu\u00e9 es la SUAP?","nid":"4419"},{"lingua":"en","percorso":"/it/node/4427","created":"1441804785","changed":"1441805833","pubblicato":"1","uid":"88","tnid":"2063","risorse_collegate":[],"tipo":"page","title":"C\u00f3mo funciona","nid":"4427"},{"lingua":"en","percorso":"/it/node/4428","created":"1441806037","changed":"1441806045","pubblicato":"1","uid":"88","tnid":"2061","risorse_collegate":[],"tipo":"page","title":"Normativa","nid":"4428"},{"lingua":"en","percorso":"/it/node/4429","created":"1441806378","changed":"1441806785","pubblicato":"1","uid":"88","tnid":"2064","risorse_collegate":[],"tipo":"page","title":"D\u00f3nde se encuentra","nid":"4429"},{"lingua":"en","percorso":"/it/node/4430","created":"1441807273","changed":"1442995152","pubblicato":"1","uid":"88","tnid":"2057","risorse_collegate":[],"tipo":"page","title":"Todos las informaciones","nid":"4430"},{"lingua":"en","percorso":"/it/node/4431","created":"1441807695","changed":"1442994304","pubblicato":"1","uid":"88","tnid":"2060","risorse_collegate":[],"tipo":"page","title":"Ayuda","nid":"4431"},{"lingua":"en","percorso":"/it/node/4432","created":"1441808967","changed":"1441808978","pubblicato":"1","uid":"88","tnid":"2068","risorse_collegate":[],"tipo":"page","title":"Servicios para SUAP y entidades terceras","nid":"4432"},{"lingua":"en","percorso":"/it/node/4433","created":"1441809681","changed":"1441809696","pubblicato":"1","uid":"88","tnid":"2067","risorse_collegate":[],"tipo":"page","title":"Servicios para los empresarios","nid":"4433"},{"lingua":"en","percorso":"/it/node/4434","created":"1441810871","changed":"1441810900","pubblicato":"1","uid":"88","tnid":"3004","risorse_collegate":[],"tipo":"page","title":"Simplificaci\u00f3n","nid":"4434"},{"lingua":"en","percorso":"/it/node/4438","created":"1441871237","changed":"1441871251","pubblicato":"1","uid":"88","tnid":"4438","risorse_collegate":[],"tipo":"page","title":"Actividades excluidas SUAP","nid":"4438"},{"lingua":"en","percorso":"/it/node/4439","created":"1441871573","changed":"1441871683","pubblicato":"1","uid":"88","tnid":"3094","risorse_collegate":[],"tipo":"page","title":"Actividades libres (no necesitan ninguna autorizaci\u00f3n de competencia de la SUAP)","nid":"4439"},{"lingua":"en","percorso":"/it/node/4440","created":"1441874024","changed":"1442569248","pubblicato":"1","uid":"88","tnid":"1775","risorse_collegate":[],"tipo":"page","title":"Invertir en Cerde\u00f1a","nid":"4440"},{"lingua":"en","percorso":"/it/node/4441","created":"1441874337","changed":"1442569352","pubblicato":"1","uid":"88","tnid":"1773","risorse_collegate":[{"nid":"4442","access":true},{"nid":"4443","access":true},{"nid":"4444","access":true}],"tipo":"page","title":"El Mercado","nid":"4441"},{"lingua":"en","percorso":"/it/node/4442","created":"1441874755","changed":"1447921987","pubblicato":"1","uid":"88","tnid":"1774","risorse_collegate":[],"tipo":"page","title":"El contexto macroecon\u00f3mico","nid":"4442"},{"lingua":"en","percorso":"/it/node/4443","created":"1441875440","changed":"1447925668","pubblicato":"1","uid":"88","tnid":"1776","risorse_collegate":[],"tipo":"page","title":"La poblaci\u00f3n","nid":"4443"},{"lingua":"en","percorso":"/it/node/4444","created":"1441875705","changed":"1447925743","pubblicato":"1","uid":"88","tnid":"1777","risorse_collegate":[],"tipo":"page","title":"El mundo productivo","nid":"4444"},{"lingua":"en","percorso":"/it/node/4445","created":"1441876058","changed":"1442583177","pubblicato":"1","uid":"88","tnid":"1874","risorse_collegate":[{"nid":"4446","access":true},{"nid":"4447","access":true},{"nid":"4448","access":true},{"nid":"4449","access":true},{"nid":"4450","access":true},{"nid":"4451","access":true}],"tipo":"page","title":"Vocaciones productivas","nid":"4445"},{"lingua":"en","percorso":"/it/node/4446","created":"1441876314","changed":"1441876327","pubblicato":"1","uid":"88","tnid":"1779","risorse_collegate":[],"tipo":"page","title":"Los distritos industriales y sistemas productivos locales","nid":"4446"},{"lingua":"en","percorso":"/it/node/4447","created":"1441876555","changed":"1441876567","pubblicato":"1","uid":"88","tnid":"1780","risorse_collegate":[],"tipo":"page","title":"Turismo","nid":"4447"},{"lingua":"en","percorso":"/it/node/4448","created":"1441876731","changed":"1441876835","pubblicato":"1","uid":"88","tnid":"1781","risorse_collegate":[],"tipo":"page","title":"Artesan\u00eda","nid":"4448"},{"lingua":"en","percorso":"/it/node/4449","created":"1441876931","changed":"1441876945","pubblicato":"1","uid":"88","tnid":"1782","risorse_collegate":[],"tipo":"page","title":"Agroindustria","nid":"4449"},{"lingua":"en","percorso":"/it/node/4450","created":"1441878854","changed":"1441878875","pubblicato":"1","uid":"88","tnid":"1783","risorse_collegate":[],"tipo":"page","title":"Industria tradicional","nid":"4450"},{"lingua":"en","percorso":"/it/node/4451","created":"1441879226","changed":"1441879237","pubblicato":"1","uid":"88","tnid":"1784","risorse_collegate":[],"tipo":"page","title":"Servicios","nid":"4451"},{"lingua":"en","percorso":"/it/node/4452","created":"1441879496","changed":"1442569491","pubblicato":"1","uid":"88","tnid":"1785","risorse_collegate":[{"nid":"4456","access":true},{"nid":"4458","access":true},{"nid":"4457","access":true},{"nid":"4459","access":true}],"tipo":"page","title":"Los factores de producci\u00f3n","nid":"4452"},{"lingua":"en","percorso":"/it/node/4453","created":"1441879815","changed":"1442582440","pubblicato":"1","uid":"88","tnid":"1786","risorse_collegate":[{"nid":"4454","access":true},{"nid":"4455","access":true}],"tipo":"page","title":"Trabajo y educaci\u00f3n","nid":"4453"},{"lingua":"en","percorso":"/it/node/4454","created":"1441881336","changed":"1441881351","pubblicato":"1","uid":"88","tnid":"1787","risorse_collegate":[],"tipo":"page","title":"Mano de obra y empleo","nid":"4454"},{"lingua":"en","percorso":"/it/node/4455","created":"1441881590","changed":"1441881619","pubblicato":"1","uid":"88","tnid":"1788","risorse_collegate":[],"tipo":"page","title":"Capital humano","nid":"4455"},{"lingua":"en","percorso":"/it/node/4456","created":"1441881768","changed":"1441881776","pubblicato":"1","uid":"88","tnid":"1789","risorse_collegate":[],"tipo":"page","title":"El clima","nid":"4456"},{"lingua":"en","percorso":"/it/node/4457","created":"1441882017","changed":"1441882037","pubblicato":"1","uid":"88","tnid":"1790","risorse_collegate":[],"tipo":"page","title":"Los recursos naturales","nid":"4457"},{"lingua":"en","percorso":"/it/node/4458","created":"1441882272","changed":"1441882289","pubblicato":"1","uid":"88","tnid":"1791","risorse_collegate":[],"tipo":"page","title":"Los recursos culturales","nid":"4458"},{"lingua":"en","percorso":"/it/node/4459","created":"1441882512","changed":"1442582701","pubblicato":"1","uid":"88","tnid":"1792","risorse_collegate":[{"nid":"4460","access":true},{"nid":"4464","access":true},{"nid":"4465","access":true},{"nid":"4466","access":true},{"nid":"4467","access":true},{"nid":"4468","access":true}],"tipo":"page","title":"El sistema de las infraestructuras","nid":"4459"},{"lingua":"en","percorso":"/it/node/4460","created":"1441883085","changed":"1442582869","pubblicato":"1","uid":"88","tnid":"1793","risorse_collegate":[{"nid":"4461","access":true},{"nid":"4462","access":true},{"nid":"4463","access":true}],"tipo":"page","title":"Redes de transporte","nid":"4460"},{"lingua":"en","percorso":"/it/node/4461","created":"1441888063","changed":"1441888073","pubblicato":"1","uid":"88","tnid":"1794","risorse_collegate":[],"tipo":"page","title":"Ferrocarriles y carreteras","nid":"4461"},{"lingua":"en","percorso":"/it/node/4462","created":"1441888282","changed":"1441888291","pubblicato":"1","uid":"88","tnid":"1795","risorse_collegate":[],"tipo":"page","title":"Puertos","nid":"4462"},{"lingua":"en","percorso":"/it/node/4463","created":"1441888582","changed":"1441888590","pubblicato":"1","uid":"88","tnid":"1796","risorse_collegate":[],"tipo":"page","title":"Aeropuertos","nid":"4463"},{"lingua":"en","percorso":"/it/node/4464","created":"1441888889","changed":"1441888950","pubblicato":"1","uid":"88","tnid":"1797","risorse_collegate":[],"tipo":"page","title":"La movilidad y la circulaci\u00f3n de mercanc\u00edas y personas","nid":"4464"},{"lingua":"en","percorso":"/it/node/4465","created":"1441889200","changed":"1441889329","pubblicato":"1","uid":"88","tnid":"1798","risorse_collegate":[],"tipo":"page","title":"Redes de abastecimiento de agua","nid":"4465"},{"lingua":"en","percorso":"/it/node/4466","created":"1441889523","changed":"1441889755","pubblicato":"1","uid":"88","tnid":"1799","risorse_collegate":[],"tipo":"page","title":"Redes energ\u00e9ticas","nid":"4466"},{"lingua":"en","percorso":"/it/node/4467","created":"1441889910","changed":"1441889937","pubblicato":"1","uid":"88","tnid":"1800","risorse_collegate":[],"tipo":"page","title":"Redes telem\u00e1ticas","nid":"4467"},{"lingua":"en","percorso":"/it/node/4468","created":"1441890291","changed":"1441890302","pubblicato":"1","uid":"88","tnid":"1801","risorse_collegate":[],"tipo":"page","title":"Infraestructuras sociales","nid":"4468"},{"lingua":"en","percorso":"/it/node/4469","created":"1441891081","changed":"1442583351","pubblicato":"1","uid":"88","tnid":"1802","risorse_collegate":[{"nid":"4470","access":true},{"nid":"4471","access":true},{"nid":"4472","access":true}],"tipo":"page","title":"Cerde\u00f1a: el lugar en el que hacer empresa","nid":"4469"},{"lingua":"en","percorso":"/it/node/4470","created":"1441891767","changed":"1441891784","pubblicato":"1","uid":"88","tnid":"1803","risorse_collegate":[],"tipo":"page","title":"Una red equipada de polos industriales","nid":"4470"},{"lingua":"en","percorso":"/it/node/4471","created":"1441892380","changed":"1441892399","pubblicato":"1","uid":"88","tnid":"1804","risorse_collegate":[],"tipo":"page","title":"Las incubadoras","nid":"4471"},{"lingua":"en","percorso":"/it/node/4472","created":"1441893110","changed":"1441893132","pubblicato":"1","uid":"88","tnid":"1805","risorse_collegate":[],"tipo":"page","title":"Los centros de investigaci\u00f3n y desarrollo internacionales","nid":"4472"},{"lingua":"en","percorso":"/it/node/4478","created":"1441960112","changed":"1442990519","pubblicato":"1","uid":"88","tnid":"1302","risorse_collegate":[],"tipo":"page","title":"Impuestos y Reg\u00edmenes Fiscales","nid":"4478"},{"lingua":"en","percorso":"/it/node/4479","created":"1441960822","changed":"1442567152","pubblicato":"1","uid":"88","tnid":"1304","risorse_collegate":[{"nid":"4480","access":true},{"nid":"4485","access":true}],"tipo":"page","title":"Los impuestos directos e indirectos","nid":"4479"},{"lingua":"en","percorso":"/it/node/4480","created":"1441961477","changed":"1442499191","pubblicato":"1","uid":"88","tnid":"1305","risorse_collegate":[{"nid":"4484","access":true},{"nid":"4482","access":true},{"nid":"4481","access":true}],"tipo":"page","title":"Los impuestos directos","nid":"4480"},{"lingua":"en","percorso":"/it/node/4481","created":"1441962257","changed":"1441962278","pubblicato":"1","uid":"88","tnid":"1306","risorse_collegate":[],"tipo":"page","title":"El IRPEF","nid":"4481"},{"lingua":"en","percorso":"/it/node/4482","created":"1441962406","changed":"1441962434","pubblicato":"1","uid":"88","tnid":"1307","risorse_collegate":[],"tipo":"page","title":"El IRES: qu\u00e9 es y c\u00f3mo se calcula","nid":"4482"},{"lingua":"en","percorso":"/it/node/4484","created":"1441962633","changed":"1441962643","pubblicato":"1","uid":"88","tnid":"1308","risorse_collegate":[],"tipo":"page","title":"El IRAP: qu\u00e9 es y c\u00f3mo se calcula","nid":"4484"},{"lingua":"en","percorso":"/it/node/4485","created":"1441963140","changed":"1442501194","pubblicato":"1","uid":"88","tnid":"1309","risorse_collegate":[{"nid":"4486","access":true},{"nid":"4488","access":true},{"nid":"4487","access":true}],"tipo":"page","title":"Los impuestos indirectos","nid":"4485"},{"lingua":"en","percorso":"/it/node/4486","created":"1441964285","changed":"1478033339","pubblicato":"1","uid":"88","tnid":"1310","risorse_collegate":[],"tipo":"page","title":"El IVA: qu\u00e9 es y c\u00f3mo se calcula","nid":"4486"},{"lingua":"en","percorso":"/it/node/4487","created":"1441964506","changed":"1441964515","pubblicato":"1","uid":"88","tnid":"1311","risorse_collegate":[],"tipo":"page","title":"Los impuestos de registro, hipotecario y catastral: qu\u00e9 son y c\u00f3mo se calculan","nid":"4487"},{"lingua":"en","percorso":"/it/node/4488","created":"1441964638","changed":"1441964646","pubblicato":"1","uid":"88","tnid":"1312","risorse_collegate":[],"tipo":"page","title":"El impuesto de timbre: qu\u00e9 es y c\u00f3mo se calcula","nid":"4488"},{"lingua":"en","percorso":"/it/node/4489","created":"1441965417","changed":"1442502205","pubblicato":"1","uid":"88","tnid":"1313","risorse_collegate":[{"nid":"4490","access":true},{"nid":"4501","access":true},{"nid":"4506","access":true},{"nid":"4513","access":true},{"nid":"4523","access":true}],"tipo":"page","title":"Elige el r\u00e9gimen fiscal de tu empresa","nid":"4489"},{"lingua":"en","percorso":"/it/node/4490","created":"1441965653","changed":"1442503480","pubblicato":"1","uid":"88","tnid":"1314","risorse_collegate":[{"nid":"4491","access":true},{"nid":"4492","access":true},{"nid":"4493","access":true},{"nid":"4495","access":true},{"nid":"4496","access":true}],"tipo":"page","title":"La empresa individual","nid":"4490"},{"lingua":"en","percorso":"/it/node/4491","created":"1441966291","changed":"1441966301","pubblicato":"1","uid":"88","tnid":"1315","risorse_collegate":[],"tipo":"page","title":"Descripci\u00f3n de la empresa individual","nid":"4491"},{"lingua":"en","percorso":"/it/node/4492","created":"1441966524","changed":"1441966533","pubblicato":"1","uid":"88","tnid":"1316","risorse_collegate":[],"tipo":"page","title":"La elecci\u00f3n de la empresa individual","nid":"4492"},{"lingua":"en","percorso":"/it/node/4493","created":"1441966808","changed":"1441966836","pubblicato":"1","uid":"88","tnid":"1317","risorse_collegate":[],"tipo":"page","title":"La empresa individual: gesti\u00f3n contable simplificado","nid":"4493"},{"lingua":"en","percorso":"/it/node/4494","created":"1441969254","changed":"1441969264","pubblicato":"1","uid":"88","tnid":"1318","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria","nid":"4494"},{"lingua":"en","percorso":"/it/node/4495","created":"1441969634","changed":"1441969658","pubblicato":"1","uid":"88","tnid":"1320","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen de las nuevas iniciativas productivas","nid":"4495"},{"lingua":"en","percorso":"/it/node/4496","created":"1441970051","changed":"1441970076","pubblicato":"1","uid":"88","tnid":"1321","risorse_collegate":[],"tipo":"page","title":"El empresario agr\u00edcola y el r\u00e9gimen global","nid":"4496"},{"lingua":"en","percorso":"/it/node/4501","created":"1442305322","changed":"1442504330","pubblicato":"1","uid":"88","tnid":"1322","risorse_collegate":[{"nid":"4502","access":true},{"nid":"4503","access":true},{"nid":"4504","access":true},{"nid":"4512","access":true}],"tipo":"page","title":"La sociedad simple","nid":"4501"},{"lingua":"en","percorso":"/it/node/4502","created":"1442305553","changed":"1442305583","pubblicato":"1","uid":"88","tnid":"1323","risorse_collegate":[],"tipo":"page","title":"Descripci\u00f3n de la sociedad simple","nid":"4502"},{"lingua":"en","percorso":"/it/node/4503","created":"1442306351","changed":"1442306381","pubblicato":"1","uid":"88","tnid":"1324","risorse_collegate":[],"tipo":"page","title":"Elegir la sociedad simple","nid":"4503"},{"lingua":"en","percorso":"/it/node/4504","created":"1442307217","changed":"1442307230","pubblicato":"1","uid":"88","tnid":"1325","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en contabilidad simplificada","nid":"4504"},{"lingua":"en","percorso":"/it/node/4505","created":"1442307357","changed":"1442307420","pubblicato":"1","uid":"88","tnid":"1326","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria","nid":"4505"},{"lingua":"en","percorso":"/it/node/4506","created":"1442307943","changed":"1442567358","pubblicato":"1","uid":"88","tnid":"1328","risorse_collegate":[{"nid":"4507","access":true},{"nid":"4508","access":true},{"nid":"4509","access":true},{"nid":"4510","access":true},{"nid":"4504","access":true},{"nid":"4505","access":true}],"tipo":"page","title":"La sociedad de personas","nid":"4506"},{"lingua":"en","percorso":"/it/node/4507","created":"1442308508","changed":"1442308520","pubblicato":"1","uid":"88","tnid":"1329","risorse_collegate":[],"tipo":"page","title":"Descripci\u00f3n de la sociedad de personas","nid":"4507"},{"lingua":"en","percorso":"/it/node/4508","created":"1442308744","changed":"1442308754","pubblicato":"1","uid":"88","tnid":"1330","risorse_collegate":[],"tipo":"page","title":"Por qu\u00e9 elegir la sociedad de personas: ventajas y desventajas","nid":"4508"},{"lingua":"en","percorso":"/it/node/4509","created":"1442309273","changed":"1442309282","pubblicato":"1","uid":"88","tnid":"1331","risorse_collegate":[],"tipo":"page","title":"La sociedad colectiva","nid":"4509"},{"lingua":"en","percorso":"/it/node/4510","created":"1442309532","changed":"1442309541","pubblicato":"1","uid":"88","tnid":"1332","risorse_collegate":[],"tipo":"page","title":"La sociedad en comandita simple","nid":"4510"},{"lingua":"en","percorso":"/it/node/4511","created":"1442309880","changed":"1442309891","pubblicato":"1","uid":"88","tnid":"1333","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en contabilidad simplificada","nid":"4511"},{"lingua":"en","percorso":"/it/node/4512","created":"1442309984","changed":"1442309995","pubblicato":"1","uid":"88","tnid":"1334","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria","nid":"4512"},{"lingua":"en","percorso":"/it/node/4513","created":"1442310772","changed":"1442567873","pubblicato":"1","uid":"88","tnid":"1335","risorse_collegate":[{"nid":"4514","access":true},{"nid":"4515","access":true},{"nid":"4516","access":true},{"nid":"4517","access":true},{"nid":"4518","access":true},{"nid":"4520","access":true},{"nid":"4521","access":true},{"nid":"4522","access":true}],"tipo":"page","title":"La sociedad de capital","nid":"4513"},{"lingua":"en","percorso":"/it/node/4514","created":"1442310920","changed":"1442310973","pubblicato":"1","uid":"88","tnid":"1336","risorse_collegate":[],"tipo":"page","title":"Descripci\u00f3n de la sociedad de capital","nid":"4514"},{"lingua":"en","percorso":"/it/node/4515","created":"1442311057","changed":"1442311068","pubblicato":"1","uid":"88","tnid":"2885","risorse_collegate":[],"tipo":"page","title":"Por qu\u00e9 elegir la sociedad de capital: ventajas y desventajas","nid":"4515"},{"lingua":"en","percorso":"/it/node/4516","created":"1442314557","changed":"1442314569","pubblicato":"1","uid":"88","tnid":"1338","risorse_collegate":[],"tipo":"page","title":"La sociedad de responsabilidad limitada","nid":"4516"},{"lingua":"en","percorso":"/it/node/4517","created":"1442314805","changed":"1442314829","pubblicato":"1","uid":"88","tnid":"1339","risorse_collegate":[],"tipo":"page","title":"La sociedad de responsabilidad limitada con capital reducido","nid":"4517"},{"lingua":"en","percorso":"/it/node/4518","created":"1442320647","changed":"1442320661","pubblicato":"1","uid":"88","tnid":"1340","risorse_collegate":[],"tipo":"page","title":"La sociedad de responsabilidad limitada simplificada","nid":"4518"},{"lingua":"en","percorso":"/it/node/4520","created":"1442321045","changed":"1442321458","pubblicato":"1","uid":"88","tnid":"1341","risorse_collegate":[],"tipo":"page","title":"La sociedad an\u00f3nima","nid":"4520"},{"lingua":"en","percorso":"/it/node/4521","created":"1442322241","changed":"1442322265","pubblicato":"1","uid":"88","tnid":"1344","risorse_collegate":[],"tipo":"page","title":"La sociedad en comandita por acciones","nid":"4521"},{"lingua":"en","percorso":"/it/node/4522","created":"1442322418","changed":"1442322429","pubblicato":"1","uid":"88","tnid":"1345","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria","nid":"4522"},{"lingua":"en","percorso":"/it/node/4523","created":"1442322751","changed":"1442568071","pubblicato":"1","uid":"88","tnid":"1346","risorse_collegate":[{"nid":"4524","access":true},{"nid":"4525","access":true},{"nid":"4526","access":true},{"nid":"4527","access":true},{"nid":"4528","access":true}],"tipo":"page","title":"La cooperativa y el consorcio","nid":"4523"},{"lingua":"en","percorso":"/it/node/4524","created":"1442327622","changed":"1442327673","pubblicato":"1","uid":"88","tnid":"1347","risorse_collegate":[],"tipo":"page","title":"Descripci\u00f3n de las cooperativas y de las formas consorciales","nid":"4524"},{"lingua":"en","percorso":"/it/node/4525","created":"1442327839","changed":"1442327863","pubblicato":"1","uid":"88","tnid":"1348","risorse_collegate":[],"tipo":"page","title":"Por qu\u00e9 elegir la cooperativa o el consorcio: ventajas y desventajas","nid":"4525"},{"lingua":"en","percorso":"/it/node/4526","created":"1442328055","changed":"1442328100","pubblicato":"1","uid":"88","tnid":"1349","risorse_collegate":[],"tipo":"page","title":"La cooperativa","nid":"4526"},{"lingua":"en","percorso":"/it/node/4527","created":"1442328348","changed":"1442328362","pubblicato":"1","uid":"88","tnid":"1350","risorse_collegate":[],"tipo":"page","title":"El consorcio y la sociedad de consorcio","nid":"4527"},{"lingua":"en","percorso":"/it/node/4528","created":"1442328566","changed":"1442328576","pubblicato":"1","uid":"88","tnid":"1351","risorse_collegate":[],"tipo":"page","title":"El r\u00e9gimen contable: la gesti\u00f3n en la contabilidad ordinaria","nid":"4528"},{"lingua":"en","percorso":"/it/node/4529","created":"1442328976","changed":"1442568556","pubblicato":"1","uid":"88","tnid":"1353","risorse_collegate":[{"nid":"4530","access":true},{"nid":"4531","access":true},{"nid":"4532","access":true}],"tipo":"page","title":"El c\u00e1lculo de la base imponible","nid":"4529"},{"lingua":"en","percorso":"/it/node/4530","created":"1442329735","changed":"1442329884","pubblicato":"1","uid":"88","tnid":"1354","risorse_collegate":[],"tipo":"page","title":"C\u00e1lculo de la base imponible \u2013 Principios generales","nid":"4530"},{"lingua":"en","percorso":"/it/node/4531","created":"1442330034","changed":"1442330086","pubblicato":"1","uid":"88","tnid":"1355","risorse_collegate":[],"tipo":"page","title":"Qu\u00e9 es la base imponible","nid":"4531"},{"lingua":"en","percorso":"/it/node/4532","created":"1442330400","changed":"1442330436","pubblicato":"1","uid":"88","tnid":"1356","risorse_collegate":[],"tipo":"page","title":"Descubre c\u00f3mo se calcula","nid":"4532"},{"lingua":"en","percorso":"/it/node/4533","created":"1442330860","changed":"1442330870","pubblicato":"1","uid":"88","tnid":"52","risorse_collegate":[],"tipo":"page","title":"Bienvenido a Cerde\u00f1a Empresa","nid":"4533"},{"lingua":"en","percorso":"/it/node/4707","created":"1447927982","changed":"1447928041","pubblicato":"1","uid":"88","tnid":"1352","risorse_collegate":[],"tipo":"page","title":"Health &amp; Safety","nid":"4707"},{"lingua":"en","percorso":"/it/node/4715","created":"1447944451","changed":"1447944476","pubblicato":"1","uid":"88","tnid":"1587","risorse_collegate":[],"tipo":"page","title":"Human resource management","nid":"4715"},{"lingua":"en","percorso":"/it/node/5191","created":"1485346935","changed":"1485346946","pubblicato":"1","uid":"2051","tnid":"113","risorse_collegate":[],"tipo":"page","title":"Introduction to Italian taxes and tax schemes","nid":"5191"}]}
+{
+  "items": [
+    {
+      "lingua": "en",
+      "percorso": "/it/benvenuto-su-sardegna-impresa",
+      "created": "1346407718",
+      "changed": "1418373713",
+      "pubblicato": "1",
+      "uid": "1",
+      "tnid": "52",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Benvenuto su Sardegna Impresa",
+      "nid": "52"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti",
+      "created": "1346775520",
+      "changed": "1476863086",
+      "pubblicato": "1",
+      "uid": "1",
+      "tnid": "113",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Approfondimenti",
+      "nid": "113"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi",
+      "created": "1346776185",
+      "changed": "1409651633",
+      "pubblicato": "1",
+      "uid": "1",
+      "tnid": "139",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Servizi",
+      "nid": "139"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali",
+      "created": "1379344514",
+      "changed": "1487785822",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1302",
+      "risorse_collegate": [
+        {
+          "nid": "5267",
+          "access": true
+        },
+        {
+          "nid": "5176",
+          "access": true
+        },
+        {
+          "nid": "5072",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Tasse e regimi fiscali",
+      "nid": "1302"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette",
+      "created": "1379509377",
+      "changed": "1487860757",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1304",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Le imposte dirette e indirette",
+      "nid": "1304"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette",
+      "created": "1379580627",
+      "changed": "1406619452",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1305",
+      "risorse_collegate": [
+        {
+          "nid": "1306",
+          "access": true
+        },
+        {
+          "nid": "1307",
+          "access": true
+        },
+        {
+          "nid": "1308",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Le imposte dirette",
+      "nid": "1305"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette/irpef",
+      "created": "1379582734",
+      "changed": "1379943020",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1306",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "IRPEF",
+      "nid": "1306"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette/ires",
+      "created": "1379585484",
+      "changed": "1478422467",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1307",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "IRES",
+      "nid": "1307"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-dirette/irap",
+      "created": "1379586606",
+      "changed": "1426666497",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1308",
+      "risorse_collegate": [
+        {
+          "nid": "4016",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "IRAP",
+      "nid": "1308"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette",
+      "created": "1379587487",
+      "changed": "1409564739",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1309",
+      "risorse_collegate": [
+        {
+          "nid": "1310",
+          "access": true
+        },
+        {
+          "nid": "1311",
+          "access": true
+        },
+        {
+          "nid": "1312",
+          "access": true
+        },
+        {
+          "nid": "2819",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Le imposte indirette",
+      "nid": "1309"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette/iva",
+      "created": "1379588516",
+      "changed": "1477934497",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1310",
+      "risorse_collegate": [
+        {
+          "nid": "2822",
+          "access": true
+        },
+        {
+          "nid": "2824",
+          "access": true
+        },
+        {
+          "nid": "3836",
+          "access": true
+        },
+        {
+          "nid": "4132",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "IVA",
+      "nid": "1310"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette/le",
+      "created": "1379589070",
+      "changed": "1398325725",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1311",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Le imposte di registro ipotecaria e catastale",
+      "nid": "1311"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-imposte-dirette-e-indirette/le-imposte-indirette/limposta",
+      "created": "1379589682",
+      "changed": "1380892889",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1312",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "L&#039;imposta di bollo",
+      "nid": "1312"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/scegli-il-regime-fiscale-della-tua-impresa",
+      "created": "1379593796",
+      "changed": "1406557116",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1313",
+      "risorse_collegate": [
+        {
+          "nid": "1314",
+          "access": true
+        },
+        {
+          "nid": "1322",
+          "access": true
+        },
+        {
+          "nid": "1328",
+          "access": true
+        },
+        {
+          "nid": "1335",
+          "access": true
+        },
+        {
+          "nid": "1346",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Scegli il regime fiscale della tua impresa",
+      "nid": "1313"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/ditta-individuale",
+      "created": "1379594407",
+      "changed": "1495963880",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1314",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ditta individuale",
+      "nid": "1314"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-5",
+      "created": "1379595339",
+      "changed": "1379595450",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1315",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ditta individuale - descrizione",
+      "nid": "1315"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-4",
+      "created": "1379595795",
+      "changed": "1379595813",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1316",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ditta individuale - perch\u00e9 sceglierla",
+      "nid": "1316"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-3",
+      "created": "1379596342",
+      "changed": "1380893074",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1317",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ditta individuale - gestione in contabilit\u00e0 semplificata",
+      "nid": "1317"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-2",
+      "created": "1379596691",
+      "changed": "1380893122",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1318",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ditta individuale - gestione in contabilit\u00e0 ordinaria",
+      "nid": "1318"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-1",
+      "created": "1379596951",
+      "changed": "1429175017",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1319",
+      "risorse_collegate": [
+        {
+          "nid": "4092",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Ditta individuale - regime dei minimi",
+      "nid": "1319"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta-0",
+      "created": "1379597647",
+      "changed": "1429175064",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1320",
+      "risorse_collegate": [
+        {
+          "nid": "4092",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Ditta individuale - regime delle nuove iniziative produttive",
+      "nid": "1320"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-ditta-individuale/ditta",
+      "created": "1379598304",
+      "changed": "1429175155",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1321",
+      "risorse_collegate": [
+        {
+          "nid": "4092",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Ditta individuale - regime forfetario  ",
+      "nid": "1321"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-semplice",
+      "created": "1379598740",
+      "changed": "1406559470",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1322",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 semplice ",
+      "nid": "1322"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0-2",
+      "created": "1379599735",
+      "changed": "1379599895",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1323",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 semplice - descrizione",
+      "nid": "1323"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0-1",
+      "created": "1379600331",
+      "changed": "1379600344",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1324",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 semplice - perch\u00e9 sceglierla",
+      "nid": "1324"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0-0",
+      "created": "1379601087",
+      "changed": "1380893336",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1325",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 semplice - gestione in contabilit\u00e0 semplificata",
+      "nid": "1325"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-societ%C3%A0-semplice/societ%C3%A0",
+      "created": "1379601668",
+      "changed": "1379601685",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1326",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 semplice - gestione in contabilit\u00e0 ordinaria",
+      "nid": "1326"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-di-persone",
+      "created": "1379605729",
+      "changed": "1406560473",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1328",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di persone",
+      "nid": "1328"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-di-persone-descrizione",
+      "created": "1379606158",
+      "changed": "1379607423",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1329",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di persone - descrizione",
+      "nid": "1329"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0--1",
+      "created": "1379607148",
+      "changed": "1379607161",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1330",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di persone - perch\u00e9 sceglierla",
+      "nid": "1330"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0-0",
+      "created": "1379608019",
+      "changed": "1379608044",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1331",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 in nome collettivo",
+      "nid": "1331"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0",
+      "created": "1379608239",
+      "changed": "1379608261",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1332",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 in accomandita semplice",
+      "nid": "1332"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0--0",
+      "created": "1379608501",
+      "changed": "1380893481",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1333",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di persone - regime in contabilit\u00e0 semplificata",
+      "nid": "1333"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-persone/societ%C3%A0-di",
+      "created": "1379608804",
+      "changed": "1380893533",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1334",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di persone - regime in contabilit\u00e0 ordinaria",
+      "nid": "1334"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/societ%C3%A0-di-capitali",
+      "created": "1379608983",
+      "changed": "1409927627",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1335",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di capitali",
+      "nid": "1335"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-3",
+      "created": "1379609626",
+      "changed": "1379609648",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1336",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di capitali - descrizione",
+      "nid": "1336"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-2",
+      "created": "1379610157",
+      "changed": "1379610294",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1338",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 a responsabilit\u00e0 limitata",
+      "nid": "1338"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/la-0",
+      "created": "1379610751",
+      "changed": "1485162043",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1339",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 a responsabilit\u00e0 limitata a capitale ridotto",
+      "nid": "1339"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/la",
+      "created": "1379610968",
+      "changed": "1379611154",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1340",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 a responsabilit\u00e0 limitata semplificata",
+      "nid": "1340"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-1",
+      "created": "1379611576",
+      "changed": "1379611590",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1341",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 per azioni",
+      "nid": "1341"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-0",
+      "created": "1379665146",
+      "changed": "1379665164",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1344",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 in accomandita per azioni",
+      "nid": "1344"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0",
+      "created": "1379665537",
+      "changed": "1380893818",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1345",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di capitali - regime in contabilit\u00e0 ordinaria ",
+      "nid": "1345"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/cooperativa-e-consorzio",
+      "created": "1379665893",
+      "changed": "1406562025",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1346",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Cooperativa e consorzio",
+      "nid": "1346"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio-1",
+      "created": "1379666520",
+      "changed": "1379666844",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1347",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Cooperativa e consorzio - descrizione",
+      "nid": "1347"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio-0",
+      "created": "1379667476",
+      "changed": "1379667527",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1348",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Cooperativa e consorzio - perch\u00e9 sceglierla",
+      "nid": "1348"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa",
+      "created": "1379667873",
+      "changed": "1380894250",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1349",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La cooperativa",
+      "nid": "1349"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio/il",
+      "created": "1379670556",
+      "changed": "1379670572",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1350",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Il consorzio e la societ\u00e0 consortile",
+      "nid": "1350"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/la-cooperativa-e-il-consorzio",
+      "created": "1379671085",
+      "changed": "1380894374",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1351",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Cooperativa e consorzio - gestione in contabilit\u00e0 ordinaria",
+      "nid": "1351"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/la-sicurezza-sul-lavoro",
+      "created": "1379671559",
+      "changed": "1487859822",
+      "pubblicato": "1",
+      "uid": "169",
+      "tnid": "1352",
+      "risorse_collegate": [
+        {
+          "nid": "5265",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "La sicurezza sul lavoro",
+      "nid": "1352"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/calcolo-della-base-imponibile",
+      "created": "1379674069",
+      "changed": "1487860798",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1353",
+      "risorse_collegate": [
+        {
+          "nid": "1354",
+          "access": true
+        },
+        {
+          "nid": "1355",
+          "access": true
+        },
+        {
+          "nid": "1356",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Calcolo della base imponibile",
+      "nid": "1353"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/il-calcolo-della-base-imponibile/principi-generali",
+      "created": "1379674369",
+      "changed": "1379674386",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1354",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Principi generali",
+      "nid": "1354"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/il-calcolo-della-base-imponibile/principi-generali/cosa-%C3%A8-la",
+      "created": "1379675319",
+      "changed": "1379675332",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1355",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Cosa \u00e8 la base imponibile",
+      "nid": "1355"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/il-calcolo-della-base-imponibile/principi-generali/scopri",
+      "created": "1379675999",
+      "changed": "1379676038",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1356",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Scopri come si calcola la base imponibile",
+      "nid": "1356"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/gestione-delle-risorse-umane",
+      "created": "1380749615",
+      "changed": "1487860692",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1587",
+      "risorse_collegate": [
+        {
+          "nid": "5164",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Gestione delle risorse umane",
+      "nid": "1587"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato",
+      "created": "1384271630",
+      "changed": "1432220796",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1773",
+      "risorse_collegate": [
+        {
+          "nid": "1774",
+          "access": true
+        },
+        {
+          "nid": "1776",
+          "access": true
+        },
+        {
+          "nid": "1777",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Il mercato",
+      "nid": "1773"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/il-contesto-macroeconomico",
+      "created": "1384274005",
+      "changed": "1447751682",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1774",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Il contesto macroeconomico",
+      "nid": "1774"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna",
+      "created": "1384275820",
+      "changed": "1436177146",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1775",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Investire in Sardegna",
+      "nid": "1775"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/la-popolazione",
+      "created": "1384276236",
+      "changed": "1447751764",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1776",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La popolazione",
+      "nid": "1776"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/il-tessuto-produttivo",
+      "created": "1384276464",
+      "changed": "1447751841",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1777",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Il tessuto produttivo",
+      "nid": "1777"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/i-distretti-industriali-e-sistemi",
+      "created": "1384276707",
+      "changed": "1386605492",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1779",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "I distretti industriali e sistemi produttivi locali",
+      "nid": "1779"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/turismo",
+      "created": "1384276787",
+      "changed": "1432221650",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1780",
+      "risorse_collegate": [
+        {
+          "nid": "2892",
+          "access": true
+        },
+        {
+          "nid": "3513",
+          "access": true
+        },
+        {
+          "nid": "3502",
+          "access": true
+        },
+        {
+          "nid": "3459",
+          "access": true
+        },
+        {
+          "nid": "3448",
+          "access": true
+        },
+        {
+          "nid": "3434",
+          "access": true
+        },
+        {
+          "nid": "3429",
+          "access": true
+        },
+        {
+          "nid": "3358",
+          "access": true
+        },
+        {
+          "nid": "3170",
+          "access": true
+        },
+        {
+          "nid": "3148",
+          "access": true
+        },
+        {
+          "nid": "3140",
+          "access": true
+        },
+        {
+          "nid": "2892",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Turismo",
+      "nid": "1780"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/artigianato",
+      "created": "1384276926",
+      "changed": "1422262776",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1781",
+      "risorse_collegate": [
+        {
+          "nid": "3645",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Artigianato",
+      "nid": "1781"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/agroindustria",
+      "created": "1384277045",
+      "changed": "1421919787",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1782",
+      "risorse_collegate": [
+        {
+          "nid": "3082",
+          "access": true
+        },
+        {
+          "nid": "3747",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Agroindustria",
+      "nid": "1782"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/industria-tradizionale",
+      "created": "1384277155",
+      "changed": "1432221883",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1783",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Industria tradizionale",
+      "nid": "1783"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/il-mercato/vocazioni-produttive/servizi",
+      "created": "1384277226",
+      "changed": "1432221805",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1784",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Servizi",
+      "nid": "1784"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione",
+      "created": "1384296041",
+      "changed": "1409151935",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1785",
+      "risorse_collegate": [
+        {
+          "nid": "1786",
+          "access": true
+        },
+        {
+          "nid": "1789",
+          "access": true
+        },
+        {
+          "nid": "1790",
+          "access": true
+        },
+        {
+          "nid": "1791",
+          "access": true
+        },
+        {
+          "nid": "1792",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "I fattori di produzione",
+      "nid": "1785"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/lavoro-e-istruzione",
+      "created": "1384296516",
+      "changed": "1432222803",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1786",
+      "risorse_collegate": [
+        {
+          "nid": "1787",
+          "access": true
+        },
+        {
+          "nid": "1788",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Lavoro e Istruzione",
+      "nid": "1786"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/lavoro-e-istruzione/forza-lavoro-e-occupazione",
+      "created": "1384297006",
+      "changed": "1384297029",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1787",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Forza lavoro e occupazione",
+      "nid": "1787"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/lavoro-e-istruzione/capitale-umano",
+      "created": "1384297179",
+      "changed": "1384297194",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1788",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Capitale umano",
+      "nid": "1788"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-clima",
+      "created": "1384297508",
+      "changed": "1432223042",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1789",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Il clima",
+      "nid": "1789"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/le-risorse-naturali",
+      "created": "1384297812",
+      "changed": "1384297866",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1790",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Le risorse naturali",
+      "nid": "1790"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/le-risorse-culturali",
+      "created": "1384298024",
+      "changed": "1432221940",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1791",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Le risorse culturali",
+      "nid": "1791"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture",
+      "created": "1384298146",
+      "changed": "1406554082",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1792",
+      "risorse_collegate": [
+        {
+          "nid": "1793",
+          "access": true
+        },
+        {
+          "nid": "1797",
+          "access": true
+        },
+        {
+          "nid": "1798",
+          "access": true
+        },
+        {
+          "nid": "1799",
+          "access": true
+        },
+        {
+          "nid": "1800",
+          "access": true
+        },
+        {
+          "nid": "1801",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Il sistema delle infrastrutture",
+      "nid": "1792"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-trasporto",
+      "created": "1384298594",
+      "changed": "1406554519",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1793",
+      "risorse_collegate": [
+        {
+          "nid": "1794",
+          "access": true
+        },
+        {
+          "nid": "1795",
+          "access": true
+        },
+        {
+          "nid": "1796",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Reti di trasporto",
+      "nid": "1793"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-traspor-0",
+      "created": "1384298938",
+      "changed": "1410182331",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1794",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ferrovie e strade",
+      "nid": "1794"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-traspor-1",
+      "created": "1384299615",
+      "changed": "1386608580",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1795",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Porti",
+      "nid": "1795"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-di-traspor-2",
+      "created": "1384299924",
+      "changed": "1384337171",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1796",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Aeroporti",
+      "nid": "1796"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/la-mobilit%C3%A0-e-la",
+      "created": "1384337420",
+      "changed": "1384337466",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1797",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La mobilit\u00e0 e la circolazione di merci e persone",
+      "nid": "1797"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-idriche",
+      "created": "1384337538",
+      "changed": "1384337548",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1798",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Reti idriche",
+      "nid": "1798"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-energetiche",
+      "created": "1384337621",
+      "changed": "1384337635",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1799",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Reti energetiche",
+      "nid": "1799"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/reti-telematiche",
+      "created": "1384337698",
+      "changed": "1384337707",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1800",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Reti telematiche",
+      "nid": "1800"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/i-fattori-di-produzione/il-sistema-delle-infrastrutture/infrastrutture",
+      "created": "1384337840",
+      "changed": "1386608889",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1801",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Infrastrutture sociali",
+      "nid": "1801"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/dove-localizzarsi",
+      "created": "1384339696",
+      "changed": "1438162932",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1802",
+      "risorse_collegate": [
+        {
+          "nid": "1803",
+          "access": true
+        },
+        {
+          "nid": "1804",
+          "access": true
+        },
+        {
+          "nid": "1805",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Dove localizzarsi",
+      "nid": "1802"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/dove-localizzarsi/i-consorzi-industriali",
+      "created": "1384340292",
+      "changed": "1484670593",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1803",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "I consorzi industriali",
+      "nid": "1803"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/dove-localizzarsi/gli-incubatori-di-impresa",
+      "created": "1384340427",
+      "changed": "1481047202",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1804",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Gli incubatori di impresa",
+      "nid": "1804"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/dove-localizzarsi/i-centri-di-ricerca-crs4",
+      "created": "1384340536",
+      "changed": "1384340640",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1805",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "I centri di ricerca (CRS4)",
+      "nid": "1805"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/servizi/investire-sardegna/vocazioni-produttive",
+      "created": "1386684919",
+      "changed": "1409152435",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1874",
+      "risorse_collegate": [
+        {
+          "nid": "1779",
+          "access": true
+        },
+        {
+          "nid": "1780",
+          "access": true
+        },
+        {
+          "nid": "1781",
+          "access": true
+        },
+        {
+          "nid": "1782",
+          "access": true
+        },
+        {
+          "nid": "1783",
+          "access": true
+        },
+        {
+          "nid": "1784",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Vocazioni produttive",
+      "nid": "1874"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2792",
+      "created": "1408962036",
+      "changed": "1418141880",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1302",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Introduction to Italian taxes and tax schemes",
+      "nid": "2792"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2818",
+      "created": "1409559793",
+      "changed": "1410957204",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1304",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The italian direct and indirect taxes",
+      "nid": "2818"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2832",
+      "created": "1409666267",
+      "changed": "1418141884",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1305",
+      "risorse_collegate": [
+        {
+          "nid": "2838",
+          "access": true
+        },
+        {
+          "nid": "2839",
+          "access": true
+        },
+        {
+          "nid": "2840",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "The italian direct taxes",
+      "nid": "2832"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2838",
+      "created": "1409730311",
+      "changed": "1418142463",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1306",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "IRPEF: what it is and how it is calculated",
+      "nid": "2838"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2839",
+      "created": "1409731631",
+      "changed": "1418143960",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1307",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The IRES tax: what it is and how it is calculated",
+      "nid": "2839"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2840",
+      "created": "1409731820",
+      "changed": "1418144058",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1308",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The IRAP tax: what it is and how it is calculated",
+      "nid": "2840"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2841",
+      "created": "1409733048",
+      "changed": "1418145128",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1309",
+      "risorse_collegate": [
+        {
+          "nid": "2842",
+          "access": true
+        },
+        {
+          "nid": "2855",
+          "access": true
+        },
+        {
+          "nid": "2856",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "The indirect taxes",
+      "nid": "2841"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2842",
+      "created": "1409735691",
+      "changed": "1478033441",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1310",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The VAT: what it is and how it is calculated",
+      "nid": "2842"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2855",
+      "created": "1409837823",
+      "changed": "1418145284",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1311",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The registration, mortgage and land registry taxes: what they are and how to calculate them",
+      "nid": "2855"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2856",
+      "created": "1409839152",
+      "changed": "1418145505",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1312",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The italian stamp duty: what it is and how it is calculated",
+      "nid": "2856"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2857",
+      "created": "1409839703",
+      "changed": "1418199864",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1313",
+      "risorse_collegate": [
+        {
+          "nid": "2859",
+          "access": true
+        },
+        {
+          "nid": "2867",
+          "access": true
+        },
+        {
+          "nid": "2872",
+          "access": true
+        },
+        {
+          "nid": "2881",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Choose your company tax scheme",
+      "nid": "2857"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2859",
+      "created": "1409841531",
+      "changed": "1418200177",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1314",
+      "risorse_collegate": [
+        {
+          "nid": "2860",
+          "access": true
+        },
+        {
+          "nid": "2861",
+          "access": true
+        },
+        {
+          "nid": "2862",
+          "access": true
+        },
+        {
+          "nid": "2863",
+          "access": true
+        },
+        {
+          "nid": "2864",
+          "access": true
+        },
+        {
+          "nid": "2865",
+          "access": true
+        },
+        {
+          "nid": "2866",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "One-man business or individual concern or sole proprietorship",
+      "nid": "2859"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2860",
+      "created": "1409841769",
+      "changed": "1418200631",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1315",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Description of a sole proprietorship",
+      "nid": "2860"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2861",
+      "created": "1409843929",
+      "changed": "1418201340",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1316",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Sole proprietorship - why choose it",
+      "nid": "2861"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2862",
+      "created": "1409844928",
+      "changed": "1418201929",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1317",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Sole proprietorship - the simplified accounting scheme",
+      "nid": "2862"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2863",
+      "created": "1409845165",
+      "changed": "1418203665",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1318",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting scheme: the ordinary accounting scheme management",
+      "nid": "2863"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2864",
+      "created": "1409845163",
+      "changed": "1418204495",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1319",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The minimum taxpayer scheme",
+      "nid": "2864"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2865",
+      "created": "1409845367",
+      "changed": "1418204303",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1320",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The new production initiative scheme",
+      "nid": "2865"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2866",
+      "created": "1409847179",
+      "changed": "1418204501",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1321",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Farm entrepreneur and the flat-rate scheme",
+      "nid": "2866"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2867",
+      "created": "1409903485",
+      "changed": "1418204804",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1322",
+      "risorse_collegate": [
+        {
+          "nid": "2868",
+          "access": true
+        },
+        {
+          "nid": "2869",
+          "access": true
+        },
+        {
+          "nid": "2870",
+          "access": true
+        },
+        {
+          "nid": "2871",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "The simple partnership",
+      "nid": "2867"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2868",
+      "created": "1409903520",
+      "changed": "1418204987",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1323",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Description of a simple partnership",
+      "nid": "2868"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2869",
+      "created": "1409905594",
+      "changed": "1418205089",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1324",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Simple partnership - why choose it",
+      "nid": "2869"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2870",
+      "created": "1409910257",
+      "changed": "1418226888",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1325",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting system: the simplified accounting scheme",
+      "nid": "2870"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2871",
+      "created": "1409910485",
+      "changed": "1418212622",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1326",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting system: the ordinary accounting scheme ",
+      "nid": "2871"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2872",
+      "created": "1409911452",
+      "changed": "1418221667",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1328",
+      "risorse_collegate": [
+        {
+          "nid": "2875",
+          "access": true
+        },
+        {
+          "nid": "2876",
+          "access": true
+        },
+        {
+          "nid": "2877",
+          "access": true
+        },
+        {
+          "nid": "2878",
+          "access": true
+        },
+        {
+          "nid": "2870",
+          "access": true
+        },
+        {
+          "nid": "2880",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Partnerships",
+      "nid": "2872"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2875",
+      "created": "1409922813",
+      "changed": "1418214060",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1329",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Description of a partnership",
+      "nid": "2875"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2876",
+      "created": "1409922967",
+      "changed": "1418213972",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1330",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Why choose to set up a partnership: advantages and disadvantages",
+      "nid": "2876"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2877",
+      "created": "1409923483",
+      "changed": "1418221345",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1331",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The general partnership",
+      "nid": "2877"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2878",
+      "created": "1409923825",
+      "changed": "1418221870",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1332",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The limited Partnership",
+      "nid": "2878"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2879",
+      "created": "1409924260",
+      "changed": "1409924280",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1333",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting system: the simplified accounting scheme management",
+      "nid": "2879"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2880",
+      "created": "1409924485",
+      "changed": "1418228743",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1334",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting system: the ordinary accounting scheme ",
+      "nid": "2880"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2881",
+      "created": "1409924721",
+      "changed": "1418228988",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1335",
+      "risorse_collegate": [
+        {
+          "nid": "2883",
+          "access": true
+        },
+        {
+          "nid": "2884",
+          "access": true
+        },
+        {
+          "nid": "2887",
+          "access": true
+        },
+        {
+          "nid": "2888",
+          "access": true
+        },
+        {
+          "nid": "2889",
+          "access": true
+        },
+        {
+          "nid": "2890",
+          "access": true
+        },
+        {
+          "nid": "2891",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Joint-stock companies",
+      "nid": "2881"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2882",
+      "created": "1409925063",
+      "changed": "1409925115",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1336",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Description of a joint-stock company",
+      "nid": "2882"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2883",
+      "created": "1409925348",
+      "changed": "1418229746",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2885",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Why choose a joint-stock company: advantages and disadvantages",
+      "nid": "2883"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2884",
+      "created": "1409926504",
+      "changed": "1418229637",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1338",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The limited liability company",
+      "nid": "2884"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/approfondimenti/tasse-e-regimi-fiscali/le-forme-giuridiche-dimpresa/le-societ%C3%A0-di-capitali/societ%C3%A0-4",
+      "created": "1409927044",
+      "changed": "1409927057",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2885",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Societ\u00e0 di capitali - perch\u00e9 sceglierla",
+      "nid": "2885"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2887",
+      "created": "1409927810",
+      "changed": "1418230431",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1339",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The low-capital limited liability company",
+      "nid": "2887"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2888",
+      "created": "1409928082",
+      "changed": "1418288855",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1340",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The simplified limited liability company",
+      "nid": "2888"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2889",
+      "created": "1409928916",
+      "changed": "1418289061",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1341",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The joint-stock company",
+      "nid": "2889"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2890",
+      "created": "1409929273",
+      "changed": "1418289858",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1344",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The limited partnership with share capital",
+      "nid": "2890"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2891",
+      "created": "1409929507",
+      "changed": "1418290346",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1345",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting system: the ordinary accounting scheme ",
+      "nid": "2891"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2895",
+      "created": "1410165382",
+      "changed": "1487602924",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1775",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Invest in Sardinia",
+      "nid": "2895"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2896",
+      "created": "1410166278",
+      "changed": "1418312170",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1774",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The macroeconomic context",
+      "nid": "2896"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2897",
+      "created": "1410166582",
+      "changed": "1418312344",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1776",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The population",
+      "nid": "2897"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2898",
+      "created": "1410167192",
+      "changed": "1418312665",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1777",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The productive fabric",
+      "nid": "2898"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2899",
+      "created": "1410167393",
+      "changed": "1418312823",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1785",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The production factors",
+      "nid": "2899"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2900",
+      "created": "1410169436",
+      "changed": "1418315583",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1786",
+      "risorse_collegate": [
+        {
+          "nid": "3583",
+          "access": true
+        },
+        {
+          "nid": "3584",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Jobs and Education",
+      "nid": "2900"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2901",
+      "created": "1410169871",
+      "changed": "1410861078",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1789",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The climate",
+      "nid": "2901"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2903",
+      "created": "1410172056",
+      "changed": "1410861170",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1790",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Natural resources",
+      "nid": "2903"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2904",
+      "created": "1410174033",
+      "changed": "1410861308",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1791",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The cultural resources",
+      "nid": "2904"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2905",
+      "created": "1410174478",
+      "changed": "1410861389",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1792",
+      "risorse_collegate": [
+        {
+          "nid": "2906",
+          "access": true
+        },
+        {
+          "nid": "2910",
+          "access": true
+        },
+        {
+          "nid": "2966",
+          "access": true
+        },
+        {
+          "nid": "2967",
+          "access": true
+        },
+        {
+          "nid": "2968",
+          "access": true
+        },
+        {
+          "nid": "2969",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "The infrastructure system",
+      "nid": "2905"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2906",
+      "created": "1410181612",
+      "changed": "1410186761",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1793",
+      "risorse_collegate": [
+        {
+          "nid": "2907",
+          "access": true
+        },
+        {
+          "nid": "2908",
+          "access": true
+        },
+        {
+          "nid": "2909",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Transport networks",
+      "nid": "2906"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2907",
+      "created": "1410182574",
+      "changed": "1410182585",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1794",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Railways and roads",
+      "nid": "2907"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2908",
+      "created": "1410185351",
+      "changed": "1410185362",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1795",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ports",
+      "nid": "2908"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2909",
+      "created": "1410186304",
+      "changed": "1410186265",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1796",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Airports",
+      "nid": "2909"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2910",
+      "created": "1410189629",
+      "changed": "1410189641",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1797",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The mobility and circulation of goods and people",
+      "nid": "2910"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2966",
+      "created": "1410273389",
+      "changed": "1410273415",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1798",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Water distribution network",
+      "nid": "2966"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2967",
+      "created": "1410273756",
+      "changed": "1410273768",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1799",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Energy Networks",
+      "nid": "2967"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2968",
+      "created": "1410274257",
+      "changed": "1410274268",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1800",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "ICT networks",
+      "nid": "2968"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2969",
+      "created": "1410274325",
+      "changed": "1410274351",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1801",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Social infrastructures",
+      "nid": "2969"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2970",
+      "created": "1410275201",
+      "changed": "1418315707",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1874",
+      "risorse_collegate": [
+        {
+          "nid": "2971",
+          "access": true
+        },
+        {
+          "nid": "2972",
+          "access": true
+        },
+        {
+          "nid": "2973",
+          "access": true
+        },
+        {
+          "nid": "2974",
+          "access": true
+        },
+        {
+          "nid": "2976",
+          "access": true
+        },
+        {
+          "nid": "2977",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Productive vocation",
+      "nid": "2970"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2971",
+      "created": "1410275267",
+      "changed": "1418316342",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1779",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The industrial districts and the local production systems",
+      "nid": "2971"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2972",
+      "created": "1410276119",
+      "changed": "1418316416",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1780",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Tourism",
+      "nid": "2972"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2973",
+      "created": "1410276551",
+      "changed": "1418316479",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1781",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Craftsmanship",
+      "nid": "2973"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2974",
+      "created": "1410277178",
+      "changed": "1418316546",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1782",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Agribusiness",
+      "nid": "2974"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2976",
+      "created": "1410354631",
+      "changed": "1418316619",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1783",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Traditional industry",
+      "nid": "2976"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2977",
+      "created": "1410357593",
+      "changed": "1418316697",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1784",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Services",
+      "nid": "2977"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2979",
+      "created": "1410358296",
+      "changed": "1418376159",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1802",
+      "risorse_collegate": [
+        {
+          "nid": "2980",
+          "access": true
+        },
+        {
+          "nid": "2981",
+          "access": true
+        },
+        {
+          "nid": "2985",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Sardinia: the right place to start up a company",
+      "nid": "2979"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2980",
+      "created": "1410359070",
+      "changed": "1411466323",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1803",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "A network of industrial hubs",
+      "nid": "2980"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2981",
+      "created": "1410359610",
+      "changed": "1410862658",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1805",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Research centres and international development",
+      "nid": "2981"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2985",
+      "created": "1410364763",
+      "changed": "1410862447",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1804",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Incubators",
+      "nid": "2985"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/2986",
+      "created": "1410426634",
+      "changed": "1418317353",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1773",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The market",
+      "nid": "2986"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/suap/semplificazione",
+      "created": "1410775617",
+      "changed": "1440652233",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "3004",
+      "risorse_collegate": [
+        {
+          "nid": "4384",
+          "access": true
+        },
+        {
+          "nid": "4281",
+          "access": true
+        },
+        {
+          "nid": "3110",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Semplificazione",
+      "nid": "3004"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3008",
+      "created": "1410787488",
+      "changed": "1418290836",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1346",
+      "risorse_collegate": [
+        {
+          "nid": "3010",
+          "access": true
+        },
+        {
+          "nid": "3012",
+          "access": true
+        },
+        {
+          "nid": "3013",
+          "access": true
+        },
+        {
+          "nid": "3016",
+          "access": true
+        },
+        {
+          "nid": "3018",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "The cooperative and the consortium",
+      "nid": "3008"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3010",
+      "created": "1410787857",
+      "changed": "1418290966",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1347",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Description of cooperatives and consortia",
+      "nid": "3010"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3012",
+      "created": "1410788390",
+      "changed": "1418290932",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1348",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Why choose a cooperative or a consortium: advantages and disadvantages",
+      "nid": "3012"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3013",
+      "created": "1410788947",
+      "changed": "1418291540",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1349",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The cooperative",
+      "nid": "3013"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3016",
+      "created": "1410791238",
+      "changed": "1418291941",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1350",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The consortium and the consortium company",
+      "nid": "3016"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3018",
+      "created": "1410791163",
+      "changed": "1418292122",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1351",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The accounting system: the ordinary accounting scheme management",
+      "nid": "3018"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3019",
+      "created": "1410792174",
+      "changed": "1418296929",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1353",
+      "risorse_collegate": [
+        {
+          "nid": "3021",
+          "access": true
+        },
+        {
+          "nid": "3022",
+          "access": true
+        },
+        {
+          "nid": "3023",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "The calculation of the tax base",
+      "nid": "3019"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3021",
+      "created": "1410792183",
+      "changed": "1418297247",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1354",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "The Calculation Of The Tax Base - the general principles",
+      "nid": "3021"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3022",
+      "created": "1410792673",
+      "changed": "1418298380",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1355",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "What is it the tax base",
+      "nid": "3022"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3023",
+      "created": "1410793023",
+      "changed": "1418298494",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1356",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "How it is calculated",
+      "nid": "3023"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3027",
+      "created": "1410796637",
+      "changed": "1414490381",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "52",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Welcome to Sardegna Impresa",
+      "nid": "3027"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3029",
+      "created": "1410854613",
+      "changed": "1431414576",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "139",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Services",
+      "nid": "3029"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/3871",
+      "created": "1423585639",
+      "changed": "1423585231",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "3004",
+      "risorse_collegate": [
+        {
+          "nid": "3110",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Simplification",
+      "nid": "3871"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4419",
+      "created": "1441709740",
+      "changed": "1442995076",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2058",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "\u00bfQu\u00e9 es la SUAP?",
+      "nid": "4419"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4427",
+      "created": "1441804785",
+      "changed": "1441805833",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2063",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "C\u00f3mo funciona",
+      "nid": "4427"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4428",
+      "created": "1441806037",
+      "changed": "1441806045",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2061",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Normativa",
+      "nid": "4428"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4429",
+      "created": "1441806378",
+      "changed": "1441806785",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2064",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "D\u00f3nde se encuentra",
+      "nid": "4429"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4430",
+      "created": "1441807273",
+      "changed": "1442995152",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2057",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Todos las informaciones",
+      "nid": "4430"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4431",
+      "created": "1441807695",
+      "changed": "1442994304",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2060",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ayuda",
+      "nid": "4431"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4432",
+      "created": "1441808967",
+      "changed": "1441808978",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2068",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Servicios para SUAP y entidades terceras",
+      "nid": "4432"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4433",
+      "created": "1441809681",
+      "changed": "1441809696",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2067",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Servicios para los empresarios",
+      "nid": "4433"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4434",
+      "created": "1441810871",
+      "changed": "1441810900",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "3004",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Simplificaci\u00f3n",
+      "nid": "4434"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4438",
+      "created": "1441871237",
+      "changed": "1441871251",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "4438",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Actividades excluidas SUAP",
+      "nid": "4438"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4439",
+      "created": "1441871573",
+      "changed": "1441871683",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "3094",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Actividades libres (no necesitan ninguna autorizaci\u00f3n de competencia de la SUAP)",
+      "nid": "4439"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4440",
+      "created": "1441874024",
+      "changed": "1442569248",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1775",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Invertir en Cerde\u00f1a",
+      "nid": "4440"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4441",
+      "created": "1441874337",
+      "changed": "1442569352",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1773",
+      "risorse_collegate": [
+        {
+          "nid": "4442",
+          "access": true
+        },
+        {
+          "nid": "4443",
+          "access": true
+        },
+        {
+          "nid": "4444",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "El Mercado",
+      "nid": "4441"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4442",
+      "created": "1441874755",
+      "changed": "1447921987",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1774",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El contexto macroecon\u00f3mico",
+      "nid": "4442"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4443",
+      "created": "1441875440",
+      "changed": "1447925668",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1776",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La poblaci\u00f3n",
+      "nid": "4443"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4444",
+      "created": "1441875705",
+      "changed": "1447925743",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1777",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El mundo productivo",
+      "nid": "4444"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4445",
+      "created": "1441876058",
+      "changed": "1442583177",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1874",
+      "risorse_collegate": [
+        {
+          "nid": "4446",
+          "access": true
+        },
+        {
+          "nid": "4447",
+          "access": true
+        },
+        {
+          "nid": "4448",
+          "access": true
+        },
+        {
+          "nid": "4449",
+          "access": true
+        },
+        {
+          "nid": "4450",
+          "access": true
+        },
+        {
+          "nid": "4451",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Vocaciones productivas",
+      "nid": "4445"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4446",
+      "created": "1441876314",
+      "changed": "1441876327",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1779",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Los distritos industriales y sistemas productivos locales",
+      "nid": "4446"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4447",
+      "created": "1441876555",
+      "changed": "1441876567",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1780",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Turismo",
+      "nid": "4447"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4448",
+      "created": "1441876731",
+      "changed": "1441876835",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1781",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Artesan\u00eda",
+      "nid": "4448"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4449",
+      "created": "1441876931",
+      "changed": "1441876945",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1782",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Agroindustria",
+      "nid": "4449"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4450",
+      "created": "1441878854",
+      "changed": "1441878875",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1783",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Industria tradicional",
+      "nid": "4450"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4451",
+      "created": "1441879226",
+      "changed": "1441879237",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1784",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Servicios",
+      "nid": "4451"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4452",
+      "created": "1441879496",
+      "changed": "1442569491",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1785",
+      "risorse_collegate": [
+        {
+          "nid": "4456",
+          "access": true
+        },
+        {
+          "nid": "4458",
+          "access": true
+        },
+        {
+          "nid": "4457",
+          "access": true
+        },
+        {
+          "nid": "4459",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Los factores de producci\u00f3n",
+      "nid": "4452"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4453",
+      "created": "1441879815",
+      "changed": "1442582440",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1786",
+      "risorse_collegate": [
+        {
+          "nid": "4454",
+          "access": true
+        },
+        {
+          "nid": "4455",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Trabajo y educaci\u00f3n",
+      "nid": "4453"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4454",
+      "created": "1441881336",
+      "changed": "1441881351",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1787",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Mano de obra y empleo",
+      "nid": "4454"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4455",
+      "created": "1441881590",
+      "changed": "1441881619",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1788",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Capital humano",
+      "nid": "4455"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4456",
+      "created": "1441881768",
+      "changed": "1441881776",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1789",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El clima",
+      "nid": "4456"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4457",
+      "created": "1441882017",
+      "changed": "1441882037",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1790",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Los recursos naturales",
+      "nid": "4457"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4458",
+      "created": "1441882272",
+      "changed": "1441882289",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1791",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Los recursos culturales",
+      "nid": "4458"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4459",
+      "created": "1441882512",
+      "changed": "1442582701",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1792",
+      "risorse_collegate": [
+        {
+          "nid": "4460",
+          "access": true
+        },
+        {
+          "nid": "4464",
+          "access": true
+        },
+        {
+          "nid": "4465",
+          "access": true
+        },
+        {
+          "nid": "4466",
+          "access": true
+        },
+        {
+          "nid": "4467",
+          "access": true
+        },
+        {
+          "nid": "4468",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "El sistema de las infraestructuras",
+      "nid": "4459"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4460",
+      "created": "1441883085",
+      "changed": "1442582869",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1793",
+      "risorse_collegate": [
+        {
+          "nid": "4461",
+          "access": true
+        },
+        {
+          "nid": "4462",
+          "access": true
+        },
+        {
+          "nid": "4463",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Redes de transporte",
+      "nid": "4460"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4461",
+      "created": "1441888063",
+      "changed": "1441888073",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1794",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Ferrocarriles y carreteras",
+      "nid": "4461"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4462",
+      "created": "1441888282",
+      "changed": "1441888291",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1795",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Puertos",
+      "nid": "4462"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4463",
+      "created": "1441888582",
+      "changed": "1441888590",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1796",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Aeropuertos",
+      "nid": "4463"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4464",
+      "created": "1441888889",
+      "changed": "1441888950",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1797",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La movilidad y la circulaci\u00f3n de mercanc\u00edas y personas",
+      "nid": "4464"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4465",
+      "created": "1441889200",
+      "changed": "1441889329",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1798",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Redes de abastecimiento de agua",
+      "nid": "4465"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4466",
+      "created": "1441889523",
+      "changed": "1441889755",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1799",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Redes energ\u00e9ticas",
+      "nid": "4466"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4467",
+      "created": "1441889910",
+      "changed": "1441889937",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1800",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Redes telem\u00e1ticas",
+      "nid": "4467"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4468",
+      "created": "1441890291",
+      "changed": "1441890302",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1801",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Infraestructuras sociales",
+      "nid": "4468"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4469",
+      "created": "1441891081",
+      "changed": "1442583351",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1802",
+      "risorse_collegate": [
+        {
+          "nid": "4470",
+          "access": true
+        },
+        {
+          "nid": "4471",
+          "access": true
+        },
+        {
+          "nid": "4472",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Cerde\u00f1a: el lugar en el que hacer empresa",
+      "nid": "4469"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4470",
+      "created": "1441891767",
+      "changed": "1441891784",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1803",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Una red equipada de polos industriales",
+      "nid": "4470"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4471",
+      "created": "1441892380",
+      "changed": "1441892399",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1804",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Las incubadoras",
+      "nid": "4471"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4472",
+      "created": "1441893110",
+      "changed": "1441893132",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1805",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Los centros de investigaci\u00f3n y desarrollo internacionales",
+      "nid": "4472"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4478",
+      "created": "1441960112",
+      "changed": "1442990519",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1302",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Impuestos y Reg\u00edmenes Fiscales",
+      "nid": "4478"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4479",
+      "created": "1441960822",
+      "changed": "1442567152",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1304",
+      "risorse_collegate": [
+        {
+          "nid": "4480",
+          "access": true
+        },
+        {
+          "nid": "4485",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Los impuestos directos e indirectos",
+      "nid": "4479"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4480",
+      "created": "1441961477",
+      "changed": "1442499191",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1305",
+      "risorse_collegate": [
+        {
+          "nid": "4484",
+          "access": true
+        },
+        {
+          "nid": "4482",
+          "access": true
+        },
+        {
+          "nid": "4481",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Los impuestos directos",
+      "nid": "4480"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4481",
+      "created": "1441962257",
+      "changed": "1441962278",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1306",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El IRPEF",
+      "nid": "4481"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4482",
+      "created": "1441962406",
+      "changed": "1441962434",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1307",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El IRES: qu\u00e9 es y c\u00f3mo se calcula",
+      "nid": "4482"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4484",
+      "created": "1441962633",
+      "changed": "1441962643",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1308",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El IRAP: qu\u00e9 es y c\u00f3mo se calcula",
+      "nid": "4484"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4485",
+      "created": "1441963140",
+      "changed": "1442501194",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1309",
+      "risorse_collegate": [
+        {
+          "nid": "4486",
+          "access": true
+        },
+        {
+          "nid": "4488",
+          "access": true
+        },
+        {
+          "nid": "4487",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Los impuestos indirectos",
+      "nid": "4485"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4486",
+      "created": "1441964285",
+      "changed": "1478033339",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1310",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El IVA: qu\u00e9 es y c\u00f3mo se calcula",
+      "nid": "4486"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4487",
+      "created": "1441964506",
+      "changed": "1441964515",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1311",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Los impuestos de registro, hipotecario y catastral: qu\u00e9 son y c\u00f3mo se calculan",
+      "nid": "4487"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4488",
+      "created": "1441964638",
+      "changed": "1441964646",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1312",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El impuesto de timbre: qu\u00e9 es y c\u00f3mo se calcula",
+      "nid": "4488"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4489",
+      "created": "1441965417",
+      "changed": "1442502205",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1313",
+      "risorse_collegate": [
+        {
+          "nid": "4490",
+          "access": true
+        },
+        {
+          "nid": "4501",
+          "access": true
+        },
+        {
+          "nid": "4506",
+          "access": true
+        },
+        {
+          "nid": "4513",
+          "access": true
+        },
+        {
+          "nid": "4523",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "Elige el r\u00e9gimen fiscal de tu empresa",
+      "nid": "4489"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4490",
+      "created": "1441965653",
+      "changed": "1442503480",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1314",
+      "risorse_collegate": [
+        {
+          "nid": "4491",
+          "access": true
+        },
+        {
+          "nid": "4492",
+          "access": true
+        },
+        {
+          "nid": "4493",
+          "access": true
+        },
+        {
+          "nid": "4495",
+          "access": true
+        },
+        {
+          "nid": "4496",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "La empresa individual",
+      "nid": "4490"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4491",
+      "created": "1441966291",
+      "changed": "1441966301",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1315",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Descripci\u00f3n de la empresa individual",
+      "nid": "4491"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4492",
+      "created": "1441966524",
+      "changed": "1441966533",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1316",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La elecci\u00f3n de la empresa individual",
+      "nid": "4492"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4493",
+      "created": "1441966808",
+      "changed": "1441966836",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1317",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La empresa individual: gesti\u00f3n contable simplificado",
+      "nid": "4493"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4494",
+      "created": "1441969254",
+      "changed": "1441969264",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1318",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria",
+      "nid": "4494"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4495",
+      "created": "1441969634",
+      "changed": "1441969658",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1320",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen de las nuevas iniciativas productivas",
+      "nid": "4495"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4496",
+      "created": "1441970051",
+      "changed": "1441970076",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1321",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El empresario agr\u00edcola y el r\u00e9gimen global",
+      "nid": "4496"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4501",
+      "created": "1442305322",
+      "changed": "1442504330",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1322",
+      "risorse_collegate": [
+        {
+          "nid": "4502",
+          "access": true
+        },
+        {
+          "nid": "4503",
+          "access": true
+        },
+        {
+          "nid": "4504",
+          "access": true
+        },
+        {
+          "nid": "4512",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "La sociedad simple",
+      "nid": "4501"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4502",
+      "created": "1442305553",
+      "changed": "1442305583",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1323",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Descripci\u00f3n de la sociedad simple",
+      "nid": "4502"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4503",
+      "created": "1442306351",
+      "changed": "1442306381",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1324",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Elegir la sociedad simple",
+      "nid": "4503"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4504",
+      "created": "1442307217",
+      "changed": "1442307230",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1325",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en contabilidad simplificada",
+      "nid": "4504"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4505",
+      "created": "1442307357",
+      "changed": "1442307420",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1326",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria",
+      "nid": "4505"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4506",
+      "created": "1442307943",
+      "changed": "1442567358",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1328",
+      "risorse_collegate": [
+        {
+          "nid": "4507",
+          "access": true
+        },
+        {
+          "nid": "4508",
+          "access": true
+        },
+        {
+          "nid": "4509",
+          "access": true
+        },
+        {
+          "nid": "4510",
+          "access": true
+        },
+        {
+          "nid": "4504",
+          "access": true
+        },
+        {
+          "nid": "4505",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "La sociedad de personas",
+      "nid": "4506"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4507",
+      "created": "1442308508",
+      "changed": "1442308520",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1329",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Descripci\u00f3n de la sociedad de personas",
+      "nid": "4507"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4508",
+      "created": "1442308744",
+      "changed": "1442308754",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1330",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Por qu\u00e9 elegir la sociedad de personas: ventajas y desventajas",
+      "nid": "4508"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4509",
+      "created": "1442309273",
+      "changed": "1442309282",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1331",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad colectiva",
+      "nid": "4509"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4510",
+      "created": "1442309532",
+      "changed": "1442309541",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1332",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad en comandita simple",
+      "nid": "4510"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4511",
+      "created": "1442309880",
+      "changed": "1442309891",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1333",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en contabilidad simplificada",
+      "nid": "4511"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4512",
+      "created": "1442309984",
+      "changed": "1442309995",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1334",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria",
+      "nid": "4512"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4513",
+      "created": "1442310772",
+      "changed": "1442567873",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1335",
+      "risorse_collegate": [
+        {
+          "nid": "4514",
+          "access": true
+        },
+        {
+          "nid": "4515",
+          "access": true
+        },
+        {
+          "nid": "4516",
+          "access": true
+        },
+        {
+          "nid": "4517",
+          "access": true
+        },
+        {
+          "nid": "4518",
+          "access": true
+        },
+        {
+          "nid": "4520",
+          "access": true
+        },
+        {
+          "nid": "4521",
+          "access": true
+        },
+        {
+          "nid": "4522",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "La sociedad de capital",
+      "nid": "4513"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4514",
+      "created": "1442310920",
+      "changed": "1442310973",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1336",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Descripci\u00f3n de la sociedad de capital",
+      "nid": "4514"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4515",
+      "created": "1442311057",
+      "changed": "1442311068",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "2885",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Por qu\u00e9 elegir la sociedad de capital: ventajas y desventajas",
+      "nid": "4515"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4516",
+      "created": "1442314557",
+      "changed": "1442314569",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1338",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad de responsabilidad limitada",
+      "nid": "4516"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4517",
+      "created": "1442314805",
+      "changed": "1442314829",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1339",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad de responsabilidad limitada con capital reducido",
+      "nid": "4517"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4518",
+      "created": "1442320647",
+      "changed": "1442320661",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1340",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad de responsabilidad limitada simplificada",
+      "nid": "4518"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4520",
+      "created": "1442321045",
+      "changed": "1442321458",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1341",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad an\u00f3nima",
+      "nid": "4520"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4521",
+      "created": "1442322241",
+      "changed": "1442322265",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1344",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La sociedad en comandita por acciones",
+      "nid": "4521"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4522",
+      "created": "1442322418",
+      "changed": "1442322429",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1345",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en contabilidad ordinaria",
+      "nid": "4522"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4523",
+      "created": "1442322751",
+      "changed": "1442568071",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1346",
+      "risorse_collegate": [
+        {
+          "nid": "4524",
+          "access": true
+        },
+        {
+          "nid": "4525",
+          "access": true
+        },
+        {
+          "nid": "4526",
+          "access": true
+        },
+        {
+          "nid": "4527",
+          "access": true
+        },
+        {
+          "nid": "4528",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "La cooperativa y el consorcio",
+      "nid": "4523"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4524",
+      "created": "1442327622",
+      "changed": "1442327673",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1347",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Descripci\u00f3n de las cooperativas y de las formas consorciales",
+      "nid": "4524"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4525",
+      "created": "1442327839",
+      "changed": "1442327863",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1348",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Por qu\u00e9 elegir la cooperativa o el consorcio: ventajas y desventajas",
+      "nid": "4525"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4526",
+      "created": "1442328055",
+      "changed": "1442328100",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1349",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "La cooperativa",
+      "nid": "4526"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4527",
+      "created": "1442328348",
+      "changed": "1442328362",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1350",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El consorcio y la sociedad de consorcio",
+      "nid": "4527"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4528",
+      "created": "1442328566",
+      "changed": "1442328576",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1351",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "El r\u00e9gimen contable: la gesti\u00f3n en la contabilidad ordinaria",
+      "nid": "4528"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4529",
+      "created": "1442328976",
+      "changed": "1442568556",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1353",
+      "risorse_collegate": [
+        {
+          "nid": "4530",
+          "access": true
+        },
+        {
+          "nid": "4531",
+          "access": true
+        },
+        {
+          "nid": "4532",
+          "access": true
+        }
+      ],
+      "tipo": "page",
+      "title": "El c\u00e1lculo de la base imponible",
+      "nid": "4529"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4530",
+      "created": "1442329735",
+      "changed": "1442329884",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1354",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "C\u00e1lculo de la base imponible \u2013 Principios generales",
+      "nid": "4530"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4531",
+      "created": "1442330034",
+      "changed": "1442330086",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1355",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Qu\u00e9 es la base imponible",
+      "nid": "4531"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4532",
+      "created": "1442330400",
+      "changed": "1442330436",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1356",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Descubre c\u00f3mo se calcula",
+      "nid": "4532"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4533",
+      "created": "1442330860",
+      "changed": "1442330870",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "52",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Bienvenido a Cerde\u00f1a Empresa",
+      "nid": "4533"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4707",
+      "created": "1447927982",
+      "changed": "1447928041",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1352",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Health &amp; Safety",
+      "nid": "4707"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/4715",
+      "created": "1447944451",
+      "changed": "1447944476",
+      "pubblicato": "1",
+      "uid": "88",
+      "tnid": "1587",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Human resource management",
+      "nid": "4715"
+    },
+    {
+      "lingua": "en",
+      "percorso": "/it/node/5191",
+      "created": "1485346935",
+      "changed": "1485346946",
+      "pubblicato": "1",
+      "uid": "2051",
+      "tnid": "113",
+      "risorse_collegate": [],
+      "tipo": "page",
+      "title": "Introduction to Italian taxes and tax schemes",
+      "nid": "5191"
+    }
+  ]
+}

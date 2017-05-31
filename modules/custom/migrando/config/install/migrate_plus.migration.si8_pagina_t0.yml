@@ -1,0 +1,86 @@
+id: pagina_t0
+
+source:
+  plugin: url
+  translations: true
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls:
+    - modules/custom/migrando/files/si8_pagina_it_en_es_tnid0.json
+    - modules/custom/migrando/files/si8_pagina_it_en_es_tnid1.json
+  item_selector: items
+  fields:
+    -
+      name: tnid
+      selector: tnid
+    -
+      name: nid
+      selector: nid
+    -
+      name: title
+      selector: title
+    -
+      name: uuid
+      selector: uuid
+    -
+      name: uid
+      selector: uid
+    -
+      name: created
+      selector: created
+    -
+      name: changed
+      selector: changed
+    -
+      name: status
+      selector: pubblicato
+    -
+      name: language
+      selector: lingua
+    -
+      name: tipo
+      selector: tipo
+    -
+      name: risorse_collegate
+      selector: risorse_collegate
+
+  ids:
+    nid:
+      type: string
+
+process:
+#  nid: nid
+  uuid: uuid
+  created: created
+#  tnid: tnid
+  changed: changed
+  status: status
+  language: language
+#  uid: uid
+#  tnid: 0
+  type: tipo
+  tnid:
+    plugin: migration
+    migration: pagina_t0
+    source: tnid
+  title:
+    plugin: encode
+    source: title
+#  field_contenuti_correlati:
+#    plugin: iterator
+#    source: risorse_collegate
+#    process:
+#      target_id:
+#        plugin: migration
+#        migration: pagina_t0
+#        source: nid
+
+destination:
+  plugin: entity:node
+  translations: true
+
+dependencies:
+  enforced:
+    module:
+      - migrando
+
