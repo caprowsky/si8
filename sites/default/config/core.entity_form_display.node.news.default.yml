@@ -4,10 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
-<<<<<<< HEAD
-    - field.field.node.news.panelizer
-=======
->>>>>>> 32eeb6dd4024621a52314f099611790612920edc
     - node.type.news
   module:
     - content_moderation
@@ -19,21 +15,13 @@ bundle: news
 mode: default
 content:
   body:
-<<<<<<< HEAD
     type: text_textarea_with_summary
     weight: 6
-=======
-    weight: 26
->>>>>>> 32eeb6dd4024621a52314f099611790612920edc
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-<<<<<<< HEAD
-=======
-    type: text_textarea_with_summary
->>>>>>> 32eeb6dd4024621a52314f099611790612920edc
     region: content
   created:
     type: datetime_timestamp
@@ -76,9 +64,5 @@ content:
     region: content
     third_party_settings: {  }
 hidden:
-<<<<<<< HEAD
-  panelizer: true
-=======
->>>>>>> 32eeb6dd4024621a52314f099611790612920edc
   promote: true
   sticky: true

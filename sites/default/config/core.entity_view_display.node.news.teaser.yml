@@ -4,22 +4,15 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-<<<<<<< HEAD
     - field.field.node.news.body
     - node.type.news
   module:
     - text
-=======
-    - node.type.news
-  module:
->>>>>>> 32eeb6dd4024621a52314f099611790612920edc
-    - user
 id: node.news.teaser
 targetEntityType: node
 bundle: news
 mode: teaser
 content:
-<<<<<<< HEAD
   body:
     label: hidden
     type: text_summary_or_trimmed
@@ -28,8 +21,7 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
-=======
->>>>>>> 32eeb6dd4024621a52314f099611790612920edc
+
   content_moderation_control:
     weight: -20
     region: content
