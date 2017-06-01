@@ -64,5 +64,6 @@ content:
     region: content
     third_party_settings: {  }
 hidden:
+  panelizer: true
   promote: true
   sticky: true
