@@ -58,4 +58,10 @@ Thumbs.db
 !core/**/*.gz
 /nbproject
 .idea
+<<<<<<< HEAD
 sites/default/settings.local.php
+=======
+sites/default/settings.local.php
+modules/custom/migrando/files/si8_utenti.json
+themes/si8/node_modules/
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc

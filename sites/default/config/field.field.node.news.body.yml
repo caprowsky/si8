@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 uuid: 97cdda67-0cab-4a0d-ae44-3acb3f8bae4e
 langcode: en
+=======
+uuid: 44f8bf3c-2fba-41fb-82c7-bb59c4ddae46
+langcode: it
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc
 status: true
 dependencies:
   config:

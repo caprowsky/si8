@@ -1,0 +1,18 @@
+uuid: 3dd8a079-1831-47bf-a981-8dd0ac36f5cc
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.faq
+  module:
+    - user
+id: node.faq.default
+targetEntityType: node
+bundle: faq
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
