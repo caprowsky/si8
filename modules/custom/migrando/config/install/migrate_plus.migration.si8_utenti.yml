@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 id: utenti
 label: si8 utenti migration
+=======
+id: si8_utenti
+label: si8 utenti migrations
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc
 migration_group: si8
 
 source:
@@ -46,6 +51,12 @@ process:
   created: created
   access: access
   login: login
+<<<<<<< HEAD
+=======
+  roles:
+    plugin: default_value
+    default_value: redattore
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc
 
 destination:
   plugin: 'entity:user'

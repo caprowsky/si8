@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+<<<<<<< HEAD
     - field.field.node.news.panelizer
     - node.type.news
   module:
@@ -133,17 +134,31 @@ third_party_settings:
         pattern: panelizer
         builder: ipe
         static_context: {  }
+=======
+    - node.type.news
+  module:
+    - text
+    - user
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc
 id: node.news.default
 targetEntityType: node
 bundle: news
 mode: default
 content:
   body:
+<<<<<<< HEAD
     label: hidden
     type: text_default
     weight: 101
     settings: {  }
     third_party_settings: {  }
+=======
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc
     region: content
   content_moderation_control:
     weight: -20
@@ -157,4 +172,7 @@ content:
     third_party_settings: {  }
 hidden:
   langcode: true
+<<<<<<< HEAD
   panelizer: true
+=======
+>>>>>>> 32eeb6dd4024621a52314f099611790612920edc
