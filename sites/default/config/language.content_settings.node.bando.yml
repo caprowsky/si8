@@ -1,0 +1,11 @@
+uuid: 7efef71d-37e1-4573-92a3-ad6dc0e5ccaa
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.bando
+id: node.bando
+target_entity_type_id: node
+target_bundle: bando
+default_langcode: site_default
+language_alterable: false
