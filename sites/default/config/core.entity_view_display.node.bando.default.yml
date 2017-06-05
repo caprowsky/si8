@@ -1,0 +1,149 @@
+uuid: 4a98f007-c826-4144-b91f-3be227b931c9
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.bando.field_agevolazione_concessa
+    - field.field.node.bando.field_criteri_di_valutazione
+    - field.field.node.bando.field_data_scadenza_agevolazione
+    - field.field.node.bando.field_dotazione_finanziaria
+    - field.field.node.bando.field_macrosettore
+    - field.field.node.bando.field_mas
+    - field.field.node.bando.field_oggetto_del_bando
+    - field.field.node.bando.field_procedura
+    - field.field.node.bando.field_progetti_finanziabili
+    - field.field.node.bando.field_riferimenti
+    - field.field.node.bando.field_soggetti_ammissibili
+    - field.field.node.bando.field_spese_ammissibili
+    - field.field.node.bando.field_spese_ammissibili_list
+    - field.field.node.bando.field_termini
+    - field.field.node.bando.field_tipologia_iniziativa
+    - node.type.bando
+  module:
+    - datetime
+    - link
+    - options
+    - text
+    - user
+id: node.bando.default
+targetEntityType: node
+bundle: bando
+mode: default
+content:
+  field_agevolazione_concessa:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_criteri_di_valutazione:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_data_scadenza_agevolazione:
+    weight: 112
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_dotazione_finanziaria:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_macrosettore:
+    weight: 120
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_mas:
+    weight: 119
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_oggetto_del_bando:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_procedura:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_progetti_finanziabili:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_riferimenti:
+    weight: 117
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_soggetti_ammissibili:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_spese_ammissibili:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_spese_ammissibili_list:
+    weight: 118
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_termini:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tipologia_iniziativa:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
