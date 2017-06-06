@@ -1,0 +1,188 @@
+uuid: 4ef0bab6-346b-4491-8814-a75b8a93620f
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_agevolazione_concessa
+    - field.storage.node.field_criteri_di_valutazione
+    - field.storage.node.field_data_scadenza_agevolazione
+    - field.storage.node.field_dotazione_finanziaria
+    - field.storage.node.field_macrosettore
+    - field.storage.node.field_mas
+    - field.storage.node.field_oggetto_del_bando
+    - field.storage.node.field_procedura
+    - field.storage.node.field_progetti_finanziabili
+    - field.storage.node.field_riferimenti
+    - field.storage.node.field_soggetti_ammissibili
+    - field.storage.node.field_spese_ammissibili
+    - field.storage.node.field_spese_ammissibili_list
+    - field.storage.node.field_termini
+    - field.storage.node.field_tipologia_iniziativa
+    - search_api.server.solr
+  module:
+    - search_api
+    - node
+id: bandi
+name: Bandi
+description: ''
+read_only: false
+field_settings:
+  nid:
+    label: ID
+    datasource_id: 'entity:node'
+    property_path: nid
+    type: integer
+  status:
+    label: 'Stato di pubblicazione'
+    datasource_id: 'entity:node'
+    property_path: status
+    type: boolean
+  title:
+    label: Titolo
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+  field_agevolazione_concessa:
+    label: 'Agevolazione concessa'
+    datasource_id: 'entity:node'
+    property_path: field_agevolazione_concessa
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_agevolazione_concessa
+  field_criteri_di_valutazione:
+    label: 'Criteri di valutazione'
+    datasource_id: 'entity:node'
+    property_path: field_criteri_di_valutazione
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_criteri_di_valutazione
+  field_data_scadenza_agevolazione:
+    label: 'Data di scadenza dell''avegolazione'
+    datasource_id: 'entity:node'
+    property_path: field_data_scadenza_agevolazione
+    type: date
+    dependencies:
+      config:
+        - field.storage.node.field_data_scadenza_agevolazione
+  field_dotazione_finanziaria:
+    label: 'Dotazione finanziaria'
+    datasource_id: 'entity:node'
+    property_path: field_dotazione_finanziaria
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_dotazione_finanziaria
+  field_macrosettore:
+    label: Macrosettore
+    datasource_id: 'entity:node'
+    property_path: field_macrosettore
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_macrosettore
+  field_mas:
+    label: 'Massimo finanziabile'
+    datasource_id: 'entity:node'
+    property_path: field_mas
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_mas
+  field_oggetto_del_bando:
+    label: 'Oggetto del bando'
+    datasource_id: 'entity:node'
+    property_path: field_oggetto_del_bando
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_oggetto_del_bando
+  field_procedura:
+    label: Procedura
+    datasource_id: 'entity:node'
+    property_path: field_procedura
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_procedura
+  field_progetti_finanziabili:
+    label: 'Progetti finanziabili'
+    datasource_id: 'entity:node'
+    property_path: field_progetti_finanziabili
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_progetti_finanziabili
+  field_riferimenti:
+    label: Riferimenti
+    datasource_id: 'entity:node'
+    property_path: field_riferimenti
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_riferimenti
+  field_soggetti_ammissibili:
+    label: 'Soggetti ammissibili'
+    datasource_id: 'entity:node'
+    property_path: field_soggetti_ammissibili
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_soggetti_ammissibili
+  field_spese_ammissibili:
+    label: 'Spese ammissibili'
+    datasource_id: 'entity:node'
+    property_path: field_spese_ammissibili
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_spese_ammissibili
+  field_spese_ammissibili_list:
+    label: 'Spese ammissibili'
+    datasource_id: 'entity:node'
+    property_path: field_spese_ammissibili_list
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_spese_ammissibili_list
+  field_termini:
+    label: Termini
+    datasource_id: 'entity:node'
+    property_path: field_termini
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_termini
+  field_tipologia_iniziativa:
+    label: 'Tipologia iniziativa'
+    datasource_id: 'entity:node'
+    property_path: field_tipologia_iniziativa
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_tipologia_iniziativa
+  created:
+    label: 'Data inserimento'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - bando
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  rendered_item: {  }
+  aggregated_field: {  }
+tracker_settings:
+  default: {  }
+options:
+  index_directly: true
+  cron_limit: 50
+server: solr
