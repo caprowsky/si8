@@ -21,12 +21,17 @@ dependencies:
     - search_api.server.solr
   module:
     - search_api
+    - bandi
     - node
 id: bandi
 name: Bandi
 description: ''
 read_only: false
 field_settings:
+  bandiattivi:
+    label: 'Bandi attivi'
+    property_path: search_api_bandiattivi
+    type: string
   nid:
     label: ID
     datasource_id: 'entity:node'
@@ -177,6 +182,7 @@ datasource_settings:
       default: true
       selected: {  }
 processor_settings:
+  bandiattivi: {  }
   add_url: {  }
   rendered_item: {  }
   aggregated_field: {  }

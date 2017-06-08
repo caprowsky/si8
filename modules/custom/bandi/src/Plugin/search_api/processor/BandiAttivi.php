@@ -50,12 +50,11 @@ class BandiAttivi extends ProcessorPluginBase {
     /* @var \Drupal\node\Entity\Node $entity*/
     if ($entity->bundle() == 'bando') {
       $fields = $this->getFieldsHelper()
-        ->filterForPropertyPath($item->getFields(), NULL, 'bandi_attivi');
+        ->filterForPropertyPath($item->getFields(), NULL, 'search_api_bandiattivi');
       foreach ($fields as $field) {
         if (!$field->getDatasourceId()) {          
             $field->addValue('Attivi');
           }
-        
         }
       }
     }
