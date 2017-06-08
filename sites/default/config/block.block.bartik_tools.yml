@@ -13,12 +13,12 @@ _core:
 id: bartik_tools
 theme: bartik
 region: sidebar_first
-weight: -6
+weight: -8
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Strumenti
   provider: system
   label_display: visible
   level: 1
