@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Faq
 type: faq
-description: ''
+description: 'Crea una nuova FAQ.'
 help: ''
 new_revision: true
 preview_mode: 1
