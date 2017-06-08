@@ -2,6 +2,7 @@
 
 namespace Drupal\bandi\Plugin\search_api\processor;
 
+use Drupal\Core\Datetime\Element\Datetime;
 use Drupal\search_api\Datasource\DatasourceInterface;
 use Drupal\search_api\Item\ItemInterface;
 use Drupal\search_api\Processor\ProcessorPluginBase;
@@ -47,17 +48,29 @@ class BandiAttivi extends ProcessorPluginBase {
    */
   public function addFieldValues(ItemInterface $item) {
     $entity = $item->getOriginalObject()->getValue();
-    /* @var \Drupal\node\Entity\Node $entity*/
+    /* @var \Drupal\node\Entity\Node $entity */
     if ($entity->bundle() == 'bando') {
       $fields = $this->getFieldsHelper()
         ->filterForPropertyPath($item->getFields(), NULL, 'search_api_bandiattivi');
       foreach ($fields as $field) {
-        if (!$field->getDatasourceId()) {          
-            $field->addValue('Attivi');
+        if (!$field->getDatasourceId()) {
+          $date_value = $entity->field_data_scadenza_agevolazione->getValue()[0]['value'];
+          $format = 'Y-m-d\TH:i:s';
+          $date = \Drupal\Core\Datetime\DrupalDateTime::createFromFormat($format, $date_value);
+          $date_timestamp = $date->format('U');
+          $now = time();
+          $value = 'Attivo';
+
+          if ($now > $date_timestamp) {
+            $value = 'Scaduto';
           }
+          $field->addValue($value);
+
+
         }
       }
     }
   }
+}
 
 
