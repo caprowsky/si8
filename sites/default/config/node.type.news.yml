@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: News
 type: news
-description: ''
+description: 'Crea una nuova notizia.'
 help: ''
 new_revision: true
 preview_mode: 1

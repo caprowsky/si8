@@ -4,9 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+    - field.field.node.news.field_data_evento
+    - field.field.node.news.field_data_pubblicazione
+    - field.field.node.news.field_tags
     - node.type.news
   module:
     - content_moderation
+    - datetime
     - path
     - text
 id: node.news.default
@@ -29,6 +33,27 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_data_evento:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_data_pubblicazione:
+    weight: 28
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_tags:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
   langcode:
     type: language_select
     weight: 1
