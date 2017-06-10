@@ -37,6 +37,9 @@ source:
     -
       name: risorse_collegate
       selector: risorse_collegate
+    -
+      name: percorso
+      selector: percorso
 
   ids:
     nid:
@@ -54,6 +57,9 @@ process:
     plugin: default_value
     default_value: page
   tnid: tnid
+  path:
+    plugin: remove_char
+    source: percorso
   title:
     plugin: encode
     source: title
