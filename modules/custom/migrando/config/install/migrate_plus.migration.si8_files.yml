@@ -40,8 +40,9 @@ process:
 #  fid: fid
   created: created
   uid:
-    plugin: default_value
-    default_value: 1
+    plugin: migration
+    migration: si8_utenti
+    source: uid
   filename: filename
   uuid: uuid
   status:
