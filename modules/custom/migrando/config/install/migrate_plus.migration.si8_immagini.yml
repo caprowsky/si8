@@ -1,15 +1,17 @@
-id: si8_immagini
+id: immagini
+label: si8 immagini migration
+migration_group: si8
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: modules/custom/migrando/files/si8_immagini.json
+  urls: modules/custom/migrando/files/si8_files_img.json
   item_selector: items
   fields:
     -
       name: fid
-      selector: id
+      selector: fid
     -
       name: created
       selector: created
@@ -20,8 +22,8 @@ source:
       name: uuid
       selector: uuid
     -
-      name: filepath
-      selector: directory
+      name: percorso
+      selector: percorso
     -
       name: url
       selector: url
@@ -31,14 +33,15 @@ source:
     -
       name: title_text
       selector: title_text
+    -
+      name: mimetype
+      selector: mime_type
 
   ids:
     fid:
       type: string
 
 process:
-#  fid: fid
-  created: created
   uid:
     plugin: default_value
     default_value: 1
@@ -48,16 +51,14 @@ process:
     plugin: default_value
     default_value: 1
   created: created
-  type:
-    plugin: default_value
-    default_value: image
+  mimetype: mimetype
   alt: alt_text
   title: title_text
   uri:
     plugin: file_copy
     source:
       - url
-      - filepath
+      - percorso
 
 destination:
   plugin: entity:file
