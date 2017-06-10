@@ -4,7 +4,7 @@
  * @file
  * Contains \Drupal\migrando\Plugin\migrate\process\Removechar.
  */
-namgit cespace Drupal\migrando\Plugin\migrate\process;
+namespace Drupal\migrando\Plugin\migrate\process;
 
 use Drupal\migrate\MigrateExecutableInterface;
 use Drupal\migrate\ProcessPluginBase;
