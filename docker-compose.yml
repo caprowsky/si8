@@ -69,6 +69,8 @@ services:
       PMA_PASSWORD: drupal
       PHP_UPLOAD_MAX_FILESIZE: 1G
       PHP_MAX_INPUT_VARS: 1G
+    ports:
+      - "7676:80"
     labels:
       - 'traefik.backend=pma'
       - 'traefik.port=80'
