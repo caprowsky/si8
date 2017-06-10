@@ -24,5 +24,4 @@ class Encode extends ProcessPluginBase {
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
     return html_entity_decode(htmlspecialchars_decode($value), ENT_QUOTES);
   }
-
 }
