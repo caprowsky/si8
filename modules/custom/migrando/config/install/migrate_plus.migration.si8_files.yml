@@ -1,5 +1,5 @@
-id: immagini
-label: si8 immagini migration
+id: files
+label: si8 files migration
 migration_group: si8
 
 source:
