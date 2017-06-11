@@ -3,10 +3,13 @@ langcode: it
 status: true
 dependencies:
   config:
+    - field.field.node.faq.field_domanda_dettagliata
+    - field.field.node.faq.field_risposta
     - node.type.faq
   module:
     - content_moderation
     - path
+    - text
 id: node.faq.default
 targetEntityType: node
 bundle: faq
@@ -18,6 +21,22 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_domanda_dettagliata:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_risposta:
+    weight: 32
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   langcode:
     type: language_select
     weight: 2
