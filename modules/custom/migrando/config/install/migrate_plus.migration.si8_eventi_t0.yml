@@ -1,12 +1,12 @@
-id: notizie_t0
-label: si8 notizie_t0 migration
+id: eventi_t0
+label: si8 eventi_t0 migration
 migration_group: si8
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls:  modules/custom/migrando/files/si8_notizia_tnid_0.json
+  urls:  modules/custom/migrando/files/si8_evento_tnid_0.json
   item_selector: items
   fields:
     -
@@ -54,6 +54,10 @@ source:
     -
       name: percorso
       selector: percorso
+    -
+      name: data_evento
+      selector: data_evento
+    -
 
   ids:
     nid:
@@ -91,12 +95,6 @@ process:
 #      - eventi_t1
 #      - sardegnasuapnotizie_t0
 #      - sardegnasuapnotizie_t1
-#      - articoli_t0
-#      - articoli_t1
-#      - paginastatica_t0
-#      - paginastatica_t1
-#      - sardegnasuapstatica_t0
-#      - sardegnasuapstatica_t1
 #    source_ids:
 #      notizie_t0:
 #        - nid
@@ -110,31 +108,19 @@ process:
 #        - nid
 #      sardegnasuapnotizie_t1:
 #        - nid
-#      articoli_t0
-#       - nid
-#      articoli_t1
-#       - nid
-#      paginastatica_t0
-#       - nid
-#      paginastatica_t1
-#       - nid
-#      sardegnasuapstatica_t0
-#       - nid
-#      sardegnasuapstatica_t1
-#       - nid
 
-#  path:
-#    plugin: remove_char
-#    source: percorso
+  path:
+    plugin: remove_char
+    source: percorso
 
   title:
     plugin: encode
     source: title
 
-#  'body/value': body/value
-#  'body/format':
-#    plugin: default_value
-#    default_value: basic_html
+  'body/value': body/value
+  'body/format':
+    plugin: default_value
+    default_value: basic_html
 
 #  field_risorse_collegate:
 #    plugin: iterator
@@ -144,29 +130,37 @@ process:
 #        plugin: migration
 #        migration: pagina_t0
 #        source: nid
+#
+  field_allegati:
+    plugin: iterator
+    source: documenti_allegati
+    process:
+      target_id:
+        plugin: migration
+        migration: files
+        source: fid
 
-#  field_allegati:
-#    plugin: iterator
-#    source: documenti_allegati
-#    process:
-#      target_id:
-#        plugin: migration
-#        migration: files
-#        source: fid
+  field_immagine:
+    target_id:
+      plugin: migration
+      migration: immagini
+      source: immagini/fid
 
-#  field_immagine:
-#    plugin: migration
-#    migration: immagini
-#    source: immagini
+  field_tags:
+    plugin: iterator
+    source: tags
+    process:
+      target_id:
+        plugin: migration
+        migration: termini
+        source: tid
 
-#  field_tags:
-#    plugin: iterator
-#    source: tags
-#    process:
-#      target_id:
-#        plugin: migration
-#        migration: termini
-#        source: tid
+  field_data_evento:
+    value:
+      plugin: substr
+      source: data_evento
+      start: 0
+      length: 10
 
 destination:
   plugin: entity:node
