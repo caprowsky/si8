@@ -22,3 +22,8 @@ sardegnasuapnotizie_t0
 notizie_t1
 eventi_t1
 sardegnasuapnotizie_t1
+
+paginastatica_t0
+paginastatica_t1
+articoli_t0
+articoli_t1
