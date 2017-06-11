@@ -51,7 +51,7 @@ process:
     plugin: default_value
     default_value: 1
   created: created
-  mimetype: mimetype
+  #mimetype: mimetype
   alt: alt_text
   title: title_text
   uri:
