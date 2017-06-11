@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.faq.field_domanda_dettagliata
     - field.field.node.faq.field_risposta
+    - field.field.node.faq.field_tags
     - node.type.faq
   module:
     - content_moderation
@@ -36,6 +37,15 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_tags:
+    weight: 33
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select
