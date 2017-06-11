@@ -49,6 +49,9 @@ source:
       name: tags
       selector: tags
     -
+      name: body
+      selector: body
+    -
       name: percorso
       selector: percorso
 
@@ -64,16 +67,25 @@ process:
   changed: changed
   status: status
   langcode: language
+
   type:
     plugin: default_value
     default_value: news
   #tnid: tnid
+
   path:
     plugin: remove_char
     source: percorso
+
   title:
     plugin: encode
     source: title
+
+  'body/value': bodyvalue
+  'body/format':
+    plugin: default_value
+    default_value: basic_html
+
   field_risorse_collegate:
     plugin: iterator
     source: risorse_collegate
@@ -82,6 +94,7 @@ process:
         plugin: migration
         migration: pagina_t0
         source: nid
+
   field_allegati:
     plugin: iterator
     source: documenti_allegati
@@ -90,10 +103,20 @@ process:
         plugin: migration
         migration: files
         source: fid
+
   field_immagine:
     plugin: migration
     migration: immagini
     source: immagini
+
+  field_tags:
+    plugin: iterator
+    source: tags
+    process:
+      target_id:
+        plugin: migration
+        migration: termini
+        source: tid
 
 destination:
   plugin: entity:node
