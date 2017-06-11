@@ -45,7 +45,7 @@ process:
     plugin: default_value
     default_value: 1
   created: created
-  mimetype: mimetype
+  #mimetype: mimetype
   uri:
     plugin: file_copy
     source:
