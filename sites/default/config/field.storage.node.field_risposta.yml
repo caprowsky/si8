@@ -1,0 +1,19 @@
+uuid: f448f014-0063-42bf-a14b-e205bdd794db
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_risposta
+field_name: field_risposta
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

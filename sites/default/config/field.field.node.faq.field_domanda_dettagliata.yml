@@ -1,0 +1,21 @@
+uuid: 7a875232-b621-482e-b0cb-07ad50053a74
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domanda_dettagliata
+    - node.type.faq
+  module:
+    - text
+id: node.faq.field_domanda_dettagliata
+field_name: field_domanda_dettagliata
+entity_type: node
+bundle: faq
+label: 'Domanda dettagliata'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
