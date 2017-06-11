@@ -9,3 +9,13 @@ Su "page" si mappano:
     articolo
     pagina statica
     sardegnasuape statica
+
+Process migration multpli:
+migration:
+      - users
+      - members
+    source_ids:
+      users:
+        - author
+      members:
+        - author
