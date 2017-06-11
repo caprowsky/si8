@@ -4,13 +4,18 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+    - field.field.node.news.field_allegati
     - field.field.node.news.field_data_evento
-    - field.field.node.news.field_data_pubblicazione
+    - field.field.node.news.field_immagine
+    - field.field.node.news.field_risorse_collegate
     - field.field.node.news.field_tags
+    - image.style.thumbnail
     - node.type.news
   module:
     - content_moderation
     - datetime
+    - file
+    - image
     - path
     - text
 id: node.news.default
@@ -33,17 +38,35 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_allegati:
+    weight: 28
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
   field_data_evento:
     weight: 27
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_data_pubblicazione:
-    weight: 28
-    settings: {  }
+  field_immagine:
+    weight: 30
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: datetime_default
+    type: image_image
+    region: content
+  field_risorse_collegate:
+    weight: 29
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_tags:
     weight: 26
