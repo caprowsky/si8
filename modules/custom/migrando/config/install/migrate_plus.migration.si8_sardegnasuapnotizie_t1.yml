@@ -1,12 +1,12 @@
-id: eventi_t1
-label: si8 eventi_t1 migration
+id: sardegnasuapnotizie_t1
+label: si8 sardegnasuapnotizie_t1 migration
 migration_group: si8
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls:  modules/custom/migrando/files/si8_evento_tnid_no_0.json
+  urls:  modules/custom/migrando/files/si8_sardegnasuapnotizia_tnid_no_0.json
   item_selector: items
   translations: true
   fields:
@@ -45,7 +45,7 @@ source:
       selector: documenti_allegati
     -
       name: immagini
-      selector: immagine_principale
+      selector: immagine
     -
       name: tags
       selector: tags
@@ -65,6 +65,7 @@ source:
       type: string
 
 process:
+  uuid: uuid
   created: created
   changed: changed
   status: status
@@ -88,7 +89,7 @@ process:
 
   nid:
     plugin: migration
-    migration: eventi_t0
+    migration: sardegnasuapnotizie_t0
     source: tnid
 
   path:
@@ -136,13 +137,6 @@ process:
         plugin: migration
         migration: termini
         source: tid
-
-  field_data_evento:
-    value:
-      plugin: substr
-      source: data_evento
-      start: 0
-      length: 10
 
 destination:
   plugin: entity:node
