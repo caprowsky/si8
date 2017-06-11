@@ -9,14 +9,14 @@
 #
 
 # Notizie con tnid = 0
-#wget http://localhost:8888/en/api/si7_notizia_tnid_0.json -O modules/custom/migrando/files/si8_notizia_tnid_0.json
-#sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0.json
-#echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0.json
+wget http://localhost:8888/en/api/si7_notizia_tnid_0.json -O modules/custom/migrando/files/si8_notizia_tnid_0.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0.json
 
 # Notizie con tnid no 0
-#wget http://localhost:8888/en/api/si7_notizia_tnid_no_0.json -O modules/custom/migrando/files/si8_notizia_tnid_no_0.json
-#sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_no_0.json
-#echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_no_0.json
+wget http://localhost:8888/en/api/si7_notizia_tnid_no_0.json -O modules/custom/migrando/files/si8_notizia_tnid_no_0.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_no_0.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_no_0.json
 
 #
 #       EVENTO
