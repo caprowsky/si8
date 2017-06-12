@@ -3,8 +3,7 @@ langcode: it
 status: true
 dependencies:
   config:
-    - field.field.node.faq.field_domanda_dettagliata
-    - field.field.node.faq.field_risposta
+    - field.field.node.faq.body
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
@@ -16,28 +15,21 @@ targetEntityType: node
 bundle: faq
 mode: default
 content:
+  body:
+    weight: 34
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_domanda_dettagliata:
-    weight: 31
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_risposta:
-    weight: 32
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
   field_tags:
     weight: 33
     settings:
