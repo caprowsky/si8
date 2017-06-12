@@ -13,17 +13,15 @@ Su "page" si mappano:
 #### ordine migrazione
 utenti
 termini
+files
 immagini
-file
+
 
 notizie_t0
 eventi_t0
 notizie_t1
 eventi_t1
-
-
 pagine_t0
 pagine_t1
-
 glossario_t0
 faq_t0
