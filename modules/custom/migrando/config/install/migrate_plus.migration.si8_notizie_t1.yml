@@ -109,15 +109,23 @@ process:
     plugin: default_value
     default_value: basic_html
 
-#  field_risorse_collegate:
-#    plugin: iterator
-#    source: risorse_collegate
-#    process:
-#      target_id:
-#        plugin: migration
-#        migration: pagina_t0
-#        source: nid
-#
+  field_risorse_collegate:
+    plugin: iterator
+    source: risorse_collegate
+    process:
+      target_id:
+        plugin: migration
+        migration:
+          - eventi_t0
+          - eventi_t1
+          - faq_t0
+          - glossario_t0
+          - notizie_t0
+          - notizie_t1
+          - pagine_t0
+          - pagine_t1
+        source: nid
+
   field_allegati:
     plugin: iterator
     source: documenti_allegati
