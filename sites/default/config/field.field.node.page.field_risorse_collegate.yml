@@ -1,4 +1,4 @@
-uuid: b5cfd53e-1b1d-430f-a6e3-79099005dd4b
+uuid: 652fb923-ac0d-410b-83b7-f6454bdc0f5e
 langcode: it
 status: true
 dependencies:
@@ -8,14 +8,14 @@ dependencies:
     - node.type.glossary
     - node.type.news
     - node.type.page
-id: node.news.field_risorse_collegate
+id: node.page.field_risorse_collegate
 field_name: field_risorse_collegate
 entity_type: node
-bundle: news
+bundle: page
 label: 'Risorse collegate'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
