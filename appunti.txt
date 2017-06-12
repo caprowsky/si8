@@ -22,7 +22,8 @@ notizie_t1
 eventi_t1
 
 
-paginastatica_t0
-paginastatica_t1
-articoli_t0
-articoli_t1
+pagine_t0
+pagine_t1
+
+glossario_t0
+faq_t0
