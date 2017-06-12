@@ -4,10 +4,17 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_allegati
+    - field.field.node.page.field_immagine
+    - field.field.node.page.field_risorse_collegate
     - field.field.node.page.field_sezione
+    - field.field.node.page.field_tags
+    - image.style.thumbnail
     - node.type.page
   module:
     - content_moderation
+    - file
+    - image
     - path
     - text
 id: node.page.default
@@ -30,8 +37,41 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_allegati:
+    weight: 34
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_immagine:
+    weight: 36
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_risorse_collegate:
+    weight: 35
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_sezione:
     weight: 32
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tags:
+    weight: 33
     settings:
       match_operator: CONTAINS
       size: 60
