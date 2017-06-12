@@ -22,6 +22,15 @@ class RemoveChar extends ProcessPluginBase {
    * {@inheritdoc}
    */
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
-    return substr($value, 3);
+
+    $return = substr($value, 3);
+
+    // Check for node/XXX paths
+    $check = explode('/', $return);
+    if ($check[1] == 'node') {
+      $return = '';
+    }
+
+    return $return;
   }
 }
