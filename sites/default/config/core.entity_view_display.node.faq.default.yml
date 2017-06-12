@@ -3,8 +3,7 @@ langcode: it
 status: true
 dependencies:
   config:
-    - field.field.node.faq.field_domanda_dettagliata
-    - field.field.node.faq.field_risposta
+    - field.field.node.faq.body
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
@@ -15,15 +14,8 @@ targetEntityType: node
 bundle: faq
 mode: default
 content:
-  field_domanda_dettagliata:
-    weight: 101
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_risposta:
-    weight: 102
+  body:
+    weight: 104
     label: above
     settings: {  }
     third_party_settings: {  }
