@@ -83,6 +83,8 @@ process:
       ES: es
       EN: en
       IT: it
+      und: it
+    default_value: it
 
   type:
     plugin: default_value
