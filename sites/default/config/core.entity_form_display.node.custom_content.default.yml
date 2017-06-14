@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.custom_content.body
+    - field.field.node.custom_content.field_machine_name
     - node.type.custom_content
   module:
     - content_moderation
@@ -29,6 +30,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_machine_name:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   langcode:
     type: language_select
     weight: 2
@@ -63,6 +72,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 5

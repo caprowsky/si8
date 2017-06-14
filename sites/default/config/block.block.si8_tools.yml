@@ -1,0 +1,26 @@
+uuid: 738e69e9-86d5-4958-bfb1-631274e18e37
+langcode: it
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - si8
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: si8_tools
+theme: si8
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Strumenti
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

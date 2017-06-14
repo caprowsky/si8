@@ -1,0 +1,20 @@
+uuid: 58eb68bb-07e0-474d-98e8-4f75dd255b03
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - si8
+id: si8_userlogin
+theme: si8
+region: sidebar_second
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }
