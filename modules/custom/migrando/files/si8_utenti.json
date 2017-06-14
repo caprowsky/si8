@@ -1,1 +1,136 @@
+{
+  "items": [
+    {
+      "uuid": "66af77ff-e499-47de-8343-602c5259be08",
+      "email": "annamariacadau@gmail.com",
+      "name": "CDANMR74M47F979P",
+      "stato": "1",
+      "created": "1475670945",
+      "access": "1491215254",
+      "login": "",
+      "lingua": "IT",
+      "uid": "6756"
+    },
+    {
+      "uuid": "e1c07127-a064-4917-a2dd-9d6aba5dd98d",
+      "email": "gianmariosias@gmail.com",
+      "name": "SSIGMR75E14I452C",
+      "stato": "1",
+      "created": "1475213230",
+      "access": "1491215724",
+      "login": "",
+      "lingua": "IT",
+      "uid": "6735"
+    },
+    {
+      "uuid": "3fd8c250-605d-4216-80a5-7e1c843e6339",
+      "email": "cristina.mele@libero.it",
+      "name": "MLEMCR75L57I452R",
+      "stato": "1",
+      "created": "1474385458",
+      "access": "1480343412",
+      "login": "",
+      "lingua": "IT",
+      "uid": "6690"
+    },
+    {
+      "uuid": "f4eb97f9-90d9-4474-9828-e84be3932907",
+      "email": "nino.ruggiu@gmail.com",
+      "name": "RGGGNN83L29B068O",
+      "stato": "1",
+      "created": "1473968305",
+      "access": "1490693144",
+      "login": "",
+      "lingua": "IT",
+      "uid": "6674"
+    },
+    {
+      "uuid": "4924cb88-f4a8-4dcf-a53d-732a9fc85b58",
+      "email": "cristinabalestrieri@libero.it",
+      "name": "BLSCST82E42I452S",
+      "stato": "1",
+      "created": "1473275521",
+      "access": "1490869019",
+      "login": "",
+      "lingua": "IT",
+      "uid": "6646"
+    },
+    {
+      "uuid": "4942a59b-56c9-4061-8df7-34c44c079eef",
+      "email": "B.COINU@CBCONSULTING.IT",
+      "name": "CNOPNG76A49F979R",
+      "stato": "1",
+      "created": "1439284164",
+      "access": "1490888456",
+      "login": "",
+      "lingua": "IT",
+      "uid": "4926"
+    },
+    {
+      "uuid": "afa8e3ea-eab8-4a2c-8189-857438daa8c0",
+      "email": "valeria.bandini@libero.it",
+      "name": "BNDVLR80L68L833U",
+      "stato": "1",
+      "created": "1432891126",
+      "access": "1478605932",
+      "login": "",
+      "lingua": "IT",
+      "uid": "4505"
+    },
+    {
+      "uuid": "669517cc-6fbe-4af3-a007-eca860f44d8a",
+      "email": "scasu@sardegnait.it",
+      "name": "Salvatore Casu",
+      "stato": "1",
+      "created": "1421330534",
+      "access": "1429116068",
+      "login": "1429115110",
+      "lingua": "IT",
+      "uid": "3489"
+    },
+    {
+      "uuid": "b68f3cd2-c082-46b2-88ca-5765eefbc2c2",
+      "email": "alessandrocapra@grafolab.org",
+      "name": "CPRLSN73R24B354V",
+      "stato": "1",
+      "created": "1411464153",
+      "access": "1489430262",
+      "login": "",
+      "lingua": "IT",
+      "uid": "2051"
+    },
+    {
+      "uuid": "4e8379bf-6e99-4d42-b693-52748f14d74e",
+      "email": "msardu@sardegnait.it",
+      "name": "msardu",
+      "stato": "1",
+      "created": "1405329407",
+      "access": "1489999273",
+      "login": "1489999273",
+      "lingua": "IT",
+      "uid": "1859"
+    },
+    {
+      "uuid": "1458bcbc-fe58-429f-ae42-efd370fa35eb",
+      "email": "amancosu@sardegnait.it",
+      "name": "MNCNTN75A14B354B",
+      "stato": "1",
+      "created": "1404370171",
+      "access": "1404818578",
+      "login": "",
+      "lingua": "IT",
+      "uid": "1848"
+    },
+    {
+      "uuid": "24942695-8c87-4c3c-9f52-ec46e7b88f7c",
+      "email": "anna.lisa.canu69@gmail.com",
+      "name": "CNANLS69H62B314U",
+      "stato": "1",
+      "created": "1404120625",
+      "access": "1404483706",
+      "login": "",
+      "lingua": "IT",
+      "uid": "1832"
+    }
+  ]
 }
