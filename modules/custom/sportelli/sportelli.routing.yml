@@ -1,0 +1,7 @@
+sportelli.sportelli:
+  path: '/sportelli'
+  defaults:
+    _controller: Drupal\sportelli\Controller\MainSportelli::main
+    _title: 'Sportelli'
+  requirements:
+    _permission: 'access content'
