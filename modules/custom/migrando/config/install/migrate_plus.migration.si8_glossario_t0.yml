@@ -56,7 +56,7 @@ process:
 
   uid:
     plugin: migration
-    migration: utenti
+    migration: si8_utenti
     source: uid
 
   langcode:
