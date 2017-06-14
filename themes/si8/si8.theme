@@ -5,3 +5,23 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function si8_preprocess_page(&$vars) {
+
+  /** Footer contents */
+  $custom_contents = ['content1', 'content2'];
+  foreach ($custom_contents as $custom_content) {
+    $view = \Drupal\views\Views::getView('custom_content');
+    if (is_object($view)) {
+      $view->setArguments([$custom_content]);
+      $view->setDisplay('machine_name');
+      $view->preExecute();
+      $view->execute();
+      $vars[$custom_content] = $view->buildRenderable('machine_name', [$custom_content]);
+    }
+  }
+
+}
