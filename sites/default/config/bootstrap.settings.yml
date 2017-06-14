@@ -16,3 +16,4 @@ logo:
   path: 'public://logo_ras_0.png'
   url: ''
   use_default: false
+langcode: it
