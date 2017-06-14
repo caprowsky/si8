@@ -12,7 +12,7 @@
 function si8_preprocess_page(&$vars) {
 
   /** Footer contents */
-  $custom_contents = ['content1', 'content2'];
+  $custom_contents = ['footer1', 'footer2', 'footer3'];
   foreach ($custom_contents as $custom_content) {
     $view = \Drupal\views\Views::getView('custom_content');
     if (is_object($view)) {

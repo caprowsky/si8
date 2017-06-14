@@ -17,3 +17,9 @@ bootstrap-scripts:
     bootstrap/js/scrollspy.js: {}
     bootstrap/js/tab.js: {}
     bootstrap/js/transition.js: {}
+
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Titillium+Web': { type: external, minified: true }
+

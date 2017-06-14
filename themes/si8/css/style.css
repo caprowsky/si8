@@ -7376,3 +7376,22 @@ p:last-child,
  * Modify this file to override the Bootstrap Framework variables. You can copy
  * these variables directly from ../bootstrap/less/variables.less to this file.
  */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+}
+footer a {
+  color: #65dcdf;
+  text-decoration: underline;
+}
+footer ul.menu {
+  border-top: 1px solid #65dcdf;
+  display: inline-block;
+}
+footer .nav > li {
+  display: inline;
+}
+footer .nav > li a {
+  display: inline-block !important;
+}
