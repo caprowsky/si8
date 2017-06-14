@@ -15,7 +15,7 @@
 
   $aliases['live'] = array(
     'uri' => 'live-si8.pantheonsite.io',
-    'db-url' => 'mysql://pantheon:9540e8aaff7d4c069d31349bb6701fa9@dbserver.live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:11211/pantheon',
+    'db-url' => 'mysql://pantheon:2a429d29bd594c55994222e68be01eae@dbserver.live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:15554/pantheon',
     'db-allows-remote' => TRUE,
     'remote-host' => 'appserver.live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in',
     'remote-user' => 'live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e',
@@ -23,7 +23,7 @@
     'path-aliases' => array(
       '%files' => 'code/sites/default/files',
       '%drush-script' => 'drush',
-     ),
+    ),
   );
   $aliases['test'] = array(
     'uri' => 'test-si8.pantheonsite.io',
@@ -35,7 +35,7 @@
     'path-aliases' => array(
       '%files' => 'code/sites/default/files',
       '%drush-script' => 'drush',
-     ),
+    ),
   );
   $aliases['dev'] = array(
     'uri' => 'dev-si8.pantheonsite.io',
