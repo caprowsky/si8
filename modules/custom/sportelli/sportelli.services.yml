@@ -1,0 +1,6 @@
+services:
+  sportelli.metaportService:
+    class: Drupal\sportelli\metaportService
+  sportelli.struttureportService:
+    class: Drupal\sportelli\struttureportService
+
