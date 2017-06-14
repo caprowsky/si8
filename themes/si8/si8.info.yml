@@ -22,3 +22,4 @@ regions:
 libraries:
   - 'si8/global-styling'
   - 'si8/bootstrap-scripts'
+  - 'si8/fonts'
