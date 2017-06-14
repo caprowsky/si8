@@ -94,11 +94,19 @@ echo "}" >> modules/custom/migrando/files/si8_sardegnasuappagina_tnid_no_0.json
 
 #####################################################################################################
 
-#       FAQ
+#       FAQ FAQ (che non hanno il filtro per "trova procedimento")
 #
-wget http://localhost:5555/en/api/si7_faq.json -O modules/custom/migrando/files/si8_faq.json
-sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_faq.json
-echo "}" >> modules/custom/migrando/files/si8_faq.json
+wget http://localhost:5555/en/api/si7_faq_faq.json -O modules/custom/migrando/files/si8_faq_faq.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_faq_faq.json
+echo "}" >> modules/custom/migrando/files/si8_faq_faq.json
+
+#####################################################################################################
+
+#       FAQ di TROVA PROCEDIMENTO (che hanno il filtro per "trova procedimento")
+#
+wget http://localhost:5555/en/api/si7_faq_procedimento.json -O modules/custom/migrando/files/si8_faq_procedimento.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_faq_procedimento.json
+echo "}" >> modules/custom/migrando/files/si8_faq_procedimento.json
 
 #####################################################################################################
 
