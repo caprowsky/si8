@@ -9,6 +9,7 @@ is_admin: null
 permissions:
   - 'access toolbar'
   - 'administer main menu items'
+  - 'administer menu'
   - 'create bando content'
   - 'create content translations'
   - 'create custom_content content'
