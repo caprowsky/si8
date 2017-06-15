@@ -56,7 +56,8 @@ process:
 
   uid:
     plugin: migration
-    migration: si8_utenti
+    migration: utenti
+    no_stub: true
     source: uid
 
   langcode:
@@ -93,6 +94,7 @@ process:
       target_id:
         plugin: migration
         migration: termini
+        no_stub: true
         source: tid
 
 destination:

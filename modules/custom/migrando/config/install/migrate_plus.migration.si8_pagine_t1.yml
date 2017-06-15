@@ -71,7 +71,8 @@ process:
 
   uid:
     plugin: migration
-    migration: si8_utenti
+    migration: utenti
+    no_stub: true
     source: uid
 
   langcode:
@@ -91,6 +92,7 @@ process:
   nid:
     plugin: migration
     migration: pagine_t0
+    no_stub: true
     source: tnid
 
   path:
@@ -130,12 +132,14 @@ process:
       target_id:
         plugin: migration
         migration: files
+        no_stub: true
         source: fid
 
   field_immagine:
     target_id:
       plugin: migration
       migration: immagini
+      no_stub: true
       source: immagini/fid
 
   field_tags:
@@ -145,6 +149,7 @@ process:
       target_id:
         plugin: migration
         migration: termini
+        no_stub: true
         source: tid
 
 destination:

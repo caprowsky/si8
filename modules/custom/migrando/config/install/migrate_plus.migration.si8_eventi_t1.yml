@@ -72,6 +72,7 @@ process:
   uid:
     plugin: migration
     migration: si8_utenti
+    no_stub: true
     source: uid
 
   langcode:
@@ -91,6 +92,7 @@ process:
   nid:
     plugin: migration
     migration: eventi_t0
+    no_stub: true
     source: tnid
 
   path:
@@ -121,6 +123,7 @@ process:
           - notizie_t1
           - pagine_t0
           - pagine_t1
+        no_stub: true
         source: nid
 
   field_allegati:
@@ -130,12 +133,14 @@ process:
       target_id:
         plugin: migration
         migration: files
+        no_stub: true
         source: fid
 
   field_immagine:
     target_id:
       plugin: migration
       migration: immagini
+      no_stub: true
       source: immagini/fid
 
   field_tags:
@@ -145,6 +150,7 @@ process:
       target_id:
         plugin: migration
         migration: termini
+        no_stub: true
         source: tid
 
   field_data_evento:
