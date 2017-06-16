@@ -7386,6 +7386,11 @@ footer a {
   color: #65dcdf;
   text-decoration: underline;
 }
+footer a:hover {
+  background: #333;
+  color: #65dcdf;
+  text-decoration: underline;
+}
 footer ul.menu {
   border-top: 1px solid #65dcdf;
   display: inline-block;
