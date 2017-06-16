@@ -10,6 +10,7 @@
  * Implements hook_preprocess_page().
  */
 function si8_preprocess_page(&$vars) {
+  $vars['base_path'] = base_path();
 
   /** Footer contents */
   $custom_contents = ['footer1', 'footer2', 'footer3'];
