@@ -68,7 +68,6 @@ source:
 process:
   uuid: uuid
   created: created
-  changed: changed
   status: status
 
   uid:
