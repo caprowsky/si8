@@ -57,43 +57,10 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
-{# Navbar #}
-{% if page.navigation or page.navigation_collapsible %}
-  {% block navbar %}
-    {% set navbar_classes = [
-    'navbar',
-    theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
-    theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
-    ] %}
-    <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
-      {% if not navbar_attributes.hasClass(container) %}
-      <div class="{{ container }}">
-        {% endif %}
-        <div class="navbar-header">
-          {{ page.navigation }}
-          {# .btn-navbar is used as the toggle for collapsed navbar content #}
-          {% if page.navigation_collapsible %}
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-              <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          {% endif %}
-        </div>
 
-        {# Navigation (collapsible) #}
-        {% if page.navigation_collapsible %}
-          <div id="navbar-collapse" class="navbar-collapse collapse">
-            {{ page.navigation_collapsible }}
-          </div>
-        {% endif %}
-        {% if not navbar_attributes.hasClass(container) %}
-      </div>
-      {% endif %}
-    </header>
-  {% endblock %}
-{% endif %}
+
+{% include 'header.html.twig' %}
+
 
 {# Main #}
 {% block main %}
@@ -174,36 +141,7 @@
   </div>
 {% endblock %}
 
+{% include 'footer.html.twig' %}
 
-<footer class="footer" role="contentinfo">
-  <div class="valuta "><i class="fa fa-pencil"></i><a href="#">Valuta questo sito</a></div>
-
-  <div class="container">
-
-    <img src="{{ output.base_path  }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna" class="logo"/>
-    <h4>SardegnaImpresa<br>Sistema imprenditoriale della Sardegna</h4>
-
-    <div class="row footer-header">
-      <div class="col-md-9">{{ 'Contacts'|t }}</div>
-      <div class="col-md-3">{{ 'Follow us'|t }}</div>
-    </div>
-
-    <div class="row footer-content">
-      <div class="col-md-3">{{ footer1 }}</div>
-      <div class="col-md-3">{{ footer2 }}</div>
-      <div class="col-md-3">{{ footer3 }}</div>
-      <div class="col-md-3 social">
-        <div class="content">
-          <a href="https://www.facebook.com/sardegnaimpresa"><i class="fa fa-facebook-official"></i></a>
-          <a href="https://twitter.com/SardegnaImpresa"><i class="fa fa-twitter"></i></a>
-          <a href="https://www.youtube.com/user/sardegnaimpresa"><i class="fa fa-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-
-    {{ drupal_block('piedipagina') }}
-
-  </div>
-</footer>
 
 

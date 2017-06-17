@@ -7456,3 +7456,60 @@ footer .footer-content .content strong {
   margin-bottom: 10px;
   color: #fff;
 }
+.header-top {
+  background: #30373d;
+  color: #fff;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  padding: 10px 0;
+}
+.header-top a {
+  color: #fff;
+}
+.header-top .logo {
+  width: 40px;
+  margin-right: 10px;
+}
+.header-main {
+  background: #286bcc;
+  color: #fff;
+  padding: 20px 0;
+}
+.header-main a {
+  color: #fff;
+}
+.header-main .icon-social a {
+  font-size: 4rem;
+}
+.header-main .site-title {
+  color: #fff;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 3.7rem;
+}
+.header-main .site-title .subtitle {
+  font-size: 1.8rem;
+  display: block;
+}
+.header-down {
+  background-color: #5389d6;
+  text-align: center;
+}
+.header-down .navbar-nav {
+  display: inline-block;
+  float: none;
+  padding: 5px;
+}
+.header-down .navbar-nav a {
+  color: #fff;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+}
+.header-down .navbar-nav a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+body {
+  margin-top: 0;
+}
+.main-container {
+  margin-top: 30px;
+}
