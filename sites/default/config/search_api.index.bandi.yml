@@ -24,7 +24,7 @@ dependencies:
     - bandi
     - node
 id: bandi
-name: Bandi
+name: 'Contenuti Solr'
 description: ''
 read_only: false
 field_settings:
@@ -172,6 +172,11 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: created
     type: date
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
 datasource_settings:
   'entity:node':
     bundles:
