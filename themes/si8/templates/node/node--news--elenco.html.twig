@@ -77,20 +77,6 @@
 %}
 <article{{ attributes.addClass(classes) }}>
 
-
-
-
-
-  {% if display_submitted %}
-    <footer>
-      {{ author_picture }}
-      <div{{ author_attributes.addClass('author') }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
-    </footer>
-  {% endif %}
-
   <div{{ content_attributes.addClass('content') }}>
 
     {{ content.field_immagine }}
@@ -99,7 +85,7 @@
       {{ content.field_evento_data }}
       {% else %}
         {% set createdDate = node.getCreatedTime|date('d/m/Y') %}
-        {{ createdDate }}
+        <div class="created">{{ createdDate }}</div>
     {% endif %}
 
     {{ content.field_argomenti }}
