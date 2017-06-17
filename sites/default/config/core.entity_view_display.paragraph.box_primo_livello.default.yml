@@ -8,6 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.box_primo_livello
   module:
     - link
+    - text
 id: paragraph.box_primo_livello.default
 targetEntityType: paragraph
 bundle: box_primo_livello
@@ -15,9 +16,9 @@ mode: default
 content:
   field_link:
     weight: 0
-    label: inline
+    label: hidden
     settings:
-      trim_length: 80
+      trim_length: null
       url_only: false
       url_plain: false
       rel: '0'
@@ -25,5 +26,11 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-hidden:
-  field_testo: true
+  field_testo:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

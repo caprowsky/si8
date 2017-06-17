@@ -2,6 +2,9 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+  js:
+    js/jquery.matchHeight.js: {}
+    js/si8.js: {}
 
 bootstrap-scripts:
   js:
