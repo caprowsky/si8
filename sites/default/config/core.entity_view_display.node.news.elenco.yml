@@ -29,7 +29,7 @@ content:
     region: content
     label: hidden
     settings:
-      trim_length: '70'
+      trim_length: '50'
       trim_type: words
       trim_suffix: ' [...]'
       more_link: '0'
