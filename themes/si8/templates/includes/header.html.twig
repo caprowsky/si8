@@ -2,26 +2,35 @@
 
   <div class="header-top">
     <div class="container">
-    <img src="{{ output.base_path  }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna" class="logo"/>
-      <a href="http://www.regione.sardegna.it"><span class="ras">Regione Autonoma della Sardegna</span></a>
+      <div class="header-top1 pull-left">
+        <img src="{{ output.base_path }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna"
+             class="logo"/>
+        <a href="http://www.regione.sardegna.it"><span class="ras">Regione Autonoma della Sardegna</span></a>
+      </div>
+
+      <div class="header-top2 pull-right">
+        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#accedi">
+          {{ 'Login'|t }}
+        </button>
+      </div>
+
     </div>
   </div>
 
   <div class="header-main">
     <div class="container">
-      <div class="site-title pull-left"> <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><strong>Sardegna</strong>Impresa
-        <span class="subtitle">Sistema imprenditoriale della Sardegna</span></a>
+      <div class="site-title pull-left"><a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><strong>Sardegna</strong>Impresa
+          <span class="subtitle">Sistema imprenditoriale della Sardegna</span></a>
       </div>
 
       <div class="header-right pull-right">
-
         <div class="icon-social">
           <a href="https://www.facebook.com/sardegnaimpresa"><i class="fa fa-facebook-official"></i></a>
           <a href="https://twitter.com/SardegnaImpresa"><i class="fa fa-twitter"></i></a>
           <a href="https://www.youtube.com/user/sardegnaimpresa"><i class="fa fa-youtube"></i></a>
         </div>
-
       </div>
+
     </div>
 
   </div>
@@ -30,5 +39,22 @@
     {{ drupal_block('si8_main_menu') }}
   </div>
 
-
 </header>
+
+<!-- Modal -->
+<div class="modal fade" id="accedi" tabindex="-1" role="dialog" aria-labelledby="accediLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{ 'Login'|t }}</h4>
+      </div>
+      <div class="modal-body">
+        TBD
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{ 'Close'|t }}</button>
+      </div>
+    </div>
+  </div>
+</div>

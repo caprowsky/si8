@@ -7460,7 +7460,6 @@ footer .footer-content .content strong {
   background: #30373d;
   color: #fff;
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
-  padding: 10px 0;
 }
 .header-top a {
   color: #fff;
@@ -7468,6 +7467,22 @@ footer .footer-content .content strong {
 .header-top .logo {
   width: 40px;
   margin-right: 10px;
+}
+.header-top .header-top1 {
+  padding: 10px 0;
+}
+.header-top .block-lang-dropdown {
+  display: inline-block;
+}
+.header-top button {
+  border-radius: 0;
+  background-color: #5389d6;
+  display: inline-block;
+  padding: 20px 35px;
+  color: #fff;
+}
+.header-top button:hover {
+  text-decoration: underline;
 }
 .header-main {
   background: #286bcc;
