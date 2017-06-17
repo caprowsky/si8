@@ -154,7 +154,7 @@ echo "}" >> modules/custom/migrando/files/si8_faq_procedimento.json
 
 #       GLOSSARIO
 #
-wget http://www.sardegnaimpresa.eu/it/si7_glossario.json -O modules/custom/migrando/files/si8_glossario.json
+wget http://www.sardegnaimpresa.eu/it/api/si7_glossario.json -O modules/custom/migrando/files/si8_glossario.json
 sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_glossario.json
 echo "}" >> modules/custom/migrando/files/si8_glossario.json
 
@@ -193,6 +193,6 @@ echo "}" >> modules/custom/migrando/files/si8_termini.json
 #####################################################################################################
 
 #        UTENTI 
-wget http://www.sardegnaimpresa.eu/it/api/si7_utenti.json -O modules/custom/migrando/files/si8_utenti.json
-sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_utenti.json
-echo "}" >> modules/custom/migrando/files/si8_utenti.json
+#wget http://www.sardegnaimpresa.eu/it/api/si7_utenti.json -O modules/custom/migrando/files/si8_utenti.json
+#sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_utenti.json
+#echo "}" >> modules/custom/migrando/files/si8_utenti.json
