@@ -1066,7 +1066,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -5955,7 +5955,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6073,7 +6073,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6453,7 +6453,9 @@ button.close {
 .modal-footer:before,
 .modal-footer:after,
 .filter-wrapper:before,
-.filter-wrapper:after {
+.filter-wrapper:after,
+article.page.full .field--name-field-box:before,
+article.page.full .field--name-field-box:after {
   content: " ";
   display: table;
 }
@@ -6473,7 +6475,8 @@ button.close {
 .panel-body:after,
 .modal-header:after,
 .modal-footer:after,
-.filter-wrapper:after {
+.filter-wrapper:after,
+article.page.full .field--name-field-box:after {
   clear: both;
 }
 .center-block {
@@ -7297,7 +7300,7 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   color: inherit;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-size: 14px;
   list-style: none;
   min-width: 160px;
@@ -7527,4 +7530,44 @@ body {
 }
 .main-container {
   margin-top: 30px;
+}
+h1.page-header {
+  border: 0;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+article.page.full .field--name-field-box {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 50px;
+}
+article.page.full .field--name-field-box > .field--item {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  article.page.full .field--name-field-box > .field--item {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+article.page.full .field--name-field-box .field--name-field-link a {
+  color: #000;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+article.page.full .field--name-field-box .field--name-field-testo {
+  font-size: 1.7rem;
+}
+article.page.full .field--name-field-box .box-separator {
+  background-color: #286bcc;
+  height: 8px;
+  width: 50%;
+  margin-bottom: 20px;
 }
