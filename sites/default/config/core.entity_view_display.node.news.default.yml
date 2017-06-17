@@ -23,8 +23,8 @@ bundle: news
 mode: default
 content:
   body:
-    weight: 101
-    label: above
+    weight: 3
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -35,33 +35,33 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_allegati:
-    weight: 104
+    weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
     type: file_default
     region: content
   field_argomenti:
-    weight: 107
-    label: above
+    weight: 1
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_evento_data:
-    weight: 108
-    label: above
+    weight: 2
+    label: hidden
     settings:
-      separator: '-'
-      format_type: medium
       timezone_override: ''
+      format_type: data_completa
+      separator: '-'
     third_party_settings: {  }
     type: daterange_default
     region: content
   field_immagine:
-    weight: 106
-    label: above
+    weight: 0
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -69,7 +69,7 @@ content:
     type: image
     region: content
   field_risorse_collegate:
-    weight: 105
+    weight: 6
     label: above
     settings:
       link: true
@@ -77,17 +77,13 @@ content:
     type: entity_reference_label
     region: content
   field_tags:
-    weight: 102
-    label: above
+    weight: 4
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  links:
-    weight: 100
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true
+  links: true
