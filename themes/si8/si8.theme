@@ -32,3 +32,17 @@ function si8_preprocess_paragraph__box_primo_livello(&$vars) {
   // Apply the masonry display on this page.
   //\Drupal::service('masonry.service')->applyMasonryDisplay($vars, '.field--name-field-box', '> .field--item');
 }
+
+function si8_preprocess_page_title(&$vars) {
+
+  // Load the node entity from current route
+ $route = \Drupal::routeMatch()->getRouteObject()->getPath();
+
+ if ($route == '/news/{arg_0}/{arg_1}') {
+   $args = \Drupal::routeMatch()->getParameters();
+   $tid = $args->get('arg_0');
+   $term = $descrizione = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($tid);
+   $vars['title'] = 'News - ' . $term->label();
+ }
+
+}
