@@ -138,12 +138,12 @@ process:
         no_stub: true
         source: tid
 
-  field_data_evento:
-    value:
-      plugin: substr
-      source: data_evento
-      start: 0
-      length: 10
+  'field_evento_data/value':
+    plugin: date_evento
+    source: data_evento/value
+  'field_evento_data/end_value':
+    plugin: date_evento
+    source: data_evento/value2
 
 destination:
   plugin: entity:node
