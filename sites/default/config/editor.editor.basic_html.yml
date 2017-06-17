@@ -32,11 +32,11 @@ settings:
         -
           name: Media
           items:
-            - Blockquote
             - DrupalImage
         -
           name: Tools
           items:
+            - Table
             - Source
             - PasteFromWord
   plugins:
