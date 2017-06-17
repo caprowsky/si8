@@ -9,9 +9,51 @@
 #
 
 # Notizie con tnid = 0
-wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json -O modules/custom/migrando/files/si8_notizia_tnid_0.json
-sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0.json
-echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0.json
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=0 -O modules/custom/migrando/files/si8_notizia_tnid_0_page0.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page0.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page0.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=1 -O modules/custom/migrando/files/si8_notizia_tnid_0_page1.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page1.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page1.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=2 -O modules/custom/migrando/files/si8_notizia_tnid_0_page2.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page2.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page2.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=3 -O modules/custom/migrando/files/si8_notizia_tnid_0_page3.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page3.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page3.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=4 -O modules/custom/migrando/files/si8_notizia_tnid_0_page4.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page4.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page4.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=5 -O modules/custom/migrando/files/si8_notizia_tnid_0_page5.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page5.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page5.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=6 -O modules/custom/migrando/files/si8_notizia_tnid_0_page6.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page6.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page6.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=7 -O modules/custom/migrando/files/si8_notizia_tnid_0_page7.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page7.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page7.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=8 -O modules/custom/migrando/files/si8_notizia_tnid_0_page8.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page8.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page8.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=9 -O modules/custom/migrando/files/si8_notizia_tnid_0_page9.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page9.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page9.json
+
+wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_0.json?page=10-O modules/custom/migrando/files/si8_notizia_tnid_0_page10.json
+sed -i -e '1i{"items":\' modules/custom/migrando/files/si8_notizia_tnid_0_page10.json
+echo "}" >> modules/custom/migrando/files/si8_notizia_tnid_0_page10.json
+
+
 
 # Notizie con tnid no 0
 wget http://www.sardegnaimpresa.eu/it/api/si7_notizia_tnid_no_0.json -O modules/custom/migrando/files/si8_notizia_tnid_no_0.json
