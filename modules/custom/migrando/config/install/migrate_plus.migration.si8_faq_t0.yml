@@ -76,10 +76,6 @@ process:
     plugin: default_value
     default_value: faq
 
-  path:
-    plugin: remove_char
-    source: percorso
-
   title:
     plugin: encode
     source: title
@@ -106,4 +102,3 @@ dependencies:
   enforced:
     module:
       - migrando
-

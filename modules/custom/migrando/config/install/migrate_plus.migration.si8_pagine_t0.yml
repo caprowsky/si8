@@ -91,10 +91,6 @@ process:
     plugin: default_value
     default_value: page
 
-  path:
-    plugin: remove_char
-    source: percorso
-
   title:
     plugin: encode
     source: title
