@@ -95,10 +95,6 @@ process:
     no_stub: true
     source: tnid
 
-  path:
-    plugin: remove_char
-    source: percorso
-
   title:
     plugin: encode
     source: title
