@@ -6,13 +6,13 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_allegati
     - field.field.node.news.field_argomenti
-    - field.field.node.news.field_data_evento
+    - field.field.node.news.field_evento_data
     - field.field.node.news.field_immagine
     - field.field.node.news.field_risorse_collegate
     - field.field.node.news.field_tags
     - node.type.news
   module:
-    - datetime
+    - datetime_range
     - file
     - image
     - text
@@ -49,14 +49,15 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_data_evento:
-    weight: 103
+  field_evento_data:
+    weight: 108
     label: above
     settings:
+      separator: '-'
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
-    type: datetime_default
+    type: daterange_default
     region: content
   field_immagine:
     weight: 106

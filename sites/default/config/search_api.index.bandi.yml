@@ -177,12 +177,22 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: type
     type: string
+  changed:
+    label: 'Data modifica'
+    datasource_id: 'entity:node'
+    property_path: changed
+    type: date
+  langcode:
+    label: Language
+    datasource_id: 'entity:node'
+    property_path: langcode
+    type: string
 datasource_settings:
   'entity:node':
     bundles:
-      default: false
+      default: true
       selected:
-        - bando
+        - custom_content
     languages:
       default: true
       selected: {  }

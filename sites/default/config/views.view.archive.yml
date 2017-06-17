@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: SRH1EhxAiIRj01P9xYv0h_LfIfWxjll0Yq-eDfjziFI
 id: archive
-label: Archive
+label: Archivio
 module: node
 description: 'All content, by month.'
 tag: default

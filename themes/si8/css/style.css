@@ -7567,3 +7567,21 @@ article.page.full .field--name-field-box .box-separator {
   width: 50%;
   margin-bottom: 20px;
 }
+article.news.elenco .field--name-field-immagine {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+article.news.elenco .field--name-body {
+  margin-top: 20px;
+}
+.elenco-news .views-row {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.elenco-news .news-link {
+  font-weight: bold;
+  font-size: 3rem;
+}
