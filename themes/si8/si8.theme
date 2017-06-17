@@ -26,3 +26,9 @@ function si8_preprocess_page(&$vars) {
   }
 
 }
+
+function si8_preprocess_paragraph__box_primo_livello(&$vars) {
+
+  // Apply the masonry display on this page.
+  //\Drupal::service('masonry.service')->applyMasonryDisplay($vars, '.field--name-field-box', '> .field--item');
+}
