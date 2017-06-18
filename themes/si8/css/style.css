@@ -7585,3 +7585,30 @@ article.news.elenco .field--name-body {
   font-weight: bold;
   font-size: 3rem;
 }
+/* Elenco argomenti */
+.block-elenco-argomenti ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.block-elenco-argomenti h3 {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.block-elenco-argomenti li {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.8rem;
+  list-style-type: none;
+}
+.block-elenco-argomenti li a {
+  display: block;
+  padding: 15px;
+}
+.block-elenco-argomenti li a:hover {
+  background-color: #eeeeee;
+}
+.block-elenco-argomenti li a.is-active {
+  background-color: #286bcc;
+  color: #fff;
+}
+/* Fine elenco argomenti */

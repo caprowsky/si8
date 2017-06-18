@@ -24,3 +24,42 @@ article.news.elenco {
     font-size: 3rem;
   }
 }
+
+/* Elenco argomenti */
+.block-elenco-argomenti {
+
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  h3 {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  li {
+    border-bottom: 1px solid @gray-lighter;
+    font-size: 1.8rem;
+    list-style-type: none;
+
+    a {
+      display: block;
+      padding: 15px;
+
+      &:hover {
+        background-color: @gray-lighter;
+      }
+
+      &.is-active {
+        background-color: @brand-primary;
+        color: #fff;
+      }
+    }
+  }
+
+}
+
+
+/* Fine elenco argomenti */
