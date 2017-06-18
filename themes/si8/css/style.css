@@ -7430,6 +7430,10 @@ footer .valuta a {
   color: #fff;
   text-decoration: none;
 }
+footer .valuta a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
 footer .footer-header {
   font-weight: bold;
   margin-top: 40px;
