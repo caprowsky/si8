@@ -7459,7 +7459,7 @@ footer .footer-content .content {
 }
 footer .footer-content .content strong {
   font-size: 1.8rem;
-  display: inline-block;
+  display: block;
   margin-bottom: 10px;
   color: #fff;
 }
@@ -7494,13 +7494,18 @@ footer .footer-content .content strong {
 .header-main {
   background: #286bcc;
   color: #fff;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 .header-main a {
   color: #fff;
 }
+.header-main .icon-social {
+  text-align: right;
+}
 .header-main .icon-social a {
-  font-size: 4rem;
+  font-size: 3rem;
+  display: inline-block;
+  margin-left: 15px;
 }
 .header-main .site-title {
   color: #fff;
@@ -7510,6 +7515,27 @@ footer .footer-content .content strong {
 .header-main .site-title .subtitle {
   font-size: 1.8rem;
   display: block;
+}
+.header-main .ricerca {
+  margin-top: 10px;
+}
+.header-main .ricerca label {
+  display: none;
+}
+.header-main .ricerca input.form-text {
+  border: none;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+.header-main .ricerca button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  margin-right: 0;
+  height: 34px;
+  margin-left: -4px;
+  font-size: 2rem;
 }
 .header-down {
   background-color: #5389d6;

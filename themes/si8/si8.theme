@@ -46,3 +46,4 @@ function si8_preprocess_page_title(&$vars) {
  }
 
 }
+
