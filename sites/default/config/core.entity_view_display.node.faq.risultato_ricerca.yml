@@ -8,30 +8,21 @@ dependencies:
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
-    - text
     - user
 id: node.faq.risultato_ricerca
 targetEntityType: node
 bundle: faq
 mode: risultato_ricerca
 content:
-  body:
-    weight: 104
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_tags:
-    weight: 103
-    label: above
+    weight: 0
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  links:
-    weight: 100
-    region: content
 hidden:
+  body: true
   langcode: true
+  links: true
