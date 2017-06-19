@@ -62,7 +62,7 @@ function si8_preprocess_node(&$vars) {
   /* @var \Drupal\node\Entity\Node $node */
 
   switch ( $vars['view_mode']) {
-    case 'risultati_ricerca':
+    case 'risultato_ricerca':
       $vars['tipo_contenuto'] = $node->type->entity->label();
       $vars['data_creazione'] = \Drupal::service('date.formatter')->format($node->getCreatedTime(), 'short_date');
       $vars['data_modifica'] = \Drupal::service('date.formatter')->format($node->getChangedTime(), 'short_date');
