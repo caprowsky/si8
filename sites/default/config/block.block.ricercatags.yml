@@ -1,23 +1,23 @@
-uuid: 69c60bf2-6a5b-4416-a563-b5d7f1553660
+uuid: 5effdc1c-25b7-47b4-ade8-3de648bddeb1
 langcode: it
 status: true
 dependencies:
   config:
-    - facets.facet.facet_ricerca_content_type
+    - facets.facet.ricerca_tags
   module:
     - facets
     - system
   theme:
     - si8
-id: facetricercacontenttype
+id: ricercatags
 theme: si8
 region: sidebar_second
-weight: -9
+weight: -7
 provider: null
-plugin: 'facet_block:facet_ricerca_content_type'
+plugin: 'facet_block:ricerca_tags'
 settings:
-  id: 'facet_block:facet_ricerca_content_type'
-  label: 'Content type'
+  id: 'facet_block:ricerca_tags'
+  label: Tags
   provider: facets
   label_display: visible
 visibility:

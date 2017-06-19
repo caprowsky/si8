@@ -233,13 +233,25 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          content: 'Visualizzazione elementi @start - @end su @total'
+          content: 'There are <strong>@total</strong> results for your search:'
           plugin_id: result
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: 'Non ci sono risultati per la ricerca effettuata, prova con un''altra chiave.'
+          plugin_id: text_custom
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: risultati-ricerca
     cache_metadata:
       max-age: -1
       contexts:
