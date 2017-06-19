@@ -11,7 +11,7 @@ id: node.news.field_evento_data
 field_name: field_evento_data
 entity_type: node
 bundle: news
-label: 'Evento data'
+label: 'Data evento'
 description: ''
 required: false
 translatable: false
