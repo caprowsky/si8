@@ -47,3 +47,13 @@ function si8_preprocess_page_title(&$vars) {
 
 }
 
+function si8_preprocess_links__language_block(&$variables) {
+
+  foreach ($variables['links'] as $key => $value) {
+
+    $language = $value['link']['#options']['language'];
+    $variables['links'][$key]['link']['#title'] = $language->id();
+
+
+  }
+}

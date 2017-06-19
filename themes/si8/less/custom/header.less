@@ -32,6 +32,43 @@
       text-decoration: underline;
     }
   }
+
+
+  .selettorelingua {
+    background-color: @brand-third;
+    float: left;
+
+    ul {
+      margin-bottom: 0;
+      padding: 23px;
+
+      li {
+        display: inline-block;
+        text-transform: uppercase;
+        list-style-type: none;
+        //border-right: 1px solid #fff;
+
+
+        &::after {
+          content: ' |';
+        }
+
+        &:last-child::after{
+          content: '';
+        }
+
+        a {
+          padding: 0 7px;
+
+          &.is-active {
+            font-weight: bold;
+            text-decoration: underline;
+          }
+        }
+      }
+
+    }
+  }
 }
 
 .header-main {
@@ -88,6 +125,7 @@
       font-size: 2rem;
     }
   }
+
 }
 
 .header-down {
