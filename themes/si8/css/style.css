@@ -7491,6 +7491,32 @@ footer .footer-content .content strong {
 .header-top button:hover {
   text-decoration: underline;
 }
+.header-top .selettorelingua {
+  background-color: #7ea6e0;
+  float: left;
+}
+.header-top .selettorelingua ul {
+  margin-bottom: 0;
+  padding: 23px;
+}
+.header-top .selettorelingua ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+.header-top .selettorelingua ul li::after {
+  content: ' |';
+}
+.header-top .selettorelingua ul li:last-child::after {
+  content: '';
+}
+.header-top .selettorelingua ul li a {
+  padding: 0 7px;
+}
+.header-top .selettorelingua ul li a.is-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
 .header-main {
   background: #286bcc;
   color: #fff;
