@@ -1,0 +1,36 @@
+uuid: 4c5e87f1-d345-44ae-9d2e-fb8002ee1e87
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_sezione.field_link
+    - field.field.paragraph.link_sezione.field_titolo
+    - paragraphs.paragraphs_type.link_sezione
+  module:
+    - content_moderation
+    - link
+id: paragraph.link_sezione.default
+targetEntityType: paragraph
+bundle: link_sezione
+mode: default
+content:
+  field_link:
+    weight: 7
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_titolo:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

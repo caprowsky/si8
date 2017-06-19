@@ -1,0 +1,32 @@
+uuid: 208ecd04-6c46-45dd-b641-9abf409cba37
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.messaggio_in_evidenza.field_body
+    - paragraphs.paragraphs_type.messaggio_in_evidenza
+  module:
+    - smart_trim
+id: paragraph.messaggio_in_evidenza.preview
+targetEntityType: paragraph
+bundle: messaggio_in_evidenza
+mode: preview
+content:
+  field_body:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: '100'
+      trim_type: chars
+      trim_suffix: '  [..]'
+      more_link: '0'
+      more_text: More
+      trim_options:
+        text: text
+      more_class: more-link
+      summary_handler: full
+    third_party_settings: {  }
+    type: smart_trim
+    region: content
+hidden: {  }

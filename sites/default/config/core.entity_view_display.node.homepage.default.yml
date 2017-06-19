@@ -1,0 +1,29 @@
+uuid: fcc21cb8-95a9-450e-99ca-4733678a78cb
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_box
+    - node.type.homepage
+  module:
+    - entity_reference_revisions
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_box:
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
