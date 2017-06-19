@@ -1,0 +1,51 @@
+uuid: 9529e234-2878-403f-9323-c939718799a4
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_box
+    - node.type.homepage
+    - paragraphs.paragraphs_type.box_contenuti_custom
+    - paragraphs.paragraphs_type.elenco_contenuti
+    - paragraphs.paragraphs_type.link_sezione
+    - paragraphs.paragraphs_type.messaggio_in_evidenza
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_box
+field_name: field_box
+entity_type: node
+bundle: homepage
+label: Box
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      box_contenuti_custom: box_contenuti_custom
+      elenco_contenuti: elenco_contenuti
+      link_sezione: link_sezione
+      messaggio_in_evidenza: messaggio_in_evidenza
+    target_bundles_drag_drop:
+      box_contenuti_custom:
+        enabled: true
+        weight: 7
+      box_primo_livello:
+        weight: 8
+        enabled: false
+      contenuto_custom:
+        weight: 9
+        enabled: false
+      elenco_contenuti:
+        enabled: true
+        weight: 10
+      link_sezione:
+        enabled: true
+        weight: 11
+      messaggio_in_evidenza:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

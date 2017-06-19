@@ -1,0 +1,7 @@
+uuid: c9680dbe-b0e0-4e92-adb9-609b4ffd49eb
+langcode: it
+status: true
+dependencies: {  }
+id: messaggio_in_evidenza
+label: 'Messaggio in evidenza'
+behavior_plugins: {  }

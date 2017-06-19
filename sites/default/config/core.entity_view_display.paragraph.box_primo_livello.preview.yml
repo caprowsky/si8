@@ -16,7 +16,7 @@ mode: preview
 content:
   field_link:
     weight: 0
-    label: inline
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -24,7 +24,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    type: link_separate
     region: content
 hidden:
   field_testo: true

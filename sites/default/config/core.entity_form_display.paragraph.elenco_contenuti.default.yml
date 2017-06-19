@@ -1,0 +1,25 @@
+uuid: aa628df8-f852-4ace-bf88-77a349787bf2
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.elenco_contenuti.field_views
+    - paragraphs.paragraphs_type.elenco_contenuti
+  module:
+    - content_moderation
+    - viewsreference
+id: paragraph.elenco_contenuti.default
+targetEntityType: paragraph
+bundle: elenco_contenuti
+mode: default
+content:
+  field_views:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: viewsreference_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

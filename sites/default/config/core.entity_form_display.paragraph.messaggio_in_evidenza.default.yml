@@ -1,0 +1,27 @@
+uuid: 694cf9b2-1af6-4e29-9570-f75422a17dff
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.messaggio_in_evidenza.field_body
+    - paragraphs.paragraphs_type.messaggio_in_evidenza
+  module:
+    - content_moderation
+    - text
+id: paragraph.messaggio_in_evidenza.default
+targetEntityType: paragraph
+bundle: messaggio_in_evidenza
+mode: default
+content:
+  field_body:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
