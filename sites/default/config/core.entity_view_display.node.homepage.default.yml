@@ -14,16 +14,14 @@ bundle: homepage
 mode: default
 content:
   field_box:
-    weight: 101
-    label: above
+    weight: 0
+    label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
-  links:
-    weight: 100
-    region: content
 hidden:
   langcode: true
+  links: true
