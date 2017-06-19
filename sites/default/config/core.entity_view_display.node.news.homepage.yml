@@ -1,0 +1,90 @@
+uuid: dc69ef61-e3dc-4a12-84e5-9ba00bc42c2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.homepage
+    - field.field.node.news.body
+    - field.field.node.news.field_allegati
+    - field.field.node.news.field_argomenti
+    - field.field.node.news.field_evento_data
+    - field.field.node.news.field_immagine
+    - field.field.node.news.field_risorse_collegate
+    - field.field.node.news.field_tags
+    - node.type.news
+  module:
+    - datetime_range
+    - file
+    - image
+    - text
+    - user
+id: node.news.homepage
+targetEntityType: node
+bundle: news
+mode: homepage
+content:
+  body:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  content_moderation_control:
+    weight: -20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_allegati:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_argomenti:
+    weight: 1
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_evento_data:
+    weight: 2
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: data_completa
+      separator: '-'
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_immagine:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_risorse_collegate:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tags:
+    weight: 4
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true
+  links: true
