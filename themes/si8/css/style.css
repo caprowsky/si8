@@ -6455,7 +6455,9 @@ button.close {
 .filter-wrapper:before,
 .filter-wrapper:after,
 article.page.full .field--name-field-box:before,
-article.page.full .field--name-field-box:after {
+article.page.full .field--name-field-box:after,
+.path-glossario .elenco-glossario .view-content:before,
+.path-glossario .elenco-glossario .view-content:after {
   content: " ";
   display: table;
 }
@@ -6476,7 +6478,8 @@ article.page.full .field--name-field-box:after {
 .modal-header:after,
 .modal-footer:after,
 .filter-wrapper:after,
-article.page.full .field--name-field-box:after {
+article.page.full .field--name-field-box:after,
+.path-glossario .elenco-glossario .view-content:after {
   clear: both;
 }
 .center-block {
@@ -7688,4 +7691,57 @@ article.news.elenco .field--name-body {
 }
 .risultati-ricerca .view-empty {
   margin-top: 30px;
+}
+/* Glossario */
+.path-glossario #block-facetglossario li.is-active {
+  background-color: #333;
+}
+.path-glossario #block-facetglossario a {
+  background-color: #286bcc;
+}
+.path-glossario #block-facetglossario a.is-active {
+  background-color: #333;
+}
+.path-glossario .elenco-glossario {
+  font-size: 1.5rem;
+}
+.path-glossario .elenco-glossario input.form-text {
+  border: 1px solid #777777;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+.path-glossario .elenco-glossario button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  margin-right: 0;
+  height: 34px;
+  margin-left: -4px;
+  font-size: 2rem;
+}
+.path-glossario .elenco-glossario label {
+  display: none;
+}
+.path-glossario .elenco-glossario .view-content {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 30px;
+}
+.path-glossario .elenco-glossario .views-row {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .path-glossario .elenco-glossario .views-row {
+    float: left;
+    width: 50%;
+  }
+}
+.path-glossario .elenco-glossario .views-row a {
+  font-size: 2rem;
+  font-weight: bold;
 }
