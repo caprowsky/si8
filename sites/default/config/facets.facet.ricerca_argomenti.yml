@@ -1,4 +1,4 @@
-uuid: a7db917e-7e1c-4aa0-a273-52ed790f958e
+uuid: 8be0fe8f-5d13-4838-a004-1cf73dc35e99
 langcode: it
 status: true
 dependencies:
@@ -7,20 +7,20 @@ dependencies:
     - views.view.ricerca
   module:
     - search_api
-id: facet_ricerca_content_type
-name: 'Facet Ricerca - Content type'
-url_alias: type
+id: ricerca_argomenti
+name: 'Ricerca - Argomenti'
+url_alias: argomenti
 weight: 0
 min_count: 1
-show_only_one_result: true
-field_identifier: type
+show_only_one_result: false
+field_identifier: field_argomenti
 facet_source_id: 'search_api:views_page__ricerca__ricerca'
 widget:
   type: links
   config:
     show_numbers: true
-    soft_limit: 0
-query_operator: and
+    soft_limit: 10
+query_operator: or
 use_hierarchy: false
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true

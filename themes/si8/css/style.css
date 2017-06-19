@@ -7673,3 +7673,19 @@ article.news.elenco .field--name-body {
   color: #fff;
 }
 /* Fine elenco argomenti */
+.risultati-ricerca {
+  font-size: 1.5rem;
+}
+.risultati-ricerca .bundle {
+  font-weight: bold;
+}
+.risultati-ricerca h2 a {
+  font-size: 2.5rem;
+}
+.risultati-ricerca .views-row {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 30px;
+}
+.risultati-ricerca .view-empty {
+  margin-top: 30px;
+}

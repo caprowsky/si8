@@ -38,13 +38,6 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_macrosettore:
-    weight: 2
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_tipologia_iniziativa:
     weight: 1
     label: inline
@@ -56,6 +49,7 @@ hidden:
   field_agevolazione_concessa: true
   field_criteri_di_valutazione: true
   field_dotazione_finanziaria: true
+  field_macrosettore: true
   field_mas: true
   field_oggetto_del_bando: true
   field_procedura: true

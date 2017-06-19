@@ -19,6 +19,8 @@ dependencies:
     - field.storage.node.field_termini
     - field.storage.node.field_tipologia_iniziativa
     - field.storage.node.body
+    - field.storage.node.field_tags
+    - field.storage.node.field_argomenti
     - search_api.server.solr
   module:
     - search_api
@@ -196,6 +198,22 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.body
+  field_tags:
+    label: Tags
+    datasource_id: 'entity:node'
+    property_path: field_tags
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+  field_argomenti:
+    label: Argomenti
+    datasource_id: 'entity:node'
+    property_path: field_argomenti
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_argomenti
 datasource_settings:
   'entity:node':
     bundles:
@@ -208,8 +226,8 @@ datasource_settings:
 processor_settings:
   bandiattivi: {  }
   add_url: {  }
-  aggregated_field: {  }
   rendered_item: {  }
+  aggregated_field: {  }
 tracker_settings:
   default: {  }
 options:

@@ -1,23 +1,23 @@
-uuid: 69c60bf2-6a5b-4416-a563-b5d7f1553660
+uuid: 225752c6-0f21-4cab-905b-156b6f920767
 langcode: it
 status: true
 dependencies:
   config:
-    - facets.facet.facet_ricerca_content_type
+    - facets.facet.ricerca_argomenti
   module:
     - facets
     - system
   theme:
     - si8
-id: facetricercacontenttype
+id: ricercaargomenti
 theme: si8
 region: sidebar_second
-weight: -9
+weight: -8
 provider: null
-plugin: 'facet_block:facet_ricerca_content_type'
+plugin: 'facet_block:ricerca_argomenti'
 settings:
-  id: 'facet_block:facet_ricerca_content_type'
-  label: 'Content type'
+  id: 'facet_block:ricerca_argomenti'
+  label: Argomenti
   provider: facets
   label_display: visible
 visibility:
