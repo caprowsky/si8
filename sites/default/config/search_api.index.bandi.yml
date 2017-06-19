@@ -18,6 +18,7 @@ dependencies:
     - field.storage.node.field_spese_ammissibili_list
     - field.storage.node.field_termini
     - field.storage.node.field_tipologia_iniziativa
+    - field.storage.node.body
     - search_api.server.solr
   module:
     - search_api
@@ -46,7 +47,7 @@ field_settings:
     label: Titolo
     datasource_id: 'entity:node'
     property_path: title
-    type: string
+    type: text
   field_agevolazione_concessa:
     label: 'Agevolazione concessa'
     datasource_id: 'entity:node'
@@ -187,6 +188,14 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: langcode
     type: string
+  body:
+    label: Risposta
+    datasource_id: 'entity:node'
+    property_path: body
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.body
 datasource_settings:
   'entity:node':
     bundles:
@@ -199,8 +208,8 @@ datasource_settings:
 processor_settings:
   bandiattivi: {  }
   add_url: {  }
-  rendered_item: {  }
   aggregated_field: {  }
+  rendered_item: {  }
 tracker_settings:
   default: {  }
 options:

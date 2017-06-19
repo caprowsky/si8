@@ -1,18 +1,19 @@
-uuid: 3dd8a079-1831-47bf-a981-8dd0ac36f5cc
+uuid: 4d1ad0a2-7385-423e-8a95-a8ad0a8b8397
 langcode: it
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.risultato_ricerca
     - field.field.node.faq.body
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
     - text
     - user
-id: node.faq.default
+id: node.faq.risultato_ricerca
 targetEntityType: node
 bundle: faq
-mode: default
+mode: risultato_ricerca
 content:
   body:
     weight: 104
@@ -32,7 +33,5 @@ content:
   links:
     weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true

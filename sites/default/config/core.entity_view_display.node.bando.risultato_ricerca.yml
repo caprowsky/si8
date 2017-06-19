@@ -1,8 +1,9 @@
-uuid: 4a98f007-c826-4144-b91f-3be227b931c9
+uuid: 63156bd5-44db-4b40-a311-87afbb045a90
 langcode: it
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.risultato_ricerca
     - field.field.node.bando.field_agevolazione_concessa
     - field.field.node.bando.field_criteri_di_valutazione
     - field.field.node.bando.field_data_scadenza_agevolazione
@@ -25,10 +26,10 @@ dependencies:
     - options
     - text
     - user
-id: node.bando.default
+id: node.bando.risultato_ricerca
 targetEntityType: node
 bundle: bando
-mode: default
+mode: risultato_ricerca
 content:
   field_agevolazione_concessa:
     weight: 106
@@ -145,7 +146,5 @@ content:
   links:
     weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true
