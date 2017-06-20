@@ -7676,6 +7676,15 @@ article.news.elenco .field--name-body {
   color: #fff;
 }
 /* Fine elenco argomenti */
+article.news.full {
+  font-size: 2rem;
+}
+article.news.full .field--name-field-immagine {
+  margin-bottom: 30px;
+}
+article.news.full .content > .field {
+  margin-bottom: 25px;
+}
 .risultati-ricerca {
   font-size: 1.5rem;
 }

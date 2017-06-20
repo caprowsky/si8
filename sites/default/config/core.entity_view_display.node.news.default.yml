@@ -45,7 +45,7 @@ content:
     weight: 1
     label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
@@ -55,7 +55,7 @@ content:
     settings:
       timezone_override: ''
       format_type: data_completa
-      separator: '-'
+      separator: al
     third_party_settings: {  }
     type: daterange_default
     region: content
