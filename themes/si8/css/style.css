@@ -7596,6 +7596,15 @@ h1.page-header {
   font-weight: bold;
   font-size: 4rem;
 }
+article.page.full {
+  font-size: 2rem;
+}
+article.page.full .field--name-field-immagine {
+  margin-bottom: 30px;
+}
+article.page.full .content .col-md-9 > .field {
+  margin-bottom: 25px;
+}
 article.page.full .field--name-field-box {
   margin-left: -15px;
   margin-right: -15px;
