@@ -80,16 +80,35 @@
 
   <div{{ content_attributes.addClass('content') }}>
 
-    {{ content.field_immagine }}
+    <div class="row">
+      <div class="col-md-9">
+        {{ content.field_immagine }}
 
-    {% if content.field_evento_data|render is not empty %}
-      {{ content.field_evento_data }}
-    {% else %}
-      {% set createdDate = node.getCreatedTime|date('d/m/Y') %}
-      <div class="created field">{{ 'Published on'|t }} {{ createdDate }}</div>
-    {% endif %}
+        {% if content.field_box|render is not empty %}
+          {{ content.field_box }}
+        {% else %}
+          {% set createdDate = node.getChangedTime|date('d/m/Y') %}
+          <div class="created field">{{ 'Updated on'|t }} {{ createdDate }}</div>
 
-    {{ content }}
+          {{ content.body }}
+
+          {{ content.field_argomenti }}
+          {{ content.field_tags }}
+
+          {{ content.field_risorse_collegate }}
+          {{ content.field_allegati }}
+
+        {% endif %}
+
+      </div>
+
+      <div class="col-md-3">
+        {{ content.field_risorse_collegate }}
+      </div>
+
+    </div>
+
+
 
 
 
