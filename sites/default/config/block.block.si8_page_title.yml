@@ -8,8 +8,8 @@ _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: si8_page_title
 theme: si8
-region: content
-weight: -7
+region: header
+weight: -10
 provider: null
 plugin: page_title_block
 settings:
