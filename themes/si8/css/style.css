@@ -7595,6 +7595,17 @@ h1.page-header {
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 4rem;
+  float: left;
+}
+#block-addtoanybuttons {
+  float: right;
+}
+#block-addtoanybuttons .a2a_svg,
+#block-addtoanybuttons .a2a_count {
+  border-radius: 0 !important;
+}
+#block-addtoanybuttons svg {
+  background-color: #286bcc;
 }
 article.page.full {
   font-size: 2rem;

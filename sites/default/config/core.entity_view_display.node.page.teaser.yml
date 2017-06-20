@@ -5,6 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_allegati
+    - field.field.node.page.field_box
+    - field.field.node.page.field_immagine
+    - field.field.node.page.field_risorse_collegate
+    - field.field.node.page.field_sezione
+    - field.field.node.page.field_tags
     - node.type.page
   module:
     - text
@@ -14,6 +20,11 @@ targetEntityType: node
 bundle: page
 mode: teaser
 content:
+  addtoany:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   body:
     label: hidden
     type: text_summary_or_trimmed
@@ -26,4 +37,10 @@ content:
     weight: 100
     region: content
 hidden:
+  field_allegati: true
+  field_box: true
+  field_immagine: true
+  field_risorse_collegate: true
+  field_sezione: true
+  field_tags: true
   langcode: true
