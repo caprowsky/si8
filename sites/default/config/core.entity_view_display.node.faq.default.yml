@@ -15,24 +15,21 @@ bundle: faq
 mode: default
 content:
   body:
-    weight: 104
-    label: above
+    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_tags:
-    weight: 103
-    label: above
+    weight: 1
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  links:
-    weight: 100
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
+  addtoany: true
   langcode: true
+  links: true
