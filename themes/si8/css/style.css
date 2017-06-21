@@ -7834,3 +7834,9 @@ article.glossary.full {
 article.glossary.full .content > .field {
   margin-bottom: 20px;
 }
+article.full.full {
+  font-size: 2rem;
+}
+article.full.full .content > .field {
+  margin-bottom: 20px;
+}
