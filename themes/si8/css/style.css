@@ -7651,6 +7651,56 @@ article.page.full .field--name-field-box .box-separator {
   width: 50%;
   margin-bottom: 20px;
 }
+article.page.full .field--name-field-risorse-collegate .field--label {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+}
+article.page.full .field--name-field-risorse-collegate .field--item {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.8rem;
+  list-style-type: none;
+}
+article.page.full .field--name-field-risorse-collegate .field--item a {
+  display: block;
+  padding: 15px;
+}
+article.page.full .field--name-field-risorse-collegate .field--item a:hover {
+  background-color: #eeeeee;
+}
+article.page.full .field--name-field-risorse-collegate .field--item a.is-active {
+  background-color: #286bcc;
+  color: #fff;
+}
+#block-navigazioneprincipale {
+  margin-bottom: 50px;
+}
+#block-navigazioneprincipale ul.menu > li a {
+  background-color: #333;
+  color: #fff;
+}
+#block-navigazioneprincipale ul.menu > li ul {
+  padding-left: 0;
+}
+#block-navigazioneprincipale ul.menu > li ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #eeeeee;
+}
+#block-navigazioneprincipale ul.menu > li ul li a {
+  background-color: #fff;
+  color: #286bcc;
+  display: block;
+  padding: 10px;
+}
+#block-navigazioneprincipale ul.menu > li ul li a.is-active {
+  background-color: #286bcc;
+  color: #fff;
+}
+#block-navigazioneprincipale ul.menu > li ul li a:hover {
+  background-color: #eeeeee;
+}
 article.news.elenco .field--name-field-immagine {
   float: right;
   margin-left: 20px;
@@ -7677,7 +7727,11 @@ article.news.elenco .field--name-body {
 .block-elenco-argomenti h3 {
   padding-left: 15px;
   padding-bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 0;
   font-weight: bold;
+  background-color: #333;
+  color: #fff;
 }
 .block-elenco-argomenti li {
   border-bottom: 1px solid #eeeeee;

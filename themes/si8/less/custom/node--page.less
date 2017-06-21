@@ -42,4 +42,73 @@ article.page.full {
     }
   }
 
+  .field--name-field-risorse-collegate {
+    .field--label {
+      font-weight: bold;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      padding-left: 15px;
+    }
+
+    .field--item  {
+      border-bottom: 1px solid @gray-lighter;
+      font-size: 1.8rem;
+      list-style-type: none;
+
+      a {
+        display: block;
+        padding: 15px;
+
+        &:hover {
+          background-color: @gray-lighter;
+        }
+
+        &.is-active {
+          background-color: @brand-primary;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+}
+
+#block-navigazioneprincipale {
+
+  margin-bottom: 50px;
+
+  ul.menu {
+    & > li {
+      a {
+        background-color: #333;
+        color: #fff;
+      }
+
+      ul {
+        padding-left: 0;
+
+        li {
+          list-style-type: none;
+          border-bottom: 1px solid @gray-lighter;
+
+          a {
+            background-color: #fff;
+            color: @brand-primary;
+            display: block;
+            padding: 10px;
+
+            &.is-active {
+              background-color: @brand-primary;
+              color: #fff;
+            }
+
+            &:hover {
+              background-color: @gray-lighter;
+            }
+          }
+        }
+      }
+    }
+  }
 }
