@@ -7840,3 +7840,19 @@ article.full.full {
 article.full.full .content > .field {
   margin-bottom: 20px;
 }
+.lista-sportelli {
+  font-size: 2rem;
+}
+.lista-sportelli select {
+  font-size: 2rem;
+}
+.lista-sportelli .sportello {
+  margin-top: 30px;
+}
+.lista-sportelli label {
+  display: none;
+}
+.lista-sportelli .dato.desc {
+  font-weight: bold;
+  font-size: 2.5rem;
+}

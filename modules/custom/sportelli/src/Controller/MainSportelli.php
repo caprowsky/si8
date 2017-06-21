@@ -19,6 +19,7 @@ class MainSportelli {
     $this->ws_metaWsPath = 'http://intra.sardegnasuap.it/ws/meta/metaws.wsdl';
     $this->ws_serviceWsPath = '';
     $this->codice_regione = '20';
+    $this->client = $this->soapConnMetaWs();
   }
 
   /**
@@ -27,24 +28,11 @@ class MainSportelli {
    */
   public function main()  {
 
-    $client = $this->soapConnMetaWs();
-
-    try {
-      $params = array('getProvinciaByRegioneCodRequest' => array('regione-cod' => $this->codice_regione));
-      $resRaw = $client->__soapCall('getProvinciaByRegioneCod', $params);
-    } catch (SoapFault $ex) {
-      print($ex);
-    }
-
-    $province = array();
-
-    foreach ($resRaw->{'provincia-list'}->{'provincia'} as $item) {
-      $provincia = (array) $item;
-      $province[] = $provincia;
-    }
 
 
-    $output['custom'] = 'Custom';
+    $form = \Drupal::formBuilder()->getForm('Drupal\sportelli\Form\RicercaSportelli');
+
+    $output['form'] = $form;
 
     return array(
       '#title' => 'Elenco sportelli',
@@ -85,5 +73,8 @@ class MainSportelli {
     return $client;
   }
 
+
 }
+
+
 
