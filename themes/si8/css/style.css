@@ -7828,3 +7828,9 @@ article.news.full .content > .field {
   font-size: 2rem;
   font-weight: bold;
 }
+article.glossary.full {
+  font-size: 2rem;
+}
+article.glossary.full .content > .field {
+  margin-bottom: 20px;
+}
