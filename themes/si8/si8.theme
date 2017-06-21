@@ -70,3 +70,7 @@ function si8_preprocess_node(&$vars) {
   }
 
 }
+
+function si8_preprocess_menu__main_block_page(&$vars) {
+  $a =1;
+}
