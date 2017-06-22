@@ -3,5 +3,9 @@ services:
     class: Drupal\si8_utils\EventSubscriber\ContenutiRedirect
     tags:
       - {name: event_subscriber}
-#  ildeposito_display.utils:
-#    class: Drupal\ildeposito_display\Utils
+  si8_utils.utils:
+    class: Drupal\si8_utils\Utils
+  si8_utils.twig.drupal_view_argument:
+      class: Drupal\si8_utils\DrupalViewArgument
+      tags:
+        - { name: twig.extension }
