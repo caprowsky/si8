@@ -28,10 +28,7 @@ class MainSportelli {
    */
   public function main()  {
 
-
-
     $form = \Drupal::formBuilder()->getForm('Drupal\sportelli\Form\RicercaSportelli');
-
     $output['form'] = $form;
 
     return array(
@@ -72,7 +69,6 @@ class MainSportelli {
     $client->__setSoapHeaders($headers);
     return $client;
   }
-
 
 }
 

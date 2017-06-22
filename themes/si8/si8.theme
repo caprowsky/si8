@@ -15,14 +15,8 @@ function si8_preprocess_page(&$vars) {
   /** Footer contents */
   $custom_contents = ['footer1', 'footer2', 'footer3'];
   foreach ($custom_contents as $custom_content) {
-    $view = \Drupal\views\Views::getView('custom_content');
-    if (is_object($view)) {
-      $view->setArguments([$custom_content]);
-      $view->setDisplay('machine_name');
-      $view->preExecute();
-      $view->execute();
-      $vars[$custom_content] = $view->buildRenderable('machine_name', [$custom_content]);
-    }
+   // $vars[$custom_content] = Drupal::service('si8_utils.utils')->getViewWithArgument('custom_content', 'machine_name', $custom_content);
+
   }
 
 }
