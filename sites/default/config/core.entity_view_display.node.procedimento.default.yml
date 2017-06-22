@@ -1,0 +1,39 @@
+uuid: 4356b9f4-1317-49c7-9927-dd509dd4a451
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.procedimento.body
+    - field.field.node.procedimento.field_tipologia_procedimento
+    - node.type.procedimento
+  module:
+    - text
+    - user
+id: node.procedimento.default
+targetEntityType: node
+bundle: procedimento
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tipologia_procedimento:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

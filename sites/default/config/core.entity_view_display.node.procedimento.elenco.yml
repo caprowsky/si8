@@ -1,0 +1,29 @@
+uuid: 0d6a7dfa-7377-4020-8a0a-f39985da31c0
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.elenco
+    - field.field.node.procedimento.body
+    - field.field.node.procedimento.field_tipologia_procedimento
+    - node.type.procedimento
+  module:
+    - text
+    - user
+id: node.procedimento.elenco
+targetEntityType: node
+bundle: procedimento
+mode: elenco
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_tipologia_procedimento: true
+  langcode: true
+  links: true
