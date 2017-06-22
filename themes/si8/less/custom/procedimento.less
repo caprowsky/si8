@@ -2,12 +2,8 @@
 
   font-size: 2rem;
 
-  label {
-    display: none;
-  }
-
   input.form-text {
-    border: none;
+    border: 1px solid @gray-light;
     border-radius: 0;
     font-size: 1.5rem;
   }
@@ -21,6 +17,38 @@
     height: 34px;
     margin-left: -4px;
     font-size: 2rem;
+  }
+
+  label {
+    display: none;
+  }
+
+  .view-filters {
+    margin-bottom: 30px;
+  }
+
+  .block-facets {
+    ul {
+      padding-left: 0;
+      .make-row();
+
+      li {
+        list-style-type: none;
+        .make-md-column(6);
+
+        a {
+          display: block;
+          border-bottom: 1px solid @gray-lighter;
+          padding: 10px;
+
+          &.is-active, &:hover {
+            background-color: @brand-primary;
+            color: #fff;
+          }
+        }
+
+      }
+    }
   }
 
 

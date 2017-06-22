@@ -73,14 +73,16 @@ function si8_preprocess_views_view(&$vars) {
   $view = $vars['view'];
 
   if ($vars['view_array']['#name'] == 'trova_procedimento' && $vars['view_array']['#display_id'] == 'procedimenti') {
-    $query = \Drupal::request()->query->get('f');
-    if (!empty($query)) {
-      $value = explode(':', $query[0]);
-      $tid = $value[1];
-      $vars['display_content'] = FALSE;
-      if (\Drupal::service('si8_utils.utils')->checkTermParent($tid) == TRUE) {
+    $facet = \Drupal::request()->query->get('f');
+    $key = \Drupal::request()->query->get('key');
+    $vars['display_content'] = FALSE;
+    if (!empty($facet) || !empty($key)) {
+      //$value = explode(':', $query[0]);
+      //$tid = $value[1];
+      //$vars['display_content'] = FALSE;
+      //if (\Drupal::service('si8_utils.utils')->checkTermParent($tid) == TRUE) {
         $vars['display_content'] = TRUE;
-      }
+      //}
     }
   }
 
