@@ -17,23 +17,18 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 0
     settings: {  }
     third_party_settings: {  }
     region: content
   field_tipologia_procedimento:
-    weight: 102
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  links:
-    weight: 100
-    region: content
+    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    type: entity_reference_entity_id
+    region: content
 hidden:
   addtoany: true
   langcode: true
+  links: true
