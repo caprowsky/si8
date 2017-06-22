@@ -22,7 +22,13 @@ settings:
       label: 'sino a 200.000€'
     -
       value: 3
-      label: 'oltre 200.000€'
+      label: 'sino a 400.000€'
+    -
+      value: 4
+      label: 'sino a 800.000€'
+    -
+      value: 5
+      label: 'oltre 800.000€'
   allowed_values_function: ''
 module: options
 locked: false
