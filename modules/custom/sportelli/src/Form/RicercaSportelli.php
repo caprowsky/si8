@@ -40,7 +40,7 @@ class RicercaSportelli extends FormBase {
 
     if (!$comuni_get) {
       $comuni = \Drupal::service('sportelli.utils')->getComuni();
-      $comuni = \Drupal::cache()->set('sportelli_comuni', $comuni, CacheBackendInterface::CACHE_PERMANENT, array('sportelli'));
+      //$comuni = \Drupal::cache()->set('sportelli_comuni', $comuni, CacheBackendInterface::CACHE_PERMANENT, array('sportelli'));
 
     }
     else {
