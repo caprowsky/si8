@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - system.menu.account
+    - user.role.administrator
     - user.role.capo_redattore
     - user.role.redattore
   module:
@@ -26,6 +27,7 @@ display:
         type: role
         options:
           role:
+            administrator: administrator
             redattore: redattore
             capo_redattore: capo_redattore
       cache:
