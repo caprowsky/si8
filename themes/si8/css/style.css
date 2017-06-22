@@ -7856,3 +7856,24 @@ article.full.full .content > .field {
   font-weight: bold;
   font-size: 2.5rem;
 }
+.trova-procedimento-page {
+  font-size: 2rem;
+}
+.trova-procedimento-page label {
+  display: none;
+}
+.trova-procedimento-page input.form-text {
+  border: none;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+.trova-procedimento-page button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  margin-right: 0;
+  height: 34px;
+  margin-left: -4px;
+  font-size: 2rem;
+}
