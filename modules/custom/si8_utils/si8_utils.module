@@ -17,4 +17,10 @@ function si8_utils_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form
     $form['actions']['submit']['#value'] = '';
   }
 
+  if ($form['#id'] == 'views-exposed-form-trova-procedimento-procedimenti') {
+    $form['key']['#placeholder'] = t('Search');
+    $form['actions']['submit']['#attributes']['class'][] = 'fa fa-search';
+    $form['actions']['submit']['#value'] = '';
+  }
+
 }

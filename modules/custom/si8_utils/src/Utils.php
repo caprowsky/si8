@@ -21,4 +21,21 @@ class Utils {
       return FALSE;
     }
   }
+
+  /**
+   * Check if a term has a parent
+   * @param $tid
+   *
+   * @return bool
+   */
+  public function checkTermParent($tid) {
+    $term = \Drupal\taxonomy\Entity\Term::load($tid);
+    $storage = \Drupal::service('entity_type.manager')
+      ->getStorage('taxonomy_term');
+    $parents = $storage->loadParents($term->id());
+    if (!empty($parents)) {
+      return TRUE;
+    }
+    return FALSE;
+  }
 }
