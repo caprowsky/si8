@@ -1,5 +1,13 @@
 .trova-procedimento-page {
 
+  #edit-key {
+    font-family: @font-footer !important;
+  }
+
+  #edit-submit-trova-procedimento {
+    font-family: "FontAwesome", sans-serif;
+  }
+
   font-size: 2rem;
 
   input.form-text {
@@ -15,8 +23,13 @@
     border-radius: 0;
     margin-right: 0;
     height: 34px;
-    margin-left: -4px;
+    margin-left: -8px;
     font-size: 2rem;
+
+    &:hover {
+      color: #fff;
+      background-color: #333;
+    }
   }
 
   label {
@@ -51,5 +64,28 @@
     }
   }
 
+  .ui-accordion-icons {
+    border: none;
+    background-color: @gray-lighter;
+    background-image: none;
+    color: #333;
+    margin-top: 30px;
+  }
 
+  .ui-icon {
+    color: #fff;
+  }
+
+  .ui-accordion-content {
+    border: none !important;
+    font-size: 1.5rem;
+  }
+
+
+}
+
+article.procedimento.full {
+  .tipologia {
+    margin-bottom: 20px;
+  }
 }

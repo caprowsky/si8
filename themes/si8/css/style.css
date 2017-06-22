@@ -7862,6 +7862,12 @@ article.full.full .content > .field {
 .trova-procedimento-page {
   font-size: 2rem;
 }
+.trova-procedimento-page #edit-key {
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif !important;
+}
+.trova-procedimento-page #edit-submit-trova-procedimento {
+  font-family: "FontAwesome", sans-serif;
+}
 .trova-procedimento-page input.form-text {
   border: 1px solid #777777;
   border-radius: 0;
@@ -7874,8 +7880,12 @@ article.full.full .content > .field {
   border-radius: 0;
   margin-right: 0;
   height: 34px;
-  margin-left: -4px;
+  margin-left: -8px;
   font-size: 2rem;
+}
+.trova-procedimento-page button:hover {
+  color: #fff;
+  background-color: #333;
 }
 .trova-procedimento-page label {
   display: none;
@@ -7910,4 +7920,21 @@ article.full.full .content > .field {
 .trova-procedimento-page .block-facets ul li a:hover {
   background-color: #286bcc;
   color: #fff;
+}
+.trova-procedimento-page .ui-accordion-icons {
+  border: none;
+  background-color: #eeeeee;
+  background-image: none;
+  color: #333;
+  margin-top: 30px;
+}
+.trova-procedimento-page .ui-icon {
+  color: #fff;
+}
+.trova-procedimento-page .ui-accordion-content {
+  border: none !important;
+  font-size: 1.5rem;
+}
+article.procedimento.full .tipologia {
+  margin-bottom: 20px;
 }
