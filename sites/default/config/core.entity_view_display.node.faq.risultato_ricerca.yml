@@ -8,14 +8,31 @@ dependencies:
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
+    - smart_trim
     - user
 id: node.faq.risultato_ricerca
 targetEntityType: node
 bundle: faq
 mode: risultato_ricerca
 content:
-  field_tags:
+  body:
+    type: smart_trim
     weight: 0
+    region: content
+    label: visually_hidden
+    settings:
+      trim_length: '40'
+      trim_type: words
+      trim_suffix: '  [...]'
+      more_link: '0'
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+  field_tags:
+    weight: 1
     label: inline
     settings:
       link: false
@@ -23,6 +40,6 @@ content:
     type: entity_reference_label
     region: content
 hidden:
-  body: true
+  addtoany: true
   langcode: true
   links: true

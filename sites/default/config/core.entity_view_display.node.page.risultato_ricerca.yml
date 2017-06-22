@@ -13,14 +13,31 @@ dependencies:
     - field.field.node.page.field_tags
     - node.type.page
   module:
+    - smart_trim
     - user
 id: node.page.risultato_ricerca
 targetEntityType: node
 bundle: page
 mode: risultato_ricerca
 content:
-  field_tags:
+  body:
+    type: smart_trim
     weight: 0
+    region: content
+    label: hidden
+    settings:
+      trim_length: '40'
+      trim_type: words
+      trim_suffix: '  [...]'
+      more_link: '0'
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+  field_tags:
+    weight: 1
     label: inline
     settings:
       link: false
@@ -28,7 +45,7 @@ content:
     type: entity_reference_label
     region: content
 hidden:
-  body: true
+  addtoany: true
   field_allegati: true
   field_box: true
   field_immagine: true
