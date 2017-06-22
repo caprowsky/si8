@@ -84,7 +84,7 @@
   {{ title_suffix }}
 
   <div{{ content_attributes.addClass('content') }}>
-    <div><span class="bundle">{{ tipo_contenuto }}</span> -
+    <div>
       {% if content.field_evento_data|render is not empty %}
         {{ 'Event date'|t }}: {{ content.field_evento_data.0 }}
 
@@ -94,8 +94,7 @@
 
     </div>
 
-
-
+    {{ content.body }}
     {{ content.field_tags }}
     {{ content.field_argomenti }}
   </div>
