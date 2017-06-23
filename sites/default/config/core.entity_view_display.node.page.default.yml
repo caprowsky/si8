@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.page.field_allegati
     - field.field.node.page.field_box
     - field.field.node.page.field_immagine
+    - field.field.node.page.field_metatag
     - field.field.node.page.field_risorse_collegate
     - field.field.node.page.field_sezione
     - field.field.node.page.field_tags
@@ -15,6 +16,7 @@ dependencies:
     - entity_reference_revisions
     - file
     - image
+    - metatag
     - text
     - user
 id: node.page.default
@@ -58,6 +60,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_metatag:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_risorse_collegate:
     weight: 4

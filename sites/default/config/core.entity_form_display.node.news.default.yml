@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.news.field_argomenti
     - field.field.node.news.field_evento_data
     - field.field.node.news.field_immagine
+    - field.field.node.news.field_metatag
     - field.field.node.news.field_risorse_collegate
     - field.field.node.news.field_tags
     - image.style.thumbnail
@@ -17,6 +18,7 @@ dependencies:
     - datetime_range
     - file
     - image
+    - metatag
     - path
     - text
 id: node.news.default
@@ -68,6 +70,12 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_metatag:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_risorse_collegate:
     weight: 10

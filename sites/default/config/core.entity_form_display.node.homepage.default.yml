@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.homepage.field_box
+    - field.field.node.homepage.field_metatag
     - node.type.homepage
   module:
     - content_moderation
+    - metatag
     - paragraphs
     - path
 id: node.homepage.default
@@ -31,6 +33,12 @@ content:
       default_paragraph_type: _none
     third_party_settings: {  }
     type: entity_reference_paragraphs
+    region: content
+  field_metatag:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   langcode:
     type: language_select

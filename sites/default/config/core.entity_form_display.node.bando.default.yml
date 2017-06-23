@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.bando.field_dotazione_finanziaria
     - field.field.node.bando.field_macrosettore
     - field.field.node.bando.field_mas
+    - field.field.node.bando.field_metatag
     - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
@@ -24,6 +25,7 @@ dependencies:
     - content_moderation
     - datetime
     - link
+    - metatag
     - path
     - text
 id: node.bando.default
@@ -85,6 +87,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
+    region: content
+  field_metatag:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_oggetto_del_bando:
     weight: 5
