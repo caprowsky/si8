@@ -58,7 +58,7 @@ class RicercaSportelli extends FormBase {
       '#title' => t('City'),
       '#ajax' => [
         'callback' => 'Drupal\sportelli\Form\RicercaSportelli::sportelliSearchCallback',
-        'event' => 'click',
+        'event' => 'change',
       ]
     ];
 
