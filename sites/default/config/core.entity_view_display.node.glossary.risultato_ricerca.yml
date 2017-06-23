@@ -32,5 +32,6 @@ content:
     third_party_settings: {  }
 hidden:
   addtoany: true
+  field_metatag: true
   langcode: true
   links: true

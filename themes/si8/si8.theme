@@ -116,3 +116,9 @@ function si8_preprocess_views_view(&$vars) {
   }
 
 }
+
+function si8_theme_suggestions_field_alter(array &$suggestions, array $vars) {
+  $suggestions[] = 'field__' . $vars['element']['#entity_type'] . '__' . $vars['element']['#field_name'] . '__' . $vars['element']['#bundle'] . '__' . $vars['element']['#view_mode'];
+  $suggestions[] = 'field__' . $vars['element']['#entity_type'] . '__' . $vars['element']['#bundle'] . '__' . $vars['element']['#view_mode'];
+
+}

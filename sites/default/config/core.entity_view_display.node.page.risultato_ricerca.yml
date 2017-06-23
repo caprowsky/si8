@@ -49,6 +49,7 @@ hidden:
   field_allegati: true
   field_box: true
   field_immagine: true
+  field_metatag: true
   field_risorse_collegate: true
   field_sezione: true
   langcode: true

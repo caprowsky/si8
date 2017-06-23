@@ -41,5 +41,6 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_metatag: true
   langcode: true
   links: true

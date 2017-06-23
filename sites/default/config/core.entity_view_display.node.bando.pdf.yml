@@ -1,9 +1,9 @@
-uuid: 3bcab9eb-373f-45fe-bad2-6f0cce9eb6d2
+uuid: 922b27a5-decc-4d6f-ba65-436080430db9
 langcode: it
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.elenco
+    - core.entity_view_mode.node.pdf
     - field.field.node.bando.field_a_sportello
     - field.field.node.bando.field_agevolazione_concessa
     - field.field.node.bando.field_criteri_di_valutazione
@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.bando.field_dotazione_finanziaria
     - field.field.node.bando.field_macrosettore
     - field.field.node.bando.field_mas
+    - field.field.node.bando.field_metatag
     - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
@@ -24,16 +25,17 @@ dependencies:
   module:
     - datetime
     - link
+    - metatag
     - options
     - text
     - user
-id: node.bando.elenco
+id: node.bando.pdf
 targetEntityType: node
 bundle: bando
-mode: elenco
+mode: pdf
 content:
   field_a_sportello:
-    weight: 10
+    weight: 9
     label: above
     settings:
       format: default
@@ -43,21 +45,21 @@ content:
     type: boolean
     region: content
   field_agevolazione_concessa:
-    weight: 4
+    weight: 3
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_criteri_di_valutazione:
-    weight: 8
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_data_scadenza_agevolazione:
-    weight: 11
+    weight: 10
     label: above
     settings:
       format_type: medium
@@ -66,49 +68,56 @@ content:
     type: datetime_default
     region: content
   field_dotazione_finanziaria:
-    weight: 9
+    weight: 8
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_macrosettore:
-    weight: 16
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_mas:
     weight: 15
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
+  field_mas:
+    weight: 14
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_metatag:
+    weight: 16
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_oggetto_del_bando:
-    weight: 2
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_procedura:
-    weight: 7
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_progetti_finanziabili:
-    weight: 3
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_riferimenti:
-    weight: 13
+    weight: 12
     label: above
     settings:
       trim_length: 80
@@ -120,46 +129,41 @@ content:
     type: link
     region: content
   field_soggetti_ammissibili:
-    weight: 1
+    weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_spese_ammissibili:
-    weight: 6
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_spese_ammissibili_list:
-    weight: 14
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_termini:
     weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_tipologia_iniziativa:
-    weight: 12
+  field_spese_ammissibili_list:
+    weight: 13
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
-  links:
-    weight: 0
-    region: content
+  field_termini:
+    weight: 4
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tipologia_iniziativa:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
 hidden:
   addtoany: true
-  field_metatag: true
   langcode: true
+  links: true

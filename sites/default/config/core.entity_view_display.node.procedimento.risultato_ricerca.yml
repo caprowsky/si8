@@ -33,6 +33,7 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_metatag: true
   field_tipologia_procedimento: true
   langcode: true
   links: true
