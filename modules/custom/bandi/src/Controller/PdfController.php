@@ -21,8 +21,12 @@ class PdfController extends NodeViewController {
 
     $output = render($build);
 
+    $schema = \Drupal::request()->getSchemeAndHttpHost();
+    $ras = '<img src="' . $schema . '/themes/si8/images/pdf/ras.png" />';
+    $eu = '<img src="' . $schema . '/themes/si8/images/pdf/eu.png" />';
+
     // If you want the test HTML output, uncomment this:
-    return new Response($output, 200, []);
+    //return new Response($output, 200, []);
 
     $config = [
       'tempDir' => DRUPAL_ROOT . '/sites/default/files/entity_pdf',
@@ -31,7 +35,7 @@ class PdfController extends NodeViewController {
     $mpdf->SetBasePath(\Drupal::request()->getSchemeAndHttpHost());
     $mpdf->SetTitle($this->title($node));
     $mpdf->SetTopMargin('30');
-    $mpdf->SetHTMLHeader('<table style="margin-bottom: 20px;" width="100%"><tr><td align="left" width="50%">Logo1</td><td align="right" width="50%">logo2</td></tr></table>');
+    $mpdf->SetHTMLHeader('<table style="margin-bottom: 20px;" width="100%"><tr><td align="left" width="50%">' . $ras . '</td><td align="right" width="50%">' . $eu . '</td></tr></table>');
     $mpdf->SetHTMLFooter('<div class="footer">www.sardegnaimpresa.eu</div>');
 
     $mpdf->WriteHTML($output);
