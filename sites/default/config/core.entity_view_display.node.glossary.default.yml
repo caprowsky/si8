@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.glossary.body
+    - field.field.node.glossary.field_metatag
     - node.type.glossary
   module:
+    - metatag
     - text
     - user
 id: node.glossary.default
@@ -20,10 +22,18 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_metatag:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   links:
     weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   langcode: true

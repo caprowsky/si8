@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.glossary.body
+    - field.field.node.glossary.field_metatag
     - node.type.glossary
   module:
     - content_moderation
+    - metatag
     - path
     - text
 id: node.glossary.default
@@ -29,6 +31,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_metatag:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   langcode:
     type: language_select
     weight: 2

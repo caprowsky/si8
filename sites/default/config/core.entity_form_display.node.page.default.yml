@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.page.field_allegati
     - field.field.node.page.field_box
     - field.field.node.page.field_immagine
+    - field.field.node.page.field_metatag
     - field.field.node.page.field_risorse_collegate
     - field.field.node.page.field_sezione
     - field.field.node.page.field_tags
@@ -16,6 +17,7 @@ dependencies:
     - content_moderation
     - file
     - image
+    - metatag
     - paragraphs
     - path
     - text
@@ -65,6 +67,12 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_metatag:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_risorse_collegate:
     weight: 12

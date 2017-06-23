@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.homepage.field_box
+    - field.field.node.homepage.field_metatag
     - node.type.homepage
   module:
     - entity_reference_revisions
+    - metatag
     - user
 id: node.homepage.default
 targetEntityType: node
@@ -22,6 +24,14 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
+  field_metatag:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
 hidden:
+  addtoany: true
   langcode: true
   links: true

@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.faq.body
+    - field.field.node.faq.field_metatag
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
+    - metatag
     - text
     - user
 id: node.faq.default
@@ -20,6 +22,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_metatag:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_tags:
     weight: 1
