@@ -23,7 +23,7 @@ class PdfController extends NodeViewController {
 
     $schema = \Drupal::request()->getSchemeAndHttpHost();
     $ras = '<img src="' . $schema . '/themes/si8/images/pdf/ras.png" />';
-    $eu = '<img src="' . $schema . '/themes/si8/images/pdf/eu.png" />';
+    $eu = '<img src="' . $schema . '/themes/si8/images/pdf/ue.png" />';
 
     // If you want the test HTML output, uncomment this:
     //return new Response($output, 200, []);
