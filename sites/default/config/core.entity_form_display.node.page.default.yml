@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.page.field_risorse_collegate
     - field.field.node.page.field_sezione
     - field.field.node.page.field_tags
+    - field.field.node.page.field_tipologia_procedimento
     - image.style.thumbnail
     - node.type.page
   module:
@@ -94,6 +95,15 @@ content:
     region: content
   field_tags:
     weight: 11
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tipologia_procedimento:
+    weight: 27
     settings:
       match_operator: CONTAINS
       size: 60

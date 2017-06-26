@@ -1,19 +1,19 @@
-uuid: aed75cca-8e7b-40d6-9357-426b64ef8aec
+uuid: 710cb7d8-2e17-445d-aa08-9a52504a46db
 langcode: it
 status: true
 dependencies:
   config:
     - field.storage.node.field_tipologia_procedimento
-    - node.type.procedimento
+    - node.type.page
     - taxonomy.vocabulary.tipologia_procedimento
-id: node.procedimento.field_tipologia_procedimento
+id: node.page.field_tipologia_procedimento
 field_name: field_tipologia_procedimento
 entity_type: node
-bundle: procedimento
+bundle: page
 label: 'Tipologia procedimento'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
