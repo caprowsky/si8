@@ -6,8 +6,10 @@ dependencies:
     - block.block.tipologiaprocedimento
     - field.storage.node.body
     - search_api.index.bandi
+    - taxonomy.vocabulary.tipologia_procedimento
   module:
     - search_api
+    - search_api_views_taxonomy
     - text
     - views_accordion
 id: trova_procedimento
@@ -235,7 +237,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            procedimento: procedimento
+            page: page
           group: 1
           exposed: false
           expose:
@@ -344,6 +346,49 @@ display:
           min_length: null
           fields: {  }
           plugin_id: search_api_fulltext
+        field_tipologia_procedimento:
+          id: field_tipologia_procedimento
+          table: search_api_index_bandi
+          field: field_tipologia_procedimento
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: 'not empty'
+          value: {  }
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: textfield
+          limit: true
+          vid: tipologia_procedimento
+          hierarchy: false
+          error_message: true
+          plugin_id: search_api_term
       sorts:
         title_1:
           id: title_1
@@ -385,6 +430,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
       tags:
         - 'config:field.storage.node.body'
   procedimenti:
@@ -407,5 +453,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
       tags:
         - 'config:field.storage.node.body'
