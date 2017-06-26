@@ -9,6 +9,8 @@ services:
       MYSQL_USER: drupal
       MYSQL_PASSWORD: drupal
       mem_limit: 256M
+      MYSQL_QUERY_CACHE_LIMIT: 128K
+      MYSQL_QUERY_CACHE_SIZE: 32M
 #    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci # The simple way to override the mariadb config.
 #    volumes:
 #      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
