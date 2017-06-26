@@ -1,0 +1,22 @@
+uuid: 6d99a5b9-a6c8-4629-a2ca-5bb3c68b6893
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_notizie.field_collegamenti
+    - paragraphs.paragraphs_type.slider_notizie
+id: paragraph.slider_notizie.default
+targetEntityType: paragraph
+bundle: slider_notizie
+mode: default
+content:
+  field_collegamenti:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: slider_homepage
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

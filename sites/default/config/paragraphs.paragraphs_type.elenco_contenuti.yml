@@ -1,7 +1,0 @@
-uuid: 51f5d2b6-f656-4099-8aaf-a44b609f3aca
-langcode: it
-status: true
-dependencies: {  }
-id: elenco_contenuti
-label: 'Elenco contenuti'
-behavior_plugins: {  }
