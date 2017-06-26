@@ -4,6 +4,7 @@ module:
   admin_toolbar_tools: 0
   automated_cron: 0
   bandi: 0
+  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -52,6 +53,9 @@ module:
   shortcut: 0
   si8_utils: 0
   simple_sitemap: 0
+  slick: 0
+  slick_entityreference: 0
+  slick_ui: 0
   smart_trim: 0
   sportelli: 0
   system: 0
