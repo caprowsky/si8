@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.bando.field_macrosettore
     - field.field.node.bando.field_mas
     - field.field.node.bando.field_metatag
+    - field.field.node.bando.field_oggetto_bando
     - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
@@ -40,115 +41,13 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_a_sportello:
-    weight: 7
+    weight: 8
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
     region: content
   field_agevolazione_concessa:
-    weight: 14
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_criteri_di_valutazione:
-    weight: 19
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_data_scadenza_agevolazione:
-    weight: 6
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_dotazione_finanziaria:
-    weight: 20
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_macrosettore:
-    weight: 9
-    settings: {  }
-    third_party_settings: {  }
-    type: options_buttons
-    region: content
-  field_mas:
-    weight: 10
-    settings: {  }
-    third_party_settings: {  }
-    type: options_buttons
-    region: content
-  field_metatag:
-    weight: 26
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_firehose
-    region: content
-  field_oggetto_del_bando:
-    weight: 5
-    settings:
-      rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_procedura:
-    weight: 18
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_progetti_finanziabili:
-    weight: 13
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_riferimenti:
-    weight: 21
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_soggetti_ammissibili:
-    weight: 11
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_spese_ammissibili:
-    weight: 17
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_spese_ammissibili_list:
-    weight: 16
-    settings: {  }
-    third_party_settings: {  }
-    type: options_buttons
-    region: content
-  field_termini:
     weight: 15
     settings:
       rows: 5
@@ -156,8 +55,118 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_criteri_di_valutazione:
+    weight: 20
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_data_scadenza_agevolazione:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_dotazione_finanziaria:
+    weight: 21
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_macrosettore:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_mas:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_metatag:
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_oggetto_bando:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_oggetto_del_bando:
+    weight: 6
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_procedura:
+    weight: 19
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_progetti_finanziabili:
+    weight: 14
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_riferimenti:
+    weight: 22
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_soggetti_ammissibili:
+    weight: 12
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_spese_ammissibili:
+    weight: 18
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_spese_ammissibili_list:
+    weight: 17
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_termini:
+    weight: 16
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   field_tipologia_iniziativa:
-    weight: 8
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
@@ -183,7 +192,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 12
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }

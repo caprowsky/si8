@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.homepage
+    - field.field.node.bando.field_a_sportello
     - field.field.node.bando.field_agevolazione_concessa
     - field.field.node.bando.field_criteri_di_valutazione
     - field.field.node.bando.field_data_scadenza_agevolazione
     - field.field.node.bando.field_dotazione_finanziaria
     - field.field.node.bando.field_macrosettore
     - field.field.node.bando.field_mas
+    - field.field.node.bando.field_metatag
+    - field.field.node.bando.field_oggetto_bando
     - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
@@ -22,131 +25,68 @@ dependencies:
     - node.type.bando
   module:
     - datetime
-    - link
     - options
-    - text
+    - smart_trim
     - user
 id: node.bando.homepage
 targetEntityType: node
 bundle: bando
 mode: homepage
 content:
-  field_agevolazione_concessa:
-    weight: 106
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_criteri_di_valutazione:
-    weight: 110
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_data_scadenza_agevolazione:
-    weight: 112
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
     type: datetime_default
+    weight: 0
     region: content
-  field_dotazione_finanziaria:
-    weight: 111
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
-  field_macrosettore:
-    weight: 120
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_mas:
-    weight: 119
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_oggetto_del_bando:
-    weight: 104
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
-  field_procedura:
-    weight: 109
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_progetti_finanziabili:
-    weight: 105
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_riferimenti:
-    weight: 117
-    label: above
+    label: hidden
     settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+      timezone_override: ''
+      format_type: data_completa
     third_party_settings: {  }
-    type: link
-    region: content
-  field_soggetti_ammissibili:
-    weight: 103
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_spese_ammissibili:
-    weight: 108
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_spese_ammissibili_list:
-    weight: 118
-    label: above
-    settings: {  }
-    third_party_settings: {  }
+  field_macrosettore:
     type: list_default
+    weight: 1
     region: content
-  field_termini:
-    weight: 107
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
-    type: text_default
-    region: content
-  field_tipologia_iniziativa:
-    weight: 116
-    label: above
-    settings: {  }
-    third_party_settings: {  }
+  field_mas:
     type: list_default
+    weight: 3
     region: content
-  links:
-    weight: 100
-    region: content
+    label: inline
     settings: {  }
+    third_party_settings: {  }
+  field_oggetto_bando:
+    type: smart_trim
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      trim_length: '100'
+      trim_type: words
+      trim_suffix: '  [..]'
+      more_link: '0'
+      more_text: More
+      trim_options:
+        text: text
+      more_class: more-link
+      summary_handler: full
     third_party_settings: {  }
 hidden:
+  addtoany: true
+  field_a_sportello: true
+  field_agevolazione_concessa: true
+  field_criteri_di_valutazione: true
+  field_dotazione_finanziaria: true
+  field_metatag: true
+  field_oggetto_del_bando: true
+  field_procedura: true
+  field_progetti_finanziabili: true
+  field_riferimenti: true
+  field_soggetti_ammissibili: true
+  field_spese_ammissibili: true
+  field_spese_ammissibili_list: true
+  field_termini: true
+  field_tipologia_iniziativa: true
   langcode: true
+  links: true
