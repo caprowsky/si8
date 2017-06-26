@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.risultato_ricerca
+    - field.field.node.bando.field_a_sportello
     - field.field.node.bando.field_agevolazione_concessa
     - field.field.node.bando.field_criteri_di_valutazione
     - field.field.node.bando.field_data_scadenza_agevolazione
     - field.field.node.bando.field_dotazione_finanziaria
     - field.field.node.bando.field_macrosettore
     - field.field.node.bando.field_mas
+    - field.field.node.bando.field_metatag
+    - field.field.node.bando.field_oggetto_bando
     - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
@@ -23,6 +26,7 @@ dependencies:
   module:
     - datetime
     - options
+    - text
     - user
 id: node.bando.risultato_ricerca
 targetEntityType: node
@@ -30,7 +34,7 @@ bundle: bando
 mode: risultato_ricerca
 content:
   field_data_scadenza_agevolazione:
-    weight: 0
+    weight: 1
     label: inline
     settings:
       timezone_override: ''
@@ -38,19 +42,35 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
+  field_macrosettore:
+    type: list_default
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_oggetto_bando:
+    type: text_default
+    weight: 3
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
   field_tipologia_iniziativa:
-    weight: 1
+    weight: 2
     label: inline
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
 hidden:
+  addtoany: true
+  field_a_sportello: true
   field_agevolazione_concessa: true
   field_criteri_di_valutazione: true
   field_dotazione_finanziaria: true
-  field_macrosettore: true
   field_mas: true
+  field_metatag: true
   field_oggetto_del_bando: true
   field_procedura: true
   field_progetti_finanziabili: true
