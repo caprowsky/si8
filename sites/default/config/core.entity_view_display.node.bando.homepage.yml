@@ -44,21 +44,14 @@ content:
     third_party_settings: {  }
   field_macrosettore:
     type: list_default
-    weight: 1
-    region: content
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-  field_mas:
-    type: list_default
-    weight: 3
+    weight: 2
     region: content
     label: inline
     settings: {  }
     third_party_settings: {  }
   field_oggetto_bando:
     type: smart_trim
-    weight: 2
+    weight: 1
     region: content
     label: hidden
     settings:
@@ -78,6 +71,7 @@ hidden:
   field_agevolazione_concessa: true
   field_criteri_di_valutazione: true
   field_dotazione_finanziaria: true
+  field_mas: true
   field_metatag: true
   field_oggetto_del_bando: true
   field_procedura: true

@@ -35,7 +35,7 @@ bundle: bando
 mode: default
 content:
   field_a_sportello:
-    weight: 10
+    weight: 5
     label: above
     settings:
       format: default
@@ -45,21 +45,21 @@ content:
     type: boolean
     region: content
   field_agevolazione_concessa:
-    weight: 4
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_criteri_di_valutazione:
     weight: 8
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
+  field_criteri_di_valutazione:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_data_scadenza_agevolazione:
-    weight: 11
+    weight: 4
     label: above
     settings:
       format_type: medium
@@ -68,63 +68,49 @@ content:
     type: datetime_default
     region: content
   field_dotazione_finanziaria:
-    weight: 9
+    weight: 13
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_macrosettore:
-    weight: 16
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_mas:
-    weight: 15
+    weight: 3
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_metatag:
-    weight: 17
+    weight: 15
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
   field_oggetto_bando:
-    weight: 18
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_oggetto_del_bando:
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
   field_procedura:
-    weight: 7
+    weight: 11
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_progetti_finanziabili:
-    weight: 3
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_riferimenti:
-    weight: 13
+    weight: 14
     label: above
     settings:
       trim_length: 80
@@ -136,39 +122,32 @@ content:
     type: link
     region: content
   field_soggetti_ammissibili:
-    weight: 1
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_spese_ammissibili:
     weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
+  field_spese_ammissibili:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_spese_ammissibili_list:
-    weight: 14
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_termini:
-    weight: 5
+    weight: 9
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
-  field_tipologia_iniziativa:
-    weight: 12
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
     region: content
   links:
     weight: 0
@@ -177,4 +156,7 @@ content:
     third_party_settings: {  }
 hidden:
   addtoany: true
+  field_mas: true
+  field_oggetto_del_bando: true
+  field_tipologia_iniziativa: true
   langcode: true
