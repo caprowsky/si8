@@ -1,0 +1,94 @@
+.paragraph--type--link-sezione {
+
+  margin: 30px 0;
+  color: @brand-secondary;
+  font-size: 3rem;
+
+  .make-row();
+
+  & > .field {
+    .make-md-column(6);
+  }
+
+  .field--type-link {
+    text-align: right;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.paragraph--type--notizie-in-evidenza {
+
+  .field--name-field-collegamenti {
+
+    .make-row();
+
+    & > .field--item {
+      .make-md-column(4);
+      margin-bottom: 50px;
+    }
+
+    article {
+      background-color: #ddd;
+
+      .sfondo {
+        padding: 0 20px 20px 20px;
+      }
+
+      .field--name-field-argomenti {
+        color: @brand-primary;
+      }
+
+      a {
+        color: #333;
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.paragraph--type--agevolazioni-in-evidenza {
+
+  .field--name-field-collegamenti {
+
+    .make-row();
+
+    & > .field--item {
+      .make-md-column(4);
+      margin-bottom: 50px;
+    }
+
+    article {
+      background-color: #ddd;
+      padding: 20px;
+    }
+  }
+}
+
+
+.paragraph--type--box-contenuti-custom {
+
+  background-color: @gray-lighter;
+
+  .field--name-field-box-secondo-livello {
+
+    padding: 20px;
+
+    .make-row();
+
+    & > .field--item {
+      .make-md-column(4);
+
+      .field--name-field-link {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+
+}
