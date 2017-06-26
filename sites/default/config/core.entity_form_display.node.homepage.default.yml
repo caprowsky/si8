@@ -23,7 +23,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_box:
-    weight: 31
+    weight: 33
     settings:
       title: Paragraph
       title_plural: Paragraphs

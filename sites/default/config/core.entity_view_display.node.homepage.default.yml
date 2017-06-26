@@ -16,8 +16,8 @@ bundle: homepage
 mode: default
 content:
   field_box:
-    weight: 0
-    label: hidden
+    weight: 2
+    label: above
     settings:
       view_mode: default
       link: ''

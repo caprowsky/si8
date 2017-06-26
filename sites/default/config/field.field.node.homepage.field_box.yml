@@ -1,14 +1,16 @@
-uuid: 9529e234-2878-403f-9323-c939718799a4
+uuid: 5cb43965-71b2-488d-9ca1-1f73f2b0071c
 langcode: it
 status: true
 dependencies:
   config:
     - field.storage.node.field_box
     - node.type.homepage
+    - paragraphs.paragraphs_type.agevolazioni_in_evidenza
     - paragraphs.paragraphs_type.box_contenuti_custom
-    - paragraphs.paragraphs_type.elenco_contenuti
     - paragraphs.paragraphs_type.link_sezione
     - paragraphs.paragraphs_type.messaggio_in_evidenza
+    - paragraphs.paragraphs_type.notizie_in_evidenza
+    - paragraphs.paragraphs_type.slider_notizie
   module:
     - entity_reference_revisions
 id: node.homepage.field_box
@@ -26,26 +28,34 @@ settings:
   handler_settings:
     target_bundles:
       box_contenuti_custom: box_contenuti_custom
-      elenco_contenuti: elenco_contenuti
+      agevolazioni_in_evidenza: agevolazioni_in_evidenza
       link_sezione: link_sezione
       messaggio_in_evidenza: messaggio_in_evidenza
+      notizie_in_evidenza: notizie_in_evidenza
+      slider_notizie: slider_notizie
     target_bundles_drag_drop:
       box_contenuti_custom:
         enabled: true
-        weight: 7
+        weight: 6
       box_primo_livello:
-        weight: 8
+        weight: 7
         enabled: false
       contenuto_custom:
-        weight: 9
+        weight: 8
         enabled: false
-      elenco_contenuti:
+      agevolazioni_in_evidenza:
         enabled: true
-        weight: 10
+        weight: 9
       link_sezione:
         enabled: true
-        weight: 11
+        weight: 9
       messaggio_in_evidenza:
         enabled: true
-        weight: 12
+        weight: 10
+      notizie_in_evidenza:
+        enabled: true
+        weight: 15
+      slider_notizie:
+        enabled: true
+        weight: 16
 field_type: entity_reference_revisions
