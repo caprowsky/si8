@@ -9,9 +9,9 @@ id: node.bando.field_oggetto_del_bando
 field_name: field_oggetto_del_bando
 entity_type: node
 bundle: bando
-label: 'Oggetto del bando'
+label: '[DEPRECATO - NON USARE] Oggetto del bando'
 description: 'Inserisci l''oggetto del bando'
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

@@ -1,9 +1,9 @@
-uuid: dc69ef61-e3dc-4a12-84e5-9ba00bc42c2f
+uuid: ded0fbd5-b8c8-4e44-af79-debc20add529
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.homepage
+    - core.entity_view_mode.node.slider_homepage
     - field.field.node.news.body
     - field.field.node.news.field_allegati
     - field.field.node.news.field_argomenti
@@ -18,17 +18,17 @@ dependencies:
     - image
     - smart_trim
     - user
-id: node.news.homepage
+id: node.news.slider_homepage
 targetEntityType: node
 bundle: news
-mode: homepage
+mode: slider_homepage
 content:
   body:
     weight: 2
     label: hidden
     settings:
-      trim_length: '50'
-      trim_type: words
+      trim_length: '400'
+      trim_type: chars
       trim_suffix: '  [...]'
       more_link: '0'
       more_text: More

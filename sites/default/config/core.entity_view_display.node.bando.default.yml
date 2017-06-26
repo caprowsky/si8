@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.bando.field_macrosettore
     - field.field.node.bando.field_mas
     - field.field.node.bando.field_metatag
+    - field.field.node.bando.field_oggetto_bando
     - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
@@ -93,6 +94,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
+    region: content
+  field_oggetto_bando:
+    weight: 18
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_oggetto_del_bando:
     weight: 2
