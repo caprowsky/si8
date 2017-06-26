@@ -7,16 +7,16 @@ dependencies:
 id: bandi
 label: Bandi
 type: 'canonical_entities:node'
-pattern: '/agevolazione/[node:title]'
+pattern: '/agevolazioni/[node:title]'
 selection_criteria:
-  2b1f2f4c-f9c9-4fd3-ba06-3fc3fa0c67ff:
+  b65e58c3-eb43-4eee-9522-1faa8fa0de8a:
     id: node_type
     bundles:
       bando: bando
     negate: false
     context_mapping:
       node: node
-    uuid: 2b1f2f4c-f9c9-4fd3-ba06-3fc3fa0c67ff
+    uuid: b65e58c3-eb43-4eee-9522-1faa8fa0de8a
 selection_logic: and
 weight: -5
 relationships: {  }

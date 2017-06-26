@@ -4,7 +4,7 @@ _core:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'https://dev-si8.pantheonsite.io/themes/si8/favicon.ico'
+  url: 'http://localhost:9999/themes/si8/favicon.ico'
   use_default: 1
 schemas:
   bootstrap: 8000
@@ -30,4 +30,5 @@ region_wells:
   footer: ''
 table_responsive: '-1'
 table: ''
+breadcrumb_home: 1
 langcode: it
