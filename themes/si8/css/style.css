@@ -7499,14 +7499,14 @@ footer .footer-content .content strong {
 .header-top .block-lang-dropdown {
   display: inline-block;
 }
-.header-top button {
+.header-top .accedi {
   border-radius: 0;
   background-color: #5389d6;
   display: inline-block;
-  padding: 20px 35px;
+  padding: 23px 35px;
   color: #fff;
 }
-.header-top button:hover {
+.header-top .accedi:hover {
   text-decoration: underline;
 }
 .header-top .selettorelingua {
@@ -7771,6 +7771,9 @@ article.page.full .field--name-field-box > .field--item {
     float: left;
     width: 33.33333333%;
   }
+}
+article.page.full .field--name-field-box .paragraph--type--contenuto-custom img {
+  max-width: 100%;
 }
 article.page.full .field--name-field-box .field--name-field-link a {
   color: #000;
