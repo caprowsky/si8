@@ -9,7 +9,7 @@ _core:
 id: si8_local_tasks
 theme: si8
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: local_tasks_block
 settings:
