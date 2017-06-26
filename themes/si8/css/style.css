@@ -7625,6 +7625,9 @@ h1.page-header {
 #block-addtoanybuttons svg {
   background-color: #286bcc;
 }
+.slick-dots {
+  bottom: -40px;
+}
 .slick-dots li button::before {
   font-size: 1.5rem;
 }
@@ -7731,7 +7734,7 @@ h1.page-header {
   font-size: 2.5rem;
 }
 .paragraph--type--slider-notizie {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .paragraph--type--slider-notizie .field-name--field-immagine {
   margin-right: 30px;

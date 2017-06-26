@@ -80,13 +80,20 @@ view_mode ? view_mode|clean_class,
 
   <div{{ content_attributes.addClass('content') }}>
 
-    <div class="pull-right">{{ content.field_immagine }}</div>
-    {{ content.field_argomenti }}
+    <div class="row">
 
-    <h2><a href="{{ url }}" rel="bookmark">{{ label }}</a></h2>
+      <div class="col-md-6">
+        {{ content.field_argomenti }}
+        <h2><a href="{{ url }}" rel="bookmark">{{ label }}</a></h2>
+        <div class="created field">{{ 'Published on'|t }} {{ createdDate }}</div>
+        {{ content.body }}
+      </div>
 
-    <div class="created field">{{ 'Published on'|t }} {{ createdDate }}</div>
-    {{ content.body }}
+      <div class="col-md-6 text-right">
+        <div class="pull-right">{{ content.field_immagine }}</div>
+      </div>
+
+    </div>
   </div>
 
 </article>
