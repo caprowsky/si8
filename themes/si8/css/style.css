@@ -7794,6 +7794,10 @@ ol.breadcrumb {
   color: #333;
   font-size: 2.5rem;
 }
+.paragraph--type--contenuto-custom-con-immagine .field--name-field-titolo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
 article.page.full {
   font-size: 2rem;
 }
