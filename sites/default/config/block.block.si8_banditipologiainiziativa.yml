@@ -11,18 +11,18 @@ dependencies:
     - si8
 id: si8_banditipologiainiziativa
 theme: si8
-region: sidebar_first
-weight: -5
+region: sidebar_second
+weight: -9
 provider: null
 plugin: 'facet_block:bandi_tipologia_iniziativa'
 settings:
   id: 'facet_block:bandi_tipologia_iniziativa'
-  label: 'Bandi - Tipologia iniziativa'
+  label: 'Tipologia iniziativa'
   provider: facets
   label_display: visible
 visibility:
   request_path:
     id: request_path
-    pages: /bandi
+    pages: /agevolazioni
     negate: false
     context_mapping: {  }

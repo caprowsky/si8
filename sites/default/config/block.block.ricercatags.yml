@@ -12,7 +12,7 @@ dependencies:
 id: ricercatags
 theme: si8
 region: sidebar_second
-weight: -7
+weight: -4
 provider: null
 plugin: 'facet_block:ricerca_tags'
 settings:

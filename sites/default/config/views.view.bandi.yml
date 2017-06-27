@@ -533,6 +533,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: elenco-agevolazioni
     cache_metadata:
       max-age: -1
       contexts:

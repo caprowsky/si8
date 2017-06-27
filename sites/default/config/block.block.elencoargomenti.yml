@@ -10,7 +10,7 @@ dependencies:
 id: elencoargomenti
 theme: si8
 region: sidebar_second
-weight: -6
+weight: -3
 provider: null
 plugin: elenco_argomenti
 settings:
