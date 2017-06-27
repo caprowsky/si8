@@ -80,11 +80,21 @@ function si8_preprocess_node(&$vars) {
       break;
   }
 
-  if ($node->bundle() == 'bando' && ($view_mode == 'risultato_ricerca' || $view_mode == 'elenco')) {
-    $sportello = $node->field_a_sportello->getValue();
-    $vars['sportello'] = FALSE;
-    if (!empty($sportello)) {
-      $vars['sportello'] = TRUE;
+  if ($node->bundle() == 'bando') {
+    if ($view_mode == 'full') {
+      $vars['pdf'] = [
+        '#type' => 'link',
+        '#url' => Url::fromUri('internal:/agevolazioni/pdf/' . $node->id(), ['set_active_class' => TRUE]),
+        '#title' => t('Download as PDF'),
+      ];
+    }
+
+    if ($view_mode == 'risultato_ricerca' || $view_mode == 'elenco') {
+      $sportello = $node->field_a_sportello->getValue();
+      $vars['sportello'] = FALSE;
+      if (!empty($sportello)) {
+        $vars['sportello'] = TRUE;
+      }
     }
   }
 
@@ -102,12 +112,7 @@ function si8_preprocess_views_view(&$vars) {
     $key = \Drupal::request()->query->get('key');
     $vars['display_content'] = FALSE;
     if (!empty($facet) || !empty($key)) {
-      //$value = explode(':', $query[0]);
-      //$tid = $value[1];
-      //$vars['display_content'] = FALSE;
-      //if (\Drupal::service('si8_utils.utils')->checkTermParent($tid) == TRUE) {
       $vars['display_content'] = TRUE;
-      //}
     }
   }
 

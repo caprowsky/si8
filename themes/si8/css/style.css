@@ -8040,6 +8040,14 @@ article.full.full .content > .field {
   color: #fff;
   background-color: #333;
 }
+article.bando.full .pdf {
+  margin: 30px 0;
+  color: #286bcc;
+}
+article.bando.full .pdf a {
+  display: inline-block;
+  margin-left: 10px;
+}
 .trova-procedimento-page {
   font-size: 2rem;
 }
