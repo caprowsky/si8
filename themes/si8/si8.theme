@@ -89,14 +89,15 @@ function si8_preprocess_node(&$vars) {
       ];
     }
 
-    if ($view_mode == 'risultato_ricerca' || $view_mode == 'elenco') {
+    if ($view_mode == 'risultato_ricerca' || $view_mode == 'elenco' || $view_mode == 'full') {
       $sportello = $node->field_a_sportello->getValue();
       $vars['sportello'] = FALSE;
-      if (!empty($sportello)) {
+      if (isset($sportello[0]) && $sportello[0]['value'] != 0) {
         $vars['sportello'] = TRUE;
       }
     }
   }
+
 
 }
 
@@ -129,7 +130,7 @@ function si8_preprocess_field(&$vars) {
   $element = $vars['element'];
 
   if ($element['#field_name'] == 'field_data_scadenza_agevolazione') {
-    $view_modes = ['elenco', 'risultato_ricerca'];
+    $view_modes = ['elenco', 'risultato_ricerca', 'full', 'pdf'];
     if (in_array($element['#view_mode'], $view_modes)) {
       $sportello = $object->field_a_sportello->getValue();
       if (isset($sportello[0]) && $sportello[0]['value'] != 0){
