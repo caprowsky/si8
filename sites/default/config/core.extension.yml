@@ -43,9 +43,12 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  rabbit_hole: 0
   rdf: 0
   redirect: 0
   redirect_404: 0
+  rh_node: 0
+  rh_taxonomy: 0
   search_api: 0
   search_api_glossary: 0
   search_api_pantheon: 0
@@ -72,6 +75,7 @@ module:
   views_ui: 0
   viewsreference: 0
   workflows: 0
+  youtube: 0
   menu_admin_per_menu: 1
   menu_link_content: 1
   pathauto: 1

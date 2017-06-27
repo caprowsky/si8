@@ -6462,12 +6462,16 @@ button.close {
 .paragraph--type--agevolazioni-in-evidenza .field--name-field-collegamenti:after,
 .paragraph--type--box-contenuti-custom .field--name-field-box-secondo-livello:before,
 .paragraph--type--box-contenuti-custom .field--name-field-box-secondo-livello:after,
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti:before,
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti:after,
 article.page.full .field--name-field-box:before,
 article.page.full .field--name-field-box:after,
 .path-glossario .elenco-glossario .view-content:before,
 .path-glossario .elenco-glossario .view-content:after,
 .trova-procedimento-page .block-facets ul:before,
-.trova-procedimento-page .block-facets ul:after {
+.trova-procedimento-page .block-facets ul:after,
+.elenco-video .view-content:before,
+.elenco-video .view-content:after {
   content: " ";
   display: table;
 }
@@ -6492,9 +6496,11 @@ article.page.full .field--name-field-box:after,
 .paragraph--type--notizie-in-evidenza .field--name-field-collegamenti:after,
 .paragraph--type--agevolazioni-in-evidenza .field--name-field-collegamenti:after,
 .paragraph--type--box-contenuti-custom .field--name-field-box-secondo-livello:after,
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti:after,
 article.page.full .field--name-field-box:after,
 .path-glossario .elenco-glossario .view-content:after,
-.trova-procedimento-page .block-facets ul:after {
+.trova-procedimento-page .block-facets ul:after,
+.elenco-video .view-content:after {
   clear: both;
 }
 .center-block {
@@ -7760,6 +7766,34 @@ ol.breadcrumb {
 .paragraph--type--slider-notizie h2 a {
   color: #333;
 }
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti > .field--item {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .paragraph--type--video-in-evidenza .field--name-field-collegamenti > .field--item {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti article .sfondo {
+  padding: 20px 20px 20px 20px;
+  background-color: #ddd;
+}
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti article .sfondo h2 {
+  margin-top: 0;
+}
+.paragraph--type--video-in-evidenza .field--name-field-collegamenti article .sfondo a {
+  color: #333;
+  font-size: 2.5rem;
+}
 article.page.full {
   font-size: 2rem;
 }
@@ -8126,4 +8160,25 @@ article.bando.full .pdf a {
 }
 article.procedimento.full .tipologia {
   margin-bottom: 20px;
+}
+.elenco-video .view-content {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.elenco-video .view-content .views-row {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .elenco-video .view-content .views-row {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+.elenco-video .view-content .views-row h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
 }
