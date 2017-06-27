@@ -74,7 +74,16 @@ display:
           row_class: ''
           default_row_class: true
       row:
-        type: fields
+        type: search_api
+        options:
+          view_modes:
+            'entity:node':
+              bando: elenco
+              faq: default
+              glossary: default
+              homepage: default
+              news: default
+              page: default
       fields:
         title:
           id: title
@@ -377,11 +386,11 @@ display:
           exposed: true
           expose:
             operator_id: search_api_fulltext_op
-            label: 'Fulltext search'
+            label: Search
             description: ''
             use_operator: false
             operator: search_api_fulltext_op
-            identifier: search
+            identifier: key
             required: false
             remember: false
             multiple: false
