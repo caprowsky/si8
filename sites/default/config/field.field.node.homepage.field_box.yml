@@ -9,7 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.box_contenuti_custom
     - paragraphs.paragraphs_type.contenuto_custom_con_immagine
     - paragraphs.paragraphs_type.link_sezione
-    - paragraphs.paragraphs_type.messaggio_in_evidenza
+    - paragraphs.paragraphs_type.messaggio
     - paragraphs.paragraphs_type.notizie_in_evidenza
     - paragraphs.paragraphs_type.slider_notizie
     - paragraphs.paragraphs_type.video_in_evidenza
@@ -32,8 +32,8 @@ settings:
       box_contenuti_custom: box_contenuti_custom
       agevolazioni_in_evidenza: agevolazioni_in_evidenza
       link_sezione: link_sezione
-      messaggio_in_evidenza: messaggio_in_evidenza
       video_in_evidenza: video_in_evidenza
+      messaggio: messaggio
       contenuto_custom_con_immagine: contenuto_custom_con_immagine
       notizie_in_evidenza: notizie_in_evidenza
       slider_notizie: slider_notizie
@@ -53,12 +53,12 @@ settings:
       link_sezione:
         enabled: true
         weight: 9
-      messaggio_in_evidenza:
-        enabled: true
-        weight: 10
       video_in_evidenza:
         enabled: true
         weight: 10
+      messaggio:
+        enabled: true
+        weight: 11
       contenuto_custom_con_immagine:
         enabled: true
         weight: 11

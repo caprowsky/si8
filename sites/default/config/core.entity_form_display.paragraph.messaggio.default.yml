@@ -1,16 +1,16 @@
-uuid: 694cf9b2-1af6-4e29-9570-f75422a17dff
+uuid: 815fd6da-8cdb-40b0-8d47-ecc24f1b6744
 langcode: it
 status: true
 dependencies:
   config:
-    - field.field.paragraph.messaggio_in_evidenza.field_body
-    - paragraphs.paragraphs_type.messaggio_in_evidenza
+    - field.field.paragraph.messaggio.field_body
+    - paragraphs.paragraphs_type.messaggio
   module:
     - content_moderation
     - text
-id: paragraph.messaggio_in_evidenza.default
+id: paragraph.messaggio.default
 targetEntityType: paragraph
-bundle: messaggio_in_evidenza
+bundle: messaggio
 mode: default
 content:
   field_body:

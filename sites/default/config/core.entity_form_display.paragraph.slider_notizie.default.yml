@@ -15,7 +15,7 @@ bundle: slider_notizie
 mode: default
 content:
   field_collegamenti:
-    weight: 6
+    weight: 0
     settings:
       entity_browser: notizie
       field_widget_display: label
