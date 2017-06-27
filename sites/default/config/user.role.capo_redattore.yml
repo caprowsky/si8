@@ -43,6 +43,7 @@ permissions:
   - 'edit any video content'
   - 'edit own page content'
   - 'edit own procedimento content'
+  - 'rabbit hole bypass node'
   - 'revert all revisions'
   - 'revert bando revisions'
   - 'revert custom_content revisions'
