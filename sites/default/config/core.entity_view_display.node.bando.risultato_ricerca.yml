@@ -46,7 +46,7 @@ content:
     type: list_default
     weight: 0
     region: content
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
   field_oggetto_bando:

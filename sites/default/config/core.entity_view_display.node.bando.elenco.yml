@@ -35,16 +35,16 @@ mode: elenco
 content:
   field_data_scadenza_agevolazione:
     weight: 1
-    label: above
+    label: inline
     settings:
-      format_type: medium
       timezone_override: ''
+      format_type: data_completa
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_macrosettore:
     weight: 3
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     type: list_default
@@ -53,12 +53,12 @@ content:
     type: text_default
     weight: 2
     region: content
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
   field_termini:
     weight: 4
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     type: text_default

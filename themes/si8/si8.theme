@@ -67,9 +67,10 @@ function si8_preprocess_links__language_block(&$variables) {
  */
 function si8_preprocess_node(&$vars) {
   $node = $vars['node'];
+  $view_mode = $vars['view_mode'];
   /* @var \Drupal\node\Entity\Node $node */
 
-  switch ($vars['view_mode']) {
+  switch ($view_mode) {
     case 'risultato_ricerca':
       $vars['tipo_contenuto'] = $node->type->entity->label();
       $vars['data_creazione'] = \Drupal::service('date.formatter')
@@ -79,27 +80,12 @@ function si8_preprocess_node(&$vars) {
       break;
   }
 
-  if ($node->bundle() == 'procedimento') {
-    $tipologia = $node->get('field_tipologia_procedimento')
-      ->referencedEntities();
-    $term = reset($tipologia);
-
-    $options = [
-      'query' => [
-        'f[0]' => 'tipologia:' . $term->id(),
-      ],
-    ];
-
-    $link = [
-      '#type' => 'link',
-      '#url' => Url::fromUri('internal:/suape/trova-procedimento/', $options),
-      '#title' => $term->label(),
-    ];
-
-    $vars['link_tipologia'] = $link;
-
-
-
+  if ($node->bundle() == 'bando' && ($view_mode == 'risultato_ricerca' || $view_mode == 'elenco')) {
+    $sportello = $node->field_a_sportello->getValue();
+    $vars['sportello'] = FALSE;
+    if (!empty($sportello)) {
+      $vars['sportello'] = TRUE;
+    }
   }
 
 }
@@ -131,4 +117,19 @@ function si8_theme_suggestions_field_alter(array &$suggestions, array $vars) {
   $suggestions[] = 'field__' . $vars['element']['#entity_type'] . '__' . $vars['element']['#field_name'] . '__' . $vars['element']['#bundle'] . '__' . $vars['element']['#view_mode'];
   $suggestions[] = 'field__' . $vars['element']['#entity_type'] . '__' . $vars['element']['#bundle'] . '__' . $vars['element']['#view_mode'];
 
+}
+
+function si8_preprocess_field(&$vars) {
+  $object = $vars['element']['#object'];
+  $element = $vars['element'];
+
+  if ($element['#field_name'] == 'field_data_scadenza_agevolazione') {
+    $view_modes = ['elenco', 'risultato_ricerca'];
+    if (in_array($element['#view_mode'], $view_modes)) {
+      $sportello = $object->field_a_sportello->getValue();
+      if (isset($sportello[0]) && $sportello[0]['value'] != 0){
+        $vars['sportello'] = TRUE;
+      }
+    }
+  }
 }
