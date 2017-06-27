@@ -16,12 +16,87 @@ dependencies:
     - node.type.page
   module:
     - content_moderation
+    - field_group
     - file
     - image
     - metatag
     - paragraphs
     - path
     - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_principale
+        - group_box
+        - group_campi
+        - group_procedimento
+      parent_name: ''
+      weight: 10
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+      label: Tabs
+    group_principale:
+      children:
+        - title
+        - langcode
+        - field_sezione
+      parent_name: group_tabs
+      weight: 14
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Principale
+    group_box:
+      children:
+        - field_box
+      parent_name: group_tabs
+      weight: 15
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Box
+    group_procedimento:
+      children:
+        - field_tipologia_procedimento
+      parent_name: group_tabs
+      weight: 17
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Procedimento
+    group_campi:
+      children:
+        - body
+        - field_tags
+        - field_risorse_collegate
+        - field_immagine
+        - field_allegati
+      parent_name: group_tabs
+      weight: 16
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Campi
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -43,7 +118,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_allegati:
-    weight: 14
+    weight: 13
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
@@ -62,7 +137,7 @@ content:
       default_paragraph_type: _none
     third_party_settings: {  }
   field_immagine:
-    weight: 13
+    weight: 12
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -70,30 +145,12 @@ content:
     type: image_image
     region: content
   field_metatag:
-    weight: 26
+    weight: 15
     settings: {  }
     third_party_settings: {  }
     type: metatag_firehose
     region: content
   field_risorse_collegate:
-    weight: 12
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_sezione:
-    weight: 10
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_tags:
     weight: 11
     settings:
       match_operator: CONTAINS
@@ -102,8 +159,26 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
+  field_sezione:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tags:
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_tipologia_procedimento:
-    weight: 27
+    weight: 16
     settings:
       match_operator: CONTAINS
       size: 60

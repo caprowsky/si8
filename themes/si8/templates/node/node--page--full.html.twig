@@ -87,13 +87,15 @@ view_mode ? view_mode|clean_class,
         {{ content.field_immagine }}
         {{ content.field_box }}
 
-        {% set createdDate = node.getChangedTime|date('d/m/Y') %}
-        <div class="created field">{{ 'Updated on'|t }} {{ createdDate }}</div>
+
 
         {{ content.body }}
         {{ content.field_argomenti }}
         {{ content.field_tags }}
         {{ content.field_allegati }}
+
+        {% set createdDate = node.getChangedTime|date('d/m/Y') %}
+        <div class="created field">{{ 'Updated on'|t }} {{ createdDate }}</div>
 
         {% endif %}
 
