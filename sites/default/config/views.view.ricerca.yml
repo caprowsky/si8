@@ -73,10 +73,9 @@ display:
               bando: risultato_ricerca
               faq: risultato_ricerca
               glossary: risultato_ricerca
-              homepage: default
               news: risultato_ricerca
               page: risultato_ricerca
-              procedimento: risultato_ricerca
+              video: risultato_ricerca
       fields:
         bandiattivi:
           table: search_api_index_bandi

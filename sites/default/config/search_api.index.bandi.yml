@@ -241,8 +241,8 @@ datasource_settings:
     bundles:
       default: true
       selected:
-        - video
         - custom_content
+        - homepage
     languages:
       default: true
       selected: {  }
