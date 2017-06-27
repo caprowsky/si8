@@ -7639,6 +7639,13 @@ ol.breadcrumb {
   padding-left: 0;
   text-transform: lowercase;
 }
+.block-facet--links ul {
+  padding-left: 0;
+}
+.block-facet--links ul li {
+  list-style-type: none;
+  font-size: 2rem;
+}
 .paragraph--type--link-sezione {
   margin: 30px 0;
   color: #5389d6;
@@ -8004,6 +8011,34 @@ article.full.full .content > .field {
 .lista-sportelli .dato.desc {
   font-weight: bold;
   font-size: 2.5rem;
+}
+.elenco-agevolazioni {
+  font-size: 1.5rem;
+}
+.elenco-agevolazioni .views-exposed-form {
+  margin-top: 20px;
+}
+.elenco-agevolazioni .views-exposed-form .form-item-key label {
+  display: none;
+}
+.elenco-agevolazioni .views-exposed-form input.form-text {
+  border: 1px solid #777777;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+.elenco-agevolazioni .views-exposed-form button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  margin-right: 0;
+  height: 34px;
+  margin-left: 20px;
+  font-size: 2rem;
+}
+.elenco-agevolazioni .views-exposed-form button:hover {
+  color: #fff;
+  background-color: #333;
 }
 .trova-procedimento-page {
   font-size: 2rem;

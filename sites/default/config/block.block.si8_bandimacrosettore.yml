@@ -11,18 +11,18 @@ dependencies:
     - si8
 id: si8_bandimacrosettore
 theme: si8
-region: sidebar_first
-weight: -6
+region: sidebar_second
+weight: -10
 provider: null
 plugin: 'facet_block:bandi_macrosettore'
 settings:
   id: 'facet_block:bandi_macrosettore'
-  label: 'Bandi - Macrosettore'
+  label: Macrosettore
   provider: facets
   label_display: visible
 visibility:
   request_path:
     id: request_path
-    pages: /bandi
+    pages: /agevolazioni
     negate: false
     context_mapping: {  }
