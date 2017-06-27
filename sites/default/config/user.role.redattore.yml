@@ -33,6 +33,7 @@ permissions:
   - 'edit own glossary content'
   - 'edit own page content'
   - 'edit own procedimento content'
+  - 'rabbit hole bypass node'
   - 'translate any entity'
   - 'translate argomenti taxonomy_term'
   - 'translate bando node'
