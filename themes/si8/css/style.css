@@ -7652,6 +7652,9 @@ ol.breadcrumb {
   list-style-type: none;
   font-size: 2rem;
 }
+.sitemap {
+  font-size: 2rem;
+}
 .paragraph--type--link-sezione {
   margin: 30px 0;
   color: #5389d6;
