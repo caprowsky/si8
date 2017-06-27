@@ -1,20 +1,20 @@
-uuid: f1f54cd1-c732-4b3c-910b-627dc67b2266
+uuid: 46fc83b1-94dc-4633-851c-9bc959cfc0fd
 langcode: it
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_body
-    - paragraphs.paragraphs_type.messaggio_in_evidenza
+    - paragraphs.paragraphs_type.messaggio
   module:
     - text
-id: paragraph.messaggio_in_evidenza.field_body
+id: paragraph.messaggio.field_body
 field_name: field_body
 entity_type: paragraph
-bundle: messaggio_in_evidenza
-label: Body
+bundle: messaggio
+label: Messaggio
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
