@@ -2,6 +2,6 @@ sportelli.sportelli:
   path: '/suape/dove-si-trova'
   defaults:
     _controller: Drupal\sportelli\Controller\MainSportelli::main
-    _title: 'Sportelli'
+    _title: 'Ricerca sportelli'
   requirements:
     _permission: 'access content'
