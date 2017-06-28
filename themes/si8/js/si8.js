@@ -4,7 +4,4 @@ jQuery(function() {
     jQuery('.elenco-video .views-row').matchHeight();
     jQuery('.trova-procedimento-page .block-facets ul li a').matchHeight();
     jQuery('.paragraph--type--notizie-in-evidenza .field--name-field-collegamenti > .field--item').matchHeight();
-
-
-
 });
