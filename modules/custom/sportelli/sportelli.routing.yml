@@ -1,5 +1,5 @@
 sportelli.sportelli:
-  path: '/sportelli'
+  path: '/suape/dove-si-trova'
   defaults:
     _controller: Drupal\sportelli\Controller\MainSportelli::main
     _title: 'Sportelli'
