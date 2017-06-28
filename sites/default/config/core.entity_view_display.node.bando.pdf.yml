@@ -13,7 +13,6 @@ dependencies:
     - field.field.node.bando.field_mas
     - field.field.node.bando.field_metatag
     - field.field.node.bando.field_oggetto_bando
-    - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
     - field.field.node.bando.field_riferimenti
@@ -153,7 +152,6 @@ content:
 hidden:
   addtoany: true
   field_mas: true
-  field_oggetto_del_bando: true
   field_tipologia_iniziativa: true
   langcode: true
   links: true
