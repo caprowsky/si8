@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_data_scadenza_agevolazione
-    - field.storage.node.field_oggetto_del_bando
+    - field.storage.node.field_oggetto_bando
     - node.type.bando
     - node.type.news
     - node.type.video
@@ -14,6 +14,7 @@ dependencies:
     - entity_browser
     - node
     - smart_trim
+    - text
     - user
 id: entity_browser_contenuti
 label: 'Entity Browser Contenuti'
@@ -733,10 +734,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_oggetto_del_bando:
-          id: field_oggetto_del_bando
-          table: node__field_oggetto_del_bando
-          field: field_oggetto_del_bando
+        field_oggetto_bando:
+          id: field_oggetto_bando
+          table: node__field_oggetto_bando
+          field: field_oggetto_bando
           relationship: none
           group_type: group
           admin_label: ''
@@ -782,7 +783,7 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: basic_string
+          type: text_default
           settings: {  }
           group_column: value
           group_columns: {  }
@@ -856,7 +857,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<strong>{{ title }}</strong>\n<br> \nScadenza: {{ field_data_scadenza_agevolazione }}\n<br>\n{{ field_oggetto_del_bando }}"
+            text: "<strong>{{ title }}</strong>\n<br> \nScadenza: {{ field_data_scadenza_agevolazione }}\n<br>\n{{ field_oggetto_bando }}"
             make_link: false
             path: ''
             absolute: false
@@ -988,7 +989,7 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_data_scadenza_agevolazione'
-        - 'config:field.storage.node.field_oggetto_del_bando'
+        - 'config:field.storage.node.field_oggetto_bando'
   notizie:
     display_plugin: entity_browser
     id: notizie

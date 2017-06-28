@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.bando.field_mas
     - field.field.node.bando.field_metatag
     - field.field.node.bando.field_oggetto_bando
-    - field.field.node.bando.field_oggetto_del_bando
     - field.field.node.bando.field_procedura
     - field.field.node.bando.field_progetti_finanziabili
     - field.field.node.bando.field_riferimenti
@@ -102,14 +101,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
-  field_oggetto_del_bando:
-    weight: 6
-    settings:
-      rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
     region: content
   field_procedura:
     weight: 19
