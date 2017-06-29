@@ -25,3 +25,14 @@ pagine_t0
 pagine_t1
 glossario_t0
 faq_t0
+
+composer require "drupal/address ~1.0"
+
+composer update drupal/address --with-dependencies
+
+composer require drupal/search_api
+composer require drupal/search_api_solr
+
+terminus upstream:updates:apply ildeposito.dev --updatedb
+
+git pull -Xtheirs git://github.com/pantheon-systems/drops-8.git master
