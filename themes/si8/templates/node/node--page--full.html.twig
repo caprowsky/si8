@@ -97,8 +97,6 @@ view_mode ? view_mode|clean_class,
         {% set createdDate = node.getChangedTime|date('d/m/Y') %}
         <div class="created field">{{ 'Updated on'|t }} {{ createdDate }}</div>
 
-        {% endif %}
-
       </div>
 
       <div class="col-md-4">
@@ -108,7 +106,7 @@ view_mode ? view_mode|clean_class,
 
     </div>
 
-    {{ endif }}
+    {% endif %}
 
   </div>
 
