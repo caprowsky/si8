@@ -7505,6 +7505,11 @@ footer .footer-content .content strong {
   width: 25px;
   margin-right: 10px;
 }
+.header-top .header-top2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .header-top .header-top1 {
   padding: 10px 0;
   font-weight: bold;
@@ -7516,8 +7521,10 @@ footer .footer-content .content strong {
   border-radius: 0;
   background-color: #5389d6;
   display: inline-block;
-  padding: 14px 35px;
+  padding: 14px 60px;
   color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .header-top .accedi:hover {
   text-decoration: underline;
