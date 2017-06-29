@@ -4561,79 +4561,6 @@
         }
     },
     {
-        "name": "drupal/search_api_solr",
-        "version": "1.0.0-rc4",
-        "version_normalized": "1.0.0.0-RC4",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/search_api_solr",
-            "reference": "8.x-1.0-rc4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/search_api_solr-8.x-1.0-rc4.zip",
-            "reference": "8.x-1.0-rc4",
-            "shasum": "8d49e3b4d4783fff318763e1051ca9592544c6bf"
-        },
-        "require": {
-            "drupal/core": "~8.0",
-            "drupal/search_api": "~1.0",
-            "solarium/solarium": "3.8.*"
-        },
-        "suggest": {
-            "drupal/facets": "Provides facetted search.",
-            "drupal/search_api_solr_multilingual": "Highly recommended if installation is multilingual or uses a language different than English."
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-rc4",
-                "datestamp": "1497007742"
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Markus Kalkbrenner",
-                "homepage": "https://www.drupal.org/u/mkalkbrenner"
-            },
-            {
-                "name": "Other contributors",
-                "homepage": "https://www.drupal.org/node/982682/committers"
-            },
-            {
-                "name": "amateescu",
-                "homepage": "https://www.drupal.org/user/729614"
-            },
-            {
-                "name": "cspitzlay",
-                "homepage": "https://www.drupal.org/user/419305"
-            },
-            {
-                "name": "drunken monkey",
-                "homepage": "https://www.drupal.org/user/205582"
-            },
-            {
-                "name": "mkalkbrenner",
-                "homepage": "https://www.drupal.org/user/124705"
-            }
-        ],
-        "description": "Offers an implementation of the Search API that uses an Apache Solr server for indexing content.",
-        "homepage": "https://www.drupal.org/project/search_api_solr",
-        "support": {
-            "source": "http://git.drupal.org/project/search_api_solr.git",
-            "issues": "https://www.drupal.org/project/issues/search_api_solr",
-            "irc": "irc://irc.freenode.org/drupal-search-api"
-        }
-    },
-    {
         "name": "setasign/fpdi",
         "version": "1.6.2",
         "version_normalized": "1.6.2.0",
@@ -4858,6 +4785,85 @@
         "support": {
             "source": "http://git.drupal.org/project/search_api.git",
             "issues": "https://www.drupal.org/project/issues/search_api",
+            "irc": "irc://irc.freenode.org/drupal-search-api"
+        }
+    },
+    {
+        "name": "drupal/search_api_solr",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/search_api_solr",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/search_api_solr-8.x-1.0.zip",
+            "reference": null,
+            "shasum": "2559a2d54867632b2b0fac12e634da3eb820993d"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "drupal/search_api": "~1.2",
+            "solarium/solarium": "3.8.*"
+        },
+        "require-dev": {
+            "drupal/facets": "1.x-dev",
+            "drupal/geofield": "1.x-dev",
+            "drupal/search_api_autocomplete": "1.x-dev",
+            "drupal/search_api_location": "1.x-dev"
+        },
+        "suggest": {
+            "drupal/facets": "Provides facetted search.",
+            "drupal/search_api_solr_multilingual": "Highly recommended if installation is multilingual or uses a language different than English."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1498580642"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Markus Kalkbrenner",
+                "homepage": "https://www.drupal.org/u/mkalkbrenner"
+            },
+            {
+                "name": "Other contributors",
+                "homepage": "https://www.drupal.org/node/982682/committers"
+            },
+            {
+                "name": "amateescu",
+                "homepage": "https://www.drupal.org/user/729614"
+            },
+            {
+                "name": "cspitzlay",
+                "homepage": "https://www.drupal.org/user/419305"
+            },
+            {
+                "name": "drunken monkey",
+                "homepage": "https://www.drupal.org/user/205582"
+            },
+            {
+                "name": "mkalkbrenner",
+                "homepage": "https://www.drupal.org/user/124705"
+            }
+        ],
+        "description": "Offers an implementation of the Search API that uses an Apache Solr server for indexing content.",
+        "homepage": "https://www.drupal.org/project/search_api_solr",
+        "support": {
+            "source": "http://git.drupal.org/project/search_api_solr.git",
+            "issues": "https://www.drupal.org/project/issues/search_api_solr",
             "irc": "irc://irc.freenode.org/drupal-search-api"
         }
     }
