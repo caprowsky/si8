@@ -85,10 +85,6 @@ view_mode ? view_mode|clean_class,
     <div class="row">
       <div class="col-md-8">
         {{ content.field_immagine }}
-        {{ content.field_box }}
-
-
-
         {{ content.body }}
         {{ content.field_argomenti }}
         {{ content.field_tags }}
@@ -96,8 +92,6 @@ view_mode ? view_mode|clean_class,
 
         {% set createdDate = node.getChangedTime|date('d/m/Y') %}
         <div class="created field">{{ 'Updated on'|t }} {{ createdDate }}</div>
-
-        {% endif %}
 
       </div>
 
@@ -108,7 +102,7 @@ view_mode ? view_mode|clean_class,
 
     </div>
 
-    {{ endif }}
+    {% endif %}
 
   </div>
 
