@@ -15,22 +15,14 @@ use Drupal\Core\Path;
 function si8_preprocess_page(&$vars) {
   $vars['base_path'] = base_path();
 
-  $accedi_path = \Drupal::service('path.alias_manager')->getPathByAlias('/accedi');
-  $link_explode = explode('/', $accedi_path);
+  //$accedi_path = \Drupal::service('path.alias_manager')->getPathByAlias('/accedi');
+  //$link_explode = explode('/', $accedi_path);
 
   $vars['accedi'] = [
     '#type' => 'link',
-    '#url' => Url::fromRoute('entity.node.canonical', array('node' => $link_explode[2])),
+    '#url' => Url::fromRoute('entity.node.canonical', array('node' => '4407')),
     '#title' => t('Login'),
   ];
-
-  /** Footer contents */
-  $custom_contents = ['footer1', 'footer2', 'footer3'];
-  foreach ($custom_contents as $custom_content) {
-    // $vars[$custom_content] = Drupal::service('si8_utils.utils')->getViewWithArgument('custom_content', 'machine_name', $custom_content);
-
-  }
-
 }
 
 function si8_preprocess_paragraph__box_primo_livello(&$vars) {
