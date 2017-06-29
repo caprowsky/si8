@@ -7541,10 +7541,18 @@ footer .footer-content .content strong {
   font-weight: bold;
   text-decoration: underline;
 }
+#hamburger-toggle {
+  font-size: 3.5rem;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .header-main {
   background: #286bcc;
   color: #fff;
   padding: 15px 0;
+  position: relative;
 }
 .header-main a {
   color: #fff;
@@ -8203,4 +8211,8 @@ article.procedimento.full .tipologia {
 .elenco-video .view-content.griglia .views-row h2 {
   font-size: 2.5rem;
   margin-top: 10px;
+}
+/** Impostaizoni per hamburger menu e sidebar destra **/
+#block-menu-hamburger {
+  display: none;
 }
