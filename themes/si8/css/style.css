@@ -7421,12 +7421,15 @@ footer a:hover {
 footer ul.menu {
   border-top: 1px solid #65dcdf;
   display: inline-block;
+  padding: 5px 0;
 }
 footer .nav > li {
   display: inline;
 }
 footer .nav > li a {
   display: inline-block !important;
+  font-size: 1.6rem;
+  padding: 0 10px;
 }
 footer .nav > li a:hover {
   background: #333;
@@ -7449,7 +7452,7 @@ footer .valuta {
   margin-bottom: 50px;
   text-align: center;
   font-size: 2rem;
-  padding: 20px;
+  padding: 16px;
 }
 footer .valuta a {
   display: inline-block;
@@ -7466,6 +7469,9 @@ footer .footer-header {
   margin-top: 40px;
   font-size: 2rem;
 }
+footer .footer-header .footer-title {
+  font-size: 2.4rem;
+}
 footer .footer-content {
   margin-top: 20px;
 }
@@ -7476,10 +7482,10 @@ footer .footer-content .social a {
   font-size: 4rem;
 }
 footer .footer-content .content {
-  padding: 20px;
+  padding: 25px 16px 16px 16px;
   border-top: 1px solid #555555;
-  font-size: 1.5rem;
-  color: #777777;
+  font-size: 1.3rem;
+  color: #a5abb0;
 }
 footer .footer-content .content strong {
   font-size: 1.8rem;
@@ -7496,11 +7502,12 @@ footer .footer-content .content strong {
   color: #fff;
 }
 .header-top .logo {
-  width: 40px;
+  width: 25px;
   margin-right: 10px;
 }
 .header-top .header-top1 {
   padding: 10px 0;
+  font-weight: bold;
 }
 .header-top .block-lang-dropdown {
   display: inline-block;
@@ -7509,7 +7516,7 @@ footer .footer-content .content strong {
   border-radius: 0;
   background-color: #5389d6;
   display: inline-block;
-  padding: 23px 35px;
+  padding: 14px 35px;
   color: #fff;
 }
 .header-top .accedi:hover {
@@ -7521,7 +7528,7 @@ footer .footer-content .content strong {
 }
 .header-top .selettorelingua ul {
   margin-bottom: 0;
-  padding: 23px;
+  padding: 14px;
 }
 .header-top .selettorelingua ul li {
   display: inline-block;
@@ -7551,7 +7558,7 @@ footer .footer-content .content strong {
 .header-main {
   background: #286bcc;
   color: #fff;
-  padding: 15px 0;
+  padding: 0;
   position: relative;
 }
 .header-main a {
@@ -7559,6 +7566,7 @@ footer .footer-content .content strong {
 }
 .header-main .icon-social {
   text-align: right;
+  margin-top: 5px;
 }
 .header-main .icon-social a {
   font-size: 3rem;
@@ -7569,13 +7577,14 @@ footer .footer-content .content strong {
   color: #fff;
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-size: 3.7rem;
+  padding: 36px 0;
 }
 .header-main .site-title .subtitle {
   font-size: 1.8rem;
   display: block;
 }
 .header-main .ricerca {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .header-main .ricerca label {
   display: none;
@@ -7584,6 +7593,7 @@ footer .footer-content .content strong {
   border: none;
   border-radius: 0;
   font-size: 1.5rem;
+  height: 50px;
 }
 .header-main .ricerca button {
   color: #fff;
@@ -7591,9 +7601,10 @@ footer .footer-content .content strong {
   border: none;
   border-radius: 0;
   margin-right: 0;
-  height: 34px;
+  height: 50px;
+  width: 50px;
   margin-left: -4px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .header-down {
   background-color: #5389d6;
@@ -7602,7 +7613,7 @@ footer .footer-content .content strong {
 .header-down .navbar-nav {
   display: inline-block;
   float: none;
-  padding: 5px;
+  padding: 2px;
 }
 .header-down .navbar-nav a {
   color: #fff;
@@ -7666,6 +7677,9 @@ ol.breadcrumb {
 table td,
 table th {
   padding: 5px;
+}
+#backtotop {
+  background: url(../images/backtotop.png) no-repeat center center;
 }
 .paragraph--type--link-sezione {
   margin: 30px 0;
