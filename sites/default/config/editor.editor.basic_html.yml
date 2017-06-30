@@ -28,6 +28,9 @@ settings:
         -
           name: Lists
           items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
             - BulletedList
             - NumberedList
         -
