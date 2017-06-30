@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.bando.field_a_sportello
     - field.field.node.bando.field_agevolazione_concessa
+    - field.field.node.bando.field_altre_informazioni
     - field.field.node.bando.field_criteri_di_valutazione
     - field.field.node.bando.field_data_scadenza_agevolazione
     - field.field.node.bando.field_dotazione_finanziaria
@@ -35,6 +36,13 @@ mode: default
 content:
   field_agevolazione_concessa:
     weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_altre_informazioni:
+    weight: 15
     label: above
     settings: {  }
     third_party_settings: {  }
