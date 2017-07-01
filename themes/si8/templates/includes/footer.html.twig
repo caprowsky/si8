@@ -6,20 +6,25 @@
     <h4>SardegnaImpresa<br>Sistema imprenditoriale della Sardegna</h4>
 
     <div class="row footer-header">
-      <div class="col-md-9 footer-title">{{ 'Contacts'|t }}</div>
-      <div class="col-md-3 footer-title">{{ 'Follow us'|t }}</div>
-    </div>
+      <div class="col-md-9 footer-title">
 
-    <div class="row footer-content">
-      <div class="col-md-3">{{ drupal_view_argument('custom_content', 'machine_name', 'footer1') }}</div>
-      <div class="col-md-3">{{ drupal_view_argument('custom_content', 'machine_name', 'footer2') }}</div>
-      <div class="col-md-3">{{ drupal_view_argument('custom_content', 'machine_name', 'footer3') }}</div>
-      <div class="col-md-3 social">
-        <div class="content">
+        <h5>{{ 'Contacts'|t }}</h5>
+        <div class="row">
+          <div class="col-md-4 footer-block ">{{ drupal_view_argument('custom_content', 'machine_name', 'footer1') }}</div>
+          <div class="col-md-4 footer-block">{{ drupal_view_argument('custom_content', 'machine_name', 'footer2') }}</div>
+          <div class="col-md-4 footer-block">{{ drupal_view_argument('custom_content', 'machine_name', 'footer3') }}</div>
+        </div>
+
+      </div>
+      <div class="col-md-3 footer-title">
+
+        <h5>{{ 'Follow us'|t }}</h5>
+        <div class="social footer-block">
           <a href="https://www.facebook.com/sardegnaimpresa"><i class="fa fa-facebook-official"></i></a>
           <a href="https://twitter.com/SardegnaImpresa"><i class="fa fa-twitter"></i></a>
           <a href="https://www.youtube.com/user/sardegnaimpresa"><i class="fa fa-youtube"></i></a>
         </div>
+
       </div>
     </div>
 
