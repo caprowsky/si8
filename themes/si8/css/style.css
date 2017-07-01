@@ -7423,6 +7423,16 @@ footer ul.menu {
   display: inline-block;
   padding: 5px 0;
 }
+@media (max-width: 768px) {
+  footer ul.menu {
+    width: 100%;
+    text-align: center;
+  }
+  footer ul.menu li {
+    display: block;
+    margin: 15px 0;
+  }
+}
 footer .nav > li {
   display: inline;
 }
@@ -7464,7 +7474,7 @@ footer .valuta a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-footer .footer-header {
+footer .footer-header h5 {
   font-weight: bold;
   margin-top: 40px;
   font-size: 2rem;
@@ -7472,22 +7482,22 @@ footer .footer-header {
 footer .footer-header .footer-title {
   font-size: 2.4rem;
 }
-footer .footer-content {
-  margin-top: 20px;
-}
-footer .footer-content .social a {
+footer .social a {
   color: #65dcdf;
   display: inline-block;
   margin-right: 10px;
   font-size: 4rem;
 }
-footer .footer-content .content {
+footer .footer-block {
   padding: 25px 16px 16px 16px;
   border-top: 1px solid #555555;
   font-size: 1.3rem;
   color: #a5abb0;
 }
-footer .footer-content .content strong {
+footer .footer-block article.full.full {
+  font-size: 1.3rem;
+}
+footer .footer-block strong {
   font-size: 1.8rem;
   display: block;
   margin-bottom: 10px;
@@ -7676,6 +7686,9 @@ footer .footer-content .content strong {
   float: none;
   padding: 2px;
 }
+.header-down .navbar-nav li:first-child {
+  display: none;
+}
 .header-down .navbar-nav a {
   color: #fff;
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
@@ -7755,15 +7768,11 @@ table th {
 }
 .paragraph--type--link-sezione > .field {
   position: relative;
+  float: left;
+  width: 50%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-}
-@media (min-width: 992px) {
-  .paragraph--type--link-sezione > .field {
-    float: left;
-    width: 50%;
-  }
 }
 .paragraph--type--link-sezione .field--type-link {
   text-align: right;

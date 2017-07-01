@@ -19,6 +19,8 @@ settings:
           items:
             - Bold
             - Italic
+            - Format
+            - Styles
         -
           name: Linking
           items:
@@ -28,6 +30,9 @@ settings:
         -
           name: Lists
           items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
             - BulletedList
             - NumberedList
         -
