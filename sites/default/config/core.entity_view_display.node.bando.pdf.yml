@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.pdf
     - field.field.node.bando.field_a_sportello
     - field.field.node.bando.field_agevolazione_concessa
+    - field.field.node.bando.field_altre_informazioni
     - field.field.node.bando.field_criteri_di_valutazione
     - field.field.node.bando.field_data_scadenza_agevolazione
     - field.field.node.bando.field_dotazione_finanziaria
@@ -51,6 +52,13 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  field_altre_informazioni:
+    type: text_default
+    weight: 14
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
   field_criteri_di_valutazione:
     weight: 11
     label: above
@@ -82,7 +90,7 @@ content:
     type: list_default
     region: content
   field_metatag:
-    weight: 14
+    weight: 15
     label: above
     settings: {  }
     third_party_settings: {  }

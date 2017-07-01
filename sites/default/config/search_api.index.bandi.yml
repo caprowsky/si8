@@ -22,6 +22,7 @@ dependencies:
     - field.storage.node.field_argomenti
     - field.storage.node.field_tipologia_procedimento
     - field.storage.node.field_oggetto_bando
+    - field.storage.node.field_altre_informazioni
     - search_api.server.solr
   module:
     - search_api
@@ -236,6 +237,14 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_oggetto_bando
+  field_altre_informazioni:
+    label: 'Altre informazioni'
+    datasource_id: 'entity:node'
+    property_path: field_altre_informazioni
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_altre_informazioni
 datasource_settings:
   'entity:node':
     bundles:
