@@ -7622,6 +7622,9 @@ footer .footer-content .content strong {
   float: none;
   padding: 2px;
 }
+.header-down .navbar-nav li:first-child {
+  display: none;
+}
 .header-down .navbar-nav a {
   color: #fff;
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
