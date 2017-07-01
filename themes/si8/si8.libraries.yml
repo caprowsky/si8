@@ -5,6 +5,7 @@ global-styling:
   js:
     js/jquery.matchHeight.js: {}
     js/bootstrap-hover-dropdown.min.js: {}
+    js/si8-menu.js: {}
     js/si8.js: {}
 
 bootstrap-scripts:

@@ -1,3 +1,56 @@
+#mainheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease 0s;
+  -webkit-transition: all .3s ease 0s;
+  z-index: 100;
+
+  &.ridotto{
+    height: 64px;
+
+    .header-up{
+      height: 4px;
+      overflow: hidden;
+    }
+
+    .header-down{
+      height: 0px;
+      overflow: hidden;
+    }
+
+    .site-title{
+      padding: 14px 0;
+      font-size: 2.5rem;
+      .subtitle{
+        display: none;
+      }
+    }
+
+    .icon-social{
+      display: none;
+    }
+
+    input.form-text{
+      height: 42px;
+    }
+
+    .header-main {
+      height: 64px;
+      #hamburger-toggle {
+        margin-top: 7px;
+      }
+      .ricerca {
+        margin-top: 9px;
+        button {
+          height: 42px;
+        }
+      }
+    }
+  }
+}
+
 .header-top {
   background: @brand-gray;
   color: #fff;
@@ -85,17 +138,24 @@
 
 #hamburger-toggle {
   font-size: 3.5rem;
-  position: absolute;
-  left: 50px;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 50px;
+  margin-right: 15px;
+}
+
+.header-up{
+  height: 48px;
+  transition: all .3s ease 0s;
+  -webkit-transition: all .3s ease 0s;
 }
 
 .header-main {
+  height: 150px;
   background: @brand-primary;
   color: #fff;
   padding: 0;
   position: relative;
+  transition: all .3s ease 0s;
+  -webkit-transition: all .3s ease 0s;
 
   a {
     color: #fff;
@@ -154,8 +214,11 @@
 }
 
 .header-down {
+  height: 60px;
   background-color: @brand-secondary;
   text-align: center;
+  transition: all .3s ease 0s;
+  -webkit-transition: all .3s ease 0s;
 
   .navbar-nav {
     display: inline-block;
