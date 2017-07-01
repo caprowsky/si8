@@ -1,9 +1,9 @@
 {{ drupal_block('menu_hamburger') }}
 
-<header>
+<header id="mainheader">
 
   <div class="header-top">
-    <div class="container">
+    <div class="header-up container">
       <div class="header-top1 pull-left">
         <img src="{{ output.base_path }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna"
              class="logo"/>
@@ -22,9 +22,9 @@
 
   <div class="header-main">
 
-    <div id="hamburger-toggle"><a href="#"><i class="fa fa-bars"></i></a></div>
-
     <div class="container">
+      <div id="hamburger-toggle" class="pull-left"><a href="#"><i class="fa fa-bars"></i></a></div>
+
       <div class="site-title pull-left"><a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><strong>Sardegna</strong>Impresa
           <span class="subtitle">Sistema imprenditoriale della Sardegna</span></a>
       </div>
@@ -37,6 +37,7 @@
         </div>
 
         <div class="ricerca">
+          <button class="fa fa-search button js-form-submit form-submit btn-default btn visible-xs" id="edit-submit-ricerca-responsive"></button>
           {{ drupal_block('formespostoricercaricerca') }}
         </div>
       </div>
