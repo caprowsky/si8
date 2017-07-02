@@ -8310,11 +8310,13 @@ article.procedimento.full .tipologia {
   margin-top: 10px;
 }
 /** Impostaizoni per hamburger menu e sidebar destra **/
-body.main-menu-opened {
+body.main-menu-opened,
+body.secondary-menu-opened {
   position: fixed;
   width: 100%;
 }
-body.main-menu-opened #overlayer {
+body.main-menu-opened #overlayer,
+body.secondary-menu-opened #overlayer {
   display: block;
   visibility: visible;
 }
@@ -8425,7 +8427,7 @@ body.main-menu-opened #overlayer {
 /* Only Small screen */
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-    padding-top: 140px !important;
+    padding-top: 200px !important;
   }
   .header-main {
     height: 120px;
@@ -8512,8 +8514,83 @@ body.main-menu-opened #overlayer {
     display: none !important;
   }
 }
+/* Only Large screen */
+/* Only Medium screen */
+/* Only Small screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-container aside {
+    position: fixed;
+    top: 228px;
+    bottom: 0;
+    right: -100%;
+    z-index: 3000;
+    width: 360px;
+    height: calc( 100% - 228px );
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .main-container aside.active {
+    right: 0;
+  }
+  .main-container aside #block-elencoargomenti h3 {
+    margin-top: 0;
+  }
+  .main-container #secondary-menu-btn {
+    position: absolute;
+    right: 30px;
+  }
+  .main-container #secondary-menu-btn i {
+    font-size: 2.5rem;
+  }
+  .main-container #hamburger-secondary-close {
+    cursor: pointer;
+    font-size: 2.4rem;
+    padding: 10px;
+    color: #286bcc;
+  }
+}
+/* Extra small screen and lower */
 @media (max-width: 767px) {
   #block-menu-hamburger {
     width: 320px;
+  }
+  .main-container aside {
+    position: fixed;
+    top: 148px;
+    bottom: 0;
+    right: -100%;
+    z-index: 3000;
+    width: 320px;
+    height: calc( 100% - 148px );
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .main-container aside.active {
+    right: 0;
+  }
+  .main-container aside #block-elencoargomenti h3 {
+    margin-top: 0;
+  }
+  .main-container #secondary-menu-btn {
+    position: absolute;
+    right: 30px;
+    top: 210px;
+  }
+  .main-container #secondary-menu-btn i {
+    font-size: 2.5rem;
+  }
+  .main-container #hamburger-secondary-close {
+    cursor: pointer;
+    font-size: 2.4rem;
+    padding: 10px;
+    color: #286bcc;
   }
 }
