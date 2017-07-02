@@ -7503,6 +7503,15 @@ footer .footer-block strong {
   margin-bottom: 10px;
   color: #fff;
 }
+body.user-logged-in {
+  padding-top: 336px !important;
+}
+body.user-logged-in.ridotto {
+  padding-top: 212px !important;
+}
+body.user-logged-in #mainheader {
+  top: 80px;
+}
 #mainheader {
   position: fixed;
   top: 0;
@@ -7662,6 +7671,9 @@ footer .footer-block strong {
   border-radius: 0;
   font-size: 1.5rem;
   height: 50px;
+}
+.header-main .ricerca section {
+  display: block !important;
 }
 .header-main .ricerca button {
   color: #fff;
@@ -8305,8 +8317,16 @@ article.procedimento.full .tipologia {
   display: none;
 }
 /* Only Medium screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-main .ricerca section {
+    display: block !important;
+  }
+}
 /* Only Small screen */
 @media (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-top: 120px !important;
+  }
   .header-main {
     height: 120px;
   }
@@ -8322,11 +8342,14 @@ article.procedimento.full .tipologia {
   .header-main .ricerca {
     margin-top: 35px;
   }
+  .header-main .ricerca section {
+    display: block !important;
+  }
 }
 /* Extra small screen and lower */
 @media (max-width: 767px) {
   body {
-    padding-top: 170px;
+    padding-top: 170px !important;
   }
   #mainheader.ridotto .ricerca {
     top: 55px;
@@ -8344,7 +8367,11 @@ article.procedimento.full .tipologia {
     margin-top: 25px;
   }
   .header-main .site-title {
-    padding: 13px 0;
+    padding: 22px 0;
+    font-size: 2.5rem;
+  }
+  .header-main .site-title .subtitle {
+    font-size: 1.5rem;
   }
   .header-main .icon-social {
     display: none;
@@ -8359,7 +8386,7 @@ article.procedimento.full .tipologia {
   }
   .header-main .ricerca #edit-submit-ricerca-responsive {
     position: absolute;
-    top: -80px;
+    top: -76px;
     right: 25px;
   }
   .header-main .ricerca #edit-submit-ricerca {
@@ -8374,5 +8401,14 @@ article.procedimento.full .tipologia {
   }
   .header-down {
     display: none;
+  }
+}
+@media (max-width: 320px) {
+  .site-title {
+    padding: 33px 0 !important;
+    font-size: 2.25rem !important;
+  }
+  .site-title .subtitle {
+    display: none !important;
   }
 }
