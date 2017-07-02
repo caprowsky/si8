@@ -1,3 +1,14 @@
+/* Only Large screen */
+@media (min-width: @screen-lg-min) {
+  .header-main{
+    .ricerca{
+      section{
+        display: block !important;
+      }
+    }
+  }
+}
+
 /* Only Medium screen */
 @media (min-width: @screen-md) and (max-width: @screen-md-max) {
   .header-main{
@@ -8,10 +19,11 @@
     }
   }
 }
+
 /* Only Small screen */
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
   body{
-    padding-top: 120px !important;
+    padding-top: 140px !important;
   }
   .header-main{
     height: 120px;
@@ -32,6 +44,7 @@
     }
   }
 }
+
 /* Extra small screen and lower */
 @media (max-width: @screen-xs-max) {
   body{
