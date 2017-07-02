@@ -31,7 +31,7 @@
     {% if menu_level == 0 %}
       <ul{{ attributes.addClass('menu', 'nav') }}>
     {% else %}
-      <ul{{ attributes.addClass('ddropdown-menu') }}>
+      <ul{{ attributes.addClass('dropdown-menu') }}>
     {% endif %}
     {% for item in items %}
       {%
@@ -43,7 +43,7 @@
       %}
       {% if menu_level == 0 and item.is_expanded %}
         <li{{ item.attributes.addClass(item_classes) }}>
-        <a href="{{ item.url }}">{{ item.title }} <span class="caret"></span></a>
+        <a href="#" class="accordion-toggle collapsed">{{ item.title }} <i class="fa fa-angle-down" aria-hidden="true"></i></a>
       {% else %}
         <li{{ item.attributes.addClass(item_classes) }}>
         {{ link(item.title, item.url) }}
