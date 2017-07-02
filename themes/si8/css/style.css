@@ -7672,9 +7672,6 @@ body.user-logged-in #mainheader {
   font-size: 1.5rem;
   height: 50px;
 }
-.header-main .ricerca section {
-  display: block !important;
-}
 .header-main .ricerca button {
   color: #fff;
   background-color: #333;
@@ -8413,6 +8410,12 @@ body.main-menu-opened #overlayer {
   text-decoration: underline;
   color: #286bcc;
 }
+/* Only Large screen */
+@media (min-width: 1200px) {
+  .header-main .ricerca section {
+    display: block !important;
+  }
+}
 /* Only Medium screen */
 @media (min-width: 992px) and (max-width: 1199px) {
   .header-main .ricerca section {
@@ -8422,7 +8425,7 @@ body.main-menu-opened #overlayer {
 /* Only Small screen */
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-    padding-top: 120px !important;
+    padding-top: 140px !important;
   }
   .header-main {
     height: 120px;
