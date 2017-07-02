@@ -23,9 +23,23 @@ jQuery('#hamburger-close').on('click',function(e){
 });
 
 jQuery('.accordion-toggle').click(function(){
-    jQuery(this).siblings().slideToggle();
-    jQuery(this).toggleClass('collapsed');
-    jQuery(this).toggleClass('not-collapsed');
-    jQuery(this).children().toggleClass('fa-angle-down');
-    jQuery(this).children().toggleClass('fa-angle-up');
+    if ( jQuery(this).hasClass('active') ){
+        jQuery(this).removeClass('active');
+        jQuery(this).removeClass('expanded');
+        jQuery(this).addClass('collapsed');
+        jQuery(this).children().addClass('fa-angle-down');
+        jQuery(this).children().removeClass('fa-angle-up');
+        jQuery('.accordion-toggle').siblings().hide();
+    } else {
+        jQuery('.accordion-toggle').removeClass('active');
+        jQuery(this).addClass('active');
+        jQuery('.accordion-toggle').siblings().hide();
+        jQuery(this).removeClass('collapsed');
+        jQuery(this).addClass('expanded');
+        jQuery('.accordion-toggle').children().removeClass('fa-angle-up');
+        jQuery('.accordion-toggle').children().addClass('fa-angle-down');
+        jQuery(this).children().removeClass('fa-angle-down');
+        jQuery(this).children().addClass('fa-angle-up');
+        jQuery(this).siblings().slideToggle();
+    }
 });

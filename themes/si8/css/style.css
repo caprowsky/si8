@@ -8363,7 +8363,8 @@ body.main-menu-opened #overlayer {
 }
 #block-menu-hamburger .nav {
   margin-top: 48px;
-  overflow: scroll;
+  height: calc( 100% - 48px );
+  overflow-y: scroll;
   font-size: 1.8rem;
   border-top: 1px solid #ddd;
 }
@@ -8382,14 +8383,17 @@ body.main-menu-opened #overlayer {
   font-size: 2.5rem;
   float: right;
 }
+#block-menu-hamburger .nav .dropdown .accordion-toggle.active {
+  border-top: 3px solid #286bcc;
+  border-bottom: 3px solid #286bcc;
+}
 #block-menu-hamburger .nav .dropdown .dropdown-menu {
   display: none;
   position: relative;
   float: none;
-  padding: 0;
   border: none;
+  padding: 0;
   font-size: 1.8rem;
-  padding-left: 25px;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   -o-box-shadow: none;
@@ -8397,7 +8401,8 @@ body.main-menu-opened #overlayer {
   background-color: #f5f5f5;
 }
 #block-menu-hamburger .nav .dropdown .dropdown-menu li {
-  border: none;
+  padding: 0 0 0 40px;
+  border-bottom: 2px solid #FFF;
 }
 #block-menu-hamburger .nav .dropdown .dropdown-menu li a {
   padding: 16px 24px;
@@ -8502,5 +8507,10 @@ body.main-menu-opened #overlayer {
   }
   .site-title .subtitle {
     display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  #block-menu-hamburger {
+    width: 320px;
   }
 }
