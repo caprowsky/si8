@@ -7707,6 +7707,13 @@ body.user-logged-in #mainheader {
   background-color: transparent;
   text-decoration: underline;
 }
+.region-header {
+  margin-bottom: 20px;
+}
+.region-header h2.block-title {
+  font-size: 2.5rem;
+  color: #777777;
+}
 body {
   margin-top: 0;
   padding-top: 256px;
@@ -7739,6 +7746,11 @@ h1.page-header {
 }
 #block-addtoanybuttons svg {
   background-color: #286bcc;
+}
+@media (max-width: 992px) {
+  #block-addtoanybuttons {
+    float: left;
+  }
 }
 .slick-dots {
   bottom: -40px;

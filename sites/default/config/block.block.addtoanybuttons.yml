@@ -14,7 +14,7 @@ provider: null
 plugin: addtoany_block
 settings:
   id: addtoany_block
-  label: 'AddToAny buttons'
+  label: Condividi
   provider: addtoany
-  label_display: '0'
+  label_display: visible
 visibility: {  }
