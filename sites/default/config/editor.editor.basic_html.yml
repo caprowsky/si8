@@ -19,7 +19,6 @@ settings:
           items:
             - Bold
             - Italic
-            - Format
             - Styles
         -
           name: Linking
@@ -47,7 +46,7 @@ settings:
             - PasteFromWord
   plugins:
     stylescombo:
-      styles: ''
+      styles: p.citazione|Citazione
     language:
       language_list: un
     linkit:
