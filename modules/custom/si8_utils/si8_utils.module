@@ -1,5 +1,7 @@
 <?php
 
+use Drupal\editor\Entity\Editor;
+
 /**
  * Implements hook_form_alter().
  */
@@ -29,4 +31,8 @@ function si8_utils_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form
     $form['actions']['submit']['#value'] = '';
   }
 
+}
+
+function si8_utils_ckeditor_css_alter(array &$css, Editor $editor) {
+  $css[] = drupal_get_path('module', 'si8_utils') . '/css/ckeditor.css';
 }
