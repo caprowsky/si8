@@ -8218,6 +8218,9 @@ article.bando.full .pdf a {
 .trova-procedimento-page {
   font-size: 2rem;
 }
+.trova-procedimento-page .views-field-changed {
+  margin: 20px 0;
+}
 .trova-procedimento-page #edit-key {
   font-family: "Titillium Web", Helvetica, Arial, sans-serif !important;
 }
