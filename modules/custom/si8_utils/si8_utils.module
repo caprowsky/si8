@@ -31,6 +31,12 @@ function si8_utils_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form
     $form['actions']['submit']['#value'] = '';
   }
 
+  if ($form['#id'] == 'views-exposed-form-domande-frequenti-faq') {
+    $form['key']['#placeholder'] = t('Search');
+    $form['actions']['submit']['#attributes']['class'][] = 'fa fa-search';
+    $form['actions']['submit']['#value'] = '';
+  }
+
 }
 
 function si8_utils_ckeditor_css_alter(array &$css, Editor $editor) {
