@@ -27,7 +27,7 @@
   );
   $aliases['test'] = array(
     'uri' => 'test-si8.pantheonsite.io',
-    'db-url' => 'mysql://pantheon:f8377848176d49cbab0b9429b983a6b7@dbserver.test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:20528/pantheon',
+    'db-url' => 'mysql://pantheon:e632d7868a464c01a2b848114a441269@dbserver.test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:12696/pantheon',
     'db-allows-remote' => TRUE,
     'remote-host' => 'appserver.test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in',
     'remote-user' => 'test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e',
