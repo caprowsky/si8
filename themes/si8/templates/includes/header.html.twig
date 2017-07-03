@@ -6,9 +6,9 @@
     <div class="header-up container">
       <div class="header-top1 pull-left">
         <a href="http://www.regione.sardegna.it">
-        <img src="{{ output.base_path }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna"
-             class="logo"/>
-        <span class="ras hidden-xs">Regione Autonoma della Sardegna</span></a>
+        <img src="{{ output.base_path }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna" class="logo"/>
+          <span class="ras hidden-xs">Regione Autonoma della Sardegna</span></a>
+
       </div>
        <div class="header-top2 pull-right">
 
@@ -16,9 +16,13 @@
           {{ drupal_block('selettorelingua') }}
          </div>
 
-         <div class="accedi">{{ accedi }}</div>
+         <div class="accedi hidden-xs">{{ accedi_desktop }}</div>
+         <div class="accedi hidden-sm hidden-md hidden-lg">{{ accedi_mobile }}</div>
+       </div>
 
     </div>
+
+
   </div>
 
   <div class="header-main">
@@ -41,6 +45,7 @@
           <button class="fa fa-search button js-form-submit form-submit btn-default btn visible-xs" id="edit-submit-ricerca-responsive"></button>
           {{ drupal_block('formespostoricercaricerca') }}
         </div>
+
       </div>
 
     </div>

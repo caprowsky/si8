@@ -8012,28 +8012,34 @@ article.page.full .field--name-field-risorse-collegate .field--item a.is-active 
 #block-navigazioneprincipale {
   margin-bottom: 50px;
 }
-#block-navigazioneprincipale ul.menu > li a {
-  background-color: #333;
-  color: #fff;
+#block-navigazioneprincipale > ul.menu > li {
+  display: none;
 }
-#block-navigazioneprincipale ul.menu > li ul {
-  padding-left: 0;
-}
-#block-navigazioneprincipale ul.menu > li ul li {
-  list-style-type: none;
-  border-bottom: 1px solid #eeeeee;
-}
-#block-navigazioneprincipale ul.menu > li ul li a {
-  background-color: #fff;
-  color: #286bcc;
+#block-navigazioneprincipale > ul.menu > li.expanded {
   display: block;
-  padding: 10px;
 }
-#block-navigazioneprincipale ul.menu > li ul li a.is-active {
+#block-navigazioneprincipale > ul.menu > li.expanded a {
   background-color: #286bcc;
   color: #fff;
 }
-#block-navigazioneprincipale ul.menu > li ul li a:hover {
+#block-navigazioneprincipale > ul.menu > li.expanded ul {
+  padding-left: 0;
+}
+#block-navigazioneprincipale > ul.menu > li.expanded ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #eeeeee;
+}
+#block-navigazioneprincipale > ul.menu > li.expanded ul li a {
+  background-color: #fff;
+  color: #286bcc !important;
+  display: block;
+  padding: 15px;
+}
+#block-navigazioneprincipale > ul.menu > li.expanded ul li a.is-active {
+  background-color: #eeeeee;
+  color: #286bcc;
+}
+#block-navigazioneprincipale > ul.menu > li.expanded ul li a:hover {
   background-color: #eeeeee;
 }
 article.news.elenco .field--name-field-immagine {

@@ -18,10 +18,16 @@ function si8_preprocess_page(&$vars) {
   //$accedi_path = \Drupal::service('path.alias_manager')->getPathByAlias('/accedi');
   //$link_explode = explode('/', $accedi_path);
 
-  $vars['accedi'] = [
+  $vars['accedi_desktop'] = [
     '#type' => 'link',
     '#url' => Url::fromRoute('entity.node.canonical', array('node' => '4407')),
-    '#title' => t('Login'),
+    '#title' => t('Go to services'),
+  ];
+
+  $vars['accedi_mobile'] = [
+    '#type' => 'link',
+    '#url' => Url::fromRoute('entity.node.canonical', array('node' => '4407')),
+    '#title' => t('Services'),
   ];
 }
 

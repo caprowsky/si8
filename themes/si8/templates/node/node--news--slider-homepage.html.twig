@@ -82,10 +82,25 @@ view_mode ? view_mode|clean_class,
 
     <div class="row">
 
+
+
       <div class="col-md-6">
-        {{ content.field_argomenti }}
+
+        {% if content.field_argomenti|render is not empty %}
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="field--name-field-argomenti">{{ content.field_argomenti.0 }}</div>
+          </div>
+          <div class="col-xs-6 text-right">
+            {{ createdDate}}
+          </div>
+        </div>
+        {% else %}
+          <div class="created">{{ createdDate}}</div>
+        {% endif %}
+
+
         <h2><a href="{{ url }}" rel="bookmark">{{ label }}</a></h2>
-        <div class="created field">{{ 'Published on'|t }} {{ createdDate }}</div>
         {{ content.body }}
       </div>
 

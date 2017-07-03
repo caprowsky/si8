@@ -84,10 +84,16 @@ article.page.full {
 
   margin-bottom: 50px;
 
-  ul.menu {
+  & > ul.menu {
     & > li {
+      display: none;
+    }
+
+    & > li.expanded {
+      display: block;
+
       a {
-        background-color: #333;
+        background-color: @brand-primary;
         color: #fff;
       }
 
@@ -95,18 +101,19 @@ article.page.full {
         padding-left: 0;
 
         li {
+
           list-style-type: none;
           border-bottom: 1px solid @gray-lighter;
 
           a {
             background-color: #fff;
-            color: @brand-primary;
+            color: @brand-primary !important;
             display: block;
-            padding: 10px;
+            padding: 15px;
 
             &.is-active {
-              background-color: @brand-primary;
-              color: #fff;
+              background-color: @gray-lighter;
+              color: @brand-primary;
             }
 
             &:hover {
