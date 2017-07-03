@@ -21,6 +21,7 @@ class ThemeChangeswitcherNegotiator implements ThemeNegotiatorInterface {
     $paths = $this->_get_path_values();
     // Get all wildcard path values.
     $wildcard_paths = $this->_get_path_wildcard_values();
+    $wilcard = FALSE;
     foreach ($wildcard_paths as $wildcard_path) {
       $path_matches = \Drupal::service('path.matcher')->matchPath($current_path, $wildcard_path);
       if ($path_matches) {
@@ -91,6 +92,7 @@ class ThemeChangeswitcherNegotiator implements ThemeNegotiatorInterface {
     $query->fields('tc', ['value']);
     $query->condition('type', 'route', '=');
     $result = $query->execute()->fetchAll(\PDO::FETCH_ASSOC);
+    $routes = [];
     foreach ($result as $value) {
       $routes[$value['value']] = $value['value'];
     }
@@ -106,6 +108,7 @@ class ThemeChangeswitcherNegotiator implements ThemeNegotiatorInterface {
     $query->fields('tc', ['value']);
     $query->condition('type', 'path', '=');
     $result = $query->execute()->fetchAll(\PDO::FETCH_ASSOC);
+    $paths = [];
     foreach ($result as $value) {
       $paths[$value['value']] = $value['value'];
     }
@@ -125,6 +128,7 @@ class ThemeChangeswitcherNegotiator implements ThemeNegotiatorInterface {
     $db_or->condition('value', "%" . $query->escapeLike('/%') . "%", 'LIKE');
     $query->condition($db_or);
     $result = $query->execute()->fetchAll(\PDO::FETCH_ASSOC);
+    $paths = [];
     foreach ($result as $value) {
       $paths[$value['value']] = $value['value'];
     }
