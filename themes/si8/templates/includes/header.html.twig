@@ -6,8 +6,9 @@
     <div class="header-up container">
       <div class="header-top1 pull-left">
         <a href="http://www.regione.sardegna.it">
-        <img src="{{ output.base_path }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna" class="logo"/>
-          <span class="ras hidden-xs">Regione Autonoma della Sardegna</span></a>
+        <img src="{{ output.base_path }}/themes/si8/images/ras-bianco-png.svg" alt="Regione Autonoma della Sardegna" class="logo hidden-xs"/>
+          <span class="ras hidden-xs">Regione Autonoma della Sardegna</span>
+          <span class="ras ras-mobile visible-xs-block">Regione Autonoma<br>della Sardegna</span></a>
 
       </div>
        <div class="header-top2 pull-right">
@@ -28,10 +29,12 @@
   <div class="header-main">
 
     <div class="container">
-      <div id="hamburger-toggle" class="pull-left"><a href="#"><i class="fa fa-bars"></i></a></div>
+      <div class="hamburger-toggle pull-left"><a href="#"><i class="fa fa-bars"></i><span class="hidden-xs toggle-text">Menu</span></a></div>
 
-      <div class="site-title pull-left"><a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><strong>Sardegna</strong>Impresa
-          <span class="subtitle hidden-xs">Sistema imprenditoriale della Sardegna</span></a>
+      <div class="site-title pull-left">
+        <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><strong>Sardegna</strong>Impresa
+          <span class="subtitle hidden-xs">Sistema imprenditoriale della Sardegna</span>
+        </a>
       </div>
 
       <div class="header-right pull-right">

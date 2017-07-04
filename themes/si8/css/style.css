@@ -7581,6 +7581,15 @@ body.user-logged-in #mainheader {
   padding: 10px 0;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .header-top .header-top1 {
+    padding: 0;
+  }
+  .header-top .header-top1 .ras-mobile {
+    margin-top: 6px;
+    font-size: 1.2rem;
+  }
+}
 .header-top .block-lang-dropdown {
   display: inline-block;
 }
@@ -7622,7 +7631,7 @@ body.user-logged-in #mainheader {
   font-weight: bold;
   text-decoration: underline;
 }
-#hamburger-toggle {
+.hamburger-toggle {
   font-size: 3.5rem;
   margin-top: 50px;
   margin-right: 15px;
@@ -7640,6 +7649,12 @@ body.user-logged-in #mainheader {
   position: relative;
   transition: all .3s ease 0s;
   -webkit-transition: all .3s ease 0s;
+}
+.header-main .toggle-text {
+  display: block;
+  margin-top: -8px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 .header-main a {
   color: #fff;
