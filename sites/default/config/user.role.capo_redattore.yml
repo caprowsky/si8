@@ -54,6 +54,7 @@ permissions:
   - 'revert page revisions'
   - 'revert procedimento revisions'
   - 'revert video revisions'
+  - 'si8_utils impresa_conf'
   - 'translate any entity'
   - 'translate argomenti taxonomy_term'
   - 'translate bando node'

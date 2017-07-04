@@ -34,6 +34,7 @@ permissions:
   - 'edit own page content'
   - 'edit own procedimento content'
   - 'rabbit hole bypass node'
+  - 'si8_utils impresa_conf'
   - 'translate any entity'
   - 'translate argomenti taxonomy_term'
   - 'translate bando node'
