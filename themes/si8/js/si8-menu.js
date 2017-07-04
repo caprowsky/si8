@@ -14,7 +14,7 @@ jQuery("#edit-submit-ricerca-responsive").on("click", function () {
 });
 
 // Main Menu
-jQuery('#hamburger-toggle').click(function() {
+jQuery('.hamburger-toggle').click(function() {
     jQuery('body,html').animate({scrollTop:0},200);
     jQuery('body').toggleClass('main-menu-opened');
     jQuery('#block-menu-hamburger').toggleClass('active', 1000);
