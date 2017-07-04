@@ -29,6 +29,8 @@ function si8_preprocess_page(&$vars) {
     '#url' => Url::fromRoute('entity.node.canonical', array('node' => '4407')),
     '#title' => t('Services'),
   ];
+
+  $vars['valuta_link'] = \Drupal::state()->get('si8_utils.valuta_link');
 }
 
 function si8_preprocess_paragraph__box_primo_livello(&$vars) {
