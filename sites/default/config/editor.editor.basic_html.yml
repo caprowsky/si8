@@ -38,6 +38,7 @@ settings:
           name: Media
           items:
             - DrupalImage
+            - immagini
         -
           name: Tools
           items:
