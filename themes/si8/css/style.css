@@ -7551,8 +7551,8 @@ body.user-logged-in #mainheader {
 #mainheader.ridotto .header-main {
   height: 64px;
 }
-#mainheader.ridotto .header-main #hamburger-toggle {
-  margin-top: 7px;
+#mainheader.ridotto .header-main .hamburger-toggle {
+  margin-top: 0;
 }
 #mainheader.ridotto .header-main .ricerca {
   margin-top: 9px;
