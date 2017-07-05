@@ -42,14 +42,14 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_allegati:
-    weight: 9
+    weight: 10
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
   field_argomenti:
-    weight: 12
+    weight: 9
     settings:
       match_operator: CONTAINS
       size: 60
@@ -64,7 +64,7 @@ content:
     type: daterange_default
     region: content
   field_immagine:
-    weight: 11
+    weight: 12
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -72,13 +72,13 @@ content:
     type: image_image
     region: content
   field_metatag:
-    weight: 26
+    weight: 13
     settings: {  }
     third_party_settings: {  }
     type: metatag_firehose
     region: content
   field_risorse_collegate:
-    weight: 10
+    weight: 11
     settings:
       match_operator: CONTAINS
       size: 60
