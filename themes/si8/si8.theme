@@ -139,3 +139,9 @@ function si8_preprocess_field(&$vars) {
     }
   }
 }
+
+function si8_preprocess_image(&$vars) {
+  if (empty($vars['attributes']['alt'])) {
+    $vars['attributes']['alt'] = ' ';
+  }
+}
