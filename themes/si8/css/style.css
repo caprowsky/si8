@@ -7590,8 +7590,28 @@ body.user-logged-in #mainheader {
     font-size: 1.2rem;
   }
 }
-.header-top .block-lang-dropdown {
+.header-top .selettorelingua {
   display: inline-block;
+  background-color: #7ea6e0;
+  padding: 7px;
+}
+.header-top .selettorelingua .select-wrapper select {
+  line-height: inherit;
+}
+.header-top .selettorelingua .select-wrapper:after {
+  color: #fff;
+}
+.header-top .selettorelingua select {
+  border: none;
+  border-radius: 0;
+  background-color: #7ea6e0;
+  color: #fff;
+  width: 100px !important;
+  box-shadow: none;
+}
+.header-top .selettorelingua select option {
+  background-color: #7ea6e0;
+  color: #fff;
 }
 .header-top .accedi {
   border-radius: 0;

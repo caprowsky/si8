@@ -97,8 +97,33 @@ body.user-logged-in{
     }
   }
 
-  .block-lang-dropdown {
+  .selettorelingua {
     display: inline-block;
+    background-color: @brand-third;
+    padding: 7px;
+
+    .select-wrapper select{
+      line-height: inherit;
+    }
+
+    .select-wrapper:after {
+      color: #fff;
+    }
+
+    select {
+      border: none;
+      border-radius: 0;
+      background-color: @brand-third;
+      color: #fff;
+      width: 100px !important;
+      box-shadow: none;
+
+      option {
+        background-color: @brand-third;
+        color: #fff;
+      }
+    }
+
   }
 
   .accedi {
