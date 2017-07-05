@@ -7633,7 +7633,7 @@ body.user-logged-in #mainheader {
 }
 .hamburger-toggle {
   font-size: 3.5rem;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-right: 15px;
 }
 .header-up {
@@ -8559,7 +8559,7 @@ body.secondary-menu-opened #overlayer {
   .header-main {
     height: 120px;
   }
-  .header-main #hamburger-toggle {
+  .header-main .hamburger-toggle {
     margin-top: 35px;
   }
   .header-main .site-title {
@@ -8592,7 +8592,7 @@ body.secondary-menu-opened #overlayer {
   .header-main {
     height: 100px;
   }
-  .header-main #hamburger-toggle {
+  .header-main .hamburger-toggle {
     margin-top: 25px;
   }
   .header-main .site-title {
