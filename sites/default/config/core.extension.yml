@@ -21,7 +21,6 @@ module:
   diff: 0
   dynamic_page_cache: 0
   editor: 0
-  embed: 0
   entity_browser: 0
   entity_reference_revisions: 0
   entityqueue: 0
