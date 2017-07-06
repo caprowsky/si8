@@ -7560,6 +7560,9 @@ body.user-logged-in #mainheader {
 #mainheader.ridotto .header-main .ricerca button {
   height: 42px;
 }
+#mainheader.ridotto .header-top .selettorelingua .select-wrapper:after {
+  display: none;
+}
 .header-top {
   background: #30373d;
   color: #fff;
