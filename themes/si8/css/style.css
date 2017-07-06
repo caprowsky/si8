@@ -8609,6 +8609,9 @@ body.secondary-menu-opened #overlayer {
   body {
     padding-top: 200px !important;
   }
+  .header-top .header-top1 {
+    padding-top: 10px !important;
+  }
   .header-main {
     height: 120px;
   }
