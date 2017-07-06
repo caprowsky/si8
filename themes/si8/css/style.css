@@ -8711,6 +8711,11 @@ body.secondary-menu-opened #overlayer {
     margin: 7px 15px !important;
   }
 }
+@media (max-width: 991px) {
+  .elenco-video .view-content.griglia .views-row {
+    width: 100%;
+  }
+}
 /* Only Large screen */
 /* Only Medium screen */
 /* Only Small screen */
