@@ -7594,6 +7594,7 @@ body.user-logged-in #mainheader {
   display: inline-block;
   background-color: #7ea6e0;
   padding: 7px;
+  text-transform: uppercase;
 }
 .header-top .selettorelingua .select-wrapper select {
   line-height: inherit;
@@ -7608,6 +7609,7 @@ body.user-logged-in #mainheader {
   color: #fff;
   width: 100px !important;
   box-shadow: none;
+  text-transform: uppercase;
 }
 .header-top .selettorelingua select option {
   background-color: #7ea6e0;
@@ -7741,7 +7743,9 @@ body.user-logged-in #mainheader {
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
-.header-down .navbar-nav a:hover {
+.header-down .navbar-nav a:hover,
+.header-down .navbar-nav a:active,
+.header-down .navbar-nav a:focus {
   background-color: transparent;
   text-decoration: underline;
 }
@@ -7801,15 +7805,36 @@ ol.breadcrumb {
   padding-left: 0;
   text-transform: lowercase;
 }
+.block-facet--links h2.block-title {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  font-size: 2.3rem;
+}
 .block-facet--links ul {
   padding-left: 0;
 }
 .block-facet--links ul li {
   list-style-type: none;
-  font-size: 2rem;
+}
+.block-facet--links ul li a {
+  display: block;
+  border-bottom: 1px solid #eeeeee;
+  padding: 15px;
+  font-size: 1.8rem;
+}
+.block-facet--links ul li a:hover {
+  background-color: #eeeeee;
 }
 .sitemap {
   font-size: 2rem;
+}
+.sitemap ul li {
+  list-style-type: none;
 }
 table td,
 table th {
@@ -8117,6 +8142,8 @@ article.news.elenco .field--name-body {
   font-weight: bold;
   background-color: #333;
   color: #fff;
+  font-size: 2.3rem;
+  margin-top: 0;
 }
 .block-elenco-argomenti li {
   border-bottom: 1px solid #eeeeee;
