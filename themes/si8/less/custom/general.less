@@ -2,10 +2,11 @@ body {
   margin-top: 0;
   padding-top: 256px;
 
-  &.ridotto{
+  &.ridotto {
     padding-top: 132px;
   }
 }
+
 .main-container {
   margin-top: 30px;
 }
@@ -60,18 +61,47 @@ ol.breadcrumb {
 }
 
 .block-facet--links {
+
+  h2.block-title {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    font-size: 2.3rem;
+
+  }
   ul {
     padding-left: 0;
 
     li {
       list-style-type: none;
-      font-size: 2rem;
+
+      a {
+        display: block;
+        border-bottom: 1px solid @gray-lighter;
+        padding: 15px;
+        font-size: 1.8rem;
+
+        &:hover {
+          background-color: @gray-lighter;
+        }
+
+      }
     }
   }
 }
 
 .sitemap {
   font-size: 2rem;
+
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
 }
 
 table {

@@ -101,6 +101,7 @@ body.user-logged-in{
     display: inline-block;
     background-color: @brand-third;
     padding: 7px;
+    text-transform: uppercase;
 
     .select-wrapper select{
       line-height: inherit;
@@ -117,6 +118,8 @@ body.user-logged-in{
       color: #fff;
       width: 100px !important;
       box-shadow: none;
+      text-transform: uppercase;
+
 
       option {
         background-color: @brand-third;
@@ -289,7 +292,7 @@ body.user-logged-in{
       font-family: @font-footer;
       font-size: 2rem;
 
-      &:hover {
+      &:hover,&:active, &:focus {
         background-color: transparent;
         text-decoration: underline;
       }
