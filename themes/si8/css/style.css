@@ -7538,6 +7538,8 @@ body.user-logged-in #mainheader {
 #mainheader.ridotto .site-title {
   padding: 14px 0;
   font-size: 2.5rem;
+  transition: all .3s ease 0s;
+  -webkit-transition: all .3s ease 0s;
 }
 #mainheader.ridotto .site-title .subtitle {
   display: none;
