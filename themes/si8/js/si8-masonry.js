@@ -7,14 +7,11 @@ if(jQuery("body.path-frontpage").length == 0){
         jQuery('.field--items').masonry({
             itemSelector: '.field--items>div'
         });
-        setTimeout(function(){
-            //video
-                jQuery('body.path-video .griglia>div').attr('style','');
-                jQuery('body.path-video .griglia').masonry({
-                    itemSelector: '.griglia>div'
-                });
-        },3000);
-
+        //video
+        jQuery('body.path-video .griglia>div').attr('style','');
+        jQuery('body.path-video .griglia').masonry({
+            itemSelector: '.griglia>div'
+        });
     });
 }
 //elementi in home
