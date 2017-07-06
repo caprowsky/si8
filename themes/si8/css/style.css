@@ -8639,8 +8639,8 @@ body.secondary-menu-opened #overlayer {
   #mainheader.ridotto .ricerca #edit-submit-ricerca-responsive {
     top: -54px;
   }
-  #mainheader.ridotto .hamburger-toggle {
-    margin: 7px 25px !important;
+  #mainheader.ridotto .header-main .hamburger-toggle {
+    margin: 7px 25px;
   }
   .header-top .accedi {
     padding: 14px 20px;
