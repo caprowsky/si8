@@ -2,19 +2,18 @@
 
 if(jQuery("body.path-frontpage").length == 0){
     jQuery(document).ready(function(){
+        //box primi livelli
+        jQuery('.field--items>div').attr('style','');
+        jQuery('.field--items').masonry({
+            itemSelector: '.field--items>div'
+        });
         setTimeout(function(){
-            //box primi livelli
-            jQuery('.field--items>div').attr('style','');
-            jQuery('.field--items').masonry({
-                itemSelector: '.field--items>div'
-            });
-
             //video
                 jQuery('body.path-video .griglia>div').attr('style','');
                 jQuery('body.path-video .griglia').masonry({
                     itemSelector: '.griglia>div'
                 });
-        },1500);
+        },3000);
 
     });
 }
