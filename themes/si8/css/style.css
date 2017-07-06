@@ -7792,6 +7792,7 @@ h1.page-header {
 @media (max-width: 992px) {
   #block-addtoanybuttons {
     float: left;
+    clear: left;
   }
 }
 .slick-dots {
@@ -7804,6 +7805,9 @@ ol.breadcrumb {
   background-color: transparent;
   padding-left: 0;
   text-transform: lowercase;
+}
+.block-facet--links .facets-soft-limit-link {
+  padding: 20px;
 }
 .block-facet--links h2.block-title {
   padding-left: 15px;
