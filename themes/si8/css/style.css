@@ -8358,13 +8358,23 @@ article.faq.full .tipologia {
 .elenco-agevolazioni .views-exposed-form {
   margin-top: 20px;
 }
+.elenco-agevolazioni .views-exposed-form label {
+  display: none;
+}
 .elenco-agevolazioni .views-exposed-form .form-item-key label {
   display: none;
 }
-.elenco-agevolazioni .views-exposed-form input.form-text {
+.elenco-agevolazioni .views-exposed-form input.form-text,
+.elenco-agevolazioni .views-exposed-form select {
   border: 1px solid #777777;
   border-radius: 0;
   font-size: 1.5rem;
+}
+@media (max-width: 1199px) {
+  .elenco-agevolazioni .views-exposed-form input.form-text,
+  .elenco-agevolazioni .views-exposed-form select {
+    margin-bottom: 10px;
+  }
 }
 .elenco-agevolazioni .views-exposed-form button {
   color: #fff;
@@ -8373,8 +8383,12 @@ article.faq.full .tipologia {
   border-radius: 0;
   margin-right: 0;
   height: 34px;
-  margin-left: 20px;
   font-size: 2rem;
+}
+@media (max-width: 1199px) {
+  .elenco-agevolazioni .views-exposed-form button {
+    margin-top: -10px;
+  }
 }
 .elenco-agevolazioni .views-exposed-form button:hover {
   color: #fff;

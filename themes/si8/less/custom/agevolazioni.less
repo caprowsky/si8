@@ -5,16 +5,24 @@
 
     margin-top: 20px;
 
+    label {
+      display: none;
+    }
+
     .form-item-key {
       label {
         display: none;
       }
     }
 
-    input.form-text {
+    input.form-text, select {
       border: 1px solid @gray-light;
       border-radius: 0;
       font-size: 1.5rem;
+
+      @media (max-width: @screen-md-max) {
+        margin-bottom: 10px;
+      }
     }
 
     button {
@@ -24,8 +32,11 @@
       border-radius: 0;
       margin-right: 0;
       height: 34px;
-      margin-left: 20px;
       font-size: 2rem;
+
+      @media (max-width: @screen-md-max) {
+        margin-top: -10px;
+      }
 
       &:hover {
         color: #fff;
