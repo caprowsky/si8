@@ -19,17 +19,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      youtube_size: responsive
-      youtube_width: ''
-      youtube_height: ''
-      youtube_autoplay: false
-      youtube_loop: false
-      youtube_showinfo: false
-      youtube_controls: false
-      youtube_autohide: false
-      youtube_iv_load_policy: false
+      image_style: video
+      image_link: content
     third_party_settings: {  }
-    type: youtube_video
+    type: youtube_thumbnail
     region: content
 hidden:
   addtoany: true
