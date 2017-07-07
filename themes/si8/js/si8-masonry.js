@@ -32,5 +32,13 @@ else {
                 itemSelector: '.field--items>div'
             });
         },1500);
+
+        setTimeout(function(){
+            //video
+            jQuery('body.path-frontpage .paragraph--type--video-in-evidenza .field--items>div').attr('style','');
+            jQuery('body.path-frontpage .paragraph--type--video-in-evidenza .field--items').masonry({
+                itemSelector: '.field--items>div'
+            });
+        },1500);
     });
 }
