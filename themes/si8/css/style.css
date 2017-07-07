@@ -7661,6 +7661,7 @@ body.user-logged-in #mainheader {
 .hamburger-toggle {
   font-size: 3.5rem;
   margin: 46px 24px;
+  cursor: pointer;
 }
 .header-up {
   height: 48px;
