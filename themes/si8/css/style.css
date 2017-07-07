@@ -7583,7 +7583,7 @@ body.user-logged-in #mainheader {
   right: 0;
 }
 .header-top .header-top1 {
-  padding: 10px 0;
+  padding: 10px 10px 0 10px;
   font-weight: bold;
 }
 @media (max-width: 768px) {
