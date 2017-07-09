@@ -39,6 +39,6 @@ else {
             jQuery('body.path-frontpage .paragraph--type--video-in-evidenza .field--items').masonry({
                 itemSelector: '.field--items>div'
             });
-        },1500);
+        },2500);
     });
 }

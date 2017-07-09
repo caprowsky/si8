@@ -10,6 +10,10 @@
 
 /* Only Small screen */
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+  #block-navigazioneprincipale {
+    margin-bottom: 0;
+  }
+
   .main-container {
     aside {
       position: fixed;
@@ -37,7 +41,8 @@
     #secondary-menu-btn{
       position: absolute;
       right: 30px;
-      i{
+      top: 210px;
+       i {
         font-size: 2.5rem;
       }
     }
@@ -52,6 +57,10 @@
 
 /* Extra small screen and lower */
 @media (max-width: @screen-xs-max) {
+  #block-navigazioneprincipale {
+    margin-bottom: 0;
+  }
+
   #block-menu-hamburger{
     width: 320px;
   }

@@ -129,13 +129,14 @@
         {% endblock %}
       </section>
 
+      <div id="secondary-menu-btn" class="visible-xs visible-sm">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+      </div>
+
       {# Sidebar Second #}
       {% if page.sidebar_second %}
         {% block sidebar_second %}
-            <div id="secondary-menu-btn" class="visible-xs visible-sm">
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </div>
-          <aside class="col-sm-4" role="complementary">
+          <aside class="col-sm-4 popup" role="complementary">
               <div id="hamburger-secondary-close" class="visible-sm visible-xs"><i class="fa fa-times"></i></div>
             {{ page.sidebar_second }}
           </aside>

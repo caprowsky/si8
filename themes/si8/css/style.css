@@ -7820,7 +7820,7 @@ ol.breadcrumb {
   padding-top: 15px;
   margin-bottom: 0;
   font-weight: bold;
-  background-color: #333;
+  background-color: #286bcc;
   color: #fff;
   font-size: 2.3rem;
 }
@@ -7863,6 +7863,14 @@ article.full.full {
 }
 article.full.full .content > .field {
   margin-bottom: 20px;
+}
+.field--type-text-with-summary img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.invisibile {
+  display: none !important;
 }
 .paragraph--type--link-sezione {
   margin: 30px 0;
@@ -8066,7 +8074,7 @@ article.page.full .field--name-field-box .box-separator {
 }
 article.page.full .field--name-field-risorse-collegate .field--label {
   font-weight: bold;
-  background-color: #333;
+  background-color: #286bcc;
   color: #fff;
   padding: 10px;
   padding-left: 15px;
@@ -8354,7 +8362,7 @@ article.faq.full .tipologia {
   font-size: 2.5rem;
 }
 .elenco-agevolazioni {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .elenco-agevolazioni .views-exposed-form {
   margin-top: 20px;
@@ -8647,6 +8655,12 @@ body.secondary-menu-opened #overlayer {
   .header-main .ricerca section {
     display: block !important;
   }
+  .header-down {
+    display: none;
+  }
+  .main-container {
+    margin-top: 0;
+  }
 }
 /* Extra small screen and lower */
 @media (max-width: 767px) {
@@ -8735,6 +8749,9 @@ body.secondary-menu-opened #overlayer {
 /* Only Medium screen */
 /* Only Small screen */
 @media (min-width: 768px) and (max-width: 991px) {
+  #block-navigazioneprincipale {
+    margin-bottom: 0;
+  }
   .main-container aside {
     position: fixed;
     top: 228px;
@@ -8759,6 +8776,7 @@ body.secondary-menu-opened #overlayer {
   .main-container #secondary-menu-btn {
     position: absolute;
     right: 30px;
+    top: 210px;
   }
   .main-container #secondary-menu-btn i {
     font-size: 2.5rem;
@@ -8772,6 +8790,9 @@ body.secondary-menu-opened #overlayer {
 }
 /* Extra small screen and lower */
 @media (max-width: 767px) {
+  #block-navigazioneprincipale {
+    margin-bottom: 0;
+  }
   #block-menu-hamburger {
     width: 320px;
   }
