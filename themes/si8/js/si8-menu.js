@@ -46,7 +46,18 @@ jQuery('.accordion-toggle').click(function(){
     }
 });
 
+
+
+
 //Secondary Menu
+if (jQuery('aside.popup').length > 0) {
+
+} else {
+    jQuery(function() {
+        jQuery('#secondary-menu-btn').addClass('invisibile');
+    });
+}
+
 jQuery('#secondary-menu-btn').click(function() {
     jQuery('body,html').animate({scrollTop:0},200);
     jQuery('body').toggleClass('secondary-menu-opened');
