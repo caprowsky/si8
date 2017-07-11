@@ -8628,6 +8628,9 @@ body.secondary-menu-opened #overlayer {
   .header-main .ricerca section {
     display: block !important;
   }
+  .header-down .navbar-nav a {
+    font-size: 1.8rem;
+  }
 }
 /* Only Small screen */
 @media (min-width: 768px) and (max-width: 991px) {
