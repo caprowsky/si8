@@ -26,13 +26,16 @@ class Admin extends FormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
 
-    $form['valuta_link'] = [
-      '#type' => 'textfield',
-      '#title' => 'Valuta sito',
-      '#description' => 'Inserisci l\'url assoluto (compreso di http) del form per la valutazione del sito.',
-      '#default_value' => \Drupal::state()->get('si8_utils.valuta_link'),
-    ];
+    $languages = \Drupal::languageManager()->getLanguages();
 
+    foreach ($languages as $language) {
+      $form['valuta_link_' . $language->getId()] = [
+        '#type' => 'textfield',
+        '#title' => 'Valuta sito ' . $language->getName(),
+        '#description' => 'Inserisci l\'url assoluto (compreso di http) del form per la valutazione del sito.',
+        '#default_value' => \Drupal::state()->get('si8_utils.valuta_link_' . $language->getId()),
+      ];
+    }
 
     $form['submit'] = [
       '#type' => 'submit',
@@ -46,21 +49,31 @@ class Admin extends FormBase {
    * {@inheritdoc}
    */
   public function validateForm(array &$form, FormStateInterface $form_state) {
-    $url = $form_state->getValue('valuta_link');
-    if (!UrlHelper::isValid($url, $absolute = TRUE)) {
-      $form_state->setErrorByName('valida_link', $this->t("L'indirizzo '%url' is invalid, deve essere assoluto.", array('%url' => $form_state->getValue('valuta_link'))));
+    $values = $form_state->getValues();
 
+    foreach ($values as $key => $value) {
+      if (substr($key, 0, 6) == 'valuta') {
+        $url = $form_state->getValue($key);
+        if (!UrlHelper::isValid($url, $absolute = TRUE)) {
+          $form_state->setErrorByName($key, $this->t("L'indirizzo '%url' is invalid, deve essere assoluto.", array('%url' => $form_state->getValue($key))));
+        }
+      }
     }
-
-
   }
 
   /**
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $url = $form_state->getValue('valuta_link');
-    \Drupal::state()->set('si8_utils.valuta_link', $url);
+    $values = $form_state->getValues();
+
+    foreach ($values as $key => $value) {
+      if (substr($key, 0, 6) == 'valuta') {
+        $url = $form_state->getValue($key);
+        \Drupal::state()->set('si8_utils.' . $key, $url);
+      }
+    }
+
     drupal_set_message('Le configurazioni sono state salvate');
 
   }
