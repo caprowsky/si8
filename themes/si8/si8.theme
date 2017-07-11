@@ -30,7 +30,8 @@ function si8_preprocess_page(&$vars) {
     '#title' => t('Services'),
   ];
 
-  $vars['valuta_link'] = \Drupal::state()->get('si8_utils.valuta_link');
+  $language = \Drupal::languageManager()->getCurrentLanguage();
+  $vars['valuta_link'] = \Drupal::state()->get('si8_utils.valuta_link_' . $language->getId());
 }
 
 function si8_preprocess_paragraph__box_primo_livello(&$vars) {
