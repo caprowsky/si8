@@ -13,5 +13,6 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'access sitemap'
+  - 'restful get rest_menu_item'
   - 'search content'
   - 'use text format restricted_html'
