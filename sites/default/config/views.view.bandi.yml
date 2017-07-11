@@ -42,7 +42,7 @@ display:
           submit_button: Applica
           reset_button: false
           reset_button_label: Ripristina
-          exposed_sorts_label: 'Ordina per'
+          exposed_sorts_label: Ordina
           expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Disc
@@ -386,7 +386,7 @@ display:
           exposed: true
           expose:
             operator_id: search_api_fulltext_op
-            label: Search
+            label: Cerca
             description: ''
             use_operator: false
             operator: search_api_fulltext_op
@@ -551,7 +551,8 @@ display:
     display_title: Bandi
     position: 1
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender: {  }
       path: agevolazioni
       display_description: ''
       cache:
