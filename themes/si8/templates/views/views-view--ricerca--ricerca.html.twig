@@ -52,6 +52,8 @@
       {% trans %}
       There are <strong>{{ view.total_rows }}</strong> results for your search.
       {% endtrans %}
+
+      {{ drupal_block('summaryricerca') }}
     </div>
   {% endif %}
   {% if exposed %}
