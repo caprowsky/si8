@@ -11,6 +11,7 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access mailchimp signup pages'
   - 'access site-wide contact form'
   - 'access sitemap'
   - 'restful get rest_menu_item'

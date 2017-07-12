@@ -2,6 +2,11 @@ uuid: 612b15c3-7b00-4126-873e-c68f1d608bdb
 langcode: it
 status: true
 dependencies:
+  config:
+    - system.menu.backoffice
+    - user.role.administrator
+    - user.role.capo_redattore
+    - user.role.redattore
   module:
     - redirect_404
     - user
@@ -23,9 +28,12 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access site reports'
+          role:
+            administrator: administrator
+            redattore: redattore
+            capo_redattore: capo_redattore
       cache:
         type: none
         options: {  }
@@ -504,7 +512,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user.permissions
+        - user.roles
       tags: {  }
   page_1:
     display_plugin: page
@@ -522,5 +530,33 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user.permissions
+        - user.roles
+      tags: {  }
+  page_2:
+    display_plugin: page
+    id: page_2
+    display_title: 'Fix 404'
+    position: 1
+    display_options:
+      display_extenders:
+        metatag_display_extender: {  }
+      path: admin/fix404
+      display_description: 'Lists 404 error paths with no redirect assigned yet.'
+      enabled: true
+      menu:
+        type: normal
+        title: 'Fix 404'
+        description: ''
+        expanded: false
+        parent: ''
+        weight: -47
+        context: '0'
+        menu_name: backoffice
+    cache_metadata:
+      max-age: 0
+      contexts:
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.roles
       tags: {  }
