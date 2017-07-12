@@ -25,9 +25,7 @@
   {%- set attributes = attributes.addClass('item-list__' ~ context.list_style) %}
 {% endif %}
 {% if items or empty %}
-  {%- if title is not empty -%}
-    <h3>{{ title }}</h3>
-  {%- endif -%}
+    <h3>{{ 'Active filters:'|t }}</h3>
   {%- if items -%}
     <{{ list_type }}{{ attributes }}>
       {%- for item in items -%}

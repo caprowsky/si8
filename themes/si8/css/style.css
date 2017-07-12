@@ -7872,6 +7872,14 @@ article.full.full .content > .field {
 .invisibile {
   display: none !important;
 }
+.block-facets-summary ul {
+  padding-left: 0;
+}
+.block-facets-summary ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 25px;
+}
 .paragraph--type--link-sezione {
   margin: 30px 0;
   color: #5389d6;
@@ -8189,7 +8197,7 @@ article.news.full .content > .field {
   margin-bottom: 25px;
 }
 .risultati-ricerca {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .risultati-ricerca .bundle {
   font-weight: bold;
