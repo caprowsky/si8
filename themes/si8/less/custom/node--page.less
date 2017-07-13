@@ -86,11 +86,18 @@ article.page.full {
 
   & > ul.menu {
     & > li {
-      display: none;
+      //display: none;
+    }
+
+    & > li.selected {
+      a {
+        background-color: @brand-primary;
+        color: #fff !important;
+      }
     }
 
     & > li.expanded {
-      display: block;
+      //display: block;
 
       a {
         background-color: @brand-primary;
