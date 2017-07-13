@@ -8106,11 +8106,9 @@ article.page.full .field--name-field-risorse-collegate .field--item a.is-active 
 #block-navigazioneprincipale {
   margin-bottom: 50px;
 }
-#block-navigazioneprincipale > ul.menu > li {
-  display: none;
-}
-#block-navigazioneprincipale > ul.menu > li.expanded {
-  display: block;
+#block-navigazioneprincipale > ul.menu > li.selected a {
+  background-color: #286bcc;
+  color: #fff !important;
 }
 #block-navigazioneprincipale > ul.menu > li.expanded a {
   background-color: #286bcc;

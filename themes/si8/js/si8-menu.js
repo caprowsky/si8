@@ -68,3 +68,16 @@ jQuery('#hamburger-secondary-close').click(function(e) {
     jQuery('body').toggleClass('secondary-menu-opened');
     jQuery('aside').toggleClass('active', 1000);
 });
+
+//Secondary Menu nasconde pari livello quando non ci sono figli
+if (jQuery('#block-navigazioneprincipale>ul>li.expanded').length > 0) {
+    jQuery(function () {
+        jQuery('#block-navigazioneprincipale>ul>li').addClass('invisibile');
+        jQuery('#block-navigazioneprincipale>ul>li.expanded').removeClass('invisibile');
+    });
+} else {
+    jQuery(document).ready(function(){
+        jQuery('#block-navigazioneprincipale>ul>li.active').prependTo("#block-navigazioneprincipale>ul");
+        jQuery('#block-navigazioneprincipale>ul>li.active').addClass('selected');
+    })
+}
