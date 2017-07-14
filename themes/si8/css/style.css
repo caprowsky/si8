@@ -7598,7 +7598,6 @@ body.user-logged-in #mainheader {
 .header-top .selettorelingua {
   display: inline-block;
   background-color: #7ea6e0;
-  padding: 7px;
   text-transform: uppercase;
 }
 .header-top .selettorelingua .select-wrapper select {
@@ -7615,10 +7614,14 @@ body.user-logged-in #mainheader {
   width: 100px !important;
   box-shadow: none;
   text-transform: uppercase;
+  height: 48px;
 }
 .header-top .selettorelingua select option {
   background-color: #7ea6e0;
   color: #fff;
+}
+.header-top .selettorelingua select option:hover {
+  background: red;
 }
 .header-top .accedi {
   border-radius: 0;

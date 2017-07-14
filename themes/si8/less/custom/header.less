@@ -110,7 +110,7 @@ body.user-logged-in{
   .selettorelingua {
     display: inline-block;
     background-color: @brand-third;
-    padding: 7px;
+    //padding: 7px;
     text-transform: uppercase;
 
     .select-wrapper select{
@@ -129,11 +129,16 @@ body.user-logged-in{
       width: 100px !important;
       box-shadow: none;
       text-transform: uppercase;
+      height: 48px;
 
 
       option {
         background-color: @brand-third;
         color: #fff;
+
+        &:hover {
+          background: red;
+        }
       }
     }
 
