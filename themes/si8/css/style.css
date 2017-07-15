@@ -8771,6 +8771,9 @@ body.secondary-menu-opened #overlayer {
   #block-navigazioneprincipale {
     margin-bottom: 0;
   }
+  .main-container {
+    margin-top: 0;
+  }
   .main-container aside {
     position: fixed;
     top: 228px;
@@ -8796,6 +8799,13 @@ body.secondary-menu-opened #overlayer {
     position: absolute;
     right: 30px;
     top: 210px;
+    background-image: url('../images/menu-sidebar.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #333;
   }
   .main-container #secondary-menu-btn i {
     font-size: 2.5rem;
@@ -8814,6 +8824,9 @@ body.secondary-menu-opened #overlayer {
   }
   #block-menu-hamburger {
     width: 320px;
+  }
+  .main-container {
+    margin-top: 0;
   }
   .main-container aside {
     position: fixed;
@@ -8839,7 +8852,14 @@ body.secondary-menu-opened #overlayer {
   .main-container #secondary-menu-btn {
     position: absolute;
     right: 30px;
-    top: 210px;
+    top: 175px;
+    background-image: url('../images/menu-sidebar.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #333;
   }
   .main-container #secondary-menu-btn i {
     font-size: 2.5rem;
