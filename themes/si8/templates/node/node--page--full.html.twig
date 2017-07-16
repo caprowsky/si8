@@ -97,7 +97,12 @@ view_mode ? view_mode|clean_class,
 
       <aside class="col-md-4 popup">
         <div id="hamburger-secondary-close" class="visible-sm visible-xs"><i class="fa fa-times"></i></div>
-        {{ drupal_block('navigazioneprincipale') }}
+        {% if in_evidenza  %}
+          {{ drupal_block('inevidenza') }}
+        {% else %}
+          {{ drupal_block('navigazioneprincipale') }}
+        {% endif %}
+
         {{ content.field_risorse_collegate }}
       </aside>
 

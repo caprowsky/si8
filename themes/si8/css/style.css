@@ -8106,36 +8106,65 @@ article.page.full .field--name-field-risorse-collegate .field--item a.is-active 
   background-color: #286bcc;
   color: #fff;
 }
-#block-navigazioneprincipale {
+#block-navigazioneprincipale,
+#block-inevidenza {
   margin-bottom: 50px;
 }
-#block-navigazioneprincipale > ul.menu > li.selected a {
+#block-navigazioneprincipale h2,
+#block-inevidenza h2 {
+  background-color: #286bcc;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 15px;
+  margin: 0;
+  font-size: 2rem;
+}
+#block-navigazioneprincipale > ul.menu > li.selected a,
+#block-inevidenza > ul.menu > li.selected a {
   background-color: #286bcc;
   color: #fff !important;
 }
-#block-navigazioneprincipale > ul.menu > li.expanded a {
+#block-navigazioneprincipale > ul.menu > li.expanded a,
+#block-inevidenza > ul.menu > li.expanded a {
   background-color: #286bcc;
   color: #fff;
 }
-#block-navigazioneprincipale > ul.menu > li.expanded ul {
+#block-navigazioneprincipale > ul.menu > li.expanded ul,
+#block-inevidenza > ul.menu > li.expanded ul {
   padding-left: 0;
 }
-#block-navigazioneprincipale > ul.menu > li.expanded ul li {
+#block-navigazioneprincipale > ul.menu > li.expanded ul li,
+#block-inevidenza > ul.menu > li.expanded ul li {
   list-style-type: none;
   border-bottom: 1px solid #eeeeee;
 }
-#block-navigazioneprincipale > ul.menu > li.expanded ul li a {
+#block-navigazioneprincipale > ul.menu > li.expanded ul li a,
+#block-inevidenza > ul.menu > li.expanded ul li a {
   background-color: #fff;
   color: #286bcc !important;
   display: block;
   padding: 15px;
 }
-#block-navigazioneprincipale > ul.menu > li.expanded ul li a.is-active {
+#block-navigazioneprincipale > ul.menu > li.expanded ul li a.is-active,
+#block-inevidenza > ul.menu > li.expanded ul li a.is-active {
   background-color: #eeeeee;
   color: #286bcc;
 }
-#block-navigazioneprincipale > ul.menu > li.expanded ul li a:hover {
+#block-navigazioneprincipale > ul.menu > li.expanded ul li a:hover,
+#block-inevidenza > ul.menu > li.expanded ul li a:hover {
   background-color: #eeeeee;
+}
+.pagine-in-evidenza {
+  font-size: 2rem;
+}
+article.page.elenco .field--name-field-immagine {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+article.page.elenco .field--name-body {
+  margin-top: 20px;
 }
 article.news.elenco .field--name-field-immagine {
   float: right;
@@ -8519,6 +8548,9 @@ article.bando.full .pdf a {
 article.procedimento.full .tipologia {
   margin-bottom: 20px;
 }
+.elenco-video {
+  font-size: 2rem;
+}
 .elenco-video .view-content.griglia {
   margin-left: -15px;
   margin-right: -15px;
@@ -8533,7 +8565,7 @@ article.procedimento.full .tipologia {
 @media (min-width: 992px) {
   .elenco-video .view-content.griglia .views-row {
     float: left;
-    width: 33.33333333%;
+    width: 50%;
   }
 }
 .elenco-video .view-content.griglia .views-row h2 {

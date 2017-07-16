@@ -80,7 +80,18 @@ article.page.full {
 
 }
 
-#block-navigazioneprincipale {
+#block-navigazioneprincipale,
+#block-inevidenza{
+
+  h2 {
+    background-color: @brand-primary;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 2rem;
+  }
 
   margin-bottom: 50px;
 
@@ -130,5 +141,21 @@ article.page.full {
         }
       }
     }
+  }
+}
+
+.pagine-in-evidenza {
+  font-size: 2rem;
+}
+
+article.page.elenco {
+  .field--name-field-immagine {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .field--name-body {
+    margin-top: 20px;
   }
 }
