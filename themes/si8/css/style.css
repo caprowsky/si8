@@ -8289,6 +8289,11 @@ article.glossary.full .content > .field {
   border-radius: 0;
   font-size: 1.5rem;
 }
+@media (max-width: 767px) {
+  .faq-page .form-item-key {
+    float: left;
+  }
+}
 .faq-page button {
   color: #fff;
   background-color: #333;
@@ -8429,6 +8434,11 @@ article.bando.full .pdf a {
 }
 .trova-procedimento-page {
   font-size: 2rem;
+}
+@media (max-width: 767px) {
+  .trova-procedimento-page .form-item-key {
+    float: left;
+  }
 }
 .trova-procedimento-page .views-field-changed {
   margin: 20px 0;
