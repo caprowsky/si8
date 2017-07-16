@@ -99,6 +99,18 @@ function si8_preprocess_node(&$vars) {
     }
   }
 
+  if ($node->bundle() == 'page') {
+    if ($view_mode == 'full') {
+      $tids = ['406', '407', '408'];
+      $vars['in_evidenza'] = FALSE;
+      foreach ($node->get('field_tags')->referencedEntities() as $tag) {
+        if (in_array($tag->id(), $tids)) {
+          $vars['in_evidenza'] = TRUE;
+        }
+      }
+
+    }
+  }
 
 }
 

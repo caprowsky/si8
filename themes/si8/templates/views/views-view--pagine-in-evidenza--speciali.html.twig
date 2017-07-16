@@ -64,7 +64,7 @@
   {% endif %}
 
   {% if rows %}
-    {{ drupal_view_argument('custom_content', 'machine_name', 'elenco_video') }}
+    {{ drupal_view_argument('custom_content', 'machine_name', 'speciali') }}
     <div class="view-content griglia">
 
       <div class="row">
@@ -75,8 +75,10 @@
 
         <aside class="col-md-4 popup">
           <div id="hamburger-secondary-close" class="visible-sm visible-xs"><i class="fa fa-times"></i></div>
-          {{ drupal_block('inevidenza') }}
+            {{ drupal_block('inevidenza') }}
         </aside>
+      </div>
+
     </div>
   {% elseif empty %}
     <div class="view-empty">
