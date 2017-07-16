@@ -8859,7 +8859,7 @@ body.secondary-menu-opened #overlayer {
     padding-right: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #333;
+    color: transparent;
   }
   .main-container #secondary-menu-btn i {
     font-size: 2.5rem;
