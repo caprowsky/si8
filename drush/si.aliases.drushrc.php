@@ -39,7 +39,7 @@
   );
   $aliases['dev'] = array(
     'uri' => 'dev-si8.pantheonsite.io',
-    'db-url' => 'mysql://pantheon:c33c81649f3542239fd04194754c58b4@dbserver.dev.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:21163/pantheon',
+    'db-url' => 'mysql://pantheon:ed9db62d00e445c6b5159c5b307b827b@dbserver.dev.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:10037/pantheon',
     'db-allows-remote' => TRUE,
     'remote-host' => 'appserver.dev.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in',
     'remote-user' => 'dev.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e',
@@ -47,5 +47,5 @@
     'path-aliases' => array(
       '%files' => 'code/sites/default/files',
       '%drush-script' => 'drush',
-    ),
+     ),
   );
