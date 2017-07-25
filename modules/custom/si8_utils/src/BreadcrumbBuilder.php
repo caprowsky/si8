@@ -24,12 +24,7 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
    * {@inheritdoc}
    */
   public function applies(RouteMatchInterface $route_match) {
-    $route_object = $route_match->getRouteObject();
-    if ($route_object->getPath() == '/news/{arg_0}/{arg_1}') {
-      return TRUE;
-    }
-
-    return FALSE;
+    return $this->check_path($route_match);
   }
 
   /**
@@ -39,13 +34,42 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
     $breadcrumb = new Breadcrumb();
     $breadcrumb->addCacheContexts(['route']);
 
-    // Add logic here that builds up the breadcrumbs based on desired behaviour.
-    $links[] = Link::createFromRoute(t('Home'), '<front>');
-    $links[] = Link::createFromRoute(t('News'), 'view.news.news');
+    $route_object = $route_match->getRouteObject();
+
+    $links = [];
+
+    // Breadcrumb custom argomenti notizie
+    if ($route_object->getPath() == '/news/{arg_0}/{arg_1}') {
+      $links[] = Link::createFromRoute(t('Home'), '<front>');
+      $links[] = Link::createFromRoute(t('News'), 'view.news.news');
+    }
+
+    // Breadcrumb custom sportello unico
+    $suape_paths = ['/suape/dove-si-trova', '/suape/trova-procedimento'];
+    if (in_array($route_object->getPath(), $suape_paths)) {
+      $url = Url::fromUri('internal:/sportello-unico');
+      $links[] = Link::createFromRoute(t('Home'), '<front>');
+      $links[] = Link::fromTextAndUrl(t('Suape'), $url);
+    }
 
     $breadcrumb->setLinks($links);
 
     return $breadcrumb;
   }
 
+  /**
+   * @param RouteMatchInterface $route_match
+   *
+   * @return bool
+   */
+  private function check_path($route_match) {
+    $route_object = $route_match->getRouteObject();
+    $paths = ['/suape/dove-si-trova', '/news/{arg_0}/{arg_1}', '/suape/trova-procedimento'];
+
+    if (in_array($route_object->getPath(), $paths)) {
+      return TRUE;
+    }
+
+    return FALSE;
+  }
 }
