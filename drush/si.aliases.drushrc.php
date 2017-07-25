@@ -15,7 +15,7 @@
 
   $aliases['live'] = array(
     'uri' => 'live-si8.pantheonsite.io',
-    'db-url' => 'mysql://pantheon:2a429d29bd594c55994222e68be01eae@dbserver.live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:15554/pantheon',
+    'db-url' => 'mysql://pantheon:86af63107ff747bcaa27bb665f3baac0@dbserver.live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:10012/pantheon',
     'db-allows-remote' => TRUE,
     'remote-host' => 'appserver.live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in',
     'remote-user' => 'live.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e',
@@ -27,7 +27,7 @@
   );
   $aliases['test'] = array(
     'uri' => 'test-si8.pantheonsite.io',
-    'db-url' => 'mysql://pantheon:f1ad6cc2e47f4304b028929ae758e0f7@dbserver.test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:28413/pantheon',
+    'db-url' => 'mysql://pantheon:c4b36afa1e64460aa50b92cab4f30d6f@dbserver.test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in:10159/pantheon',
     'db-allows-remote' => TRUE,
     'remote-host' => 'appserver.test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e.drush.in',
     'remote-user' => 'test.eef9ff8e-ba9f-4c1a-b42e-7111476acc3e',
@@ -47,5 +47,5 @@
     'path-aliases' => array(
       '%files' => 'code/sites/default/files',
       '%drush-script' => 'drush',
-     ),
+    ),
   );
