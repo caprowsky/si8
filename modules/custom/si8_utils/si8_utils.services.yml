@@ -9,3 +9,7 @@ services:
       class: Drupal\si8_utils\DrupalViewArgument
       tags:
         - { name: twig.extension }
+  si8_utils.breadcrumb:
+    class: Drupal\si8_utils\BreadcrumbBuilder
+    tags:
+      - { name: breadcrumb_builder, priority: 100 }
