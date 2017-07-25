@@ -8,6 +8,7 @@
 
 use Drupal\Core\Url;
 use Drupal\Core\Path;
+use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
  * Implements hook_preprocess_page().
@@ -157,4 +158,20 @@ function si8_preprocess_image(&$vars) {
   if (empty($vars['attributes']['alt'])) {
     $vars['attributes']['alt'] = ' ';
   }
+}
+
+function si8_preprocess_breadcrumb(&$vars){
+  $route_object = \Drupal::routeMatch()->getRouteObject();
+  if ($route_object->getPath() == '/news/{arg_0}/{arg_1}') {
+
+    // breadcrumb title custom per vista argomenti news
+    foreach ($vars['breadcrumb'] as $key => $bread) {
+      $tid = \Drupal::routeMatch()->getParameter('arg_0');
+      $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($tid);
+      if (!isset($bread['url'])) {
+        $vars['breadcrumb'][$key]['text'] = $term->label();
+      }
+    }
+  }
+
 }
