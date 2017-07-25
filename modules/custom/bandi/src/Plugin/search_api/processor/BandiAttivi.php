@@ -59,10 +59,10 @@ class BandiAttivi extends ProcessorPluginBase {
           $date = \Drupal\Core\Datetime\DrupalDateTime::createFromFormat($format, $date_value);
           $date_timestamp = $date->format('U');
           $now = time();
-          $value = 'Attivo';
+          $value = t('Attive');
 
           if ($now > $date_timestamp) {
-            $value = 'Scaduto';
+            $value = t('Non attive');
           }
           $field->addValue($value);
 
