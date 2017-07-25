@@ -84,6 +84,7 @@ body.user-logged-in{
 
   .logo {
     width: 25px;
+    height: 25px;
     margin-right: 10px;
   }
 
@@ -109,6 +110,7 @@ body.user-logged-in{
 
   .selettorelingua {
     display: inline-block;
+    width: 150px !important;
     background-color: @brand-third;
     //padding: 7px;
     text-transform: uppercase;
@@ -126,7 +128,7 @@ body.user-logged-in{
       border-radius: 0;
       background-color: @brand-third;
       color: #fff;
-      width: 100px !important;
+      width: 150px !important;
       box-shadow: none;
       text-transform: uppercase;
       height: 48px;
@@ -295,11 +297,17 @@ body.user-logged-in{
 
   .navbar-nav {
     display: inline-block;
-    float: none;
+    float: none !important;
     padding: 2px;
+    width: 100%;
 
     li:first-child {
       display: none;
+    }
+    
+    li {
+      display: inline-block;
+      float: none !important;
     }
 
     a {
@@ -311,6 +319,7 @@ body.user-logged-in{
         background-color: transparent;
         text-decoration: underline;
       }
+    
     }
   }
 }

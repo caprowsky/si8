@@ -7608,6 +7608,7 @@ body.user-logged-in #mainheader {
 }
 .header-top .logo {
   width: 25px;
+  height: 25px;
   margin-right: 10px;
 }
 .header-top .header-top2 {
@@ -7630,6 +7631,7 @@ body.user-logged-in #mainheader {
 }
 .header-top .selettorelingua {
   display: inline-block;
+  width: 150px !important;
   background-color: #7ea6e0;
   text-transform: uppercase;
 }
@@ -7644,7 +7646,7 @@ body.user-logged-in #mainheader {
   border-radius: 0;
   background-color: #7ea6e0;
   color: #fff;
-  width: 100px !important;
+  width: 150px !important;
   box-shadow: none;
   text-transform: uppercase;
   height: 48px;
@@ -7773,11 +7775,16 @@ body.user-logged-in #mainheader {
 }
 .header-down .navbar-nav {
   display: inline-block;
-  float: none;
+  float: none !important;
   padding: 2px;
+  width: 100%;
 }
 .header-down .navbar-nav li:first-child {
   display: none;
+}
+.header-down .navbar-nav li {
+  display: inline-block;
+  float: none !important;
 }
 .header-down .navbar-nav a {
   color: #fff;
@@ -8199,6 +8206,10 @@ article.page.elenco .field--name-field-immagine {
 article.page.elenco .field--name-body {
   margin-top: 20px;
 }
+article.page .field--name-field-immagine img {
+  width: 100% !important;
+  max-width: 100% !important;
+}
 article.news.elenco .field--name-field-immagine {
   float: right;
   margin-left: 20px;
@@ -8216,6 +8227,9 @@ article.news.elenco .field--name-body {
 .elenco-news .news-link {
   font-weight: bold;
   font-size: 3rem;
+}
+article.news.homepage img {
+  width: 100%;
 }
 /* Elenco argomenti */
 .block-elenco-argomenti ul {
