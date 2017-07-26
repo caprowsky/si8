@@ -19,9 +19,9 @@ else {
     jQuery(document).ready(function(){
         setTimeout(function(){
             //notizie
-            jQuery('body.path-frontpage .paragraph--type--notizie-in-evidenza .field--items>div').attr('style','');
-            jQuery('body.path-frontpage .paragraph--type--notizie-in-evidenza .field--items').masonry({
-                itemSelector: '.field--items>div'
+            jQuery('body.path-frontpage .paragraph--type--notizie-in-evidenza .field--name-field-collegamenti>div').attr('style','');
+            jQuery('body.path-frontpage .paragraph--type--notizie-in-evidenza .field--name-field-collegamenti').masonry({
+                itemSelector: '.field--name-field-collegamenti>div'
         });
         },1500);
 
