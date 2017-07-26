@@ -24,4 +24,4 @@ settings:
   expand: 0
   parent: 'footer1:'
   suggestion: footer1
-visibility: {  }## YAML Template.
+visibility: {  }
