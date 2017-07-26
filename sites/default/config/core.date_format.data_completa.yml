@@ -5,4 +5,4 @@ dependencies: {  }
 id: data_completa
 label: 'Data completa'
 locked: false
-pattern: 'd/m/Y h:i'
+pattern: 'd/m/Y H:i'

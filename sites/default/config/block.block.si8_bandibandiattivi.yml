@@ -17,7 +17,7 @@ provider: null
 plugin: 'facet_block:bandi_bandi_attivi'
 settings:
   id: 'facet_block:bandi_bandi_attivi'
-  label: 'Bandi attivi'
+  label: Agevolazioni
   provider: facets
   label_display: visible
 visibility:
