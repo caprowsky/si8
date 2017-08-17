@@ -7635,6 +7635,11 @@ body.user-logged-in #mainheader {
   background-color: #7ea6e0;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  .header-top .selettorelingua {
+    width: 110px !important;
+  }
+}
 .header-top .selettorelingua .select-wrapper select {
   line-height: inherit;
 }
@@ -7650,6 +7655,11 @@ body.user-logged-in #mainheader {
   box-shadow: none;
   text-transform: uppercase;
   height: 48px;
+}
+@media (max-width: 768px) {
+  .header-top .selettorelingua select {
+    width: 110px !important;
+  }
 }
 .header-top .selettorelingua select option {
   background-color: #7ea6e0;
