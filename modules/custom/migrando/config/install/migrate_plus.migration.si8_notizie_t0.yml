@@ -7,8 +7,18 @@ source:
   data_fetcher_plugin: file
   data_parser_plugin: json
   urls:
-    - modules/custom/migrando/files/si8_notizia_tnid_0.json
-    - modules/custom/migrando/files/si8_sardegnasuapnotizia_tnid_0.json
+    - modules/custom/migrando/files/si8_notizia_tnid_0_page0.json
+    - modules/custom/migrando/files/si8_notizia_tnid_0_page1.json
+    - modules/custom/migrando/files/si8_notizia_tnid_0_page2.json
+    - modules/custom/migrando/files/si8_notizia_tnid_0_page3.json
+    - modules/custom/migrando/files/si8_notizia_tnid_0_page4.json
+    #- modules/custom/migrando/files/si8_notizia_tnid_0_page5.json
+    #- modules/custom/migrando/files/si8_notizia_tnid_0_page6.json
+    #- modules/custom/migrando/files/si8_notizia_tnid_0_page7.json
+    #- modules/custom/migrando/files/si8_notizia_tnid_0_page8.json
+    #- modules/custom/migrando/files/si8_notizia_tnid_0_page9.json
+    #- modules/custom/migrando/files/si8_notizia_tnid_0_page10.json
+    #- modules/custom/migrando/files/si8_sardegnasuapnotizia_tnid_0.json
   item_selector: items
   fields:
     -
