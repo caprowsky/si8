@@ -6,7 +6,7 @@ global-styling:
     js/jquery.matchHeight.js: {}
     js/bootstrap-hover-dropdown.min.js: {}
     js/masonry.pkgd.min.js: {}
-    js/si8-masonry.js: {}
+    #js/si8-masonry.js: {}
     js/si8-menu.js: {}
     js/si8.js: {}
 
