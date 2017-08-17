@@ -8463,6 +8463,7 @@ article.faq.full .tipologia {
 }
 .lista-sportelli select {
   font-size: 2rem;
+  height: 45px;
 }
 .lista-sportelli .sportello {
   margin-top: 30px;
