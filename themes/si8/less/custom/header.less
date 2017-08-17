@@ -111,6 +111,11 @@ body.user-logged-in{
   .selettorelingua {
     display: inline-block;
     width: 150px !important;
+
+    @media (max-width: @screen-sm) {
+      width: 110px !important;
+    }
+
     background-color: @brand-third;
     //padding: 7px;
     text-transform: uppercase;
@@ -129,6 +134,11 @@ body.user-logged-in{
       background-color: @brand-third;
       color: #fff;
       width: 150px !important;
+
+      @media (max-width: @screen-sm) {
+        width: 110px !important;
+      }
+
       box-shadow: none;
       text-transform: uppercase;
       height: 48px;
