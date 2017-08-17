@@ -32,7 +32,7 @@ class MainSportelli {
     $output['form'] = $form;
 
     return array(
-      '#title' => 'Ricerca sportelli',
+      '#title' => 'Dove si trova',
       '#theme' => 'sportelli',
       '#output' => $output,
     );
