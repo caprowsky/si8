@@ -500,7 +500,7 @@ display:
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      path: suape/trova-procedimento
+      path: sportello-unico/trova-procedimento
       display_description: ''
       cache:
         type: none

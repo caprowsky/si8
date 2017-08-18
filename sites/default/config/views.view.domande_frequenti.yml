@@ -458,7 +458,7 @@ display:
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      path: suape/domande-frequenti
+      path: sportello-unico/domande-frequenti
       display_description: ''
       cache:
         type: none
