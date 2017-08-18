@@ -30,15 +30,29 @@ class ElencoArgomenti extends BlockBase
             ->loadTree('argomenti');
         if (!empty($terms)) {
             foreach ($terms as $term) {
+              $curr_langcode = \Drupal::languageManager()->getCurrentLanguage(\Drupal\Core\Language\LanguageInterface::TYPE_CONTENT)->getId();
+              // retrieve term
+              $taxonomy_term = \Drupal\taxonomy\Entity\Term::load($term->tid);
+              // retrieve the translated taxonomy term in specified language ($curr_langcode) with fallback to default language if translation not exists
+
+
+
               $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+              $taxonomy_term_trans = \Drupal::service('entity.repository')->getTranslationFromContext($taxonomy_term, $curr_langcode);
+              $name = $taxonomy_term_trans->label();
+              // get the value of the field "myfield"
+             // $myfield_translated = $taxonomy_term_trans->myfield->value;
+
+
+
               $trans = \Drupal::transliteration();
-              $transformed = strtolower($trans->transliterate($term->name, $langcode));
+              $transformed = strtolower($trans->transliterate($name, $langcode));
 
               $facets[] = array(
                     'value' => array(
                         '#type' => 'link',
                         '#url' => Url::fromUri('internal:/news/' . $term->tid . '/' . str_replace(' ', '-', $transformed), array('set_active_class' => TRUE)),
-                        '#title' => $term->name,
+                        '#title' => $name,
                     ),
                 );
             }
@@ -46,7 +60,7 @@ class ElencoArgomenti extends BlockBase
 
         $render_array = array(
             '#theme' => 'item_list',
-            '#title' => 'Argomenti',
+            '#title' => t('Arguments'),
             '#items' => $facets,
         );
 
