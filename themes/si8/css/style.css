@@ -8042,7 +8042,7 @@ article.full.full .content > .field {
   font-size: 2.5rem;
 }
 .paragraph--type--slider-notizie {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .paragraph--type--slider-notizie .field-name--field-immagine {
   margin-right: 30px;
@@ -8083,6 +8083,9 @@ article.full.full .content > .field {
 .paragraph--type--video-in-evidenza .field--name-field-collegamenti article .sfondo a {
   color: #333;
   font-size: 2.5rem;
+}
+.paragraph--type--contenuto-custom-con-immagine {
+  margin-bottom: 60px;
 }
 .paragraph--type--contenuto-custom-con-immagine .field--name-field-titolo {
   font-size: 2.5rem;
