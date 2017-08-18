@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.news.field_argomenti
     - field.field.node.news.field_evento_data
     - field.field.node.news.field_immagine
+    - field.field.node.news.field_metatag
     - field.field.node.news.field_risorse_collegate
     - field.field.node.news.field_tags
     - image.style.elenco_news
@@ -25,7 +26,7 @@ mode: elenco
 content:
   body:
     type: smart_trim
-    weight: 3
+    weight: 2
     region: content
     label: hidden
     settings:
@@ -44,16 +45,8 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_argomenti:
-    type: entity_reference_label
-    weight: 0
-    region: content
-    label: hidden
-    settings:
-      link: false
-    third_party_settings: {  }
   field_evento_data:
-    weight: 2
+    weight: 1
     label: hidden
     settings:
       timezone_override: ''
@@ -63,7 +56,7 @@ content:
     type: daterange_default
     region: content
   field_immagine:
-    weight: 1
+    weight: 0
     label: hidden
     settings:
       image_style: elenco_news
@@ -72,7 +65,10 @@ content:
     type: image
     region: content
 hidden:
+  addtoany: true
   field_allegati: true
+  field_argomenti: true
+  field_metatag: true
   field_risorse_collegate: true
   field_tags: true
   langcode: true
