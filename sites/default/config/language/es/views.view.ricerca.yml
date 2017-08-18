@@ -1,12 +1,11 @@
 display:
   ricerca:
+    display_title: Búsqueda
     display_options:
-      display_description: Ricerca
       display_extenders:
         metatag_display_extender:
           metatags:
-            title: 'Search | SardegnaImpresa'
-    display_title: Search
+            title: 'Búsqueda | SardegnaImpresa'
   default:
     display_options:
-      title: Search
+      title: Búsqueda
