@@ -1,0 +1,10 @@
+display:
+  default:
+    display_options:
+      title: 'Ayuda a las empresas'
+  bandi:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Ayuda a las empresas | SardegnaImpresa'
