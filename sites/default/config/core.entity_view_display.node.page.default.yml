@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.page.field_sezione
     - field.field.node.page.field_tags
     - field.field.node.page.field_tipologia_procedimento
+    - image.style.immagine_principale
     - node.type.page
   module:
     - entity_reference_revisions
@@ -57,7 +58,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      image_style: immagine_principale
       image_link: ''
     third_party_settings: {  }
     type: image
