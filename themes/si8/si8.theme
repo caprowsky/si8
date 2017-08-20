@@ -177,9 +177,17 @@ function si8_preprocess_breadcrumb(&$vars){
 }
 
 function si8_preprocess_menu__main_block_page(&$vars) {
-  $a = 1;
 
+  /*$current_langcode = \Drupal::languageManager()->getCurrentLanguage(\Drupal\Core\Language\LanguageInterface::TYPE_CONTENT)->getId();
   foreach ($vars['items'] as $key => $item) {
-    $a = 1;
-  }
+    $node = $item['original_link']->getRouteParameters();
+    $nid = reset($node);
+    $object = \Drupal\node\Entity\Node::loadMultiple([$nid]);
+    $menu_node = reset($object);
+    $translations = $menu_node->getTranslationLanguages();
+    if (empty($translations[$current_langcode])) {
+      unset($vars['items'][$key]);
+    }
+  }*/
+
 }
