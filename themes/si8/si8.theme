@@ -175,3 +175,11 @@ function si8_preprocess_breadcrumb(&$vars){
   }
 
 }
+
+function si8_preprocess_menu__main_block_page(&$vars) {
+  $a = 1;
+
+  foreach ($vars['items'] as $key => $item) {
+    $a = 1;
+  }
+}
