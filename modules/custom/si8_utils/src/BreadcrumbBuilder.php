@@ -36,12 +36,47 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
 
     $route_object = $route_match->getRouteObject();
 
+    $route_node = \Drupal::service('current_route_match');
+    $node = $route_match->getParameter('node');
+
     $links = [];
     $links[] = Link::createFromRoute(t('Home'), '<front>');
 
     // Breadcrumb custom argomenti notizie
     if ($route_object->getPath() == '/news/{arg_0}/{arg_1}') {
       $links[] = Link::createFromRoute(t('News'), 'view.news.news');
+    }
+
+    // video
+    if (!empty($node) && $node->bundle() == 'video') {
+      $links[] = Link::fromTextAndUrl(t('Video'), Url::fromUri('internal:/video'));
+    }
+
+    // in evidenza
+    if (!empty($node) && (!empty($node->field_tags))) {
+      foreach ($node->get('field_tags')->referencedEntities() as $tag) {
+        /**
+         * casi aziendali 406
+         * infografiche 408
+         * speciali 407
+         */
+        $tids = ['406', '407', '408'];
+        if (in_array($tag->id(), $tids)) {
+          switch ($tag->id()) {
+            case '406':
+              $links[] = Link::fromTextAndUrl(t('Casi aziendali'), Url::fromUri('internal:/casi-aziendali'));
+              break;
+
+            case '407':
+              $links[] = Link::fromTextAndUrl(t('Speciali'), Url::fromUri('internal:/infografiche'));
+              break;
+
+            case '408':
+              $links[] = Link::fromTextAndUrl(t('Infografiche'), Url::fromUri('internal:/infografiche'));
+              break;
+          }
+        }
+      }
     }
 
     // Breadcrumb generico quando secondo elemento è "node"
@@ -78,6 +113,29 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
       return TRUE;
     }
 
+    $route_node = \Drupal::service('current_route_match');
+    $node = $route_match->getParameter('node');
+    if (!empty($node) && (!empty($node->field_tags))) {
+      foreach ($node->get('field_tags')->referencedEntities() as $tag) {
+        /**
+         * casi aziendali 406
+         * infografiche 408
+         * speciali 407
+         */
+        $tids = ['406', '407', '408'];
+        if (in_array($tag->id(), $tids)) {
+          return TRUE;
+        }
+      }
+    }
+
+    if (!empty($node) && $node->bundle() == 'video') {
+      $a = 1;
+      return TRUE;
+    }
+
     return FALSE;
   }
+
+
 }
