@@ -33,6 +33,10 @@ function si8_preprocess_page(&$vars) {
 
   $language = \Drupal::languageManager()->getCurrentLanguage();
   $vars['valuta_link'] = \Drupal::state()->get('si8_utils.valuta_link_' . $language->getId());
+
+  $site_config = \Drupal::config('system.site');
+  $vars['site_slogan'] = $site_config->get('slogan');
+
 }
 
 function si8_preprocess_paragraph__box_primo_livello(&$vars) {
