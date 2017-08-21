@@ -20,7 +20,7 @@ use Drupal\search_api_glossary\GlossaryHelper;
  *   label = @Translation("Glossary processor"),
  *   description = @Translation("Exposes glossary computed fields to Search API."),
  *   stages = {
- *     "add_properties" = 0,
+ *     "add_properties" = 99,
  *     "pre_index_save" = 0,
  *     "preprocess_index" = -20,
  *   },
@@ -82,6 +82,7 @@ class Glossary extends ProcessorPluginBase implements PluginFormInterface {
    * {@inheritdoc}
    */
   public function addFieldValues(ItemInterface $item) {
+    $glossary_helper = new GlossaryHelper();
     $item_fields = $item->getFields();
 
     // Get glossary fields.
@@ -106,10 +107,10 @@ class Glossary extends ProcessorPluginBase implements PluginFormInterface {
           $glossary_field_name = $this->makeFieldName($name);
 
           // Glossary value.
-          $glossary_value = GlossaryHelper::glossaryGetter($source_field_value, $glossary_fields_conf['grouping']);
+          $glossary_value = $glossary_helper->glossaryGetter($source_field_value, $glossary_fields_conf[$name]['grouping']);
 
           // Get target field.
-          $glossary_field  = $item_fields[$glossary_field_name];
+          $glossary_field = $item_fields[$glossary_field_name];
 
           // Set the Target Glossary value.
           if (empty($glossary_field->getValues())) {

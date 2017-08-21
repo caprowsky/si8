@@ -27,7 +27,7 @@ class GlossaryAZWidget extends WidgetPluginBase implements WidgetPluginInterface
   public function build(FacetInterface $facet) {
     // Are we dealing with Glossary field?
     // TODO Figure out a better way to set Widget conditions.
-    // See https://www.drupal.org/node/2877691. 
+    // See https://www.drupal.org/node/2877691.
     $is_glossary_field = GlossaryHelper::glossaryFacetFieldCheker($facet);
     if (!$is_glossary_field) {
       return [];
@@ -41,7 +41,7 @@ class GlossaryAZWidget extends WidgetPluginBase implements WidgetPluginInterface
     $enable_default_theme = empty($configuration['enable_default_theme']) ? FALSE : (bool) $configuration['enable_default_theme'];
 
     foreach ($results as $result) {
-      $items[] = $this->buildListItems($result);
+      $items[] = $this->buildListItems($facet, $result);
     }
 
     $build = [
@@ -67,15 +67,9 @@ class GlossaryAZWidget extends WidgetPluginBase implements WidgetPluginInterface
   }
 
   /**
-   * Builds a renderable array of result items.
-   *
-   * @param \Drupal\facets\Result\ResultInterface $result
-   *   A result item.
-   *
-   * @return array
-   *   A renderable array of the result.
+   * {@inheritdoc}
    */
-  protected function buildListItems(ResultInterface $result) {
+  protected function buildListItems($facet, ResultInterface $result) {
     $classes = ['facet-item', 'glossaryaz'];
     // Not sure if glossary will have children.
     // Removed chilren processing for now.
