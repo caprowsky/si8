@@ -2,6 +2,9 @@ display:
   default:
     display_options:
       title: 'Ayuda a las empresas'
+      header:
+        result:
+          content: 'Usted tiene <strong>@total</strong> apoyos para las empresas'
   bandi:
     display_options:
       display_extenders:
