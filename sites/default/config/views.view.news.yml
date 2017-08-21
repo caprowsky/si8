@@ -57,10 +57,10 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: ‹‹
-            next: ››
-            first: '« First'
-            last: 'Last »'
+            previous: ‹
+            next: ›
+            first: «
+            last: »
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -202,7 +202,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: News
+      title: Notizie
       header: {  }
       footer: {  }
       empty: {  }
@@ -244,7 +244,8 @@ display:
     display_title: 'News argomento'
     position: 1
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender: {  }
       path: news/%
       rendering_language: '***LANGUAGE_language_interface***'
       display_description: ''
