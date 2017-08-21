@@ -51,6 +51,7 @@
     'field--label',
     label_display == 'visually_hidden' ? 'sr-only',
   ]
+
 %}
 
 {% if label_hidden %}
@@ -63,7 +64,13 @@
   {% else %}
     {% for item in items %}
       <div{{ attributes.addClass(classes, 'field--item') }}>
-        {{ 'From'|t }} {{ item.content.start_date }} {{ 'to'|t }} {{ item.content.end_date }}
+
+        {% set inizio = item.content.start_date|render %}
+        {% set fine = item.content.end_date|render %}
+        {% trans %}
+          From {{ inizio }} to {{ fine }}
+        {% endtrans %}
+
       </div>
     {% endfor %}
   {% endif %}
