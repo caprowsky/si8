@@ -130,7 +130,6 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
     }
 
     if (!empty($node) && $node->bundle() == 'video') {
-      $a = 1;
       return TRUE;
     }
 
