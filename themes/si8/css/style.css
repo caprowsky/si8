@@ -8195,6 +8195,7 @@ article.page.full .field--name-field-risorse-collegate .field--item a.is-active 
 #block-inevidenza > ul.menu > li.expanded a {
   background-color: #d71920;
   color: #fff;
+  font-weight: bold;
 }
 #block-navigazioneprincipale > ul.menu > li.expanded ul,
 #block-inevidenza > ul.menu > li.expanded ul {
@@ -8211,6 +8212,7 @@ article.page.full .field--name-field-risorse-collegate .field--item a.is-active 
   color: #d71920 !important;
   display: block;
   padding: 15px;
+  font-weight: normal;
 }
 #block-navigazioneprincipale > ul.menu > li.expanded ul li a.is-active,
 #block-inevidenza > ul.menu > li.expanded ul li a.is-active {
