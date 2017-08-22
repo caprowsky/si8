@@ -10,6 +10,15 @@ use Drupal\Core\Url;
 use Drupal\Core\Path;
 use Drupal\Core\Routing\RouteMatchInterface;
 
+function si8_preprocess_html(&$vars) {
+
+  $route_object = \Drupal::routeMatch()->getRouteObject();
+  if ($route_object->getPath() == '/news') {
+    $site_config = \Drupal::config('system.site');
+    $vars['head_title']['title'] = t('News') . ' | ' . $site_config->get('name');
+  }
+}
+
 /**
  * Implements hook_preprocess_page().
  */
@@ -176,6 +185,10 @@ function si8_preprocess_breadcrumb(&$vars){
         $vars['breadcrumb'][$key]['text'] = $term->label();
       }
     }
+  }
+
+  if ($route_object->getPath() == '/news') {
+    $vars['breadcrumb'][1]['text'] = t('News');
   }
 
 }
