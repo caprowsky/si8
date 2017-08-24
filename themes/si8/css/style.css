@@ -7454,6 +7454,11 @@ footer h4 {
   line-height: 30px;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 10px;
+}
+footer h3 {
+  margin-top: 0;
+  font-size: 2rem;
   margin-bottom: 40px;
 }
 footer .logo {
@@ -8750,6 +8755,12 @@ body.secondary-menu-opened #overlayer {
 #block-menu-hamburger .nav .dropdown .dropdown-menu li a:hover {
   text-decoration: underline;
   color: #d71920;
+}
+.pagine-in-evidenza .griglia .views-row {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 /* Only Large screen */
 @media (min-width: 1200px) {
