@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.risultato_ricerca
     - field.field.node.faq.body
+    - field.field.node.faq.field_metatag
     - field.field.node.faq.field_tags
     - node.type.faq
   module:
@@ -31,16 +32,9 @@ content:
         text: text
       more_class: more-link
     third_party_settings: {  }
-  field_tags:
-    weight: 1
-    label: inline
-    settings:
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
 hidden:
   addtoany: true
   field_metatag: true
+  field_tags: true
   langcode: true
   links: true
