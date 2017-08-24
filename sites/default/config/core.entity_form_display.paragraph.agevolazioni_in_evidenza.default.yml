@@ -15,7 +15,7 @@ bundle: agevolazioni_in_evidenza
 mode: default
 content:
   field_collegamenti:
-    weight: 6
+    weight: 0
     settings:
       entity_browser: agevolazioni
       field_widget_display: label
@@ -27,7 +27,13 @@ content:
     third_party_settings: {  }
     type: entity_browser_entity_reference
     region: content
+  status:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
 hidden:
   created: true
-  status: true
   uid: true
