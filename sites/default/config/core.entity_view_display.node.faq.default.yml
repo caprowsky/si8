@@ -24,21 +24,14 @@ content:
     type: text_default
     region: content
   field_metatag:
-    weight: 2
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
-  field_tags:
-    weight: 1
-    label: inline
-    settings:
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
 hidden:
   addtoany: true
+  field_tags: true
   langcode: true
   links: true

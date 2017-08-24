@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.news.field_argomenti
     - field.field.node.news.field_evento_data
     - field.field.node.news.field_immagine
+    - field.field.node.news.field_metatag
     - field.field.node.news.field_risorse_collegate
     - field.field.node.news.field_tags
     - node.type.news
@@ -60,19 +61,12 @@ content:
     third_party_settings: {  }
     type: daterange_default
     region: content
-  field_tags:
-    weight: 3
-    label: inline
-    settings:
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
 hidden:
   addtoany: true
   field_allegati: true
   field_immagine: true
   field_metatag: true
   field_risorse_collegate: true
+  field_tags: true
   langcode: true
   links: true

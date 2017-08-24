@@ -8,9 +8,11 @@ dependencies:
     - field.field.node.page.field_allegati
     - field.field.node.page.field_box
     - field.field.node.page.field_immagine
+    - field.field.node.page.field_metatag
     - field.field.node.page.field_risorse_collegate
     - field.field.node.page.field_sezione
     - field.field.node.page.field_tags
+    - field.field.node.page.field_tipologia_procedimento
     - node.type.page
   module:
     - smart_trim
@@ -36,14 +38,6 @@ content:
         text: text
       more_class: more-link
     third_party_settings: {  }
-  field_tags:
-    weight: 1
-    label: inline
-    settings:
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
 hidden:
   addtoany: true
   field_allegati: true
@@ -52,5 +46,7 @@ hidden:
   field_metatag: true
   field_risorse_collegate: true
   field_sezione: true
+  field_tags: true
+  field_tipologia_procedimento: true
   langcode: true
   links: true
