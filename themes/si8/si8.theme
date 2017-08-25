@@ -15,6 +15,9 @@ function si8_preprocess_html(&$vars) {
   $route_object = \Drupal::routeMatch()->getRouteObject();
   if ($route_object->getPath() == '/news') {
     $site_config = \Drupal::config('system.site');
+
+    \Drupal::languageManager()->getLanguageConfigOverrideStorage('it')->delete('system.site');
+
     $vars['head_title']['title'] = t('News') . ' | ' . $site_config->get('name');
   }
 }
