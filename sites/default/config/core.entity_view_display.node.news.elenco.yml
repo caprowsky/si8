@@ -12,11 +12,11 @@ dependencies:
     - field.field.node.news.field_metatag
     - field.field.node.news.field_risorse_collegate
     - field.field.node.news.field_tags
-    - image.style.elenco_news
     - node.type.news
+    - responsive_image.styles.elenco_contenuti
   module:
     - datetime_range
-    - image
+    - responsive_image
     - smart_trim
     - user
 id: node.news.elenco
@@ -59,10 +59,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: elenco_news
+      responsive_image_style: elenco_contenuti
       image_link: content
     third_party_settings: {  }
-    type: image
+    type: responsive_image
     region: content
 hidden:
   addtoany: true

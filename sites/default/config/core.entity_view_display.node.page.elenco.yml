@@ -13,10 +13,10 @@ dependencies:
     - field.field.node.page.field_sezione
     - field.field.node.page.field_tags
     - field.field.node.page.field_tipologia_procedimento
-    - image.style.elenco_news
     - node.type.page
+    - responsive_image.styles.elenco_contenuti
   module:
-    - image
+    - responsive_image
     - smart_trim
     - user
 id: node.page.elenco
@@ -44,10 +44,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: elenco_news
+      responsive_image_style: elenco_contenuti
       image_link: content
     third_party_settings: {  }
-    type: image
+    type: responsive_image
     region: content
 hidden:
   addtoany: true

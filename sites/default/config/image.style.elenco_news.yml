@@ -3,7 +3,7 @@ langcode: it
 status: true
 dependencies: {  }
 name: elenco_news
-label: 'Elenco news'
+label: 'Elenco news (300x300)'
 effects:
   d7a65beb-3b69-4c8c-9db8-1a50c94cbfde:
     uuid: d7a65beb-3b69-4c8c-9db8-1a50c94cbfde
