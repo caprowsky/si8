@@ -8236,6 +8236,12 @@ article.page.elenco .field--name-field-immagine {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 992px) {
+  article.page.elenco .field--name-field-immagine {
+    float: none;
+    margin-left: 0;
+  }
+}
 article.page.elenco .field--name-body {
   margin-top: 20px;
 }
@@ -8247,6 +8253,12 @@ article.news.elenco .field--name-field-immagine {
   float: right;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  article.news.elenco .field--name-field-immagine {
+    float: none;
+    margin-left: 0;
+  }
 }
 article.news.elenco .field--name-body {
   margin-top: 20px;
