@@ -8936,10 +8936,13 @@ body.secondary-menu-opened #overlayer {
   .main-container aside #block-elencoargomenti h3 {
     margin-top: 0;
   }
-  .main-container #secondary-menu-btn {
-    position: absolute;
-    right: 30px;
-    top: 210px;
+  .main-container #hamburger-secondary-close {
+    cursor: pointer;
+    font-size: 2.4rem;
+    padding: 10px;
+    color: #d71920;
+  }
+  #secondary-menu-btn {
     background-image: url('../images/menu-sidebar.svg');
     background-repeat: no-repeat;
     background-position: center right;
@@ -8947,15 +8950,11 @@ body.secondary-menu-opened #overlayer {
     padding-top: 5px;
     padding-bottom: 5px;
     color: #333;
+    width: 90px;
+    float: right;
   }
-  .main-container #secondary-menu-btn i {
+  #secondary-menu-btn i {
     font-size: 2.5rem;
-  }
-  .main-container #hamburger-secondary-close {
-    cursor: pointer;
-    font-size: 2.4rem;
-    padding: 10px;
-    color: #d71920;
   }
 }
 /* Extra small screen and lower */
@@ -8990,25 +8989,26 @@ body.secondary-menu-opened #overlayer {
   .main-container aside #block-elencoargomenti h3 {
     margin-top: 0;
   }
-  .main-container #secondary-menu-btn {
-    position: absolute;
-    right: 30px;
-    top: 175px;
-    background-image: url('../images/menu-sidebar.svg');
-    background-repeat: no-repeat;
-    background-position: center right;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: transparent;
-  }
-  .main-container #secondary-menu-btn i {
-    font-size: 2.5rem;
-  }
   .main-container #hamburger-secondary-close {
     cursor: pointer;
     font-size: 2.4rem;
     padding: 10px;
     color: #d71920;
+  }
+  #secondary-menu-btn {
+    background-image: url('../images/menu-sidebar.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: transparent;
+    width: 40px;
+    float: right;
+  }
+  #secondary-menu-btn i {
+    font-size: 2.5rem;
+  }
+  h1.page-header {
+    width: 80%;
   }
 }
