@@ -8956,6 +8956,9 @@ body.secondary-menu-opened #overlayer {
   #secondary-menu-btn i {
     font-size: 2.5rem;
   }
+  h1.page-header {
+    width: 80%;
+  }
 }
 /* Extra small screen and lower */
 @media (max-width: 767px) {
