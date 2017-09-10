@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Principale
     position: 0
     display_options:
       access:
@@ -40,13 +40,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtra
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
           expose_sort_order: true
           sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_desc_label: Disc
       pager:
         type: mini
         options:
@@ -55,8 +55,8 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Precedente'
+            next: 'Seguente ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -354,7 +354,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Stato
           exclude: false
           alter:
             alter_text: false
@@ -666,7 +666,7 @@ display:
           exposed: true
           expose:
             operator_id: status_op
-            label: Status
+            label: Stato
             description: ''
             use_operator: false
             operator: status_op
@@ -794,8 +794,8 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Precedente'
+            next: 'Seguente ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'

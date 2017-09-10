@@ -1,3 +1,4 @@
+exclude_paths: "/admin\r\n/admin/*\r\n/batch\r\n/node/add*\r\n/node/*/*\r\n/user/*/*"
 export:
   folder: personalizado
 popup_agreed:
