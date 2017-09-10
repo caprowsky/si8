@@ -19,6 +19,7 @@ source:
     - modules/custom/migrando/files/si8_notizia_tnid_0_page9.json
     - modules/custom/migrando/files/si8_notizia_tnid_0_page10.json
     - modules/custom/migrando/files/si8_sardegnasuapnotizia_tnid_0.json
+    - modules/custom/migrando/files/si8_sardegnasuapnotizia_tnid_no_0.json
   item_selector: items
   fields:
     -
