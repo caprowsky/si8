@@ -8,8 +8,11 @@ weight: 4
 is_admin: null
 permissions:
   - 'access toolbar'
+  - 'administer footer1 menu items'
+  - 'administer footer2 menu items'
+  - 'administer footer3 menu items'
+  - 'administer in-evidenza menu items'
   - 'administer main menu items'
-  - 'administer menu'
   - 'create bando content'
   - 'create content translations'
   - 'create custom_content content'

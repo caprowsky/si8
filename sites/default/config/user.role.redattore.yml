@@ -9,8 +9,11 @@ is_admin: null
 permissions:
   - 'access panels in-place editing'
   - 'access toolbar'
+  - 'administer footer1 menu items'
+  - 'administer footer2 menu items'
+  - 'administer footer3 menu items'
+  - 'administer in-evidenza menu items'
   - 'administer main menu items'
-  - 'administer menu'
   - 'administer panelizer node news content'
   - 'administer panelizer node news revert'
   - 'create bando content'
