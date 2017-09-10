@@ -1,6 +1,7 @@
 <?php
 
 use Drupal\editor\Entity\Editor;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_form_alter().
@@ -41,4 +42,37 @@ function si8_utils_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form
 
 function si8_utils_ckeditor_css_alter(array &$css, Editor $editor) {
   $css[] = drupal_get_path('module', 'si8_utils') . '/css/ckeditor.css';
+}
+
+
+/**
+ * Implements hook_preprocess_views_view().
+ */
+function si8_utils_preprocess_views_view(&$vars) {
+
+  if ($vars['view_array']['#name'] == 'content' && $vars['view_array']['#display_id'] == 'page_1') {
+    unset($vars['feed_icons'][0]);
+    unset($vars['feed_icons'][1]);
+
+    $query = \Drupal::request()->query->all();
+
+    $items[] =  [
+      '#type' => 'link',
+      '#url' => Url::fromUri('internal:/admin/content/report.csv', ['query' => $query]),
+      '#title' => t('Scarica report dei contenuti selezionati'),
+    ];
+
+    $items[] =  [
+      '#type' => 'link',
+      '#url' => Url::fromUri('internal:/admin/content/report_completo.csv', ['query' => $query]),
+      '#title' => t('Scarica report completo dei contenuti selezionati'),
+    ];
+
+    $vars['feed_icons'][] = [
+      '#theme' => 'item_list',
+      '#list_type' => 'ul',
+      '#items' => $items,
+    ];
+  }
+
 }
