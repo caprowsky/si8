@@ -83,9 +83,9 @@ third_party_settings:
     group_campi:
       children:
         - body
+        - field_immagine
         - field_tags
         - field_risorse_collegate
-        - field_immagine
         - field_allegati
       parent_name: group_tabs
       weight: 16
@@ -137,7 +137,7 @@ content:
       default_paragraph_type: _none
     third_party_settings: {  }
   field_immagine:
-    weight: 12
+    weight: 10
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -151,7 +151,7 @@ content:
     type: metatag_firehose
     region: content
   field_risorse_collegate:
-    weight: 11
+    weight: 12
     settings:
       match_operator: CONTAINS
       size: 60
@@ -169,7 +169,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_tags:
-    weight: 10
+    weight: 11
     settings:
       match_operator: CONTAINS
       size: 60
