@@ -1,0 +1,13 @@
+uuid: fc593df0-f77e-4663-9393-a048ea85165a
+langcode: it
+status: true
+dependencies: {  }
+id: operatore_ras
+label: 'Operatore RAS'
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer users'
+  - 'view backoffice in toolbar'
