@@ -50,7 +50,7 @@ function si8_utils_ckeditor_css_alter(array &$css, Editor $editor) {
  */
 function si8_utils_preprocess_views_view(&$vars) {
 
-  if ($vars['view_array']['#name'] == 'content' && $vars['view_array']['#display_id'] == 'page_1') {
+  if ($vars['view_array']['#name'] == 'tutti_i_contenuti' && $vars['view_array']['#display_id'] == 'page_1') {
     unset($vars['feed_icons'][0]);
     unset($vars['feed_icons'][1]);
 
@@ -58,13 +58,13 @@ function si8_utils_preprocess_views_view(&$vars) {
 
     $items[] =  [
       '#type' => 'link',
-      '#url' => Url::fromUri('internal:/admin/content/report.csv', ['query' => $query]),
+      '#url' => Url::fromUri('internal:/admin/contenuti/report.csv', ['query' => $query]),
       '#title' => t('Scarica report dei contenuti selezionati'),
     ];
 
     $items[] =  [
       '#type' => 'link',
-      '#url' => Url::fromUri('internal:/admin/content/report_completo.csv', ['query' => $query]),
+      '#url' => Url::fromUri('internal:/admin/contenuti/report_completo.csv', ['query' => $query]),
       '#title' => t('Scarica report completo dei contenuti selezionati'),
     ];
 
