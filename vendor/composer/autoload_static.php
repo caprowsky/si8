@@ -69,6 +69,10 @@ class ComposerStaticInitDrupal8
             'Mpdf\\' => 5,
             'Masterminds\\' => 12,
         ),
+        'L' => 
+        array (
+            'League\\Csv\\' => 11,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -230,6 +234,10 @@ class ComposerStaticInitDrupal8
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
+        ),
+        'League\\Csv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/csv/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
