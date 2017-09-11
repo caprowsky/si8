@@ -13,6 +13,7 @@ permissions:
   - 'administer footer3 menu items'
   - 'administer in-evidenza menu items'
   - 'administer main menu items'
+  - 'administer menu'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'create bando content'
