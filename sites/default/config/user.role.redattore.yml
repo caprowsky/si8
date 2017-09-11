@@ -14,6 +14,7 @@ permissions:
   - 'administer footer3 menu items'
   - 'administer in-evidenza menu items'
   - 'administer main menu items'
+  - 'administer menu'
   - 'administer panelizer node news content'
   - 'administer panelizer node news revert'
   - 'administer redirect settings'
