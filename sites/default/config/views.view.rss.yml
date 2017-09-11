@@ -585,7 +585,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: date
-      title: 'rss bandi'
+      title: 'RSS Notizie'
       header: {  }
       footer: {  }
       empty: {  }
@@ -629,6 +629,10 @@ display:
           description: 'Tutti i bandi e le agevolazioni per le imprese'
       display_description: ''
       sitename_title: false
+      title: 'RSS Bandi'
+      defaults:
+        title: false
+        sitename_title: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -974,7 +978,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          absolute: true
+          absolute: false
           entity_type: node
           plugin_id: node_path
         uid:
