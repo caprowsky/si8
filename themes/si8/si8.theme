@@ -17,6 +17,21 @@ function si8_preprocess_html(&$vars) {
     $site_config = \Drupal::config('system.site');
     $vars['head_title']['title'] = t('News') . ' | ' . $site_config->get('name');
   }
+
+  if ($route_object->getPath()  == '/news/{arg_0}/{arg_1}') {
+    $site_config = \Drupal::config('system.site');
+    $args = \Drupal::routeMatch()->getParameters();
+    $tid = $args->get('arg_0');
+    $term = $descrizione = \Drupal::entityTypeManager()
+      ->getStorage('taxonomy_term')
+      ->load($tid);
+
+    $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+    $taxonomy_term_trans = \Drupal::service('entity.repository')
+      ->getTranslationFromContext($term, $langcode);
+
+    $vars['head_title']['title'] = t('News') . ' - ' . $taxonomy_term_trans->label() . ' | ' . $site_config->get('name');
+  }
 }
 
 /**
@@ -65,7 +80,12 @@ function si8_preprocess_page_title(&$vars) {
     $term = $descrizione = \Drupal::entityTypeManager()
       ->getStorage('taxonomy_term')
       ->load($tid);
-    $vars['title'] = 'News - ' . $term->label();
+
+    $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+    $taxonomy_term_trans = \Drupal::service('entity.repository')
+      ->getTranslationFromContext($term, $langcode);
+
+    $vars['title'] = t('News') . ' - ' . $taxonomy_term_trans->label();
   }
 
 }
@@ -179,10 +199,15 @@ function si8_preprocess_breadcrumb(&$vars){
 
     // breadcrumb title custom per vista argomenti news
     foreach ($vars['breadcrumb'] as $key => $bread) {
+      $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
       $tid = \Drupal::routeMatch()->getParameter('arg_0');
       $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($tid);
+      $taxonomy_term_trans = \Drupal::service('entity.repository')
+        ->getTranslationFromContext($term, $langcode);
+
+
       if (!isset($bread['url'])) {
-        $vars['breadcrumb'][$key]['text'] = $term->label();
+        $vars['breadcrumb'][$key]['text'] = $taxonomy_term_trans->label();
       }
     }
   }
