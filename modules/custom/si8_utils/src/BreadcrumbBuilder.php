@@ -101,7 +101,7 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
    */
   private function check_path($route_match) {
     $route_object = $route_match->getRouteObject();
-    $paths = ['/news/{arg_0}/{arg_1}'];
+    $paths = ['/news/{arg_0}/{arg_1}', '/agevolazioni'];
 
 
     $current_path = explode('/', \Drupal::request()->getRequestUri());
