@@ -16,7 +16,7 @@ bundle: page
 label: Box
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -41,13 +41,19 @@ settings:
       link_sezione:
         weight: 13
         enabled: false
-      messaggio_in_evidenza:
-        weight: 14
+      contenuto_custom_con_immagine:
+        weight: 15
         enabled: false
       notizie_in_evidenza:
         weight: 15
         enabled: false
       slider_notizie:
         weight: 16
+        enabled: false
+      messaggio:
+        weight: 17
+        enabled: false
+      video_in_evidenza:
+        weight: 20
         enabled: false
 field_type: entity_reference_revisions

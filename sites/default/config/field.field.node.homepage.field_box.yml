@@ -22,7 +22,7 @@ bundle: homepage
 label: Box
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -33,8 +33,8 @@ settings:
       agevolazioni_in_evidenza: agevolazioni_in_evidenza
       link_sezione: link_sezione
       video_in_evidenza: video_in_evidenza
-      messaggio: messaggio
       contenuto_custom_con_immagine: contenuto_custom_con_immagine
+      messaggio: messaggio
       notizie_in_evidenza: notizie_in_evidenza
       slider_notizie: slider_notizie
     target_bundles_drag_drop:
@@ -56,10 +56,10 @@ settings:
       video_in_evidenza:
         enabled: true
         weight: 10
-      messaggio:
+      contenuto_custom_con_immagine:
         enabled: true
         weight: 11
-      contenuto_custom_con_immagine:
+      messaggio:
         enabled: true
         weight: 11
       notizie_in_evidenza:
