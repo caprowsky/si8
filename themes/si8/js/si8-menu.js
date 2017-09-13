@@ -80,5 +80,12 @@ if (jQuery('#block-navigazioneprincipale>ul>li.expanded').length > 0) {
         //jQuery('#block-navigazioneprincipale>ul>li.active').prependTo("#block-navigazioneprincipale>ul");
         //jQuery('#block-navigazioneprincipale>ul>li.active').addClass('selected');
         jQuery('#block-navigazioneprincipale').addClass('invisibile');
+        jQuery('#secondary-menu-btn').addClass('invisibile');
     })
+}
+
+if (jQuery('#block-elencoargomenti').length > 0) {
+  jQuery(function () {
+    jQuery('#secondary-menu-btn').removeClass('invisibile');
+  });
 }
