@@ -81,16 +81,16 @@
 
     {{ content.field_immagine }}
 
-    {% if content.field_evento_data|render is not empty %}
-      {{ content.field_evento_data }}
-      {% else %}
-        {% set createdDate = node.getCreatedTime|date('d/m/Y') %}
-        <div class="created">{{ createdDate }}</div>
-    {% endif %}
+    {% set createdDate = node.getCreatedTime|date('d/m/Y') %}
+    <div class="created">{{ createdDate }}</div>
 
     {{ content.field_argomenti }}
 
     <h2><a href="{{ url }}" rel="bookmark" class="news-link">{{ label }}</a></h2>
+
+    {% if content.field_evento_data|render is not empty %}
+      {{ content.field_evento_data }}
+    {% endif %}
 
     {{ content.body }}
 

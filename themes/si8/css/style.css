@@ -8263,6 +8263,9 @@ article.news.elenco .field--name-field-immagine {
 article.news.elenco .field--name-body {
   margin-top: 20px;
 }
+article.news.elenco .field--name-field-evento-data {
+  font-size: 1.5rem;
+}
 .elenco-news .views-row {
   border-bottom: 1px solid #eeeeee;
   font-size: 2rem;
