@@ -84,7 +84,9 @@ if (jQuery('#block-navigazioneprincipale>ul>li.expanded').length > 0) {
     })
 }
 
-if (jQuery('#block-elencoargomenti').length > 0) {
+if (jQuery('#block-elencoargomenti').length > 0 ||
+    jQuery('#block-inevidenza-menu').length > 0
+) {
   jQuery(function () {
     jQuery('#secondary-menu-btn').removeClass('invisibile');
   });

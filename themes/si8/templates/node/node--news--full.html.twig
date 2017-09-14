@@ -77,21 +77,21 @@
 %}
 <article{{ attributes.addClass(classes) }}>
 
-
   <div{{ content_attributes.addClass('content') }}>
 
     {{ content.field_immagine }}
 
     {% if content.field_evento_data|render is not empty %}
       {{ content.field_evento_data }}
-    {% else %}
-      {% set createdDate = node.getCreatedTime|date('d/m/Y') %}
-      <div class="created field">{{ 'Published on'|t }} {{ createdDate }}</div>
     {% endif %}
 
     {{ content.body }}
+
     {{ content.field_argomenti }}
     {{ content.field_allegati }}
+
+    {% set createdDate = node.getCreatedTime|date('d/m/Y') %}
+    <div class="created field">{{ createdDate }}</div>
 
   </div>
 
