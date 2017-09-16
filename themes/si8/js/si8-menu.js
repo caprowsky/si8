@@ -84,10 +84,11 @@ if (jQuery('#block-navigazioneprincipale>ul>li.expanded').length > 0) {
     })
 }
 
-if (jQuery('#block-elencoargomenti').length > 0 ||
-    jQuery('#block-inevidenza-menu').length > 0
+if (jQuery('aside #block-elencoargomenti').length > 0 ||
+    jQuery('aside #block-inevidenza-menu').length > 0 ||
+    jQuery('section.block-facets').length > 0
 ) {
-  jQuery(function () {
+  jQuery(document).ready(function (){
     jQuery('#secondary-menu-btn').removeClass('invisibile');
   });
 }
