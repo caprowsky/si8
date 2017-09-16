@@ -8824,6 +8824,12 @@ body.secondary-menu-opened #overlayer {
   .main-container {
     margin-top: 0;
   }
+  .region.region-content {
+    margin-top: 50px;
+  }
+  .main-container aside {
+    height: calc(-68%);
+  }
 }
 /* Extra small screen and lower */
 @media (max-width: 767px) {
