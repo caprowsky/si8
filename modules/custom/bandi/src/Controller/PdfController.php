@@ -39,7 +39,7 @@ class PdfController extends NodeViewController {
     $mpdf->SetHTMLFooter('<div class="footer">www.sardegnaimpresa.eu</div>');
 
     $mpdf->WriteHTML($output);
-    $content = $mpdf->Output($this->title($node), Destination::INLINE);
+    $content = $mpdf->Output($this->title($node) . '.pdf', Destination::INLINE);
 
     $headers = [
       'Content-Type: application/pdf',
