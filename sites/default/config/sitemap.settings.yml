@@ -1,4 +1,4 @@
-page_title: Sitemap
+page_title: 'Mappa del sito'
 message:
   value: ''
   format: restricted_html
@@ -12,6 +12,10 @@ show_menus:
   account: '0'
   admin: '0'
   backoffice: '0'
+  footer1: '0'
+  footer2: '0'
+  footer3: '0'
+  in-evidenza: '0'
   tools: '0'
 show_menus_hidden: false
 show_vocabularies:
@@ -30,16 +34,20 @@ rss_taxonomy: -1
 css: true
 order:
   front: -50
-  menus_account: -50
-  menus_admin: -50
-  menus_backoffice: -50
   menus_footer: -50
-  menus_main: -50
-  menus_tools: -50
-  vocabularies_argomenti: -50
-  vocabularies_sezioni: -50
+  menus_footer1: -50
+  menus_footer2: -50
+  menus_in-evidenza: -50
+  menus_footer3: -50
+  menus_backoffice: -50
+  menus_admin: -50
   vocabularies_tags: -50
+  vocabularies_sezioni: -50
   vocabularies_tipologia_procedimento: -50
+  menus_tools: -50
+  menus_account: -50
+  menus_main: -50
+  vocabularies_argomenti: -50
 _core:
   default_config_hash: yUNkiSB-fp4pyUb6B2L9HiiCdISBDvK7r1v9_XkGUaQ
 langcode: it
