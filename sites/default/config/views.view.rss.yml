@@ -665,7 +665,7 @@ display:
         type: rss
         options:
           grouping: {  }
-          description: 'Tutti i bandi e le agevolazioni per le imprese'
+          description: 'Tutte le notizie per le imprese'
       display_description: ''
       sitename_title: false
       fields:
