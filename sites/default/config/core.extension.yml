@@ -2,10 +2,12 @@ module:
   addtoany: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
+  adv_varnish: 0
   automated_cron: 0
   back_to_top: 0
   bandi: 0
   better_exposed_filters: 0
+  big_pipe: 0
   blazy: 0
   block: 0
   block_content: 0
@@ -81,6 +83,7 @@ module:
   slick_entityreference: 0
   slick_ui: 0
   smart_trim: 0
+  smtp: 0
   sportelli: 0
   system: 0
   taxonomy: 0
