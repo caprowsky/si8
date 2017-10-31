@@ -499,7 +499,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          order: DESC
+          order: ASC
           exposed: true
           expose:
             label: 'Data di scadenza'

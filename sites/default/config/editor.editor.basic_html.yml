@@ -45,10 +45,10 @@ settings:
             - Source
             - PasteFromWord
   plugins:
-    stylescombo:
-      styles: p.citazione|Citazione
     language:
       language_list: un
+    stylescombo:
+      styles: p.citazione|Citazione
     linkit:
       linkit_profile: basic_html
 image_upload:
