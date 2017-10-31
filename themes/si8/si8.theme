@@ -21,13 +21,13 @@ function si8_preprocess_html(&$vars) {
   }
   
   // Se non ci sono facet, redirect ai bandi "attivi"
-  if ($route_object->getPath() == '/agevolazioni') {
+  /*if ($route_object->getPath() == '/agevolazioni') {
     if (empty(\Drupal::request()->query->get('f')) && empty(\Drupal::request()->query->get('key'))) {
       $url = Url::fromUri('internal:/agevolazioni', ['absolute' => TRUE, 'query' => ['f[0]' => 'bandi_attivi:Attive']]);
       $response = new RedirectResponse($url->toString(), 302);$response->send();
       $response->send();
     }
-  }
+  }*/
   
   if ($route_object->getPath()  == '/news/{arg_0}/{arg_1}') {
     $site_config = \Drupal::config('system.site');
