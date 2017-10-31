@@ -5,21 +5,6 @@ use Drupal\Core\Routing\RouteMatchInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Drupal\Core\Controller\ControllerBase;
 
-/**
- * Implements hook_theme().
- */
-function bandi_theme($existing, $type, $theme, $path) {
-  return array(
-    'bandipdf' => [
-      'variables' => [
-        'title' => NULL,
-        'content' => [],
-        'url' => NULL,
-      ],
-    ],
-  );
-}
-
 function bandi_preprocess_html(&$vars) {
   
   $route_object = \Drupal::routeMatch()->getRouteObject();
