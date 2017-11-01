@@ -27,7 +27,7 @@ function si8_preprocess_html(&$vars) {
       $response = new RedirectResponse($url->toString(), 302);$response->send();
       $response->send();
     }
-  }/*
+  }*/
   
   if ($route_object->getPath()  == '/news/{arg_0}/{arg_1}') {
     $site_config = \Drupal::config('system.site');
