@@ -11,7 +11,13 @@ function bandi_preprocess_views_view(&$vars) {
  
   // Se non ci sono facet, redirect ai bandi "attivi"
   if ($route_object->getPath() == '/agevolazioni') {
+    $vars['#cache'] = [
+      'max-age' => 0,
+    ];
+    
     if (empty(\Drupal::request()->query->get('f')) && empty(\Drupal::request()->query->get('key'))) {
+      
+      
       $url = Url::fromUri('internal:/agevolazioni', ['absolute' => TRUE, 'query' => ['f[0]' => 'bandi_attivi:Attive']]);
       $response = new RedirectResponse($url->toString(), 302);
       $response->send();
