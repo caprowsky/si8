@@ -174,15 +174,7 @@ function si8_preprocess_views_view(&$vars) {
       $vars['display_content'] = TRUE;
     }
   }
-  
-  $route_object = \Drupal::routeMatch()->getRouteObject();
-  if ($route_object->getPath() == '/agevolazioni') {
-    if (empty(\Drupal::request()->query->get('f')) && empty(\Drupal::request()->query->get('key'))) {
-      $url = Url::fromUri('internal:/agevolazioni', ['absolute' => TRUE, 'query' => ['f[0]' => 'bandi_attivi:Attive']]);
-      $response = new RedirectResponse($url->toString(), 302);$response->send();
-      $response->send();
-    }
-  }
+
 
 }
 
