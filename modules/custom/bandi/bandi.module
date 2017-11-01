@@ -15,7 +15,6 @@ function bandi_preprocess_html(&$vars) {
       $url = Url::fromUri('internal:/agevolazioni', ['absolute' => TRUE, 'query' => ['f[0]' => 'bandi_attivi:Attive']]);
       $response = new RedirectResponse($url->toString(), 302);
       $response->send();
-      $response->send();
     }
   }
   
