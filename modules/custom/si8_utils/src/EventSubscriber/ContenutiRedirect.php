@@ -38,7 +38,133 @@ class ContenutiRedirect implements EventSubscriberInterface {
       $new_url = '/news/' . $this->args[3];
       $this->setRedirect($event, $new_url);
       return $this->event;
-
+    }
+    
+    if (substr($this->args[2], 0, 13) == 'aggiornamento') {
+      $new_url = '/news/' . $this->args[2];
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+    
+    if ($this->args[2] == 'albero-di-navigazione') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'approfondimenti') {
+      $new_url = '/approfondimenti';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'area-riservata') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'articoli') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+    
+    if ($this->args[2] == 'calendar-node-field-data-evento') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if (substr($this->args[2], 0, 7) == 'eventi?' && !isset($this->args[3])) {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'file') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'glossario' && isset($this->args[3])) {
+      $new_url = '/glossario';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'news' && isset($this->args[3])) {
+      $new_url = '/news';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'node' && isset($this->args[3])) {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'print' && isset($this->args[3])) {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'printpdf' && isset($this->args[3])) {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if (substr($this->args[2], 0, 18) == 'risultati_ricerca?') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'servizi' && isset($this->args[3]) && $this->args[3] == 'finanzia-impresa') {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'servizi' && isset($this->args[3]) && $this->args[3] == 'investire-sardegna') {
+      $new_url = '/investire-sardegna';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'strutture-territoriali' && isset($this->args[3])) {
+      $new_url = '/sportello-unico';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+  
+    if ($this->args[2] == 'suap' && isset($this->args[3])) {
+      $new_url = '/sportello-unico';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+    
+    if ($this->args[2] == 'tabelle' && isset($this->args[3])) {
+      $new_url = '/sportello-unico';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'tags' && isset($this->args[3])) {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
+    }
+  
+    if ($this->args[2] == 'taxonomy' && isset($this->args[3])) {
+      $new_url = '/';
+      $this->setRedirect($event, $new_url);
+      return $this->event;
     }
 
     return $event;
