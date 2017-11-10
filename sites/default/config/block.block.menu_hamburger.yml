@@ -11,7 +11,7 @@ dependencies:
 id: menu_hamburger
 theme: si8
 region: footer
-weight: 0
+weight: -7
 provider: null
 plugin: 'menu_block:main'
 settings:

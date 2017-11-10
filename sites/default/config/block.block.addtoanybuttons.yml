@@ -9,7 +9,7 @@ dependencies:
 id: addtoanybuttons
 theme: si8
 region: footer
-weight: 0
+weight: -15
 provider: null
 plugin: addtoany_block
 settings:

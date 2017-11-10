@@ -17,4 +17,11 @@ display:
       display_extenders:
         metatag_display_extender:
           metatags:
-            title: 'Support for businesses | SardegnaImpresa'
+            title: 'Support for businesses, archive | SardegnaImpresa'
+  archivio:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Support for businesses, archive | SardegnaImpresa'
+      title: 'Support for businesses, archive'

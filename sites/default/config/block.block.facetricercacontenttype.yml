@@ -12,7 +12,7 @@ dependencies:
 id: facetricercacontenttype
 theme: si8
 region: sidebar_second
-weight: -6
+weight: -14
 provider: null
 plugin: 'facet_block:facet_ricerca_content_type'
 settings:

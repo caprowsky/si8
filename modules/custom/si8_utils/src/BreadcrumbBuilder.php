@@ -51,6 +51,13 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
     if (!empty($node) && $node->bundle() == 'video') {
       $links[] = Link::fromTextAndUrl(t('Video'), Url::fromUri('internal:/video'));
     }
+  
+    // Breadcrumb custom archivio agevolazioni
+    if ($route_object->getPath() == '/agevolazioni/archivio') {
+      $links[] = Link::fromTextAndUrl(t('Support for businesses'), Url::fromUri('internal:/agevolazioni'));
+    }
+    
+    
 
     // in evidenza
     if (!empty($node) && (!empty($node->field_tags))) {
@@ -101,7 +108,7 @@ class BreadcrumbBuilder implements BreadcrumbBuilderInterface {
    */
   private function check_path($route_match) {
     $route_object = $route_match->getRouteObject();
-    $paths = ['/news/{arg_0}/{arg_1}', '/agevolazioni'];
+    $paths = ['/news/{arg_0}/{arg_1}', '/agevolazioni', '/agevolazioni/archivio'];
 
 
     $current_path = explode('/', \Drupal::request()->getRequestUri());

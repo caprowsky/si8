@@ -12,7 +12,7 @@ dependencies:
 id: tipologiaprocedimento
 theme: si8
 region: footer
-weight: 0
+weight: -2
 provider: null
 plugin: 'facet_block:tipologia_procedimento'
 settings:

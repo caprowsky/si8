@@ -9,7 +9,7 @@ dependencies:
 id: selettorelingua
 theme: si8
 region: footer
-weight: 0
+weight: -6
 provider: null
 plugin: 'language_block:language_interface'
 settings:

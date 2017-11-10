@@ -11,7 +11,7 @@ dependencies:
 id: footer3
 theme: si8
 region: footer
-weight: 0
+weight: -11
 provider: null
 plugin: 'menu_block:footer3'
 settings:

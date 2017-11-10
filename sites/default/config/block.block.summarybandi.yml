@@ -11,7 +11,7 @@ dependencies:
 id: summarybandi
 theme: si8
 region: footer
-weight: 0
+weight: -5
 provider: null
 plugin: 'facets_summary_block:summary_bandi'
 settings:

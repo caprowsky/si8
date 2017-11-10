@@ -12,7 +12,7 @@ dependencies:
 id: faqtags
 theme: si8
 region: footer
-weight: 0
+weight: -14
 provider: null
 plugin: 'facet_block:faq_tags'
 settings:

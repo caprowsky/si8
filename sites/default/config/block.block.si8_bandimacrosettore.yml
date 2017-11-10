@@ -12,7 +12,7 @@ dependencies:
 id: si8_bandimacrosettore
 theme: si8
 region: sidebar_second
-weight: -10
+weight: -18
 provider: null
 plugin: 'facet_block:bandi_macrosettore'
 settings:

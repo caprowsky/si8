@@ -11,3 +11,10 @@ display:
         metatag_display_extender:
           metatags:
             title: 'Ayuda a las empresas | SardegnaImpresa'
+  archivio:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Ayuda a las empresas, archivo | SardegnaImpresa'
+      title: 'Ayuda a las empresas, archivo'
