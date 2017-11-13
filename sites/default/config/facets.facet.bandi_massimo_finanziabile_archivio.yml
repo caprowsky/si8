@@ -34,20 +34,14 @@ processor_configs:
       sort: -10
     settings:
       sort: DESC
-  count_widget_order:
-    processor_id: count_widget_order
-    weights:
-      sort: -10
-    settings:
-      sort: DESC
   display_value_widget_order:
     processor_id: display_value_widget_order
     weights:
       sort: -10
     settings:
-      sort: ASC
-  translate_entity:
-    processor_id: translate_entity
+      sort: DESC
+  list_item:
+    processor_id: list_item
     weights:
       build: 5
     settings: {  }
