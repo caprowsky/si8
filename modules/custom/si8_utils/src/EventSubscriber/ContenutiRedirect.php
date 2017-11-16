@@ -34,7 +34,7 @@ class ContenutiRedirect implements EventSubscriberInterface {
 
     // Check notizie ed eventi
     $paths = ['notizie', 'eventi'];
-    if (isset($this->args) && isset($this->args[2] && in_array($this->args[2], $paths)) {
+    if (isset($this->args) && isset($this->args[2]) && in_array($this->args[2], $paths)) {
       $new_url = '/' . $this->args[1] . '/news/' . $this->args[3];
       $this->setRedirect($event, $new_url);
       return $this->event;
