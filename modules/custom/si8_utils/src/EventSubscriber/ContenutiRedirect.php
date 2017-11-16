@@ -47,13 +47,13 @@ class ContenutiRedirect implements EventSubscriberInterface {
     }
     
     if ($this->args[2] == 'albero-di-navigazione') {
-      $new_url = '/';
+      $new_url = '/' . $this->args[1];
       $this->setRedirect($event, $new_url);
       return $this->event;
     }
   
     if ($this->args[2] == 'approfondimenti') {
-      $new_url = '/it/approfondimenti';
+      $new_url = '/' . $this->args[1] . '/approfondimenti';
       $this->setRedirect($event, $new_url);
       return $this->event;
     }
