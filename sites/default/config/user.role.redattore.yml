@@ -7,11 +7,8 @@ label: Redattore
 weight: 3
 is_admin: null
 permissions:
-  - 'access agevolazioni entity browser pages'
-  - 'access notizie entity browser pages'
   - 'access panels in-place editing'
   - 'access toolbar'
-  - 'access video entity browser pages'
   - 'administer footer1 menu items'
   - 'administer footer2 menu items'
   - 'administer footer3 menu items'
