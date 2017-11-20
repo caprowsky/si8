@@ -7,10 +7,6 @@
  */
 
 use Drupal\Core\Url;
-use Drupal\Core\Path;
-use Drupal\Core\Routing\RouteMatchInterface;
-use Symfony\Component\HttpFoundation\RedirectResponse;
-use Drupal\Core\Controller\ControllerBase;
 
 function si8_preprocess_html(&$vars) {
 
@@ -19,16 +15,7 @@ function si8_preprocess_html(&$vars) {
     $site_config = \Drupal::config('system.site');
     $vars['head_title']['title'] = t('News') . ' | ' . $site_config->get('name');
   }
-  
-  // Se non ci sono facet, redirect ai bandi "attivi"
-  /*if ($route_object->getPath() == '/agevolazioni') {
-    if (empty(\Drupal::request()->query->get('f')) && empty(\Drupal::request()->query->get('key'))) {
-      $url = Url::fromUri('internal:/agevolazioni', ['absolute' => TRUE, 'query' => ['f[0]' => 'bandi_attivi:Attive']]);
-      $response = new RedirectResponse($url->toString(), 302);$response->send();
-      $response->send();
-    }
-  }*/
-  
+
   if ($route_object->getPath()  == '/news/{arg_0}/{arg_1}') {
     $site_config = \Drupal::config('system.site');
     $args = \Drupal::routeMatch()->getParameters();
@@ -51,9 +38,6 @@ function si8_preprocess_html(&$vars) {
 function si8_preprocess_page(&$vars) {
   $vars['base_path'] = base_path();
 
-  //$accedi_path = \Drupal::service('path.alias_manager')->getPathByAlias('/accedi');
-  //$link_explode = explode('/', $accedi_path);
-
   $vars['accedi_desktop'] = [
     '#type' => 'link',
     '#url' => Url::fromRoute('entity.node.canonical', array('node' => '4407')),
@@ -74,11 +58,6 @@ function si8_preprocess_page(&$vars) {
 
 }
 
-function si8_preprocess_paragraph__box_primo_livello(&$vars) {
-
-  // Apply the masonry display on this page.
-  //\Drupal::service('masonry.service')->applyMasonryDisplay($vars, '.field--name-field-box', '> .field--item');
-}
 
 function si8_preprocess_page_title(&$vars) {
 
