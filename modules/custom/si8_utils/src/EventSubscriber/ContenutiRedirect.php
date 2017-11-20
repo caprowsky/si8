@@ -25,8 +25,8 @@ class ContenutiRedirect implements EventSubscriberInterface {
    *
    * @return object
    */
-  public function on404(GetResponseForExceptionEvent $event) {
-    \Drupal::logger('si8_utils')->notice('Entro nel 404');
+  public function ooooon404(GetResponseForExceptionEvent $event) {
+    //\Drupal::logger('si8_utils')->notice('Entro nel 404');
     
     $current_path = $event->getRequest()->getRequestUri();
     $this->args = explode('/', $current_path);
