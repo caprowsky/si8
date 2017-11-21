@@ -8,7 +8,7 @@
 /**
  * Truncate redirect_404 table
  */
-function si8_utils_update_8001(&$sandbox) {
+/*function si8_utils_update_8001(&$sandbox) {
   $database = \Drupal::database();
   $database->truncate('redirect_404')->execute();
-}
+}*/
