@@ -7,7 +7,10 @@ label: 'Capo redattore'
 weight: 4
 is_admin: null
 permissions:
+  - 'access agevolazioni entity browser pages'
+  - 'access notizie entity browser pages'
   - 'access toolbar'
+  - 'access video entity browser pages'
   - 'administer footer1 menu items'
   - 'administer footer2 menu items'
   - 'administer footer3 menu items'

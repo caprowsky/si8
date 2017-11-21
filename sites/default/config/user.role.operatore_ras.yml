@@ -7,8 +7,11 @@ label: 'Operatore RAS'
 weight: 5
 is_admin: null
 permissions:
+  - 'access agevolazioni entity browser pages'
+  - 'access notizie entity browser pages'
   - 'access toolbar'
   - 'access user profiles'
+  - 'access video entity browser pages'
   - 'administer users'
   - 'assign capo_redattore role'
   - 'assign operatore_ras role'
