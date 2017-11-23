@@ -17,7 +17,7 @@ class PdfController extends NodeViewController {
       '#theme' => 'bandipdf',
       '#title' => parent::title($node),
       '#content' => parent::view($node, $view_mode, $langcode),
-      //'#cache' => ['max-age' => 0,],
+      '#cache' => ['max-age' => 0,],
     ];
 
     $output = render($build);
