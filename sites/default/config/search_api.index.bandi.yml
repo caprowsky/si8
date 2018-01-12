@@ -77,7 +77,7 @@ field_settings:
       config:
         - field.storage.node.field_criteri_di_valutazione
   field_data_scadenza_agevolazione:
-    label: 'Data di scadenza dell''avegolazione'
+    label: 'Data di scadenza dell''agevolazione'
     datasource_id: 'entity:node'
     property_path: field_data_scadenza_agevolazione
     type: date

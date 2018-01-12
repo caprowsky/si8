@@ -11,7 +11,7 @@ id: node.bando.field_data_scadenza_agevolazione
 field_name: field_data_scadenza_agevolazione
 entity_type: node
 bundle: bando
-label: 'Data di scadenza dell''avegolazione'
+label: 'Data di scadenza dell''agevolazione'
 description: 'Inserisci la data di scadenza dell''agevolazione'
 required: true
 translatable: false
